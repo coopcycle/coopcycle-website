@@ -1,0 +1,4 @@
+baseURL = "https://coopcycle.org/"
+languageCode = "fr-fr"
+title = "CoopCycle"
+theme = "coopcycle"

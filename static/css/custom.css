@@ -1,0 +1,173 @@
+body {
+    font-family: "Arvo", Helvetica, Arial, sans-serif;
+}
+
+.label {
+    font-weight: 400;
+}
+
+#banner {
+    padding: 10px 0;
+    background-color: #E74C3C;
+    color: #fff;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.blog-masthead {
+    background-color: #e7e7e7;
+}
+
+#pattern {
+    margin-top: -3rem;
+    padding: 50px 0;
+    background-color: #ecf0f1;
+    background-image: url(../svg/pattern.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#about {
+}
+
+#search {
+    margin-top: -20px;
+    padding: 100px 0;
+    background-color: #ecf0f1;
+    background-image: url(../pattern.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#tracking-demo {
+    background-color: #111;
+    padding: 30px 0;
+    color: #2ECC71;
+}
+
+#contribute {
+    padding: 2.5rem 0;
+}
+
+.homepage-top {
+    padding-bottom: 40px;
+}
+
+.homepage-description {
+    font-size: 18px;
+    margin: 40px 0 30px;
+    color: #fff;
+}
+
+.homepage-card {
+    padding: 0 40px;
+    margin: 40px 0;
+}
+.homepage-card > h2 {
+    margin: 30px 0;
+}
+.homepage-card > p {
+    font-size: 16px;
+}
+
+.budget-participatif-logo {
+    float: left;
+    margin-right: 30px;
+}
+
+#address-search-form {
+    margin-bottom: 10px;
+}
+
+#search small {
+    color: #fff;
+}
+
+#cart .list-group-item .close {
+    margin-left: 10px;
+}
+
+#map-wrapper {
+    padding: 20px 0;
+}
+
+#payment-form, .card {
+    margin: 40px 0;
+}
+
+.restaurant-item:hover {
+    text-decoration: none;
+}
+
+.restaurant-item:hover img {
+    opacity: 0.8;
+}
+
+.menu-item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 45px;
+}
+
+.menu-item:hover:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\002b";
+    color: #bdc3c7;
+    position: absolute;
+    right: 15px;
+}
+
+.menu-item .menu-item-content {
+    width: 80%;
+}
+
+.menu-item .menu-item-price {
+    width: 20%;
+    text-align: right;
+}
+
+.ant-calendar-picker {
+    margin-right: 5px;
+}
+.ant-form-item {
+    margin-bottom: 0;
+}
+
+form[name="restaurant"] #restaurant_imageFile_file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.image-uploader {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    border: 1px dashed black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image-uploader > label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+#opening-hours .ant-time-picker + .ant-time-picker {
+    margin-left: 10px;
+}
