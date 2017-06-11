@@ -76,13 +76,6 @@
       </div>
     </div>
 
-    <!-- <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | safeHTML }}</a></h1>
-        {{ if .Site.Params.description }}<p class="lead blog-description">{{ .Site.Params.description | markdownify }}</p>{{ end }}
-      </div>
-    </header> -->
-
     <div class="blog-main">
 
       {{ block "main" . }}
@@ -91,18 +84,7 @@
 
     </div> {{ "<!-- /.blog-main -->" | safeHTML }}
 
-
     <footer class="blog-footer">
-      <!-- <p>
-      {{ if .Site.Copyright }}
-      {{ .Site.Copyright | markdownify }}
-      {{ else }}
-      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
-      {{ end }}
-      </p>
-      <p>
-      <a href="#">{{ i18n "backToTop" }}</a>
-      </p> -->
       <a href="https://github.com/coopcycle" target="_blank">
         <i class="fa fa-github fa-lg"></i>  GitHub
       </a>

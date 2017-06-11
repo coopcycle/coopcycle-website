@@ -58,36 +58,8 @@
 
 <div class="container">
   <article class="blog-post">
-    <header>
-      <h2 class="blog-post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
-      <p class="blog-post-meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format $dateFormat }}</time> by {{ .Params.author | default .Site.Params.author }}{{ if or (.Params.categories) (.Params.tags) }} in {{ partial "meta-terms.html" . }}{{ end }}</p>
-    </header>
+
     {{ .Content }}
-
-    {{ if .IsTranslated }}
-    <h4>{{ i18n "translations" }}</h4>
-    <ul>
-      {{ range .Translations }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end }}</a>
-      </li>
-      {{ end }}
-    </ul>
-    {{ end }}
-
-    {{ if or (ne ($.Param "sharingicons") false) (.Site.DisqusShortname) }}
-    <hr>
-    <footer>
-
-    {{ if (ne ($.Param "sharingicons") false) }}
-    {{ partial "sharing-icons.html" . }}
-    {{ end }}
-
-    {{ if and (.Site.DisqusShortname) (ne .Params.comments false) }}
-    {{ partial "disqus.html" . }}
-    {{ end }}
-    </footer>
-    {{ end }}
 
   </article> <!-- /.blog-post -->
 </div>
