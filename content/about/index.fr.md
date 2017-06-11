@@ -30,6 +30,3 @@ Récemment, le W3C a lancé un groupe de travail Web We Can Afford, afin de plan
 Nous pensons que la livraison de repas à vélo est une activité locale, propre à chaque ville.
 Il est possible de relocaliser ce genre d'activité sous la forme de coopératives, chaque coopérative hébergeant elle-même la plateforme de mise en relation.
 Cela devrait permettre de réduire drastiquement les coûts d'infrastructure et donc la consommation énergétique, tout en évitant de centraliser les données.
-
-Internet Of Ownership
-Platform Cooperativism

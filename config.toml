@@ -1,4 +1,13 @@
 baseURL = "https://coopcycle.org/"
-languageCode = "fr-fr"
 title = "CoopCycle"
 theme = "coopcycle"
+
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[Languages]
+[Languages.en]
+title = "My blog"
+
+[Languages.fr]
+title = "Mon blog"

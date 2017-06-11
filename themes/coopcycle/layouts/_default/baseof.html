@@ -40,7 +40,7 @@
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+          <a class="navbar-brand" href="{{ "/" | absLangURL }}">
             <img src="{{ .Site.BaseURL }}/images/logo.png" width="30" height="30" alt="{{ i18n "home" }}">  CoopCycle
           </a>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -68,8 +68,15 @@
                 <a class="nav-link" href="https://github.com/coopcycle" target="_blank"><i class="fa fa-github fa-lg"></i>  GitHub</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="https://twitter.com/coopcycle" target="_blank"><i class="fa fa-twitter fa-lg"></i>  Twitter</a>
+                <a class="nav-link" href="https://twitter.com/coopcycle" target="_blank"><i class="fa fa-twitter fa-lg"></i>  Twitter</a>
               </li>
+              {{ if .IsTranslated }}
+                {{ range .Translations }}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ .Permalink }}">{{ upper .Lang }}</a>
+                </li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </nav>
