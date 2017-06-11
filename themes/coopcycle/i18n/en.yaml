@@ -36,3 +36,33 @@
 
 - id: links
   translation: "Links"
+
+- id: ecosystem.title
+  translation: An ecosystem
+
+- id: ecosystem.content
+  translation: >
+    We believe it is possible to organize at a city level in the form of a co-operative of couriers,
+    and provide a human-scale, environmentally conscious urban logistics service.
+    <br><br>
+    We create an order/dispatch system that you can set up and <strong>host yourself</strong>,
+    on your own server, and a smartphone app that will allow connecting to any server running the platform.
+    <br><br>
+    We want, through local collective experiences, to build a knowledge base that will allow the model
+    to be replicated easily.
+
+- id: digital_common.title
+  translation: A digital common
+
+- id: digital_common.content
+  translation: >
+    We want to provide those who organize themselves with a technological base, without any prior investment in research and development.
+    <br><br>
+    The only thing we ask for in return?
+    <br>
+    <strong>Create a worker owned co-operative.</Strong>
+    <br><br>
+    The <a href="https://github.com/coopcycle">code</a> is licensed under a
+    <a href="https://wiki.p2pfoundation.net/Peer_Production_License">reciprocity license</a>,
+    which means that it can only be used <strong>commercially</strong> by a company belonging to its workers,
+    and that all financial gains are allocated between the worker-owners.

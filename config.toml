@@ -1,5 +1,4 @@
 baseURL = "https://coopcycle.org/"
-title = "CoopCycle"
 theme = "coopcycle"
 
 DefaultContentLanguage = "en"
@@ -7,7 +6,7 @@ defaultContentLanguageInSubdir = true
 
 [Languages]
 [Languages.en]
-title = "My blog"
+title = "CoopCycle - Open source delivery platform. Only for worker-owned business."
 
 [Languages.fr]
-title = "Mon blog"
+title = "CoopCycle - Plateforme de livraison open source. Seulement pour les coopératives."

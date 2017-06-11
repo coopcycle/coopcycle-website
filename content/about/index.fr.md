@@ -2,7 +2,7 @@
 date = "2017-05-13T02:04:58+02:00"
 draft = true
 showpagemeta = false
-title = "About"
+title = "À propos"
 
 +++
 
