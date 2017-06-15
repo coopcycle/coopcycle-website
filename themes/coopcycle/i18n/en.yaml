@@ -37,6 +37,12 @@
 - id: links
   translation: "Links"
 
+- id: headline
+  translation: >
+    <strong>CoopCycle</strong> is an open-source meal delivery platform for worker-owned courier co-ops.
+    <br>
+    Organize, we provide technology.
+
 - id: ecosystem.title
   translation: An ecosystem
 
@@ -66,3 +72,19 @@
     <a href="https://wiki.p2pfoundation.net/Peer_Production_License">reciprocity license</a>,
     which means that it can only be used <strong>commercially</strong> by a company belonging to its workers,
     and that all financial gains are allocated between the worker-owners.
+
+- id: about_bots
+  translation: >
+    <p class="text-center">
+    Until we use employ humans, we have put the robots at work :)
+    <br>
+    Below, a random order is created every 5 minutes.
+    <br>
+    Bots use the CoopCycle platform to dispatch orders.
+    </p>
+
+- id: contributing
+  translation: >
+    Feel free to <a href="https://github.com/coopcycle/coopcycle-web/issues" target="_blank">report an issue or send a feature request</a>.
+    <br>
+    If you are a developer, send us a pull request!

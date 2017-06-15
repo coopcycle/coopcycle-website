@@ -6,6 +6,15 @@ title = "About"
 
 +++
 
+<blockquote class="twitter-tweet" data-lang="en">
+  <p lang="en" dir="ltr">
+  &quot;Where do you see yourself in five years?&quot;<br>
+  &quot;Running the company.&quot;<br>
+  &quot;So management?&quot;<br>&quot;No…socialism. I&#39;ll run it with the rest of the workers.&quot;
+  </p>
+  &mdash; Existential Comics (@existentialcoms) <a href="https://twitter.com/existentialcoms/status/808497790384906240">13 décembre 2016</a>
+</blockquote>
+
 In 2016, the so-called collaborative economy began to show its limits: the company Take Eat Easy was placed in judicial liquidation, the strikes of the drivers of VTC multiplied, the working conditions of foodtech workers were denounced.
 
 It is time to regain power, to create a fairer Internet, more concerned about its users, and respectful of social rights.
@@ -20,14 +29,7 @@ The platforms of the sharing economy are presented as mere actors of relationshi
 It is up to the workers on the platforms to decide on working conditions, tariffs and schedules, on a democratic and open model: this model exists, it is the cooperative.
 We believe that it is possible to easily create an open-source clone of the foodtech platforms, offering the same level of quality, in order to offer the possibility to cooperatives of workers to set up.
 
-<blockquote class="twitter-tweet" data-lang="fr">
-  <p lang="en" dir="ltr">
-  &quot;Where do you see yourself in five years?&quot;<br>
-  &quot;Running the company.&quot;<br>
-  &quot;So management?&quot;<br>&quot;No…socialism. I&#39;ll run it with the rest of the workers.&quot;
-  </p>
-  &mdash; Existential Comics (@existentialcoms) <a href="https://twitter.com/existentialcoms/status/808497790384906240">13 décembre 2016</a>
-</blockquote>
+
 
 ## Think smaller, think local
 

@@ -37,6 +37,14 @@
 - id: links
   translation: "Liens"
 
+- id: headline
+  translation: >
+    <strong>CoopCycle</strong> est une plateforme de
+    livraison de repas à vélo <strong>open-source</strong>,
+    <strong>gratuite pour les coopératives</strong>.
+    <br>
+    Organisez-vous, nous fournissons la technologie.
+
 - id: ecosystem.title
   translation: Un écosystème
 
@@ -63,3 +71,19 @@
     Le <a href="https://github.com/coopcycle">code source</a> est placé sous une <a href="https://wiki.p2pfoundation.net/Peer_Production_License">license à réciprocité</a>,
     ce qui signifie qu'il ne peut être utilisé <strong>commercialement</strong> que dans le cadre d'une entreprise collective appartenant à ses travailleurs,
     dans laquelle tous les gains financiers sont répartis équitablement.
+
+- id: about_bots
+  translation: >
+    <p class="text-center">
+    En attendant d'employer des humains, nous faisons travaillers les robots :)
+    <br>
+    Ci-dessous, une commande aléatoire est passée toutes les 5 minutes.
+    <br>
+    Des bots utilisent la plateforme CoopCycle pour se répartir les commandes.
+    </p>
+
+- id: contributing
+  translation: >
+    N'hésitez pas à <a href="https://github.com/coopcycle/coopcycle-web/issues" target="_blank">signaler un bug ou une fonctionnalité manquante</a>.
+    <br>
+    Si vous êtes un développeur, envoyez-nous une pull request !

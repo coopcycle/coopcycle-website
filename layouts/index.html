@@ -6,7 +6,7 @@
       <div class="col-md-6 offset-md-3">
         <div class="homepage-description">
           <p class="text-center">
-          <strong>CoopCycle</strong> est une plateforme de livraison de repas à vélo <strong>open-source</strong>, <strong>gratuite pour les coopératives</strong>. <br> Organisez-vous, nous fournissons la technologie.
+          {{ i18n "headline" | safeHTML }}
           </p>
         </div>
       </div>
@@ -44,13 +44,7 @@
 <section id="tracking-demo">
   <div class="container">
     <div>
-      <p class="text-center">
-      En attendant d'employer des humains, nous faisons travaillers les robots :)
-      <br>
-      Ci-dessous, une commande aléatoire est passée toutes les 5 minutes.
-      <br>
-      Des bots utilisent la plateforme CoopCycle pour se répartir les commandes.
-      </p>
+      {{ i18n "about_bots" | safeHTML }}
     </div>
     <div id="map-wrapper">
       <div class="embed-responsive embed-responsive-16by9">
@@ -62,9 +56,7 @@
 <section id="contribute">
   <div class="container">
     <p class="text-center">
-    N'hésitez pas à <a href="https://github.com/coopcycle/coopcycle-web/issues" target="_blank">signaler un bug ou une fonctionnalité manquante</a>.
-    <br>
-    Si vous êtes un développeur, envoyez-nous une pull request !
+    {{ i18n "contributing" | safeHTML }}
     </p>
   </div>
 </section>

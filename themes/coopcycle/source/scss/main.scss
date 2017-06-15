@@ -198,3 +198,9 @@ article div.highlight {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.twitter-tweet {
+  @extend .mx-auto;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
