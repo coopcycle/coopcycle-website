@@ -1,9 +1,10 @@
 +++
-date = "2017-05-13T02:04:58+02:00"
-draft = true
-showpagemeta = false
+draft = false
 title = "À propos"
-
+lang = "fr"
+menu = "main"
+weight = 1
+slug = "a-propos"
 +++
 
 Depuis quelques années, les plateformes de livraison de repas ont fleuri dans les grandes villes.

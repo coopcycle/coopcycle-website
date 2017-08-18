@@ -1,9 +1,10 @@
 +++
-date = "2017-05-13T02:04:58+02:00"
-draft = true
-showpagemeta = false
+draft = false
 title = "About"
-
+lang = "fr"
+menu = "main"
+weight = 1
+slug = "about"
 +++
 
 <blockquote class="twitter-tweet" data-lang="en">

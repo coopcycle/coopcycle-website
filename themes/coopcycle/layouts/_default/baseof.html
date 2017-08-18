@@ -1,37 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
-
   <head>
-    {{ partial "head-meta.html" . }}
-
-    {{ block "schema-dot-org" . }}
-      <!-- schema.org metadata differs for Nodes and Pages -->
-    {{ end }}
-
-    <link rel="canonical" href="{{ .Permalink }}">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo:400,700">
-
-    {{ "<!-- combined, minified CSS -->" | safeHTML }}
-    <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet"{{ if not .Site.Params.disable_sri }} integrity="{{ .Site.Data.sri.style}}" crossorigin="anonymous"{{ end }}>
+    <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
-
-    {{ if .RSSLink }}
-    {{ "<!-- RSS 2.0 feed -->" | safeHTML }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
-
-    {{ template "_internal/google_analytics_async.html" . }}
-
-    {{ if .Site.Params.cookie_consent_info_url }}
-    {{ partial "cookie-consent.html" . }}
-    {{ end }}
-
-    {{ partial "head-custom.html" . }}
   </head>
-
   <body>
 
     <div class="blog-masthead">
@@ -47,20 +23,11 @@
             <ul class="navbar-nav mr-auto">
               <!-- <a class="nav-link {{ if .IsHome }}active{{ end }}" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "home" }}</a> -->
               {{- $currentURL := .URL | absLangURL -}}
-              {{ if .Site.Params.custom_navbar }}
-              {{ range .Site.Menus.navbar }}
+              {{ range .Site.Menus.main }}
               {{ $menuURL := .URL | absLangURL }}
               <li class="nav-item {{ if eq $menuURL $currentURL }}active{{ end }}">
-                <a class="nav-link" href="{{.URL | absURL }}">{{ .Name }}</a>
+                <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
               </li>
-              {{ end }}
-              {{ else }}
-              {{ range where .Site.RegularPages "Type" "!=" "post" }}
-              {{ $permalinkURL := .Permalink | absLangURL }}
-              <li class="nav-item {{ if eq $permalinkURL $currentURL }}active{{ end }}">
-                <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
-              </li>
-              {{ end }}
               {{ end }}
             </ul>
             <ul class="navbar-nav">
@@ -100,10 +67,16 @@
       </a>
     </footer>
 
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"></script>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   </body>
-
 </html>
-
-{{- /* vim: set ts=2 sw=2 et: */}}
