@@ -52,23 +52,24 @@ h6, .h6 {
           box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
 }
 
-/* Nav links */
-.nav-link {
-  position: relative;
-  padding: 1rem;
-  font-weight: 500;
-  color: #cdddeb;
-}
-.nav-link:hover,
-.nav-link:focus {
-  color: #fff;
-  background-color: transparent;
-}
+// /* Nav links */
+// .nav-link {
+//   position: relative;
+//   padding: 1rem;
+//   font-weight: 500;
+//   color: #cdddeb;
+// }
+// .nav-link:hover,
+// .nav-link:focus {
+//   color: #fff;
+//   background-color: transparent;
+// }
 
-/* Active state gets a caret at the bottom */
-.nav-link.active {
-  color: #fff;
-}
+// /* Active state gets a caret at the bottom */
+// .nav-link.active {
+//   color: #fff;
+// }
+
 // .nav-link.active:after {
 //   position: absolute;
 //   bottom: 0;
@@ -160,29 +161,6 @@ article img {
   height: auto;
   margin: 13px auto;
 }
-// add margin to sharing icons (except the first one)
-.sharing-icons .nav-item+.nav-item {
-  margin-left: 1rem;
-}
-/* add a margin above the disqus comments only if the preceeding sharing section
-is present (because sharing can be hidden, and the margin isn't always needed */
-section + #disqus_thread {
-  margin-top: 1rem;
-}
-
-// style all blockquotes, not just Bootstrap's default of class="blockquote"
-// see: node_modules/bootstrap/scss/_type.scss
-article blockquote {
-  padding: ($spacer / 2) $spacer;
-  margin-bottom: $spacer;
-  font-size: $blockquote-font-size;
-  border-left: $blockquote-border-width solid $blockquote-border-color;
-}
-
-// ensure that code text doesn't butt up against the background change
-article div.highlight {
-  padding: 5px 5px 0px 5px;
-}
 
 /*
  * Footer
@@ -190,6 +168,7 @@ article div.highlight {
 
 .blog-footer {
   padding: 2.5rem 0;
+  margin-top: 5rem;
   color: #999;
   text-align: center;
   background-color: #f9f9f9;
@@ -212,22 +191,111 @@ article div.highlight {
 .press-container .press-item-image img {
   max-width: 120px;
 }
-.press-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.press-item .press-item-image  {
-  min-width: 25%;
-  max-width: 25%;
-  @include media-breakpoint-down(sm) {
-    min-width: 50%;
-    max-width: 50%;
+
+// .press-item-image  {
+//   min-width: 80px;
+//   max-width: 80px;
+//   @include media-breakpoint-down(sm) {
+//     min-width: 50%;
+//     max-width: 50%;
+//   }
+//   text-align: center;
+//   padding-right: 20px;
+// }
+
+.press-container {
+  margin-top: 3rem;
+  .press-item {
+    margin-bottom: 20px;
+      .press-item-image  {
+      text-align: right;
+      img {
+        min-width: 80px;
+        max-width: 80px;
+        @include media-breakpoint-down(sm) {
+          min-width: 50%;
+          max-width: 50%;
+        }
+      }
+    }
+    .press-item-text {
+      a {
+        color: $body-color;
+      }
+    }
   }
-  text-align: center;
-  padding-right: 20px;
 }
+
+
 .press-separator {
   text-align: center;
   padding: 20px 0;
+}
+
+body {
+  font-family: "Arvo", Helvetica, Arial, sans-serif;
+}
+
+.label {
+  font-weight: 400;
+}
+
+.blog-masthead {
+  background-color: #e7e7e7;
+}
+
+#pattern {
+  margin-top: -3rem;
+  padding: 4rem 0;
+  background-color: #ecf0f1;
+  background-image: url(../svg/pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#about {
+}
+
+#search {
+  margin-top: -20px;
+  padding: 100px 0;
+  background-color: #ecf0f1;
+  background-image: url(../pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#tracking-demo {
+  background-color: #111;
+  padding: 30px 0;
+  color: #2ECC71;
+}
+
+#contribute {
+  padding: 2.5rem 0;
+  margin-bottom: -5rem;
+}
+
+.homepage-top {
+  padding-bottom: 40px;
+}
+
+.homepage-description {
+  max-width: 33.3333%;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #fff;
+}
+
+.homepage-card {
+  padding: 0 40px;
+  margin: 40px 0;
+}
+.homepage-card > h2 {
+  margin: 30px 0;
+}
+.homepage-card > p {
+  font-size: 16px;
 }

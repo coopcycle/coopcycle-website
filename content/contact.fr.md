@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "Contact"
 lang = "fr"
 menu = "main"

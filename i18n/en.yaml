@@ -37,6 +37,9 @@
 - id: links
   translation: "Links"
 
+- id: demo
+  translation: "Demo"
+
 - id: headline
   translation: >
     <strong>CoopCycle</strong> is an open-source meal delivery platform for worker-owned courier co-ops.
@@ -82,6 +85,7 @@
     <br>
     Bots use the CoopCycle platform to dispatch orders.
     </p>
+    <p class="text-center"><a href="https://demo.coopcycle.org" target="_blank">Try the demo</a>
 
 - id: contributing
   translation: >

@@ -1,16 +1,10 @@
 {{ define "main" }}
 
 <section id="pattern">
-  <div class="container">
-    <section class="row">
-      <div class="col-md-6 offset-md-3">
-        <div class="homepage-description">
-          <p class="text-center">
-          {{ i18n "headline" | safeHTML }}
-          </p>
-        </div>
-      </div>
-    </section>
+  <div class="homepage-description">
+    <div class="text-center">
+    {{ i18n "headline" | safeHTML }}
+    </div>
   </div>
 </section>
 <section id="about">
@@ -48,7 +42,7 @@
     </div>
     <div id="map-wrapper">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://coopcycle.org/tracking?zoom=13"></iframe>
+        <iframe class="embed-responsive-item" src="//demo.coopcycle.org/tracking?zoom=13"></iframe>
       </div>
     </div>
   </div>

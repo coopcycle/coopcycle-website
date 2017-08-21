@@ -1,27 +1,21 @@
 {{ define "main" }}
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-10 offset-md-1">
-      <div class="press-container">
-        {{ range $.Site.Data.press }}
-        <div class="press-item">
-          <div class="press-item-image">
-            <img src="{{ .img }}">
-          </div>
-          <div class="press-item-text">
-            <h5>
-              <a href="{{ .link }}" target="_blank">
-              {{ .title }}
-              </a>
-            </h5>
-            <small>{{ dateFormat "02/01/2006" .date }}</small>
-          </div>
-        </div>
-        {{ end }}
-      </div>
+<div class="text-center">{{ .Content }}</div>
+<div class="press-container container">
+  {{ range $.Site.Data.press }}
+  <div class="press-item row justify-content-start">
+    <div class="press-item-image col-2">
+      <img src="{{ .img }}">
+    </div>
+    <div class="press-item-text col-10">
+        <a href="{{ .link }}" target="_blank">
+          {{ .title }}
+          <br>
+          <small>{{ dateFormat "02/01/2006" .date }}</small>
+        </a>
     </div>
   </div>
+  {{ end }}
 </div>
 
 {{ end }}

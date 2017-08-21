@@ -6,20 +6,19 @@
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo:400,700">
     <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
-    <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
   </head>
   <body>
 
     <div class="blog-masthead">
       <div class="container">
-        <nav class="navbar navbar-light navbar-toggleable-md">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-light navbar-expand-lg">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="{{ "/" | absLangURL }}">
-            <img src="{{ .Site.BaseURL }}/images/logo.png" width="30" height="30" alt="{{ i18n "home" }}">  CoopCycle
+            <img src="{{ .Site.BaseURL }}/images/logo.png" width="30" height="30" alt="{{ i18n "home" }}" class="d-inline-block align-top">  CoopCycle
           </a>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <!-- <a class="nav-link {{ if .IsHome }}active{{ end }}" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "home" }}</a> -->
               {{- $currentURL := .URL | absLangURL -}}
@@ -30,21 +29,23 @@
               </li>
               {{ end }}
             </ul>
+            {{ if .IsTranslated }}
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/coopcycle" target="_blank"><i class="fa fa-github fa-lg"></i>  GitHub</a>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="https://github.com/coopcycle" target="_blank" title="Github"><i class="fa fa-github fa-lg"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/coopcycle" target="_blank"><i class="fa fa-twitter fa-lg"></i>  Twitter</a>
-              </li>
-              {{ if .IsTranslated }}
+                <a class="nav-link" href="https://twitter.com/coopcycle" target="_blank" title="Twitter"><i class="fa fa-twitter fa-lg"></i></a>
+              </li> -->
+
                 {{ range .Translations }}
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ .Permalink }}">{{ upper .Lang }}</a>
+                  <a class="nav-link" href="{{ .Permalink }}">{{ upper .Lang }}</a>
                 </li>
                 {{ end }}
-              {{ end }}
+
             </ul>
+            {{ end }}
           </div>
         </nav>
       </div>
@@ -59,12 +60,28 @@
     </div> {{ "<!-- /.blog-main -->" | safeHTML }}
 
     <footer class="blog-footer">
-      <a href="https://github.com/coopcycle" target="_blank">
-        <i class="fa fa-github fa-lg"></i>  GitHub
+      <ul class="nav justify-content-center">
+        {{ range .Site.Menus.main }}
+          {{ $menuURL := .URL | absLangURL }}
+          <li class="nav-item {{ if eq $menuURL $currentURL }}active{{ end }}">
+            <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+        <li class="nav-item">
+          <a class="nav-link" href="https://demo.coopcycle.org" target="_blank">{{ i18n "demo" }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/coopcycle" target="_blank">Twitter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/coopcycle" target="_blank">GitHub</a>
+        </li>
+      </ul>
+      <i class="fa fa-heart-o"></i>
+      <a class="nav-link">
+        &#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#099;&#111;&#111;&#112;&#099;&#121;&#099;&#108;&#101;&#046;&#111;&#114;&#103;
       </a>
-      <a href="https://twitter.com/coopcycle" target="_blank">
-        <i class="fa fa-twitter fa-lg"></i>  Twitter
-      </a>
+
     </footer>
 
     <script
@@ -77,6 +94,26 @@
       integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
       crossorigin="anonymous"></script>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
+    <!-- FIXME How to do if not equals in Hugo -->
+    {{ else }}
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//piwik.coopcycle.org/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+    {{ end }}
 
   </body>
 </html>

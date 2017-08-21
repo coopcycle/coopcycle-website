@@ -37,6 +37,9 @@
 - id: links
   translation: "Liens"
 
+- id: demo
+  translation: "Démo"
+
 - id: headline
   translation: >
     <strong>CoopCycle</strong> est une plateforme de
@@ -81,6 +84,7 @@
     <br>
     Des bots utilisent la plateforme CoopCycle pour se répartir les commandes.
     </p>
+    <p class="text-center"><a href="https://demo.coopcycle.org" target="_blank">Tester la démo</a>
 
 - id: contributing
   translation: >
