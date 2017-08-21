@@ -1,1 +1,6 @@
+/data/manifest.json
 /node_modules/
+/static/js/
+/static/css/
+/static/fonts/
+/static/svg/

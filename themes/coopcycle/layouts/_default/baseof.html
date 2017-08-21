@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo:400,700">
+    {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
     <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
+    {{ else }}
+    <link href="/{{ index $.Site.Data.manifest "style.css" }}" rel="stylesheet">
+    {{ end }}
   </head>
   <body>
 

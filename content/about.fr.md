@@ -37,7 +37,7 @@ Les individus sont plus isolés et moins bien protégés, et ont plus de mal à 
   </blockquote>
 </div>
 
-✊  It is the workers and the users of the platforms that create most of the added value and network effects
+✊  Ce sont les travailleurs et les utilisateur des plateformes qui créent l'essentiel de la valeur ajoutée et les effets de réseau
 
 ✊  Les services de mise en relation ne sont que du code informatique qui tourne sur des serveurs
 

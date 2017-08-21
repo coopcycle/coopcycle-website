@@ -2,16 +2,23 @@
   "name": "hugo-theme-coopcycle",
   "version": "0.0.1",
   "scripts": {
-    "build:css": "node-sass --output-style expanded --precision 6 src/scss/style.scss static/css/style.css.tmp && cleancss --level 1 static/css/style.css.tmp -o static/css/style.css",
-    "build:fonts": "cp node_modules/font-awesome/fonts/* static/fonts",
-    "build": "npm run build:css && npm run build:fonts && npm run clean",
-    "clean": "rm static/css/style.css.tmp"
+    "build": "NODE_ENV=production node_modules/.bin/webpack -p",
+    "watch": "node_modules/.bin/webpack -d -w"
   },
   "keywords": "hugo",
   "devDependencies": {
     "bootstrap": "4.0.0-beta",
     "clean-css-cli": "^4.0.12",
+    "css-loader": "^0.26.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.9.0",
     "font-awesome": "^4.7.0",
-    "node-sass": "^4.5.2"
+    "node-sass": "^4.5.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.7.0",
+    "webpack-assets-manifest": "^1.0.0",
+    "webpack-dev-server": "^1.16.5"
   }
 }
