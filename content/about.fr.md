@@ -24,7 +24,7 @@ Le modèle de l'entrepreneur individuel se généralise à l'ensemble de la soci
 <br>
 Les individus sont plus isolés et moins bien protégés, et ont plus de mal à se regrouper.
 
-**Mais ce n'est pas une fatalité.**
+**Mais ce n'est pas une fatalité**
 
 <div style="float: right; margin-left: 36px;">
   <blockquote class="twitter-tweet mx-auto" data-lang="fr">
@@ -37,7 +37,7 @@ Les individus sont plus isolés et moins bien protégés, et ont plus de mal à 
   </blockquote>
 </div>
 
-✊  Ce sont les travailleurs et les utilisateur des plateformes qui créent l'essentiel de la valeur ajoutée et les effets de réseau
+✊  It is the workers and the users of the platforms that create most of the added value and network effects
 
 ✊  Les services de mise en relation ne sont que du code informatique qui tourne sur des serveurs
 
