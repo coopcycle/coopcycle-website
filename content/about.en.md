@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "About"
+title = "Learn more"
 lang = "fr"
 menu = "main"
 weight = 1

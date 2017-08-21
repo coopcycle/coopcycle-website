@@ -1,6 +1,12 @@
 {{ define "main" }}
 
-<div class="text-center">{{ .Content }}</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 ml-md-auto mr-md-auto">
+      <div class="text-center">{{ .Content }}</div>
+    </div>
+  </div>
+</div>
 <div class="press-container container">
   {{ range $.Site.Data.press }}
   <div class="press-item row justify-content-start">
