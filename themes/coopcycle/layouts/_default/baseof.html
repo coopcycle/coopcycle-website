@@ -44,7 +44,7 @@
 
                 {{ range .Translations }}
                 <li class="nav-item">
-                  <a class="nav-link" href="{{ .Permalink }}">{{ upper .Lang }}</a>
+                  <a class="nav-link" href="{{ .Permalink }}">{{ index $.Site.Data.languages .Lang }}</a>
                 </li>
                 {{ end }}
 
