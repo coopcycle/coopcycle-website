@@ -26,5 +26,11 @@ title = "CoopCycle - Plateforme de livraison open source. Seulement pour les coo
 # i# dentifier = "Demo"
 # url = "https://demo.coopcycle.org"
 
+[[Languages.fr.menu.main]]
+name = "Blog"
+weight = 3
+identifier = "blog"
+url = "https://blogs.mediapart.fr/coopcycle"
+
 [Languages.fr.Taxonomies]
 
