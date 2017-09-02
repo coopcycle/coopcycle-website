@@ -11,6 +11,18 @@
     {{ else }}
     <link href="/{{ index $.Site.Data.manifest "style.css" }}" rel="stylesheet">
     {{ end }}
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://coopcycle.org",
+      "name": "CoopCycle",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@coopcycle.org"
+      }
+    }
+    </script>
   </head>
   <body>
 
