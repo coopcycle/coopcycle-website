@@ -1,6 +1,7 @@
 +++
 draft = false
 title = "They speak about us"
+description = "In the press & blogs."
 lang = "en"
 menu = "main"
 weight = 2

@@ -1,10 +1,11 @@
 +++
 draft = false
 title = "En savoir plus"
+description = "Comprendre le projet."
 lang = "fr"
 menu = "main"
 weight = 1
-slug = "a-propos"
+slug = "Quelques "
 +++
 
 Depuis quelques années, les plateformes de livraison de repas ont fleuri dans les grandes villes.

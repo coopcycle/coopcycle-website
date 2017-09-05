@@ -1,6 +1,7 @@
 +++
 draft = false
 title = "Learn more"
+description = "Understanding the project."
 lang = "fr"
 menu = "main"
 weight = 1

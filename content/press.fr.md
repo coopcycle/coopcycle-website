@@ -1,6 +1,7 @@
 +++
 draft = false
 title = "On parle de nous"
+description = "Dans la presse et sur les blogs."
 lang = "fr"
 menu = "main"
 weight = 2
