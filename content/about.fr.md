@@ -5,7 +5,7 @@ description = "Comprendre le projet."
 lang = "fr"
 menu = "main"
 weight = 1
-slug = "Quelques "
+slug = "a-propos"
 +++
 
 Depuis quelques années, les plateformes de livraison de repas ont fleuri dans les grandes villes.
