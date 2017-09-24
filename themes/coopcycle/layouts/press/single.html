@@ -16,7 +16,7 @@
   </div>
 </div>
 <div class="press-container container">
-  {{ range $.Site.Data.press }}
+  {{ range sort $.Site.Data.press "date" "desc" }}
   <div class="press-item row justify-content-start">
     <div class="press-item-image col-2">
       <img src="{{ .img }}">
