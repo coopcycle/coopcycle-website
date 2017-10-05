@@ -96,9 +96,27 @@
         "date": "2017-08-31"
     },
     {
-	"img": "/images/press/reporterre.png",
-	"link": "https://reporterre.net/Des-coursiers-a-velo-veulent-depasser-l-uberisation-par-la-cooperation",
-	"title": "Des coursiers à vélo veulent dépasser l’ubérisation par la coopération",
-	"date": "2017-09-22"
+        "img": "/images/press/letudiant.jpg",
+        "link": "http://www.letudiant.fr/jobsstages/livraison-a-domicile-comment-choisir-sa-plates-formes-de-jobs.html",
+        "title": "Coursier à vélo : comment choisir sa plate-forme ?",
+        "date": "2017-09-11"
+    },
+    {
+    	"img": "/images/press/reporterre.png",
+    	"link": "https://reporterre.net/Des-coursiers-a-velo-veulent-depasser-l-uberisation-par-la-cooperation",
+    	"title": "Des coursiers à vélo veulent dépasser l’ubérisation par la coopération",
+    	"date": "2017-09-22"
+    },
+    {
+        "img": "/images/press/lemonde.svg",
+        "link": "http://www.lemonde.fr/emploi/article/2017/09/27/les-syndicats-francais-commencent-a-s-interesser-aux-travailleurs-non-salaries_5192182_1698637.html",
+        "title": "Les syndicats français commencent à s’intéresser aux travailleurs non salariés",
+        "date": "2017-09-27"
+    },
+    {
+        "img": "/images/press/mediapart.svg",
+        "link": "https://www.mediapart.fr/journal/economie/290917/coopcycle-concurrent-reve-de-deliveroo",
+        "title": "CoopCycle, concurrent rêvé de Deliveroo",
+        "date": "2017-09-29"
     }
 ]
