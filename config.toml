@@ -14,14 +14,11 @@ defaultContentLanguageInSubdir = true
 title = "CoopCycle - Open source logistics platform software. Only for worker-owned business."
 description = "CoopCycle is an open source software for running a logistics platform."
 
-[[Languages.en.params]]
-description = "Tesla's Awesome Hugo Site"
-
-# [[Languages.en.menu.main]]
-# name = "Demo"
-# weight = 4
-# identifier = "Demo"
-# url = "https://demo.coopcycle.org"
+[[Languages.en.menu.main]]
+name = "Demo"
+weight = 4
+identifier = "Demo"
+url = "https://demo.coopcycle.org"
 
 ### French
 
@@ -29,14 +26,13 @@ description = "Tesla's Awesome Hugo Site"
 title = "CoopCycle - Logiciel de plateforme logistique open source. Seulement pour les coopératives."
 description = "CoopCycle est un logiciel open source permettant de gérer une plateforme logistique."
 
-[[Languages.fr.params]]
-description = "Tesla's Awesome Hugo Site"
-
-# [[Languages.fr.menu.main]]
-# name = "Démo"
-# weight = 4
-# i# dentifier = "Demo"
-# url = "https://demo.coopcycle.org"
+[[Languages.fr.menu.main]]
+name = "Démo"
+weight = 4
+identifier = "Demo"
+url = "https://demo.coopcycle.org"
+pre = '<button class="btn btn-primary btn-sm">'
+post = "</button>"
 
 [[Languages.fr.menu.main]]
 name = "Blog"
