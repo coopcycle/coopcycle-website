@@ -2,12 +2,10 @@
 // see: node_modules/font-awesome/scss/font-awesome.scss
 // @import 'node_modules/font-awesome/scss/font-awesome'
 @import "~font-awesome/css/font-awesome.min.css";
-
 @import 'src/scss/variables';
 
 // selectively import components we need from bootstrap
-// see: node_modules/bootstrap/scss/bootstrap.scss
-@import 'src/scss/bootstrap';
+@import "src/scss/bootstrap";
 
 // local style overrides
 @import 'src/scss/main';
