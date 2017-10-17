@@ -30,38 +30,13 @@
   }
 }
 
-// /* Nav links */
-// .nav-link {
-//   position: relative;
-//   padding: 1rem;
-//   font-weight: 500;
-//   color: #cdddeb;
-// }
-// .nav-link:hover,
-// .nav-link:focus {
-//   color: #fff;
-//   background-color: transparent;
-// }
+/*
+ * Buttons
+ */
 
-// /* Active state gets a caret at the bottom */
-// .nav-link.active {
-//   color: #fff;
-// }
-
-// .nav-link.active:after {
-//   position: absolute;
-//   bottom: 0;
-//   left: 50%;
-//   width: 0;
-//   height: 0;
-//   margin-left: -.3rem;
-//   vertical-align: middle;
-//   content: "";
-//   border-right: .3rem solid transparent;
-//   border-bottom: .3rem solid;
-//   border-left: .3rem solid transparent;
-// }
-
+.btn {
+  cursor: pointer;
+}
 
 /*
  * Blog name and description

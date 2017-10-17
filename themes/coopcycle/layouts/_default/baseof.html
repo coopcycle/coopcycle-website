@@ -53,7 +53,7 @@
               {{ range .Site.Menus.main }}
                 {{ $menuURL := .URL | absLangURL }}
                 <li class="nav-item {{ if eq $menuURL $currentURL }}active{{ end }}">
-                  {{ .Pre }}<a class="nav-link" {{ if eq .Identifier "Demo" }}target="_blank"{{ end }} href="{{ .URL | absURL }}">{{ .Name }}</a>{{ .Post }}
+                  <a class="nav-link" {{ if eq .Identifier "Demo" }}target="_blank"{{ end }} href="{{ .URL | absURL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
                 </li>
               {{ end }}
             </ul>
