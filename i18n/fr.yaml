@@ -42,11 +42,13 @@
 
 - id: headline
   translation: >
-    <strong>CoopCycle</strong> est une plateforme de
-    livraison de repas à vélo <strong>open-source</strong>,
-    <strong>gratuite pour les coopératives</strong>.
-    <br>
-    Organisez-vous, nous fournissons la technologie.
+    CoopCycle est une plateforme de
+    livraison.<br>
+
+- id: headlinesub
+  translation: >
+      Elle est <strong>open-source</strong> et <strong>gratuite</strong> pour les coopératives de livreurs à vélo.
+      Organisez-vous, nous fournissons la technologie!
 
 - id: ecosystem.title
   translation: Un écosystème
@@ -67,13 +69,13 @@
 
 - id: digital_common.content
   translation: >
-    Nous souhaitons fournir à ceux qui s'organisent un socle technologique, sans investissement préalable en recherche développement.
+    Nous fournissons à ceux qui s'organisent une plateforme clé-en-main, sans investissement préalable en recherche & développement.
     <br><br>
-    Ce que nous demandons en retour ?<br><strong>Créez une coopérative.</strong>
-    <br><br>
-    Le <a href="https://github.com/coopcycle">code source</a> est placé sous une <a href="https://wiki.p2pfoundation.net/Peer_Production_License">license à réciprocité</a>,
+    Ce que nous demandons en retour? <strong>Créez une coopérative.</strong> Le code source est placé sous une <a href="https://wiki.p2pfoundation.net/Peer_Production_License">licence à réciprocité</a>,
     ce qui signifie qu'il ne peut être utilisé <strong>commercialement</strong> que dans le cadre d'une entreprise collective appartenant à ses travailleurs,
-    dans laquelle tous les gains financiers sont répartis équitablement.
+    dans laquelle les bénéfices sont répartis équitablement.
+    <br><br>
+    La code source est <a href="https://github.com/coopcycle">accessible sur GitHub</a>. Vous souhaitez participer au développement? Contactez nous à <a href="mailto:dev@coopcycle.org">dev[at]coopcycle.org</a>.
 
 - id: about_bots
   translation: >
@@ -86,8 +88,3 @@
     </p>
     <p class="text-center"><a href="https://demo.coopcycle.org" target="_blank"><button class="btn btn-primary">Tester la démo</button></a>
 
-- id: contributing
-  translation: >
-    N'hésitez pas à <a href="https://github.com/coopcycle/coopcycle-web/issues" target="_blank">signaler un bug ou une fonctionnalité manquante</a>.
-    <br>
-    Si vous êtes un développeur, envoyez-nous une pull request !
