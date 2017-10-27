@@ -3,6 +3,10 @@
  * See: http://v4-alpha.getbootstrap.com/examples/blog/blog.css
  */
 
+a {
+  color: $link-color;
+}
+
 /*
  * Masthead for nav
  */
@@ -129,7 +133,7 @@ article img {
 #tracking-demo {
   background-color: #111;
   padding: 30px 0;
-  color: #2ECC71;
+  color: #fff;
 }
 
 #subscribe {
@@ -142,9 +146,9 @@ article img {
 }
 
 .homepage-description {
-  max-width: 33.3333%;
+  max-width: 60%;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 22px;
   color: #fff;
 }
 
@@ -180,7 +184,7 @@ article img {
     }
     .press-item-text {
       a {
-        color: $body-color;
+        color: $link-color;
       }
     }
   }

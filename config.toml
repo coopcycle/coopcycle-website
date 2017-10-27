@@ -19,6 +19,8 @@ name = "Demo"
 weight = 4
 identifier = "Demo"
 url = "https://demo.coopcycle.org"
+pre = '<button class="btn btn-primary btn-sm">'
+post = "</button>"
 
 ### French
 
