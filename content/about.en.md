@@ -8,23 +8,21 @@ weight = 1
 slug = "about"
 +++
 
-In recent years, meal delivery platforms have multiplied in large cities.
+Recently, meal delivery platforms have multiplied in large cities.
 <br>
-The strategy ? Rapid and exponential growth to occupy the market,
-in the hope of obtaining a monopoly and buying back its competitors.
-They all have one thing in common: using **self-contractors** to ensure deliveries.
+Their strategy ? A rapid and exponential growth to grab the market,
+and eventually to establish a monopoly by buying back its competitors.
+They all share one thing in common: using **self-contractors** to ensure deliveries.
 
-This is called _uberization_: connect consumers and "service providers" through a web platform.
+This is called _uberization_: connecting consumers and "service providers" through a web platform.
 <br>
-"Providers" are not employed by the platform that provides the service,
-which makes it possible to have an extremely flexible and inexpensive workforce,
-and outsourcing risks.
+"Providers" are not employed by the firm holding the platform.
+This situation benefits the firm in two different ways : they represent an extremely flexible and inexpensive workforce,
+and they carry the financial risk instead of the firm.
 
-The model of the individual entrepreneur is generalized to the whole of society.
-<br>
-Individuals are more isolated and less well protected, and have more difficulty regrouping.
+The individual entrepreneur model is now being generalized to the whole society. Individuals are more and more isolated and losing their protections against all sorts of risks (such as work accidents and unemployment).
 
-**But it is not inevitable**
+**But it is not a fatality**
 
 <div style="float: right; margin-left: 36px;">
   <blockquote class="twitter-tweet mx-auto" data-lang="fr">
@@ -37,22 +35,22 @@ Individuals are more isolated and less well protected, and have more difficulty 
   </blockquote>
 </div>
 
-✊  It is the workers and the users of the platforms that create most of the added value and network effects
+✊  Most of the added value and network effects are created by "providers" and platform users
 
-✊  Platforms are only computer code that runs on servers
+✊  Platforms are nothing but computer code running on servers
 
-Through the digital economy, we may have a chance to socialize the means of production on a large scale, setting up platforms under the legal status of the **cooperative**.
+Through the digital economy, we may have a chance to socialize the production capacities on a large scale, setting up platforms under the legal status of the **cooperative**.
 
 **Let's try!**
 
-We are not the only ones to think that this is possible, including for [music](https://resonate.is/) or [microblogging](https://www.theguardian.com/commentisfree / 2016 / September / 29 / save-twitter-buy-platform-shared-ownership).
+Other people have the same idea in different activities, such as [music streaming](https://resonate.is/) or [microblogging](https://www.theguardian.com/commentisfree / 2016 / September / 29 / save-twitter-buy-platform-shared-ownership).
 
-In order to encourage the emergence of cooperative platforms in the delivery sector,
-we decided to create a ** open-source ** software,
-based on reciprocity: you can use it if you organize yourself as a cooperative.
+In order to promote the emergence of cooperative platforms in the delivery sector,
+we decided to create an **open-source** software,
+based on reciprocity: you have to organize as a cooperative to commercialize it.
 
-The idea is that the platform is a common good, that is, a good that belongs to no one, because it belongs to everyone. Those who use it have a vested interest in maintaining it.
+The idea is that the platform is a common good, which means it belongs to no one, because anyone can use it. Those who use it have a vested interest in maintaining it.
 
 The explosion of bicycle delivery is a boon for the development of clean urban logistics.
 <br>
-The cooperative seems to us a good way to make this local and non-delocalisable activity sustainable.
+The cooperative appears to us as a good way to make this local and non-delocalisable activity sustainable.
