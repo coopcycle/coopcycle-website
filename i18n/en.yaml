@@ -46,7 +46,9 @@
 
 - id: headlinesub
   translation: >
-      The code is <strong>open-source</strong> and <strong>free to use</strong> by worker-owned courier co-ops. Organize, we provide the technology!
+      The code is <strong>open-source</strong> and <strong>free to use</strong> by worker-owned courier co-ops.
+      <br>
+      Organize, we provide the technology!
 
 - id: ecosystem.title
   translation: An ecosystem

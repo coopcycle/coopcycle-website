@@ -48,7 +48,8 @@
 - id: headlinesub
   translation: >
       Elle est <strong>open-source</strong> et <strong>gratuite</strong> pour les coopératives de livreurs à vélo.
-      Organisez-vous, nous fournissons la technologie!
+      <br>
+      Organisez-vous, nous fournissons la technologie !
 
 - id: ecosystem.title
   translation: Un écosystème
