@@ -1,0 +1,89 @@
+- id: about
+  translation: "A proposito"
+
+- id: home
+  translation: "Acogida"
+
+- id: recentPosts
+  translation: "Últimos mensajes"
+
+- id: readMore
+  translation: "Leer más →"
+
+- id: translations
+  translation: "Traducciones"
+
+- id: share
+  translation: "Compartir"
+
+- id: paginatorPrevious
+  translation: "Página anterior"
+
+- id: paginatorNext
+  translation: "Página siguiente"
+
+- id: cookieMessage
+  translation: "Este sitio web usa cookies"
+
+- id: cookieLink
+  translation: "Saber más."
+
+- id: cookieDismiss
+  translation: "He entendido !"
+
+- id: backToTop
+  translation: "Parte superior de la página"
+
+- id: links
+  translation: "Enlaces"
+
+- id: demo
+  translation: "Demo"
+
+- id: headline
+  translation: >
+    CoopCycle es une plataforma de entrega.<br>
+
+- id: headlinesub
+  translation: >
+      Es <strong>open-source</strong> y <strong>gratis</strong> para cooperativas de ciclistas repartidores.
+      <br>Organízate, proporcionamos la tecnología!
+
+- id: ecosystem.title
+  translation: Un ecosistema
+
+- id: ecosystem.content
+  translation: >
+    Creemos que es posible organizar a escala de una ciudad en forma de una cooperativa de repartidores,
+    y proporcionar un servicio de logística urbana de tamaño humano y ambientalmente consciente.
+    <br><br>
+    Creamos un sistema de pedidos/entregas que puede configurar y <strong>alojar usted mismo</strong>,
+    en su propio servidor web, y una aplicación para teléfono inteligente que se conectará al servidor de su elección
+    <br><br>
+    Deseamos, a través de experiencias colectivas locales,
+    construir una base de conocimiento que permita que el modelo se replique fácilmente.
+
+- id: digital_common.title
+  translation: Un bien común
+
+- id: digital_common.content
+  translation: >
+    Proporcionamos a quienes se organizan una plataforma llave en mano, sin inversión previa en investigación y desarrollo.
+    <br><br>
+    ¿Qué pedimos a cambio? <strong>Cree una cooperativa.</strong> El código fuente se coloca bajo una <a href="https://wiki.p2pfoundation.net/Peer_Production_License">licencia basada en la recíprocidad</a>,
+    lo cual significa que se puede usar <strong>comercialmente</strong> únicamente en el contexto de una empresa colectiva perteneciente a sus trabajadores,
+    en la cual los beneficios se distribuyen equitativamente.
+    <br><br>
+    El código fuente esta <a href="https://github.com/coopcycle">accesible en GitHub</a>. ¿Quieres participar en el desarrollo? Póngase en contacto con nosotros en <a href="mailto:dev@coopcycle.org">dev [at] coopcycle.org</a>.
+
+- id: about_bots
+  translation: >
+    <p class="text-center">
+    De momento, no tenemos repartidores humanos, asi que hacemos trabajar a robots :)
+    <br>
+    Por debajo, un pedido aleatorio se cree cada diez minutos.
+    <br>
+    Entonces, bots usan la plataforma CoopCycle para repartirse los pedidos.
+    </p>
+    <p class="text-center"><a href="https://demo.coopcycle.org" target="_blank"><button class="btn btn-primary">Probar la demo</button></a>
+

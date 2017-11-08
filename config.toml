@@ -44,3 +44,16 @@ url = "https://blogs.mediapart.fr/coopcycle"
 
 [Languages.fr.Taxonomies]
 
+### Spanish
+
+[Languages.es]
+title = "CoopCycle - Software open source de plataforma logística. Solo para cooperativas."
+description = "CoopCycle es un software open source para administrar una plataforma logística."
+
+[[Languages.es.menu.main]]
+name = "Demo"
+weight = 4
+identifier = "Demo"
+url = "https://demo.coopcycle.org"
+pre = '<button class="btn btn-primary btn-sm">'
+post = "</button>"
