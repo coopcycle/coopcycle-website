@@ -57,12 +57,17 @@ Contact your city's bikers collective and/or send us an email, we are here to fa
 
 More informations about your city are coming soon…
 
+#### I am citizen, journalist, developer, economist... How can I contribute to Coopcycle?
+Coopcycle is a common good, so evrybody can contribute :)
+If you want to take part of the software development, please contact us at <a href="mailto:dev@coopcycle.org">dev@coopcycle.org</a>. 
+We are also interested in help in any kind : business development, communication,sociology, economy, aso. - feel free to reach us at <a href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>.   
+
 #### Are you using blockchain?
 
 **No**, we are not using blockchain, but standard web technologies. Of course, we are definitely interested in blockchain and all the possibilities it brings in terms of decentralization & ownership. But we think we don't need to use blockchain to achieve our goal. We also want to allow as many developers as possible to contribute, from experts to beginners.
 
 #### How is it pronounced?
 
-It is pronounced **[koʊˌɑp saɪkəl]**
+It is pronounced **[koʊˌɑp saɪkəl]**.
 <br>
-As you may have guessed, the first four letters mean « co-op », so please do not say **[kuːp]**
+As you may have guessed, the first four letters mean « co-op », so please do not say **[kuːp]**.

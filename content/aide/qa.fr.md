@@ -68,11 +68,11 @@ Nous nous concevons  à la fois comme un commun informationnel et une propositio
 
 #### Je suis journaliste, développeur, graphiste, livreur, restaurateur... Comment puis-je contribuer à faire émerger CoopCycle ?
 Coopcycle est un commun, pour nous rejoindre, il suffit d’y contribuer ;) 
-Si vous souhaitez contribuer au développement du logiciel, veuillez nous contacter à dev@coopcycle.org .
-Nous sommes tout aussi intéressés par d’autres types de contributions : juridique, développement économique, sociologique, etc.), n’hésitez pas à nous envoyer un mail à contact@coopcycle.org .
+Si vous souhaitez contribuer au développement du logiciel, veuillez nous contacter à <a href="mailto:dev@coopcycle.org">dev@coopcycle.org</a> .
+Nous sommes tout aussi intéressés par d’autres types de contributions : juridique, développement économique, sociologique, etc.), n’hésitez pas à nous envoyer un mail à <a href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>.
 
 #### Où puis-je consulter le code source ?
-Le code source est accessible sur GitHub : https://github.com/coopcycle/coopcycle-web
+Le code source est accessible sur GitHub : https://github.com/coopcycle/coopcycle-web .
 
 #### Quelle est la licence d'utilisation du logiciel ?
 Le logiciel est protégé par la Peer Production Licence, une licence anti-capitaliste conçue par la Peer2Peer Fundation. Elle introduit un critère de réciprocité dans le commun et donne l’accès exclusif à des coopératives pour l’usage commercial de la plateforme.
@@ -81,7 +81,7 @@ Le logiciel est protégé par la Peer Production Licence, une licence anti-capit
 Bien que cela soit une idée intéressante, nous n'utilisons pas la blockchain car nous ne pensons pas que son utilisation soit pertinente dans le cadre de notre projet.
 
 #### J'écris un article, où puis-je trouver le dossier de presse ?
-Nous mettrons bientôt en place un kit de presse destiné aux journalistes. En attendant, veuillez formuler votre demande à contact@coopcycle.org
+Nous mettrons bientôt en place un kit de presse destiné aux journalistes. En attendant, veuillez formuler votre demande à <a href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>.
 
 
 
