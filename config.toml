@@ -19,8 +19,8 @@ name = "Demo"
 weight = 4
 identifier = "Demo"
 url = "https://demo.coopcycle.org"
-pre = '<button class="btn btn-primary btn-sm">'
-post = "</button>"
+pre = '<strong><i class="fa fa-laptop fa-lg"></i>  '
+post = '</strong>'
 
 ### French
 
@@ -29,20 +29,18 @@ title = "CoopCycle - Logiciel de plateforme logistique open source. Seulement po
 description = "CoopCycle est un logiciel open source permettant de gérer une plateforme logistique."
 
 [[Languages.fr.menu.main]]
-name = "Démo"
-weight = 4
-identifier = "Demo"
-url = "https://demo.coopcycle.org"
-pre = '<button class="btn btn-primary btn-sm">'
-post = "</button>"
-
-[[Languages.fr.menu.main]]
 name = "Blog"
 weight = 3
 identifier = "blog"
 url = "https://blogs.mediapart.fr/coopcycle"
 
-[Languages.fr.Taxonomies]
+[[Languages.fr.menu.main]]
+name = "Démo"
+weight = 4
+identifier = "Demo"
+url = "https://demo.coopcycle.org"
+pre = '<strong><i class="fa fa-laptop fa-lg"></i>  '
+post = '</strong>'
 
 ### Spanish
 
@@ -51,9 +49,9 @@ title = "CoopCycle - Software open source de plataforma logística. Solo para co
 description = "CoopCycle es un software open source para administrar una plataforma logística."
 
 [[Languages.es.menu.main]]
-name = "Demo"
+name = 'Demostración'
 weight = 4
 identifier = "Demo"
 url = "https://demo.coopcycle.org"
-pre = '<button class="btn btn-primary btn-sm">'
-post = "</button>"
+pre = '<strong><i class="fa fa-laptop fa-lg"></i>  '
+post = '</strong>'
