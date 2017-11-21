@@ -2,7 +2,7 @@
 draft = false
 title = "FAQ"
 description = "Questions fréquentes"
-lang = "en"
+lang = "fr"
 slug = "faq"
 menu = "main"
 weight = 3
