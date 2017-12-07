@@ -4,6 +4,9 @@ theme = "coopcycle"
 DefaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 
+[blackfriday]
+extensions = ["hardLineBreak"]
+
 [Taxonomies]
 
 [Languages]
