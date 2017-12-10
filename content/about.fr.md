@@ -9,10 +9,8 @@ slug = "a-propos"
 +++
 
 Depuis quelques années, les plateformes de livraison de repas ont fleuri dans les grandes villes.
-<br>
 La stratégie ? Une croissance rapide et exponentielle pour occuper le marché,
 dans l'espoir d'obtenir le monopole et racheter ses concurrents.
-<br>
 Elles ont presque toutes un point commun : avoir recours à des **auto-entrepreneurs** pour assurer les livraisons.
 
 C'est ce que l'on nomme l'_ubérisation_ :
@@ -22,7 +20,6 @@ ce qui permet de disposer d'une main d'oeuvre extrêmement flexible et peu chèr
 et d'externaliser les risques.
 
 Le modèle de l'entrepreneur individuel se généralise à l'ensemble de la société.
-<br>
 Les individus sont plus isolés et moins bien protégés, et ont plus de mal à se regrouper.
 
 **Mais ce n'est pas une fatalité**
@@ -56,7 +53,6 @@ basé sur la _réciprocité_ : vous pouvez l'utiliser à condition de vous organ
 L'idée, c'est que la plateforme de mise en relation soit un bien commun, c'est à dire un bien qui n'appartient à personne, car il appartient à tout le monde. Celles et ceux qui l'utilisent ont tout intérêt à l'entretenir.
 
 L'explosion de la livraison à vélo est une aubaine pour le développement d'une logistique urbaine propre.
-<br>
 La coopérative nous semble un bon moyen de _pérenniser_ cette activité locale et non-délocalisable.
 
 <!-- **Plein de coopératives**

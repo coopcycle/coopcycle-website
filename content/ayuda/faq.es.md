@@ -9,7 +9,6 @@ weight = 3
 +++
 
 Aquí encontrará una respuesta a las preguntas más frecuentes.
-<br>
 ¿No puedes encontrar la respuesta a tu pregunta? Envíenos un correo electrónico a <a href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>.
 
 #### Que es Coopcycle ?
@@ -21,7 +20,6 @@ Aparte del software, también desarrollamos un discurso en contra de la uberizac
 #### ¿Cómo se pronuncia?
 
 Con el acento francès se pronuncia **[kɔpsikl]**
-<br>
 Pero también se puede decir **[koʊˌɑp saɪkəl]** si te sientes como el John Wayne.
 
 #### ¿Qué aporta el proyecto Coopcycle a un repartidor?

@@ -7,7 +7,6 @@ slug = "como-usar-la-demostracion"
 +++
 
 Una instalación de demostración de la plataforma está disponible en [demo.coopcycle.org](demo.coopcycle.org)
-<br>
 ⚠️ **Cuidado** : la instalación de demostración se inicializa cada noche.
 
 ### Roles de usuarios
@@ -15,19 +14,14 @@ Una instalación de demostración de la plataforma está disponible en [demo.coo
 Múltiples roles están disponibles para permitir o restringir el acceso a las funciones..
 
 **Administrador** : puede acceder a todas la funciones de la plataforma.
-<br>
 **Restaurante** : puede gestionar uno o varios restaurantes.
-<br>
 **Repartidor** : puede ver sus estadísticas y acceder a la aplicación.
-<br>
 **Usuario** : puede hacer pedidos y acceder a su espacio personal.
 
 ### Cuentas de demostración
 
 Cuentas de usuario están disponibles por defecto en la instalación de demostración.
-<br>
 Cada noche, 100 restaurantes estan creados aleatoriamente, así que 50 usuarios y 50 repartidores.
-<br>
 Puedes [identificarte](https://demo.coopcycle.org/login/) inmediatamente usando los identificadores debajo.
 
 <table class="table">

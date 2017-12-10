@@ -12,7 +12,6 @@ type = "press"
 📢 📢 📢
 
 This year, some articles have been published in blogs and in the press about our project :)
-
 In french, sorry
 
 📢 📢 📢

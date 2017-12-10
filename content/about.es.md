@@ -9,10 +9,8 @@ slug = "a-proposito"
 +++
 
 Desde hace unos años, plataformas de encarga de comida se han multiplicado en las grandes ciudades.
-<br>
 ¿Su estrategia? Crecimiento rápido y exponencial para ocupar el mercado,
 con la esperanza de obtener un monopolio y entonces comprar a sus competidores.
-<br>
 Casi todos tienen una cosa en común: usar **autoempresarios** para repartir las entregas.
 
 Esto es lo que se llama _uberización_ :
@@ -22,7 +20,6 @@ lo cual hace posible tener una fuerza de trabajo extremadamente flexible y econ�
 y también de externalizar los riesgos.
 
 El modelo de emprendedor individual se está extendiendo a toda la sociedad.
-<br>
 Los individuos están más aislados y menos protegidos, y les resulta más difícil reunirse.
 
 **Pero no es una fatalidad**
@@ -56,5 +53,4 @@ basado en la _reciprocidad_: puedes usarlo siempre que organizas una cooperativa
 La idea es que la plataforma de conexión es un bien común, es decir una propiedad que no pertenece a nadie, porque pertenece a todos. Quienes lo usan tienen todo el interés en mantenerlo.
 
 El crecimiento de la entrega por bicicletas es una oportunidad para el desarrollo de una logística urbana limpia.
-<br>
 La cooperativa nos parece una buena forma de hacer _sostenible_ esta actividad local y no deslocalizable.
