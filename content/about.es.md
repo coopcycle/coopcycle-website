@@ -46,9 +46,7 @@ estableciendo plataformas bajo el estatuto jurídico de la **cooperativa**.
 
 No estamos solos al pensar que es posible, incluso para [música](https://resonate.is/) o [microblogging](https://www.theguardian.com/commentisfree/2016/sep/29/save-twitter-buy-platform-shared-ownership).
 
-Para alentar la aparición de plataformas cooperativas en el sector de la entrega,
-decidimos crear un software **de código abierto**,
-basado en la _reciprocidad_: puedes usarlo siempre que organizas una cooperativa.
+Para alentar la aparición de plataformas cooperativas en el sector de la entrega, decidimos crear un software **de código abierto**, basado en la _reciprocidad_: puedes usarlo siempre que organizas una cooperativa.
 
 La idea es que la plataforma de conexión es un bien común, es decir una propiedad que no pertenece a nadie, porque pertenece a todos. Quienes lo usan tienen todo el interés en mantenerlo.
 

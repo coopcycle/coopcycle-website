@@ -46,9 +46,7 @@ en mettant en place des plateformes sous le statut juridique de la **coopérativ
 
 Nous ne sommes pas les seuls à penser que c'est possible, y compris pour la [musique](https://resonate.is/) ou le [micro-blogging](https://www.theguardian.com/commentisfree/2016/sep/29/save-twitter-buy-platform-shared-ownership).
 
-Afin d'encourager l'émergence de plateformes coopératives dans le secteur de la livraison,
-nous avons décidé de créer un logiciel **open-source**,
-basé sur la _réciprocité_ : vous pouvez l'utiliser à condition de vous organiser en coopérative.
+Afin d'encourager l'émergence de plateformes coopératives dans le secteur de la livraison, nous avons décidé de créer un logiciel **open-source**, basé sur la _réciprocité_ : vous pouvez l'utiliser à condition de vous organiser en coopérative.
 
 L'idée, c'est que la plateforme de mise en relation soit un bien commun, c'est à dire un bien qui n'appartient à personne, car il appartient à tout le monde. Celles et ceux qui l'utilisent ont tout intérêt à l'entretenir.
 

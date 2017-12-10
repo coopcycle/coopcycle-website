@@ -43,9 +43,7 @@ Through the digital economy, we may have a chance to socialize the production ca
 
 Other people have the same idea in different activities, such as [music streaming](https://resonate.is/) or [microblogging](https://www.theguardian.com/commentisfree / 2016 / September / 29 / save-twitter-buy-platform-shared-ownership).
 
-In order to promote the emergence of cooperative platforms in the delivery sector,
-we decided to create an **open-source** software,
-based on reciprocity: you have to organize as a cooperative to commercialize it.
+In order to promote the emergence of cooperative platforms in the delivery sector, we decided to create an **open-source** software, based on reciprocity: you have to organize as a cooperative to commercialize it.
 
 The idea is that the platform is a common good, which means it belongs to no one, because anyone can use it. Those who use it have a vested interest in maintaining it.
 
