@@ -9,7 +9,6 @@ weight = 3
 +++
 
 Vous trouverez ici une réponse aux questions les plus souvent posées.
-<br>
 Vous ne trouvez pas la réponse à votre question ? Envoyez-nous un email à <a href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>.
 
 #### Qu'est-ce que Coopcycle ?
@@ -21,7 +20,6 @@ Outre le logiciel, nous développons également un discours contre l’uberisati
 #### On prononce comment ?
 
 Avec l’accent français on prononce **[kɔpsikl]**
-<br>
 Mais vous pouvez également le prononcer **[koʊˌɑp saɪkəl]** pour avoir la classe tel Georges Abitbol.
 
 #### Qu'apporte le projet Coopcycle à un livreur ?
