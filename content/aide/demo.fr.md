@@ -6,7 +6,9 @@ lang = "fr"
 slug = "comment-utiliser-la-demo"
 +++
 
-Une installation de démonstration de la plateforme est disponible à l'adresse [demo.coopcycle.org](demo.coopcycle.org)
+
+Une installation de démonstration de la plateforme est disponible à l'adresse [demo.coopcycle.org](https://demo.coopcycle.org)
+
 ⚠️ **Attention** : l'installation de démonstration est réinitialisée toutes les nuits.
 
 ### Rôles utilisateur
@@ -22,7 +24,10 @@ Plusieurs rôles sont disponibles, permettant d'autoriser ou de restreindre l'ac
 
 Des comptes utilisateur sont disponibles par défaut sur l'installation de démonstration.
 Chaque nuit, 100 restaurants aléatoires sont créés, ainsi que 50 utilisateurs et 50 coursiers.
-Vous pouvez [vous identifier](https://demo.coopcycle.org/login/) immédiatement en utilisant les identifiants ci-dessous.
+
+
+Vous pouvez [vous identifier](https://demo.coopcycle.org/login) immédiatement en utilisant les identifiants ci-dessous.
+
 
 <table class="table">
   <thead>

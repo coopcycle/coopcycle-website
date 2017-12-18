@@ -6,7 +6,9 @@ lang = "en"
 slug = "how-to-use-the-demo"
 +++
 
-A demo instance of the platform is available here [demo.coopcycle.org](demo.coopcycle.org)
+A demo instance of the platform is available here [demo.coopcycle.org](https://demo.coopcycle.org)
+
+
 ⚠️ **Warning** : the demo instance is initialized every night.
 
 ### User roles
@@ -22,7 +24,10 @@ Several roles are availale, allowing or restricting access to features.
 
 User accounts are available by default on the demo instance.
 Each night, 100 random restaurants are created, as well as 50 users and 50 couriers.
-You can [log in](https://demo.coopcycle.org/login/) right away by using the identifiers below.
+
+
+You can [log in](https://demo.coopcycle.org/login) right away by using the identifiers below.
+
 
 <table class="table">
   <thead>
