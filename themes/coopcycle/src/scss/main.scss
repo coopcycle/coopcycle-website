@@ -3,12 +3,58 @@
  * See: http://v4-alpha.getbootstrap.com/examples/blog/blog.css
  */
 
+body, p {
+  color: $dark;
+}
+
 a {
   color: $link-color;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
 .navbar {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+// TO-DO : check why this is not included in bootstrap
+.show > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  color: $red;
+}
+
+.dropdown {
+  border-left: 1px solid $grey;
+}
+
+.dropdown a {
+  color: inherit;
+  cursor: pointer;
+}
+
+/*
+ * Utils
+ */
+
+.no-mobile {
+  @include media-breakpoint-down(xs) {
+    display: none!important
+  }
+}
+
+.no-desktop {
+  @include media-breakpoint-up(sm) {
+    display: none!important
+  }
 }
 
 /*
@@ -16,24 +62,70 @@ a {
  */
 
 .blog-masthead {
-  margin-bottom: 3rem;
-  background-color: #428bca;
-  -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
-          box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
+  margin-bottom: 40px;
+  background-color: $white;
+  border-bottom: 1px solid $dark;
 
-  .nav-item {
-    margin-left: 10px;
+  .navbar {
+    padding: 0.5rem 1.5rem;
   }
 
-  .btn-sm {
-    line-height: 1;
+  .navbar-light .navbar-nav .nav-link {
+    color: $dark;
+    transition: color 0.2s;
 
-    .nav-link {
-      color: #fff;
+  }
 
-      &:hover {
-        color: #fff;
+  .navbar-nav__pages {
+    .nav-item > .nav-link {
+      position: relative;
+    }
+
+    .nav-item.active > .nav-link {
+      color: $red;
+    }
+
+    .nav-item > .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      background-color: $red;
+      display: block;
+      height: 4px;
+
+      transform: scale(0, 1);
+      transition: all 400ms cubic-bezier(.45,1,.32,1);
+    }
+
+    .nav-item > .nav-link:hover {
+      &::after {
+        transform: scale(1, 1);
       }
+    }
+  }
+
+  .brand-name {
+    line-height: 40px;
+    margin-left: 5px;
+  }
+
+  .navbar-toggler {
+    padding: 0;
+    border: none;
+  }
+
+  .mobile-trad {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    border-top: 1px solid $grey;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .navbar-brand {
+      margin: auto;
     }
   }
 }
@@ -44,33 +136,22 @@ a {
 
 .btn {
   cursor: pointer;
+  background-color: $red;
+  padding: 6px 20px;
+  border-radius: 0;
+  min-width: 200px;
+  color: $white!important;
 }
 
-/*
- * Blog name and description
- */
-
-.blog-header {
-  padding-bottom: 1.25rem;
-  margin-bottom: 2rem;
-  border-bottom: .05rem solid #eee;
-}
-.blog-title {
-  margin-bottom: 0;
-  font-size: 2rem;
-  font-weight: normal;
-}
-.blog-description {
-  font-size: 1.1rem;
-  color: #999;
+.btn:hover {
+  color: $white;
+  background-color: $dark-red;
 }
 
-@media (min-width: 40em) {
-  .blog-title {
-    font-size: 3.5rem;
-  }
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
-
 
 /*
  * Blog posts
@@ -98,14 +179,36 @@ article img {
  */
 
 .blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
+  padding: 10px 0;
+  color: $white;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+  background-color: $red;
+
+  .nav {
+    display: block;
+  }
+
+  .nav-item {
+    display: inline-block;
+  }
+
+  .nav-link {
+    display: inline-block;
+    color: $white;
+  }
+
+  .nav-link .fa {
+    font-size: 22px;
+  }
 }
-.blog-footer p:last-child {
-  margin-bottom: 0;
+
+#footer-mediapart {
+  background-image: url('../svg/mediapart.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+  height: 20px;
+  width: 32px;
 }
 
 .twitter-tweet {
@@ -123,15 +226,6 @@ article img {
   margin: 25px 0 15px;
 }
 
-#pattern {
-  margin-top: -3rem;
-  padding: 4rem 0;
-  background-color: #ecf0f1;
-  background-image: url(../svg/pattern.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
 
 #tracking-demo {
   background-color: #111;
@@ -143,6 +237,40 @@ article img {
   padding: 2.5rem 0;
 }
 
+.blog-masthead__homepage {
+  margin: 0;
+}
+
+.homepage-banner {
+  width: 100%;
+}
+
+.homepage-banner--btn-picture {
+  display: block;
+  height: 100px;
+  margin: 20px auto 10px;
+}
+
+.homepage-banner--btn-left {
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  @media (max-width: 767px) {
+    float: none;
+    margin: 20px auto 0;
+  }
+}
+
+.homepage-banner--btn-right {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  @media (max-width: 767px) {
+    float: none;
+    margin: 20px auto 0;
+  }
+}
+
 .homepage-description {
   max-width: 60%;
   margin: 0 auto;
@@ -150,22 +278,36 @@ article img {
   color: #fff;
 }
 
-.homepage-card {
-  padding: 0 40px;
+.homepage-banner--headline {
+  margin-top: 10px;
+  padding: 0 5px;
+}
+
+.homepage-card-container {
   margin: 40px 0;
-  > h2 {
-    margin: 30px 0;
-  }
-  > p {
-    font-size: 16px;
-  }
+}
+
+.homepage-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .homepage-subscribe-wrapper {
   margin: 20px auto;
   width: 800px;
+  height: 250px;
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    height: 400px;
+  }
 }
 
+#organization {
+  background-color: $red;
+}
 
 /**
  * Press
@@ -197,12 +339,4 @@ article img {
 .press-separator {
   text-align: center;
   padding: 20px 0;
-}
-
-.label {
-  font-weight: 400;
-}
-
-.blog-masthead {
-  background-color: #e7e7e7;
 }
