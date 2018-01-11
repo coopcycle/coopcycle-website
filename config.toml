@@ -17,14 +17,6 @@ extensions = ["hardLineBreak"]
 title = "CoopCycle - Open source logistics platform software. Only for worker-owned business."
 description = "CoopCycle is an open source software for running a logistics platform."
 
-[[Languages.en.menu.main]]
-name = "Demo"
-weight = 4
-identifier = "Demo"
-url = "https://demo.coopcycle.org"
-pre = '<strong><i class="fa fa-laptop fa-lg"></i>  '
-post = '</strong>'
-
 ### French
 
 [Languages.fr]
@@ -37,24 +29,8 @@ weight = 4
 identifier = "blog"
 url = "https://blogs.mediapart.fr/coopcycle"
 
-[[Languages.fr.menu.main]]
-name = "Démo"
-weight = 5
-identifier = "Demo"
-url = "https://demo.coopcycle.org"
-pre = '<strong><i class="fa fa-laptop fa-lg"></i>  '
-post = '</strong>'
-
 ### Spanish
 
 [Languages.es]
 title = "CoopCycle - Software open source de plataforma logística. Solo para cooperativas."
 description = "CoopCycle es un software open source para administrar una plataforma logística."
-
-[[Languages.es.menu.main]]
-name = 'Demostración'
-weight = 4
-identifier = "Demo"
-url = "https://demo.coopcycle.org"
-pre = '<strong><i class="fa fa-laptop fa-lg"></i>  '
-post = '</strong>'

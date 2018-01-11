@@ -42,41 +42,49 @@
 
 - id: headline
   translation: >
-    CoopCycle est une plateforme de
-    livraison.<br>
+    Socialisons les plateformes !
 
 - id: headlinesub
   translation: >
-      Elle est <strong>open-source</strong> et <strong>gratuite</strong> pour les coopératives de livreurs à vélo.
+      CoopCycle est une plateforme de livraison utilisable par les <strong>coopératives</strong> de livreurs à vélo.
       <br>
       Organisez-vous, nous fournissons la technologie !
 
-- id: ecosystem.title
-  translation: Un écosystème
+- id: whatis
+  translation: Qu'est-ce que CoopCycle ?
 
-- id: ecosystem.content
-  translation: >
-    Nous pensons qu'il est possible de s'organiser à l'échelle d'une ville sous la forme d'une coopérative de coursiers,
-    et fournir un service de logistique urbaine à taille humaine, et soucieux de l'environnement.
-    <br><br>
-    Nous créons un système de mise en relation que vous pouvez paramétrer et <strong>héberger vous-même</strong>,
-    sur votre propre serveur, et une application smartphone qui permettra de se connecter au serveur de son choix.
-    <br><br>
-    Nous souhaitons, à travers les expériences collectives locales,
-    constituer une base de connaissances qui permettra au modèle d'être répliqué facilement.
+- id: test_demo
+  translation: Tester la demo
 
 - id: digital_common.title
-  translation: Un bien commun
+  translation: Le logiciel
 
 - id: digital_common.content
   translation: >
-    Nous fournissons à ceux qui s'organisent une plateforme clé-en-main, sans investissement préalable en recherche & développement.
-    <br><br>
-    Ce que nous demandons en retour? <strong>Créez une coopérative.</strong> Le code source est placé sous une <a href="https://wiki.p2pfoundation.net/Peer_Production_License">licence à réciprocité</a>,
-    ce qui signifie qu'il ne peut être utilisé <strong>commercialement</strong> que dans le cadre d'une entreprise collective appartenant à ses travailleurs,
-    dans laquelle les bénéfices sont répartis équitablement.
-    <br><br>
-    La code source est <a href="https://github.com/coopcycle">accessible sur GitHub</a>. Vous souhaitez participer au développement? Contactez nous à <a href="mailto:dev@coopcycle.org">dev[at]coopcycle.org</a>.
+    <p>Nous développons un logiciel de mise en relation entre clients, commerçants et livreurs à vélo. Sur smartphone ou via votre navigateur vous pouvez passer commande et vous faire livrer. Les mêmes fonctionnalités que sur les plateformes propriétaires, mais dans un esprit diamétralement opposé !</p>
+    <p>CoopCycle est <strong>un bien commun numérique</strong>. Il appartient à tout ceux qui y contribuent (développeurs) et qui l’utilisent (coursiers, restaurateurs). Notre logiciel est placé sous <a href="http://wiki.p2pfoundation.net/Peer_Production_License">une licence à réciprocité de la Peer-to-peer Foundation</a>. Celle-ci limite son utilisation commerciale aux coopératives de travailleurs. Son utilisation est pour l’instant gratuite, nous souhaitons le faire financer par <strong>cotisation</strong>.</p>
+    <p>Vous pouvez le tester <a href="https://demo.coopcycle.org">ici</a>. Le code source du logiciel <a href="https://github.com/coopcycle/coopcycle-web">est accessible en ligne</a> et est développé activement par notre communauté - nous accueillons les nouveaux contributeurs avec plaisir!</p>
+
+- id: ecosystem.title
+  translation: Le réseau international
+
+- id: ecosystem.content
+  translation: >
+    <p>
+    Autour du logiciel, CoopCycle élabore un projet <strong>économique et politique</strong>. Nous proposons une fédération de coopératives, regroupant les travailleurs du secteur. De nombreuses coopératives de coursiers se créent en France et en Belgique. Nous portons le projet d’une coopérative de livraison à Paris.
+    </p>
+    <p>
+    Le modèle coopératif permet aux travailleurs de reprendre le pouvoir. La valeur créé par l’activité est répartie équitablement entre les travailleurs, et est réinjectée dans l’économie locale. Revenir au salariat, c’est bénéficier de tous <strong>ses avantages sociaux</strong> : congés, assurance maladie, retraite.
+    </p>
+    <p>
+    Un développement local avec une union internationale, pour concurrencer des plateformes globales. Pour lutter, il faut s’unir. <strong>Mutualiser</strong> les moyens à notre disposition, dont le logiciel en tant qu’outil de production, pour bénéficier d’économies d’échelle. Mais aussi nos voix, afin de peser dans le débat public - <strong>montrons qu’il existe une alternative !</strong>
+    </p>
+
+- id: contribute
+  translation: Contribuer
+
+- id: organization
+  translation: Organisation
 
 - id: about_bots
   translation: >

@@ -1,21 +1,28 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const WebpackAssetsManifest = require('webpack-assets-manifest')
-const webpack = require('webpack')
 const path = require('path')
+const Uglify = require("uglifyjs-webpack-plugin")
 
 const cssFilename = process.env.NODE_ENV === 'production' ? 'css/[name].[contenthash].css' : 'css/[name].css'
+const jsFilename = process.env.NODE_ENV === 'production' ? 'js/[name].[chunkhash].js' : 'js/[name].js'
 
 let webpackConfig = {
   entry: {
     style: './src/scss/style.scss',
+    index: './src/scripts/index.js'
   },
   output: {
     publicPath: '/',
     path: path.join(__dirname, '/static'),
-    filename: cssFilename,
+    filename: jsFilename,
   },
   module: {
     loaders: [
+      {
+        test: /\.js$/,
+        include: __dirname + '/js',
+        loader: "babel-loader"
+      },
       {
         test: /\.scss$/,
         loader: ExtractTextPlugin.extract({
@@ -47,6 +54,7 @@ let webpackConfig = {
     ]
   },
   plugins: [
+    new Uglify(),
     new ExtractTextPlugin(cssFilename),
   ]
 };

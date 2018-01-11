@@ -1,4 +1,4 @@
 /public/
 /bin/
-
+node_modules/
 .idea/

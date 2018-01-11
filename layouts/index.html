@@ -1,41 +1,46 @@
 {{ define "main" }}
 
-<section id="pattern">
-  <div class="homepage-description">
-    <div class="text-center">
+<section>
+  <img class="homepage-banner no-mobile" src="{{ .Site.BaseURL }}/images/homepage-banner.jpg">
+  <img class="homepage-banner no-desktop" src="{{ .Site.BaseURL }}/images/homepage-banner-mobile.jpg">
+  <div class="homepage-banner--headline text-center">
       <h2 class="h2">{{ i18n "headline" | safeHTML }}</h2>
-    {{ i18n "headlinesub" | safeHTML }}
+      {{ i18n "headlinesub" | safeHTML }}
+  </div>
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img class="homepage-banner--btn-picture no-desktop" src="{{ .Site.BaseURL }}/images/megaphone.png">
+      <a href="#about" class="homepage-banner--btn-left btn">{{ i18n "whatis" | safeHTML }}</a>
+    </div>
+    <div class="col-md-6 text-center">
+      <img class="homepage-banner--btn-picture no-desktop" src="{{ .Site.BaseURL }}/images/courier.png">
+      <a target="_blank" href="https://demo.coopcycle.org" class="homepage-banner--btn-right btn">{{ i18n "test_demo" | safeHTML }}</a>
     </div>
   </div>
 </section>
+
 <section id="about">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="homepage-card">
-          <div class="text-center">
-            <img width="80" src="{{ .Site.BaseURL }}/svg/network.svg">
-          </div>
-          <h2 class="text-center">{{ i18n "ecosystem.title" }}</h2>
-          <p class="text-justify">
-          {{ i18n "ecosystem.content" | safeHTML }}
-          </p>
+    <div class="row homepage-card-container">
+      <div class="col-md-6 homepage-card">
+        <h2 class="text-center">{{ i18n "digital_common.title" }}</h2>
+        <p>
+          {{ i18n "digital_common.content" | safeHTML }}
+        </p>
+        <div class="text-center">
+          <a href="mailto:dev@coopcycle.org" class="btn">{{ i18n "contribute" | safeHTML }}</a>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="homepage-card">
-          <div class="text-center">
-            <img width="80" src="{{ .Site.BaseURL }}/svg/crowd.svg">
-          </div>
-          <h2 class="text-center">{{ i18n "digital_common.title" }}</h2>
-          <p class="text-justify">
-          {{ i18n "digital_common.content" | safeHTML }}
-          </p>
-        </div>
+      <div class="col-md-6 homepage-card">
+        <h2 class="text-center">{{ i18n "ecosystem.title" }}</h2>
+        <p>
+          {{ i18n "ecosystem.content" | safeHTML }}
+        </p>
       </div>
     </div>
   </div>
 </section>
+
 <section id="subscribe">
   <div class="homepage-subscribe-wrapper">
     <iframe
@@ -45,21 +50,9 @@
             marginwidth="0"
             src="{{ index $.Site.Data.newsletter .Lang }}"
             width="100%"
-            height="250"
+            height="100%"
             margin="auto"
     ></iframe>
-  </div>
-</section>
-<section id="tracking-demo">
-  <div class="container">
-    <div>
-      {{ i18n "about_bots" | safeHTML }}
-    </div>
-    <div id="map-wrapper">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="//demo.coopcycle.org/{{ .Lang }}/tracking/viz"></iframe>
-      </div>
-    </div>
   </div>
 </section>
 {{ end }}

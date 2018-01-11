@@ -42,40 +42,43 @@
 
 - id: headline
   translation: >
-    CoopCycle is a delivery platform.
+    We socialize platforms
 
 - id: headlinesub
   translation: >
-      The code is <strong>open-source</strong> and <strong>free to use</strong> by worker-owned courier co-ops.
+      CoopCycle is a delivery platform for <strong>worker-owned coops</strong>
       <br>
       Organize, we provide the technology!
 
+- id: whatis
+  translation: What is CoopCycle?
+
+- id: test_demo
+  translation: Test the demo
+
 - id: ecosystem.title
-  translation: An ecosystem
+  translation: The international network
 
 - id: ecosystem.content
   translation: >
-    We believe it is possible to organize at a city level in the form of a co-operative of couriers,
-    and provide a human-scale, environmentally conscious urban logistics service.
-    <br><br>
-    We create an order/dispatch system that you can set up and <strong>host yourself</strong>,
-    on your own server, and a smartphone app that will allow connecting to any server running the platform.
-    <br><br>
-    We want, through local collective experiences, to build a knowledge base that will allow the model
-    to be replicated easily.
+    <p>We want to build a whole <strong>political and economical ecosystem</strong> around the software, clashing with the one developed by the “gig economy” platforms. We are creating a <strong>federation of worker-owned cooperatives</strong>, which will use, own and manage the CoopCycle software. Many delivery cooperatives that share our values are already launching in France and in Belgium. We are ourselves working on a <strong>delivery cooperative in Paris</strong>.</p>
+    <p>We think that the <strong>cooperative</strong> is the best model to meet our goals: give back the power to the workers, by a democratic decision process and a fair profits sharing. Get back the <strong>social benefits</strong>: vacation, health insurance, retirement.</p>
+    <p>Our vision: cooperatives that are <strong>ran locally, united internationally</strong>, in order to compete with global platforms. Pool our resources, including the software as a mean of production, to get economy of scale. But also our voices, to show to everyone that there is indeed an alternative!</p>
 
 - id: digital_common.title
-  translation: A digital common
+  translation: The software
 
 - id: digital_common.content
   translation: >
-    We want to provide those who organize themselves with a technological base, without any prior investment in research and development.
-    <br><br>
-    The only thing we ask for in return? <strong>Create a worker owned co-operative.</Strong> The code is licensed under a
-    <a href="https://wiki.p2pfoundation.net/Peer_Production_License">reciprocity license</a>,
-    which means that it can only be used commercially by a company owned by its workers, where all profits are shared between worker-owners.
-    <br><br>
-    The code is <a href="https://github.com/coopcycle">available on GitHub</a>. You want to contribute to the opensource project? Contact us at <a href="mailto:dev@coopcycle.org">dev[at]coopcyle.org</a>.
+        <p>We are providing a software that enables customers to order and to be delivered by bicycle. Ordering is done thanks to our Android and iPhone apps or our website. Same functionalities as the gig economy platforms, but in a diametrically opposed spirit!</p>
+        <p>CoopCycle aims to become a <strong>numerical common well</strong>. It belongs to its users (couriers, shop owners) and its contributors (developers). They administer it democratically. Our software is ruled by a licence by the Peer-to-peer Foundation. It limits its commercial use to <strong>worker-owned coops</strong>. For now on, we are providing the software for free, in order to give the impulse of coops creation. Our goal is to finance it thanks to a <strong>contribution</strong>, which gives rights to use the software and to administer it.</p>
+        <p>You can test it <a href="https://demo.coopcycle.org">here</a>. The source code <a href="https://github.com/coopcycle/coopcycle-web">is available online</a> - we happily welcome new contributors!</p>
+
+- id: contribute
+  translation: Contribute
+
+- id: organization
+  translation: Organization
 
 - id: about_bots
   translation: >
