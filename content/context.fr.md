@@ -17,6 +17,8 @@ On ne cesse de vanter la santé économique du marché de la foodtech en pleine 
 <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
 <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+<script src="amcharts/plugins/responsive/responsive.min.js" type="text/javascript"></script>
+
 
 <!-- amCharts javascript code -->
 <script type="text/javascript", src="/charts.js">
