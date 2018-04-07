@@ -1,4 +1,4 @@
-AmCharts.makeChart("chartdiv",
+AmCharts.makeChart("chartdiv1",
 {
     "type": "serial",
     "hideCredits": true,
@@ -180,3 +180,196 @@ AmCharts.makeChart("chartdiv",
     ]
 }
 );
+
+var lineDataFirst = [
+    {
+      "dates": "2016-08",
+      "cumsum": 100
+    },
+    {
+      "dates": "2016-09",
+      "cumsum": 100
+    },
+    {
+      "dates": "2016-10",
+      "cumsum": 150
+    },
+    {
+      "dates": "2016-11",
+      "cumsum": 150
+    },
+    {
+      "dates": "2016-12",
+      "cumsum": 150
+    },
+    {
+      "dates": "2017-01",
+      "cumsum": 150
+    }
+  ] ;
+
+  var lineDataSec = [
+    {
+      "dates": "2017-02",
+      "cumsum": 250
+    },
+    {
+      "dates": "2017-03",
+      "cumsum": 410
+    },
+    {
+      "dates": "2017-04",
+      "cumsum": 425
+    },
+    {
+      "dates": "2017-05",
+      "cumsum": 505
+    },
+    {
+      "dates": "2017-06",
+      "cumsum": 575
+    },
+    {
+      "dates": "2017-07",
+      "cumsum": 775
+    }
+  ]
+var lineDataThird = [
+    {
+      "dates": "2017-08",
+      "cumsum": 967
+    },
+    {
+      "dates": "2017-09",
+      "cumsum": 967
+    },
+    {
+      "dates": "2017-10",
+      "cumsum": 992
+    },
+    {
+      "dates": "2017-11",
+      "cumsum": 1332
+    },
+    {
+      "dates": "2017-12",
+      "cumsum": 1332
+    },
+    {
+      "dates": "2018-01",
+      "cumsum": 1607
+    },
+    {
+      "dates": "2018-02",
+      "cumsum": 1657
+    }
+  ]
+  function makeLineChartAxis(name, data) {
+    AmCharts.makeChart(name,
+        {
+            "type": "serial",
+            "hideCredits": true,
+            "colors": [
+                "rgb(228,03,46)"
+            ],   
+            "categoryField": "dates",
+            "dataDateFormat": "YYYY-MM",
+            "theme": "default",
+            "categoryAxis": {
+                "equalSpacing": true,                
+                "minPeriod": "MM",
+                "parseDates": true
+            },
+            "chartCursor": {
+                "enabled": true,
+                "categoryBalloonDateFormat": "MMM YYYY"
+            },
+            "trendLines": [],
+            "graphs": [
+                {
+                    "balloonText": "[[value]] grévistes en [[category]]",                    
+                    "bullet": "round",
+                    "id": "AmGraph-1",
+                    "title": "graph 1",
+                    "valueField": "cumsum"
+                }
+            ],
+            "guides": [],
+            "valueAxes": [
+                {
+                    "id": "ValueAxis-1",
+                    "maximum": 1700,
+                    "minimum": 50,
+                    "autoGridCount": false,
+                    "title": "Nombre de grévistes en cumulé"
+                    
+                }
+            ],
+            "allLabels": [],
+            "balloon": {},
+            "legend": {
+                "enabled": false,
+                "useGraphSettings": true
+            },
+            "dataProvider": data
+        }
+        );
+    }
+
+function makeLineChartNoAxis(name, data) {
+    AmCharts.makeChart(name,
+        {
+            "type": "serial",
+            "hideCredits": true,
+            "colors": [
+                "rgb(228,03,46)"
+            ],   
+            "categoryField": "dates",
+            "dataDateFormat": "YYYY-MM",
+            "theme": "default",
+            "categoryAxis": {
+                "equalSpacing": true,                
+                "minPeriod": "MM",
+                "parseDates": true
+            },
+            "chartCursor": {
+                "enabled": true,
+                "categoryBalloonDateFormat": "MMM YYYY"
+            },
+            "trendLines": [],
+            "graphs": [
+                {
+                    "balloonText": "[[value]] grévistes en [[category]]",                    
+                    "bullet": "round",
+                    "id": "AmGraph-1",
+                    "title": "graph 1",
+                    "valueField": "cumsum",
+                    "showAllValueLabels": true                    
+                }
+            ],
+            "guides": [],
+            "valueAxes": [
+                {
+                    "id": "ValueAxis-1",
+                    "maximum": 1700,
+                    "minimum": 50,
+                    "autoGridCount": false,
+                    "color": "#FFFFFF",
+                    "axisColor": "#FFFFFF"
+                    
+                }
+            ],
+            "allLabels": [],
+            "balloon": {},
+            "legend": {
+                "enabled": false,
+                "useGraphSettings": true
+            },
+            "dataProvider": data
+        }
+        );
+    }
+    
+    var firstLine = makeLineChartAxis("line", lineDataFirst)
+    var secondLine = makeLineChartNoAxis("lineSec", lineDataSec)
+    var thirdLine = makeLineChartNoAxis("lineThird", lineDataThird)

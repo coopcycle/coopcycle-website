@@ -8,11 +8,6 @@ weight = 2
 slug = "contexte"
 type = "context"
 +++ 
-
-# Un secteur économique en pleine croissance ?
-
-On ne cesse de vanter la santé économique du marché de la foodtech en pleine croissance.
-
 <!-- amCharts javascript sources -->
 <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
@@ -23,8 +18,39 @@ On ne cesse de vanter la santé économique du marché de la foodtech en pleine 
 <!-- amCharts javascript code -->
 <script type="text/javascript", src="/charts.js">
 </script>
-<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+# Une situation sociale tendue
+
+<div >
+    <center>
+    Nombre de grévistes
+    </center>
+</div>
+<div class = "graph-container">
+    <div class= "graph-column colum-one">
+            <div  id="line" style="width: 100%; height: 400px; background-color: #FFFFFF;" >
+            </div>
+        </div>
+    <div class= "graph-column colum-two">
+            <div id="lineSec" style="width: 100%; height: 400px; background-color: #FFFFFF;" > 
+            </div>
+        </div>
+    <div class= "graph-column colum-three">
+            <div id="lineThird" style="width: 100%; height: 400px; background-color: #FFFFFF;" > 
+            </div>
+        </div>
+  </div>
+
+
+
+# Un secteur économique en pleine croissance ?
+
+On ne cesse de vanter la santé économique du marché de la foodtech en pleine croissance.
+
+
+<div id="chartdiv1" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+
 
 # En bref
 
 <img src = "/images/context/comic.png" class = "img-responsive">
+
