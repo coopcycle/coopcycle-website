@@ -17,7 +17,7 @@ AmCharts.makeChart("chartdiv1",
     "marginRight": 44,
     "plotAreaFillColors": "#FFFF",
     "colors": [
-        "rgb(228,03,46)"
+        "rgb(38,196,237)"
     ],
     "startDuration": 1,
     "autoResize": false,
@@ -278,6 +278,8 @@ var lineDataThird = [
             "categoryAxis": {
                 "equalSpacing": true,                
                 "minPeriod": "MM",
+                "boldLabels": true,
+                "fontSize": 15,    
                 "parseDates": true
             },
             "chartCursor": {
@@ -330,6 +332,8 @@ function makeLineChartNoAxis(name, data) {
             "categoryAxis": {
                 "equalSpacing": true,                
                 "minPeriod": "MM",
+                "boldLabels": true,
+                "fontSize": 15,                
                 "parseDates": true
             },
             "chartCursor": {
