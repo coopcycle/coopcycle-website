@@ -83,6 +83,9 @@
 - id: contribute
   translation: Contribuir
 
+- id: donate
+  translation: Hacer una donación
+
 - id: organization
   translation: Organización
 
