@@ -58,8 +58,6 @@ type = "context"
   </div>
 
 
-
-
 # Un secteur économique en pleine croissance ?
 
 On ne cesse de vanter la santé économique du marché de la foodtech en pleine croissance.
@@ -68,6 +66,8 @@ On ne cesse de vanter la santé économique du marché de la foodtech en pleine 
 <div id="chartdiv1" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
 
 
+ <div id="deliveroo" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+ 
 # En bref
 
 <img src = "/images/context/comic.png" class = "img-responsive">

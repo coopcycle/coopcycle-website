@@ -15,6 +15,7 @@ AmCharts.makeChart("chartdiv1",
     "marginBottom": 28,
     "marginLeft": 126,
     "marginRight": 44,
+    "fontSize": 13,            
     "plotAreaFillColors": "#FFFF",
     "colors": [
         "rgb(38,196,237)"
@@ -38,7 +39,7 @@ AmCharts.makeChart("chartdiv1",
         "autoGridCount": false,
         "boldLabels": true,
         "fillColor": "#070710",
-        "fontSize": 10,
+        "fontSize": 12,
         "gridColor": "#070710",
         "labelRotation": 12.6,
         "minVerticalGap": 75,
@@ -90,11 +91,11 @@ AmCharts.makeChart("chartdiv1",
     "allLabels": [
         {
             "bold": true,
-            "color": "#FFFFFF",
+            "color": "#070710",
             "id": "label1",
             "tabIndex": 1,
             "text": "107117%",
-            "x": "78%",
+            "x": "88%",
             "y": "19%"
         },
         {
@@ -112,17 +113,24 @@ AmCharts.makeChart("chartdiv1",
     },
     "legend": {
         "enabled": true,
-        "bottom": 0,
         "labelText": "Taux de croissance en 2017",
+        "align": "center",        
+        "fontSize": 16,        
+        "autoMargins": true,
         "labelWidth": 0,
-        "left": -5,
-        "right": 0,
         "rollOverColor": "#2C2CEB",
         "rollOverGraphAlpha": 0,
         "tabIndex": -1,
         "textClickEnabled": true,
         "useGraphSettings": true,
-        "valueWidth": 43
+        "valueWidth": 43,
+		"bottom": 0,
+		"marginLeft": 0,
+		"marginRight": 0,
+		"position": "bottom",
+        "right": 0,
+        "left": 250,
+		"top": 170
     },
     "titles": [
         {
@@ -377,3 +385,130 @@ function makeLineChartNoAxis(name, data) {
     var firstLine = makeLineChartAxis("line", lineDataFirst)
     var secondLine = makeLineChartNoAxis("lineSec", lineDataSec)
     var thirdLine = makeLineChartNoAxis("lineThird", lineDataThird)
+
+
+    var datadeliveroo = [
+        {
+            "date": "2014-05",
+            "funds": "",
+            "income": "?",
+            "loss": "?"
+          },
+        {
+          "date": "2014-06",
+          "funds": 2.7,
+          "income": "?",
+          "loss": "?"
+        },
+        {
+          "date": "2015-01",
+          "funds": 25,
+          "income": 18.1,
+          "loss": -30.1
+        },
+        {
+          "date": "2015-07",
+          "funds": 70,
+          "income": 18.1,
+          "loss": -30.1
+        },
+        {
+          "date": "2015-08",
+          "funds": 100,
+          "income": 18.1,
+          "loss": -30.1
+        },
+        {
+          "date": "2016-07",
+          "funds": 275,
+          "income": 128.6,
+          "loss": -129.1
+        },
+        {
+            "date": "2016-12",
+            "funds": "?",
+            "income": 128.6,
+            "loss": -129.1
+          },
+        {
+          "date": "2017-08",
+          "funds": 385,
+          "income": "?",
+          "loss": "?"
+        }
+      ]
+    
+    AmCharts.makeChart("deliveroo",
+        {
+            "type": "serial",
+            "hideCredits": true,
+            "categoryField": "date",
+            "dataDateFormat": "YYYY-MM",
+            "startDuration": 1,
+            "connect": false,
+            "fontFamily": "Open Sans",            
+            "categoryAxis": {
+                "gridPosition": "start",
+                "parseDates": true,
+                "autoGridCount":true
+            },
+            "chartCursor": {
+                "enabled": true,
+                "cursorColor": " #8c8c8c"
+            },
+            "trendLines": [],
+            "valueAxes": [
+                {
+                    "id": "ValueAxis-1",
+                    "title": "Montant en millions de dollars"
+                }
+            ],
+            "graphs": [
+                {
+                    "fillAlphas": 1,
+                    "id": "AmGraph-1",
+                    "title": "Levée de fonds",
+                    "type": "column",
+                    "valueField": "funds",
+                    "lineColor":"#063a47",
+                    "balloonText": "[[title]] de [[value]]md $"
+                 
+                        },
+                {
+                    "id": "AmGraph-2",
+                    "title": "Chiffre d'affaire",
+                    "valueField": "income",
+                    "lineThickness": 2,
+                    "lineColor":"#0f9abd",
+                    "balloonText": "[[title]] de [[value]]md $"
+                    
+                },
+                {
+                    "id": "AmGraph-3",
+                    "title": "Résultat",
+                    "valueField": "loss",
+                    "lineThickness": 3,
+                    "lineColor": "#fb0431",
+                    "balloonText": "[[title]] de [[value]]md $"
+                    
+                    
+                }
+            ],
+            "guides": [],
+
+            "allLabels": [],
+            "balloon": {},
+            "legend": {
+                "enabled": true,
+                "align": "center"
+            },
+            "titles": [
+                {
+                    "id": "Title-1",
+                    "size": 20,
+                    "text": "L'art du trompe-l'oeil par Deliveroo: toujours plus de fonds, toujours plus de pertes"
+                }
+            ],
+            "dataProvider": datadeliveroo
+        }
+    );
