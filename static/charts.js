@@ -2,8 +2,6 @@ AmCharts.makeChart("chartdiv1",
 {
     "type": "serial",
     "hideCredits": true,
-    "responsive": {
-        "enabled": true},
     "categoryField": "category",
     "columnSpacing": 500,
     "columnSpacing3D": -6,
@@ -12,6 +10,7 @@ AmCharts.makeChart("chartdiv1",
     "rotate": true,
     "zoomOutOnDataUpdate": false,
     "autoMarginOffset": 13,
+    "autoDisplay": true,    
     "marginBottom": 28,
     "marginLeft": 126,
     "marginRight": 44,
@@ -280,6 +279,7 @@ var lineDataThird = [
             "colors": [
                 "rgb(228,03,46)"
             ],   
+            "fontFamily": "Open Sans",            
             "categoryField": "dates",
             "dataDateFormat": "YYYY-MM",
             "theme": "default",
@@ -337,6 +337,7 @@ function makeLineChartNoAxis(name, data) {
             ],   
             "categoryField": "dates",
             "dataDateFormat": "YYYY-MM",
+            "fontFamily": "Open Sans",            
             "theme": "default",
             "categoryAxis": {
                 "equalSpacing": true,                
@@ -445,6 +446,7 @@ function makeLineChartNoAxis(name, data) {
             "hideCredits": true,
             "categoryField": "date",
             "dataDateFormat": "YYYY-MM",
+            "fontFamily": "Open Sans",            
             "startDuration": 1,
             "connect": false,
             "fontFamily": "Open Sans",            
@@ -513,3 +515,155 @@ function makeLineChartNoAxis(name, data) {
             "dataProvider": datadeliveroo
         }
     );
+
+var dataWageIdeal = [
+    {
+      "category": "Salaire net",
+      "part": 48,
+      "color": "#f8e0a0"
+    },
+    {
+      "category": "Charges salariales",
+      "part": 25,
+      "color": "#f1c241"
+    },
+    {
+      "category": "Congés payés",
+      "part": 10,
+      "color": "#d5a110"
+    },
+    {
+      "category": "Assurance (vélo + responsabilité civile)",
+      "part": 10,
+      "color": "#be8f0e"
+    },
+    {
+      "category": "Accident (arrêt de travail)",
+      "part": 5,
+      "color": "#8e6b0b"
+    },
+    {
+      "category": "Jour férié",
+      "part": 2,
+      "color": "#775909"
+    }
+  ]
+
+var wage_ideal = AmCharts.makeChart("wage_ideal",
+    {
+        "type": "pie",
+        "hideCredits": true,  
+        "fontFamily": "Open Sans",        
+        "balloonText": "",
+        "autoDisplay": true,
+        "innerRadius": "80%",
+        "minRadius": 5,
+        "pieX": "50%",
+        "pieY": "50%",
+        "radius": "20%",
+        "fontSize": 13,        
+        "pullOutEffect": "easeOutSine",
+        "pullOutOnlyOne": true,
+        "startAngle": 320,
+        "maxLabelWidth": 196,
+        "titleField": "category",
+        "valueField": "part",
+        "colorField": "color",
+        "theme": "light",
+        "hoverAlpha":0.9,
+        "precision":0,
+        "percentPrecision":0,
+        "labelText": "[[title]]: \n [[percents]]%",
+        "allLabels": [
+            {
+                "bold": true,
+                "id": "Label-2",
+                "text": "Salaire brut :",
+                "size": 15,
+                "x": "43%",
+                "y": "45%"
+            },
+            {
+                "bold": true,
+                "id": "Label-1",
+                "text": "15.95 €",
+                "size": 15,
+                "x": "47%",
+                "y": "50%"
+            }
+        ],
+        "balloon": {},
+        "titles": [
+            {
+                "id": "Title-1",
+                "text": "Estimation du salaire brut juste \n (fondée sur le SMIC)",
+                "size": 18
+                
+                
+            }
+        ],
+        "dataProvider": dataWageIdeal
+    }
+);
+
+AmCharts.makeChart("wage_real",
+{
+    "type": "pie",
+    "hideCredits": true,  
+    "fontFamily": "Open Sans",        
+    "balloonText": "",
+    "labelText": "[[title]]: [[percents]]",    
+    "autoDisplay": true,
+    "innerRadius": "85%",
+    "minRadius": 5,
+    "pieX": "50%",
+    "pieY": "50%",
+    "radius": "20%",
+    "pullOutEffect": "easeOutSine",
+    "pullOutOnlyOne": true,
+    "startAngle": 320,
+    "maxLabelWidth": 196,
+    "titleField": "category",
+    "valueField": "part",
+    "colorField": "color",
+    "labelsEnabled": false,    
+    "hoverAlpha":0.9,
+    "precision":0,
+    "percentPrecision":0,
+    "allLabels": [
+        {
+            "bold": true,
+            "id": "Label-2",
+            "text": "Salaire brut :",
+            "size": 15,
+            "x": "43%",
+            "y": "45%"
+        },
+        {
+            "bold": true,
+            "id": "Label-1",
+            "text": "7 - 14€",
+            "size": 15,
+            "x": "47%",
+            "y": "50%"
+        }
+    ],
+    "balloon": {},
+    "titles": [
+        {
+            "id": "Title-1",
+            "text": "Estimation du salaire brut actuel \n (Foodora)",
+            "size": 18
+            
+            
+        }
+    ],
+    "dataProvider": [
+        {
+          "category": "",
+          "part": 100,
+          "color": "#eeb516"
+        }
+    ]
+}
+);

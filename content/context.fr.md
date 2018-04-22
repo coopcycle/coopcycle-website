@@ -18,7 +18,7 @@ type = "context"
 <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
 <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-
+<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
 <!-- amCharts javascript code -->
 <script type="text/javascript", src="/charts.js"></script>
 <script type="text/javascript", src="/maps.js"></script>
@@ -34,7 +34,7 @@ type = "context"
     </center>
 </div>
 
-*Depuis août 2016, les livreurs des plateformes de foodtech ne cessent de manifester leur mécontentement en se mettant en grève. Leur cadre légal ne le permettant pas, ils se "déconnectent" le temps de leur journée de travail. Ce qui a mis le feu aux poudres: l'abandon du paiement horaire pour le paiement à la course*
+*Depuis août 2016, les livreurs des plateformes de foodtech ne cessent de manifester leur mécontentement en se mettant en grève. Leur cadre légal ne le permettant pas, ils se "déconnectent" le temps de leur journée de travail. Ce qui a mis le feu aux poudres: l'abandon du paiement horaire pour le paiement à la course (5,75€).*
 <p align=right>Données: Transnational Food Platform Strike, <br /> recueillies par Jérôme Pimot et </p>
 <div class = "graph-container">
     <div class= "graph-column colum-one">
@@ -83,8 +83,22 @@ On ne cesse de vanter la santé économique du marché de la foodtech en pleine 
 
 <p class="triangle-border right" align="right">
   <b> « La victoire reviendra à celui qui est prêt à perdre de l’argent le plus longtemps » </b> </br> Take Eat Easy , société fondée en 2013, en faillite en 2016 </p>
+
+# Le statut d'auto-entrepreneur dans le collimateur
  
+
+<div class = "graph-container">
+    <div class= "graph-column colum-one">
+        <div id="wage_real" style="width: 100%; height: 500px; background-color: #FFFFFF;" ></div>
+        <p> fds </p>
+    </div>
+    <div class= "graph-column colum-two">
+         <div id="wage_ideal" style="width: 100%; height: 500px; background-color: #FFFFFF;" ></div>
+          <p align = "center"> fds </p>
+    </div>
+</div>
+
+
+
 # En bref
-
-<img src = "/images/context/comic.png" class = "img-responsive">
-
+ <section> <img src = "/images/context/comic.png" class = "img-responsive"></section> 
