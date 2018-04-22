@@ -311,7 +311,8 @@ var lineDataThird = [
                     "maximum": 1700,
                     "minimum": 50,
                     "autoGridCount": false,
-                    "title": "Nombre de grévistes en cumulé"
+                    "titleFontSize": 17,
+                    "title": "Nombre de livreurs en grêve (chiffre en cumulé)"
                     
                 }
             ],
@@ -487,7 +488,7 @@ function makeLineChartNoAxis(name, data) {
                     "id": "AmGraph-3",
                     "title": "Résultat",
                     "valueField": "loss",
-                    "lineThickness": 3,
+                    "lineThickness": 4,
                     "lineColor": "#fb0431",
                     "balloonText": "[[title]] de [[value]]md $"
                     

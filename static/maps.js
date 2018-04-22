@@ -376,10 +376,17 @@ function makeMapLegend(name,data){ AmCharts.makeChart( name, {
         "fillColor": "#FFFFFF"
       },
     "legend": {
-        "labelText": "Nombre d'incidents"
+        "labelText": "Nombre d'incidents",
+        "enabled":true,
+        "position": "bottom",
+        "useGraphSettings": true,
+        "align": "right",
+        "combineLegend": true,
+        "autoMargins": true,
+        "backgroundColor": "#000000"
       },
       "valueLegend": {
-        "right": 10,
+        "right": 5,
         "minValue": 0,
         "maxValue": 14
             },

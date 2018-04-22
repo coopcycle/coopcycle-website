@@ -25,11 +25,17 @@ type = "context"
 
 # Une situation sociale tendue
 
-<div >
+
+ 
+
+<div ></br>
     <center>
-    Nombre de grévistes
+    <h3> De plus en plus de livreurs en grève  </h3>
     </center>
 </div>
+
+*Depuis août 2016, les livreurs des plateformes de foodtech ne cessent de manifester leur mécontentement en se mettant en grève. Leur cadre légal ne le permettant pas, ils se "déconnectent" le temps de leur journée de travail. Ce qui a mis le feu aux poudres: l'abandon du paiement horaire pour le paiement à la course*
+<p align=right>Données: Transnational Food Platform Strike, <br /> recueillies par Jérôme Pimot et </p>
 <div class = "graph-container">
     <div class= "graph-column colum-one">
             <div  id="line" style="width: 100%; height: 400px; background-color: #FFFFFF;" >
@@ -56,7 +62,14 @@ type = "context"
          <div id="map3" style="width: 100%; height: 500px;" > </div>
         </div>
   </div>
+<div >
+    <center>
+    <h3> De plus en plus de pays concernés</h3>
+    </center>
+</div>
 
+*La carte indique la répartition des incidents relatifs aux entreprises de livraison instantanée (Foodora, Glovo, Deliveroo), incidents regroupant les grèves de livreurs, les manifestations contre les conditions de travail des livreurs, mais également les blocages de restaurant, le "gameroo" qui consiste à demander aux restaurants de déconnecter leur tablette des dites entreprises ainsi que des sitting dans les bureaux des companies.*
+<p align=right>Données: Transnational Food Platform Strike, <br /> recueillies par Jérôme Pimot et </p>
 
 # Un secteur économique en pleine croissance ?
 
@@ -67,6 +80,9 @@ On ne cesse de vanter la santé économique du marché de la foodtech en pleine 
 
 
  <div id="deliveroo" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+
+<p class="triangle-border right" align="right">
+  <b> « La victoire reviendra à celui qui est prêt à perdre de l’argent le plus longtemps » </b> </br> Take Eat Easy , société fondée en 2013, en faillite en 2016 </p>
  
 # En bref
 
