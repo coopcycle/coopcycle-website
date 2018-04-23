@@ -36,7 +36,7 @@ AmCharts.makeChart("chartdiv1",
         "gridPosition": "start",
         "position": "left",
         "autoGridCount": false,
-        "boldLabels": true,
+        "boldLabels": false,
         "fillColor": "#070710",
         "fontSize": 12,
         "gridColor": "#070710",
@@ -100,10 +100,10 @@ AmCharts.makeChart("chartdiv1",
         {
             "alpha": 0.46,
             "id": "Label-2",
-            "text": "Source: Deloitte",
+            "text": "Source: Deloitte (Fast500 EMEA Winners)",
             "url": "https://www2.deloitte.com/global/en/pages/technology-media-and-telecommunications/articles/technology-fast-500-emea.html",
-            "x": "75%",
-            "y": "85%"
+            "x": "70%",
+            "y": "80%"
         }
     ],
     "balloon": {
@@ -135,12 +135,12 @@ AmCharts.makeChart("chartdiv1",
         {
             "id": "Title-1",
             "size": 20,
-            "text": "Top 10 des entreprises tech en Europe"
+            "text": "La foodtech: des taux de croissance mirobolants"
         }
     ],
     "dataProvider": [
         {
-            "category": "Deliveroo",
+            "category": "DELIVEROO",
             "Taux de croissance": "107117",
             "alpha": "1"
         },
@@ -449,7 +449,8 @@ function makeLineChartNoAxis(name, data) {
             "fontFamily": "Open Sans",            
             "startDuration": 1,
             "connect": false,
-            "fontFamily": "Open Sans",            
+            "fontFamily": "Open Sans", 
+            "fontSize": 14,            
             "categoryAxis": {
                 "gridPosition": "start",
                 "parseDates": true,
@@ -552,6 +553,9 @@ var dataWageIdeal = [
 var wage_ideal = AmCharts.makeChart("wage_ideal",
     {
         "type": "pie",
+        "responsive": {
+            "enabled": true
+          },
         "hideCredits": true,  
         "fontFamily": "Open Sans",        
         "balloonText": "",
@@ -609,6 +613,9 @@ var wage_ideal = AmCharts.makeChart("wage_ideal",
 AmCharts.makeChart("wage_real",
 {
     "type": "pie",
+    "responsive": {
+        "enabled": true
+      },
     "hideCredits": true,  
     "fontFamily": "Open Sans",        
     "balloonText": "",
