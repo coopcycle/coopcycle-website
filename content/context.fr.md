@@ -128,6 +128,20 @@ L'un des rouages premier de ce marché réside dans le recrutement des livreurs 
     </div>
 </div>
 
+<div class="count-cotis">200</div>
+
+# Les livreur.euse.s: tout.e.s des étudiant.e.s dilettantes ?
+<div class = "graph-container-wage">
+    <div class= "graphLCA-column1">
+        <div id="graphLCA" style="width: 470px; height: 550px; background-color: #FFFFFF;" ></div>
+    </div>
+    <div class= "graphLCA-column2 ">
+        <div id="graphLCA2" style="width:320px; height: 550px; background-color: #FFFFFF;" ></div>
+    </div>
+    <div class= "graphLCA-column2 ">
+        <div id="graphLCA3" style="width: 320px; height: 550px; background-color: #FFFFFF;" ></div>
+    </div>
+</div>
 
 
 # En bref

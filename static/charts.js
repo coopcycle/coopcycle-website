@@ -446,7 +446,6 @@ function makeLineChartNoAxis(name, data) {
             "hideCredits": true,
             "categoryField": "date",
             "dataDateFormat": "YYYY-MM",
-            "fontFamily": "Open Sans",            
             "startDuration": 1,
             "connect": false,
             "fontFamily": "Open Sans", 
@@ -674,3 +673,467 @@ AmCharts.makeChart("wage_real",
     ]
 }
 );
+
+var dataLCA = [
+    {
+      "category": "Age",
+      "Column-1": 42,
+      "Color-1": "#c0c0f1",
+      "Description-1": "-20 ans",
+      "Column-2": 39,
+      "Color-2": "#9696e8",
+      "Description-2": "20-24 ans",
+      "Column-3": 19,
+      "Color-3": "#5858da",
+      "Description-3": "25-34 ans",
+      "Column-4": 0,
+      "Color-4": "#0e0e3f",
+      "Description-4": "+35 ans"
+    },
+    {
+      "category": "Niveau d’étude",
+      "Column-1": 61,
+      "Color-1": "#80ffff",
+      "Description-1": "Collège",
+      "Column-2": 33,
+      "Color-2": "#00e6e6",
+      "Description-2": "Bac/ CAP/ BEP",
+      "Column-3": 6,
+      "Color-3": "#008080",
+      "Description-3": "Licence/ DIUT/ BTS",
+      "Column-4": 0,
+      "Color-4": "#001a1a",
+      "Description-4": "Master/ Doctorat / Gradnes Ecoles"
+    },
+    {
+      "category": "Autre emploi",
+      "Column-1": 39,
+      "Color-1": "#c2e085",
+      "Description-1": "Autre emploi",
+      "Column-2": 61,
+      "Color-2": "#8ab82e",
+      "Description-2": "Pas d’emploi",
+      "Column-3": 0,
+      "Color-3": "#4d6619",
+      "Description-3": "Etudiant",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Origine géographique",
+      "Column-1": 93,
+      "Color-1": "#fcbcb5",
+      "Description-1": "En-dehors de Paris",
+      "Column-2": 7,
+      "Color-2": "#f84d3a",
+      "Description-2": "De Paris",
+      "Column-3": "",
+      "Color-3": "#f84d3a",
+      "Description-3": "",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Toute la semaine",
+      "Column-1": 88,
+      "Color-1": "#f8bae1",
+      "Description-1": "Oui",
+      "Column-2": 12,
+      "Color-2": "#e92fa5",
+      "Description-2": "Non",
+      "Column-3": "",
+      "Color-3": "#e92fa5",
+      "Description-3": "",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Nbr d’heure par jour",
+      "Column-1": 0,
+      "Color-1": "#ff99ff",
+      "Description-1": "Moins de 5h",
+      "Column-2": 72,
+      "Color-2": "#ff4dff",
+      "Description-2": "Entre 5h et 8h",
+      "Column-3": 28,
+      "Color-3":"#cc00cc",
+      "Description-3":  "Plus de 8h",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    }
+  ]
+
+var dataLCA2 = [
+    {
+      "category": "Age",
+      "Column-1": 23,
+      "Color-1": "#c0c0f1",
+      "Description-1": "-20 ans",
+      "Column-2": 55,
+      "Color-2": "#9696e8",
+      "Description-2": "20-24 ans",
+      "Column-3": 15,
+      "Color-3": "#5858da",
+      "Description-3": "25-34 ans",
+      "Column-4": 7,
+      "Color-4": "#0e0e3f",
+      "Description-4": "+35 ans"
+    },
+    {
+      "category": "Niveau d’étude",
+      "Column-1": 30,
+      "Color-1": "#80ffff",
+      "Description-1": "Collège",
+      "Column-2": 60,
+      "Color-2": "#00e6e6",
+      "Description-2": "Bac/ CAP/ BEP",
+      "Column-3": 10,
+      "Color-3": "#008080",
+      "Description-3": "Licence/ DIUT/ BTS",
+      "Column-4": 0,
+      "Color-4": "#001a1a",
+      "Description-4": "Master/ Doctorat / Grandes Ecoles"
+    },
+    {
+      "category": "Autre emploi",
+      "Column-1": 93,
+      "Color-1": "#c2e085",
+      "Description-1": "Autre emploi",
+      "Column-2": 7,
+      "Color-2": "#8ab82e",
+      "Description-2": "Pas d’emploi",
+      "Column-3": 0,
+      "Color-3": "#4d6619",
+      "Description-3": "Etudiant",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Origine géographique",
+      "Column-1": 93,
+      "Color-1": "#fcbcb5",
+      "Description-1": "En-dehors de Paris",
+      "Column-2": 7,
+      "Color-2": "#f84d3a",
+      "Description-2": "De Paris",
+      "Column-3": "",
+      "Color-3": "#f84d3a",
+      "Description-3": "",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Toute la semaine",
+      "Column-1": 0,
+      "Color-1": "#f8bae1",
+      "Description-1": "Oui",
+      "Column-2": 100,
+      "Color-2": "#e92fa5",
+      "Description-2": "Non",
+      "Column-3": "",
+      "Color-3": "#e92fa5",
+      "Description-3": "",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Nbr d’heure par jour",
+      "Column-1": 100,
+      "Color-1": "#ff99ff",
+      "Description-1": "Moins de 5h",
+      "Column-2": 0,
+      "Color-2": "#ff1aff",
+      "Description-2": "Entre 5h et 8h",
+      "Column-3": 0,
+      "Color-3": "#ff00ff",
+      "Description-3": "#800080",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    }
+  ]
+
+  var dataLCA3 = [
+    {
+      "category": "Age",
+      "Column-1": 0,
+      "Color-1": "#c0c0f1",
+      "Description-1": "-20 ans",
+      "Column-2": 50,
+      "Color-2": "#9696e8",
+      "Description-2": "20-24 ans",
+      "Column-3": 46,
+      "Color-3": "#5858da",
+      "Description-3": "25-34 ans",
+      "Column-4": 4,
+      "Color-4": "#0e0e3f",
+      "Description-4": "+35 ans"
+    },
+    {
+      "category": "Niveau d’étude",
+      "Column-1": 0,
+      "Color-1": "#80ffff",
+      "Description-1": "Collège",
+      "Column-2": 0,
+      "Color-2": "#00e6e6",
+      "Description-2": "Bac/ CAP/ BEP",
+      "Column-3": 96,
+      "Color-3": "#008080",
+      "Description-3": "Licence/ DIUT/ BTS",
+      "Column-4": 4,
+      "Color-4": "#001a1a",
+      "Description-4": "Master/ Doctorat / Grandes Ecoles"
+    },
+    {
+      "category": "Autre emploi",
+      "Column-1": 28,
+      "Color-1": "#c2e085",
+      "Description-1": "Autre emploi",
+      "Column-2": 4,
+      "Color-2": "#8ab82e",
+      "Description-2": "Pas d’emploi",
+      "Column-3": 68,
+      "Color-3": "#4d6619",
+      "Description-3": "Etudiant",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Origine géographique",
+      "Column-1": 66,
+      "Color-1": "#fcbcb5",
+      "Description-1": "En-dehors de Paris",
+      "Column-2": 34,
+      "Color-2": "#f84d3a",
+      "Description-2": "De Paris",
+      "Column-3": "",
+      "Color-3": "#f84d3a",
+      "Description-3": "",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Toute la semaine",
+      "Column-1": 7,
+      "Color-1": "#f8bae1",
+      "Description-1": "Oui",
+      "Column-2": 93,
+      "Color-2": "#e92fa5",
+      "Description-2": "Non",
+      "Column-3": "",
+      "Color-3": "#e92fa5",
+      "Description-3": "",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    },
+    {
+      "category": "Nbr d’heure par jour",
+      "Column-1": 88,
+      "Color-1": "#ff99ff",
+      "Description-1": "Moins de 5h",
+      "Column-2": 12,
+      "Color-2": "#ff4dff",
+      "Description-2": "Entre 5h et 8h",
+      "Column-3": 0,
+      "Color-3": "#cc00cc",
+      "Description-3": "#800080",
+      "Column-4": "",
+      "Color-4": "",
+      "Description-4": ""
+    }
+  ]
+
+  AmCharts.makeChart("graphLCA",
+  {
+      "type": "serial",
+      "hideCredits": true,
+      "fontFamily": "Open Sans",                    
+      "categoryField": "category",
+      "rotate": true,
+      "startDuration": 1,
+      "categoryAxis": {
+          "gridPosition": "start",
+          "boldLabels":true,
+          "fontSize":13
+      },
+      "trendLines": [],
+      "graphs": [
+          {
+              "balloonText": "[[description]]: [[value]]%",
+              "columnWidth": 0.3,
+              "fillAlphas": 1,
+              "id": "AmGraph-1",
+              "title": "graph 1",
+              "type": "column",
+              "valueField": "Column-1",
+              "fillColorsField": "Color-1",
+              "lineThickness":0,
+              "descriptionField": "Description-1",
+              "labelText": "[[description]]",
+              "labelPosition": "middle"
+          },
+          {
+              "balloonText": "[[description]]: [[value]]%",
+              "columnWidth": 0.3,
+              "fillAlphas": 1,
+              "id": "AmGraph-2",
+              "title": "graph 2",
+              "type": "column",
+              "valueField": "Column-2",
+              "fillColorsField": "Color-2",
+              "lineThickness":0,
+              "descriptionField": "Description-2",
+              "labelText": "[[description]]"
+              
+          },
+          {
+              "balloonText": "[[description]]: [[value]]%",
+              "columnWidth": 0.3,
+              "fillAlphas": 1,
+              "id": "AmGraph-3",
+              "title": "graph 3",
+              "type": "column",
+              "valueField": "Column-3",
+              "fillColorsField": "Color-3",
+              "lineThickness":0,
+              "descriptionField": "Description-3",
+              "labelText": "[[description]]"
+              
+          },
+          {
+              "balloonText": "[[description]]: [[value]]%",
+              "columnWidth": 0.3,
+              "fillAlphas": 1,
+              "id": "AmGraph-4",
+              "title": "graph 4",
+              "type": "column",
+              "valueField": "Column-4",
+              "fillColorsField": "Color-4",
+              "lineThickness":0,
+              "descriptionField": "Description-4",
+              "labelText": "[[description]]"
+              
+          }
+      ],
+      "guides": [],
+      "valueAxes": [
+          {
+              "id": "ValueAxis-1",
+              "stackType": "regular",
+              "maximum": 100,
+              "title": "Catégorie 1 (33%)"                
+              
+          }
+      ],
+      "allLabels": [],
+      "balloon": {},
+
+      "dataProvider": dataLCA
+  }
+);
+
+function makechartLCA (name, chart_title, data) { AmCharts.makeChart(name,
+    {
+        "type": "serial",
+        "hideCredits": true,
+        "fontFamily": "Open Sans",                    
+        "categoryField": "category",
+        "rotate": true,
+        "startDuration": 1,
+        "categoryAxis": {
+            "gridPosition": "start",
+            "labelsEnabled": false,
+            "axisThickness": 0        
+            
+        },
+        "trendLines": [],
+        "graphs": [
+            {
+                "balloonText": "[[description]]: [[value]]%",
+                "columnWidth": 0.3,
+                "fillAlphas": 1,
+                "id": "AmGraph-1",
+                "title": "graph 1",
+                "type": "column",
+                "valueField": "Column-1",
+                "fillColorsField": "Color-1",
+                "lineThickness":0,
+                "descriptionField": "Description-1",
+                "labelText": "[[description]]",
+                "labelPosition": "middle"
+            },
+            {
+                "balloonText": "[[description]]: [[value]]%",
+                "columnWidth": 0.3,
+                "fillAlphas": 1,
+                "id": "AmGraph-2",
+                "title": "graph 2",
+                "type": "column",
+                "valueField": "Column-2",
+                "fillColorsField": "Color-2",
+                "lineThickness":0,
+                "descriptionField": "Description-2",
+                "labelText": "[[description]]"
+                
+            },
+            {
+                "balloonText": "[[description]]: [[value]]%",
+                "columnWidth": 0.3,
+                "fillAlphas": 1,
+                "id": "AmGraph-3",
+                "title": "graph 3",
+                "type": "column",
+                "valueField": "Column-3",
+                "fillColorsField": "Color-3",
+                "lineThickness":0,
+                "descriptionField": "Description-3",
+                "labelText": "[[description]]"
+                
+            },
+            {
+                "balloonText": "[[description]]: [[value]]%",
+                "columnWidth": 0.3,
+                "fillAlphas": 1,
+                "id": "AmGraph-4",
+                "title": "graph 4",
+                "type": "column",
+                "valueField": "Column-4",
+                "fillColorsField": "Color-4",
+                "lineThickness":0,
+                "descriptionField": "Description-4",
+                "labelText": "[[description]]"
+                
+            }
+        ],
+        "guides": [],
+        "valueAxes": [
+            {
+                "id": "ValueAxis-1",
+                "stackType": "regular",
+                "maximum": 100,
+                "title": chart_title               
+                
+            }
+        ],
+        "allLabels": [],
+        "balloon": {},
+
+        "dataProvider": data
+    }
+    );
+}
+
+makechartLCA("graphLCA2", "Catégorie 2 (14%)", dataLCA2)
+makechartLCA("graphLCA3", "Catégorie 3 (53%)", dataLCA3)
+
+
