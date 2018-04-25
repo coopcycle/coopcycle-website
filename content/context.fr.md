@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Que se passe-t'il ?"
+title = "Que se passe-t-il ?"
 description = "La rumeur gronde."
 lang = "fr"
 menu = "main"
@@ -72,7 +72,7 @@ type = "context"
     </center>
 </div>
 
-*La carte indique la répartition des incidents relatifs aux entreprises de livraison instantanée (Foodora, Glovo, Deliveroo), incidents regroupant les grèves de livreurs, les manifestations contre les conditions de travail des livreurs, mais également les blocages de restaurant, le "gameroo" qui consiste à demander aux restaurants de déconnecter leur tablette des dites entreprises ainsi que des sitting dans les bureaux des companies.*
+*La carte indique la répartition des <b>incidents</b> relatifs aux entreprises de livraison instantanée (Foodora, Glovo, Deliveroo), incidents regroupant les grèves de livreurs, les manifestations contre les conditions de travail des livreurs, mais également les blocages de restaurant, le "gameroo" qui consiste à demander aux restaurants de déconnecter leur tablette des dites entreprises ainsi que des sitting dans les bureaux des companies.*
 <p align=right>Données: Transnational Food Platform Strike, <br /> recueillies par Jérôme Pimot et Callum Cant </p>
 
 # Un secteur économique en pleine croissance ?
@@ -128,13 +128,13 @@ L'un des rouages premier de ce marché réside dans le recrutement des livreurs 
     <div class = "card-trials-text">
     <br>
     Dernièrement (mars 2018), Deliveroo s'est retrouvé une nouvelle fois devant la justice, pour déterminer si en employant des auto-entrepreneurs la companie ne serait pas en infraction avec le code du travail. En effet est en jeu la notion de <i> lien de subordination </i> propre au contrat salarial classique. Nouvelle donne: cette fois-ci l'URSSAF et l'inspection du travail appuient cette demande de requalification des contrats, estimant qu'il y a donc fraude aux cotisations salariales de la part de Deliveroo. <br>
-    <br> <div class= "card-trials-text-emphasize"> Or cette fraude s'élèverait selon ces organismes à plus de  <span class="count-cotis">6 </span> millions d'euros. 
+    <br> <div class= "card-trials-text-emphasize"> Or cette fraude s'élèverait selon ces organismes à plus de  <span class="count-cotis">6.4 </span> millions d'euros. 
     </div></div>
 </div>
 
 
 
-# Les livreur.euse.s: tout.e.s des étudiant.e.s dilettantes ?
+# Les livreur.euse.s : tout.e.s des étudiant.e.s dilettantes ?
 
 Mais la grande question qui sous-tend les limites du statut d'auto-entrepreneur reste à savoir si les livreurs à vélo cherchent par cette pratique à arrondir leurs fins de mois auquel cas ce statut leur offre la flexibilité révêe ... ou bien à gagner leur vie et subissent ce statut faute de mieux. <br>
 
@@ -142,7 +142,7 @@ Mais la grande question qui sous-tend les limites du statut d'auto-entrepreneur 
 <h5> La réalité des livreurs est-elle aussi rose qu'un T-Shirt de <b><font color="#ff1a75">Foodora </font></b> ? </h5>
 </center>
 
-Poru ce faire, il est utile de regarder les données collectées en mars 2017 par Laetitia Dablanc et Leïla Saidi pour l'Ifstarr auprès de 97 livreurs parisiens. Après une modélisation statistique dont on vous épargne les détails (il s'agit d'une analyse en variable latente - voir ici pour plus de détails), il apparait qu'il y a  <b>trois profils-type de livreurs</b>.
+Pour ce faire, il est utile de regarder les données collectées en mars 2017 par Laetitia Dablanc et Leïla Saidi pour l'Ifstarr auprès de 97 livreurs parisiens. Après une modélisation statistique dont on vous épargne les détails (il s'agit d'une analyse en variable latente -voir ici pour plus de détails), il apparait qu'il y a  <b>trois profils-type de livreurs</b>.
 <div class='graphLCA-title'>Un statut unique - une pluralité de situation </div>
 <div class = "graph-container-wage">
     <div class= "graphLCA-column1">
@@ -165,7 +165,10 @@ Poru ce faire, il est utile de regarder les données collectées en mars 2017 pa
     </div>
 </div>
 
+<h5>
+C'est donc à cette situation considérée par nous comme <b> préoccupante </b> que <b><font color="#e4032e">CoopCycle </font></b> cherche à répondre. </h5>
+<br>
 
-# En bref
+# En bref: un résumé graphique
  <section> <img src = "/images/context/comic.png" class = "img-responsive"></section> 
 

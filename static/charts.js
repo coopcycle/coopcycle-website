@@ -640,7 +640,7 @@ AmCharts.makeChart("wage_real",
         {
             "bold": true,
             "id": "Label-2",
-            "text": "Salaire brut :",
+            "text": "Revenu brut :",
             "size": 15,
             "x": "43%",
             "y": "45%"
@@ -658,7 +658,7 @@ AmCharts.makeChart("wage_real",
     "titles": [
         {
             "id": "Title-1",
-            "text": "Estimation du salaire brut actuel \n (Foodora)",
+            "text": "Estimation de la rémunération brute actuelle \n (Foodora)",
             "size": 18
             
             
@@ -706,7 +706,7 @@ var dataLCA = [
       "Description-4": "Master/ Doctorat / Gradnes Ecoles"
     },
     {
-      "category": "Autre emploi",
+      "category": "Emploi en parallèle",
       "Column-1": 39,
       "Color-1": "#c2e085",
       "Description-1": "Autre emploi",
@@ -714,7 +714,7 @@ var dataLCA = [
       "Color-2": "#8ab82e",
       "Description-2": "Pas d’emploi",
       "Column-3": 0,
-      "Color-3": "#4d6619",
+      "Color-3": "#6d9023",
       "Description-3": "Etudiant",
       "Column-4": "",
       "Color-4": "",
@@ -799,7 +799,7 @@ var dataLCA2 = [
       "Description-4": "Master/ Doctorat / Grandes Ecoles"
     },
     {
-      "category": "Autre emploi",
+      "category": "Emploi en parallèle",
       "Column-1": 93,
       "Color-1": "#c2e085",
       "Description-1": "Autre emploi",
@@ -807,7 +807,7 @@ var dataLCA2 = [
       "Color-2": "#8ab82e",
       "Description-2": "Pas d’emploi",
       "Column-3": 0,
-      "Color-3": "#4d6619",
+      "Color-3": "#6d9023",
       "Description-3": "Etudiant",
       "Column-4": "",
       "Color-4": "",
@@ -892,7 +892,7 @@ var dataLCA2 = [
       "Description-4": "Master/ Doctorat / Grandes Ecoles"
     },
     {
-      "category": "Autre emploi",
+      "category": "Emploi en parallèle",
       "Column-1": 28,
       "Color-1": "#c2e085",
       "Description-1": "Autre emploi",
@@ -900,7 +900,7 @@ var dataLCA2 = [
       "Color-2": "#8ab82e",
       "Description-2": "Pas d’emploi",
       "Column-3": 68,
-      "Color-3": "#4d6619",
+      "Color-3": "#6d9023",
       "Description-3": "Etudiant",
       "Column-4": "",
       "Color-4": "",
