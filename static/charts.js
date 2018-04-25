@@ -311,7 +311,7 @@ var lineDataThird = [
                     "maximum": 1700,
                     "minimum": 50,
                     "autoGridCount": false,
-                    "titleFontSize": 17,
+                    "titleFontSize": 16,
                     "title": "Nombre de livreurs en grêve (chiffre en cumulé)"
                     
                 }
@@ -488,7 +488,7 @@ function makeLineChartNoAxis(name, data) {
                 },
                 {
                     "id": "AmGraph-3",
-                    "title": "Résultat",
+                    "title": "Pertes",
                     "valueField": "loss",
                     "lineThickness": 4,
                     "lineColor": "#fb0431",
@@ -741,10 +741,10 @@ var dataLCA = [
       "Color-1": "#f8bae1",
       "Description-1": "Oui",
       "Column-2": 12,
-      "Color-2": "#e92fa5",
+      "Color-2": "#ee5db9",
       "Description-2": "Non",
       "Column-3": "",
-      "Color-3": "#e92fa5",
+      "Color-3": "#ee5db9",
       "Description-3": "",
       "Column-4": "",
       "Color-4": "",
@@ -753,13 +753,13 @@ var dataLCA = [
     {
       "category": "Nbr d’heure par jour",
       "Column-1": 0,
-      "Color-1": "#ff99ff",
+      "Color-1": "#ecc6ec",
       "Description-1": "Moins de 5h",
       "Column-2": 72,
-      "Color-2": "#ff4dff",
+      "Color-2": "#d98cd9",
       "Description-2": "Entre 5h et 8h",
       "Column-3": 28,
-      "Color-3":"#cc00cc",
+      "Color-3":"#bf40bf",
       "Description-3":  "Plus de 8h",
       "Column-4": "",
       "Color-4": "",
@@ -834,10 +834,10 @@ var dataLCA2 = [
       "Color-1": "#f8bae1",
       "Description-1": "Oui",
       "Column-2": 100,
-      "Color-2": "#e92fa5",
+      "Color-2": "#ee5db9",
       "Description-2": "Non",
       "Column-3": "",
-      "Color-3": "#e92fa5",
+      "Color-3": "#ee5db9",
       "Description-3": "",
       "Column-4": "",
       "Color-4": "",
@@ -846,10 +846,10 @@ var dataLCA2 = [
     {
       "category": "Nbr d’heure par jour",
       "Column-1": 100,
-      "Color-1": "#ff99ff",
+      "Color-1": "#ecc6ec",
       "Description-1": "Moins de 5h",
       "Column-2": 0,
-      "Color-2": "#ff1aff",
+      "Color-2": "#993399",
       "Description-2": "Entre 5h et 8h",
       "Column-3": 0,
       "Color-3": "#ff00ff",
@@ -927,10 +927,10 @@ var dataLCA2 = [
       "Color-1": "#f8bae1",
       "Description-1": "Oui",
       "Column-2": 93,
-      "Color-2": "#e92fa5",
+      "Color-2": "#ee5db9",
       "Description-2": "Non",
       "Column-3": "",
-      "Color-3": "#e92fa5",
+      "Color-3": "#ee5db9",
       "Description-3": "",
       "Column-4": "",
       "Color-4": "",
@@ -939,10 +939,10 @@ var dataLCA2 = [
     {
       "category": "Nbr d’heure par jour",
       "Column-1": 88,
-      "Color-1": "#ff99ff",
+      "Color-1": "#ecc6ec",
       "Description-1": "Moins de 5h",
       "Column-2": 12,
-      "Color-2": "#ff4dff",
+      "Color-2": "#d98cd9",
       "Description-2": "Entre 5h et 8h",
       "Column-3": 0,
       "Color-3": "#cc00cc",
@@ -1031,7 +1031,8 @@ var dataLCA2 = [
               "id": "ValueAxis-1",
               "stackType": "regular",
               "maximum": 100,
-              "title": "Catégorie 1 (33%)"                
+              "title": "Portrait 1 \n(33%)",
+              "titleFontSize":15               
               
           }
       ],
@@ -1121,7 +1122,8 @@ function makechartLCA (name, chart_title, data) { AmCharts.makeChart(name,
                 "id": "ValueAxis-1",
                 "stackType": "regular",
                 "maximum": 100,
-                "title": chart_title               
+                "title": chart_title,
+                "titleFontSize":15               
                 
             }
         ],
@@ -1133,7 +1135,7 @@ function makechartLCA (name, chart_title, data) { AmCharts.makeChart(name,
     );
 }
 
-makechartLCA("graphLCA2", "Catégorie 2 (14%)", dataLCA2)
-makechartLCA("graphLCA3", "Catégorie 3 (53%)", dataLCA3)
+makechartLCA("graphLCA2", "Portrait 2 \n(14%)", dataLCA2)
+makechartLCA("graphLCA3", "Portrait 3 \n(53%)", dataLCA3)
 
 

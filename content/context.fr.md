@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Contexte"
+title = "Que se passe-t'il ?"
 description = "La rumeur gronde."
 lang = "fr"
 menu = "main"
@@ -19,14 +19,16 @@ type = "context"
 <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 <script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
 <!-- amCharts javascript code -->
 <script type="text/javascript", src="/charts.js"></script>
 <script type="text/javascript", src="/maps.js"></script>
 <script type="text/javascript", src="/additional_widget.js"></script>
 
 
-# Une situation sociale tendue
+# Le mécontentement gagne les livreurs
 
 
  
@@ -124,22 +126,42 @@ L'un des rouages premier de ce marché réside dans le recrutement des livreurs 
         </div>
     </div>
     <div class = "card-trials-text">
-    Dernièrement (mars 2018), Deliveroo s'est retrouvé une nouvelle fois devant la justice pour justifier de son rapport avec les livreurs. En effet est en jeu la notion de <i> lien de subordination </i> propre au contrat salarial classique. Nouvelle donne: cette fois-ci l'URSSAF et l'inspection du travail appuient cette demande de requalification de ces contrats, estimant qu'il y a donc fraude aux cotisations salariales de la part de Deliveroo. Or ce montant s'élèverait selon ces organismes à plus de 6.4 millions d'euros. 
-    </div>
+    <br>
+    Dernièrement (mars 2018), Deliveroo s'est retrouvé une nouvelle fois devant la justice, pour déterminer si en employant des auto-entrepreneurs la companie ne serait pas en infraction avec le code du travail. En effet est en jeu la notion de <i> lien de subordination </i> propre au contrat salarial classique. Nouvelle donne: cette fois-ci l'URSSAF et l'inspection du travail appuient cette demande de requalification des contrats, estimant qu'il y a donc fraude aux cotisations salariales de la part de Deliveroo. <br>
+    <br> <div class= "card-trials-text-emphasize"> Or cette fraude s'élèverait selon ces organismes à plus de  <span class="count-cotis">6 </span> millions d'euros. 
+    </div></div>
 </div>
 
-<div class="count-cotis">200</div>
+
 
 # Les livreur.euse.s: tout.e.s des étudiant.e.s dilettantes ?
+
+Mais la grande question qui sous-tend les limites du statut d'auto-entrepreneur reste à savoir si les livreurs à vélo cherchent par cette pratique à arrondir leurs fins de mois auquel cas ce statut leur offre la flexibilité révêe ... ou bien à gagner leur vie et subissent ce statut faute de mieux. <br>
+
+<center>
+<h5> La réalité des livreurs est-elle aussi rose qu'un T-Shirt de <b><font color="#ff1a75">Foodora </font></b> ? </h5>
+</center>
+
+Poru ce faire, il est utile de regarder les données collectées en mars 2017 par Laetitia Dablanc et Leïla Saidi pour l'Ifstarr auprès de 97 livreurs parisiens. Après une modélisation statistique dont on vous épargne les détails (il s'agit d'une analyse en variable latente - voir ici pour plus de détails), il apparait qu'il y a  <b>trois profils-type de livreurs</b>.
+<div class='graphLCA-title'>Un statut unique - une pluralité de situation </div>
 <div class = "graph-container-wage">
     <div class= "graphLCA-column1">
         <div id="graphLCA" style="width: 470px; height: 550px; background-color: #FFFFFF;" ></div>
+        <div class='graphLCA-text-column1'>
+        <u><center> Les jeunes précaires</center></u>
+        <i> Ces livreurs sont très jeunes, ont en grande majorité quitté tôt le système scolaire, ne viennent pas de Paris. Ils n'ont que la livraison comme activité professionnelle et l'effectuent toute la semaine sur de grandes tranches horaires journalières<br> Ce sont que nous considérons comme étant le plus <b>vulnérable</b> aux faiblesses du statut d'auto-entrepreneur qui n'est pas adapté à leur situation. </i> </div> 
     </div>
     <div class= "graphLCA-column2 ">
         <div id="graphLCA2" style="width:320px; height: 550px; background-color: #FFFFFF;" ></div>
+        <div class='graphLCA-text-column'>
+        <u><center> Les jeunes travailleurs </center></u>
+        <i>Ce sont des personnes jeunes ayant à côté un emploi peu qualifié et qui utilisent leur revenus de livreurs comme appoint. D'où une activité limitée à certains jours de la semaine et durant moins de cinq heures par jour. Leur situation révèlerait une faiblesse de leur segment du marché du travail qui ne peut leur procurer l'ensemble de leur revenu.</i> </div>
     </div>
     <div class= "graphLCA-column2 ">
         <div id="graphLCA3" style="width: 320px; height: 550px; background-color: #FFFFFF;" ></div>
+                <div class='graphLCA-text-column'>
+        <u><center> Les étudiants "dilettantes" </center></u>
+        <i>Ce sont des personnes un peu plus âgées qui sont en grand majorité encore en études. Ils ont plus tendance à habiter à Paris et utilisent la livraison comme un moyen d'arrondir leur fins de mois. On peut penser que cette activité n'est que transitoire dans leurs parcours et qu'ils en apprécient la flexibilité. </i> </div>
     </div>
 </div>
 
