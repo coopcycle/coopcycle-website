@@ -1,11 +1,11 @@
 +++
 draft = false
-title = "Que se passe-t-il ?"
-description = "La rumeur gronde."
+title = "Un panorama sur la situation des livreurs"
+description = "Une analyse du contexte socio-économique de la livraison à vélo. Retour sur les mobilisations des livreurs. Analyse du marché de la foodtech et de ses conditions salariales. Éclairage sur les profils des livreurs. "
 lang = "fr"
 menu = "main"
 weight = 2
-slug = "contexte"
+slug = "un-panorama-sur-la-situation-des-livreurs"
 type = "context"
 +++ 
 <!-- amCharts javascript sources -->
