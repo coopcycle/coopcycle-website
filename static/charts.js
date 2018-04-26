@@ -20,7 +20,7 @@ AmCharts.makeChart("chartdiv1",
         "rgb(38,196,237)"
     ],
     "startDuration": 1,
-    "autoResize": false,
+    "autoResize": true,
     "color": "#070710",
     "creditsPosition": "bottom-right",
     "fontFamily": "Open Sans",
@@ -95,14 +95,14 @@ AmCharts.makeChart("chartdiv1",
             "tabIndex": 1,
             "text": "107117%",
             "x": "88%",
-            "y": "19%"
+            "y": "29%"
         },
         {
             "alpha": 0.46,
             "id": "Label-2",
             "text": "Source: Deloitte (Fast500 EMEA Winners)",
             "url": "https://www2.deloitte.com/global/en/pages/technology-media-and-telecommunications/articles/technology-fast-500-emea.html",
-            "x": "70%",
+            "x": "65%",
             "y": "80%"
         }
     ],
@@ -134,8 +134,8 @@ AmCharts.makeChart("chartdiv1",
     "titles": [
         {
             "id": "Title-1",
-            "size": 20,
-            "text": "La foodtech: des taux de croissance mirobolants"
+            "size": 25,
+            "text": "La foodtech: des taux de croissance mirobolants qui la fait caracoler en tête de classement"
         }
     ],
     "dataProvider": [
@@ -1138,4 +1138,116 @@ function makechartLCA (name, chart_title, data) { AmCharts.makeChart(name,
 makechartLCA("graphLCA2", "Portrait 2 \n(14%)", dataLCA2)
 makechartLCA("graphLCA3", "Portrait 3 \n(53%)", dataLCA3)
 
+var dataCreation = [
+    {
+      "date": 2010,
+      "number": 1
+    },
+    {
+      "date": 2012,
+      "number": 2
+    },
+    {
+      "date": 2013,
+      "number": 6
+    },
+    {
+      "date": 2014,
+      "number": 10
+    },
+    {
+      "date": 2015,
+      "number": 13
+    },
+    {
+      "date": 2016,
+      "number": 14
+    }
+  ]
+AmCharts.makeChart("date_creation",
+    {
+        "type": "serial",
+        "hideCredits": true,
+        "fontFamily": "Open Sans",                            
+        "categoryField": "date",
+        "connect": false,        
+        "colors": [
+            "#0f9abd"
+        ],
+        "dataDateFormat": "YYYY",
+        "theme": "default",
+        "categoryAxis": {
+            "minPeriod": "YYYY",
+            "parseDates": true,
+            "gridAlpha": 0
+        },
+        "chartCursor": {
+            "enabled": true,
+            "animationDuration": 0,
+            "categoryBalloonDateFormat": "YYYY",
+            "cursorColor":"#0f9abd"
+        },
+        "trendLines": [],
+        "graphs": [
+            {
+                "id": "AmGraph-1",
+                "title": "graph 1",
+                "type": "step",
+                "lineThickness": 4,
+                "noStepRisers": true,
+                "valueField": "number",
+                "labelText": "[[value]] entreprises",
+                "labelOffset":5
+            }
+        ],
+        "guides": [],
+        "valueAxes": [
+            {
+                "id": "ValueAxis-1",
+                "gridAlpha": 0
+            }
+        ],
+        "allLabels": [
 
+                {
+                    "bold": true,
+                    "color": "#ff1a75",
+                    "id": "label1",
+                    "tabIndex": 1,
+                    "text": "Création de Foodora",
+                    "x": "59%",
+                    "y": "47%"
+                },
+                {
+                    "bold": true,
+                    "color": "#00cccc",
+                    "id": "label1",
+                    "tabIndex": 1,
+                    "text": "Création de Deliveroo",
+                    "x": "72%",
+                    "y": "32%"
+                }
+
+        ],
+        "balloon": {
+            "enabled":false
+        },
+        "legend": {
+            "enabled": true,
+            "useGraphSettings": true,
+            "labelText": "Nombre d'entreprises de livraison à vélo de foodtech",
+            "align": "right",        
+            "fontSize": 16,
+            "valueText":""
+            
+        },
+        "titles": [
+            {
+                "id": "Title-1",
+                "size": 25,
+                "text": "Un secteur très attractif: jusqu'à l'excès ?"
+            }
+        ],
+        "dataProvider": dataCreation
+    }
+);

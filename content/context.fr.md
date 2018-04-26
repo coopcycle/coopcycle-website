@@ -27,9 +27,14 @@ type = "context"
 <script type="text/javascript", src="/maps.js"></script>
 <script type="text/javascript", src="/additional_widget.js"></script>
 
+<div class="triangle-border rightcontext red" align="right">
+<div class = 'context-title'> Mais, au fait, <br> quelle est la situation actuelle des livreurs de la foodtech ?</div>
+</div>
 
-# Le mécontentement gagne les livreurs
 
+# Un mécontentement qui gagne du terrain
+
+Partons du constat : depuis l'été 2016, les livreurs font entendre de plus en plus leur colère et se mobilisent en collectifs pour défendre leurs droits.
 
  
 
@@ -39,7 +44,7 @@ type = "context"
     </center>
 </div>
 
-*Depuis août 2016, les livreurs des plateformes de foodtech ne cessent de manifester leur mécontentement en se mettant en grève. Leur cadre légal ne le permettant pas, ils se "déconnectent" le temps de leur journée de travail. Ce qui a mis le feu aux poudres: l'abandon du paiement horaire pour le paiement à la course (5,75€).*
+*Depuis août 2016, les livreurs des plateformes de foodtech n'ont de cesse de manifester leur mécontentement en se mettant en grève. Leur cadre légal ne le permettant pas, ils se "déconnectent" le temps de leur journée de travail. Ce qui a mis le feu aux poudres: l'abandon du paiement horaire pour le paiement à la course (5,75€).*
 <div class = "graph-container">
     <div class= "graph-column colum-one">
             <div  id="line" style="width: 100%; height: 400px; background-color: #FFFFFF;" >
@@ -75,18 +80,26 @@ type = "context"
 *La carte indique la répartition des <b>incidents</b> relatifs aux entreprises de livraison instantanée (Foodora, Glovo, Deliveroo), incidents regroupant les grèves de livreurs, les manifestations contre les conditions de travail des livreurs, mais également les blocages de restaurant, le "gameroo" qui consiste à demander aux restaurants de déconnecter leur tablette des dites entreprises ainsi que des sitting dans les bureaux des companies.*
 <p align=right>Données: Transnational Food Platform Strike, <br /> recueillies par Jérôme Pimot et Callum Cant </p>
 
-# Un secteur économique en pleine croissance ?
+Mais revenons sur la situation du marché de la foodtech contre lequel s'insurgent ces livreurs. 
 
-On ne cesse de vanter la santé économique du marché de la foodtech en pleine croissance.
+# La foodtech: un secteur en pleine croissance ?
 
+La <b> foodtech </b> -entendu comme l'alliance entre le secteur de l'alimentation/restauration, et les économies de plateforme- est un secteur aujourd'hui en pleine croissance qui devrait générer <b> 250 </b> milliards de dollars à l'horizon 2022 (Research and Markets).
 
-<div id="chartdiv1" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+<center>
+<div id="chartdiv1" style="width: 80%; height: 400px; background-color: #FFFFFF;" ></div>
+</center>
+<center>
+<div id="date_creation" style="width: 75%; height: 400px; background-color: #FFFFFF;" ></div>
+</center>
 
-
+Cependant cet emballement vivace cache un marché encore fragile, dont la "consolidation est inévitable et sera coûteuse" (<a href = "https://www.xerfi.com/presentationetude/Les-FoodTech-a-l-horizon-2020_7IAA66">Xerfi Research</a>). Ceci est dû aux paniers moyens faibles et aux marges faibles sous la pression de la concurrence qui engendre une course dangereuse à la captation du marché.
  <div id="deliveroo" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
 
 <p class="triangle-border right" align="right">
   <b> « La victoire reviendra à celui qui est prêt à perdre de l’argent le plus longtemps » </b> </br> Take Eat Easy , société fondée en 2013, en faillite en 2016 </p>
+
+Or la compression des marges de ces entreprises repose avant tout sur un système législatif régulant le travail très avantageux. 
 
 # Le statut d'auto-entrepreneur dans le collimateur
  
@@ -172,3 +185,4 @@ C'est donc à cette situation considérée par nous comme <b> préoccupante </b>
 # En bref: un résumé graphique
  <section> <img src = "/images/context/comic.png" class = "img-responsive"></section> 
 
+</div>
