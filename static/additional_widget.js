@@ -1,12 +1,12 @@
 function isElementInViewport (el) {
-    
+
         //special bonus for those using jQuery
         if (typeof jQuery === "function" && el instanceof jQuery) {
             el = el[0];
         }
-    
+
         var rect = el.getBoundingClientRect();
-    
+
         return (
             rect.top >= 0 &&
             rect.left >= 0 &&
@@ -26,22 +26,19 @@ function onVisibilityChange(el, callback) {
         }
     }
 }
-    
-var handler = onVisibilityChange(el, function() {
-    $('.count-cotis').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration:3000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
-    });
-});
 
-$(window).on('DOMContentLoaded load resize scroll', handler); 
+// var handler = onVisibilityChange(el, function() {
+//     $('.count-cotis').each(function () {
+//         $(this).prop('Counter',0).animate({
+//             Counter: $(this).text()
+//         }, {
+//             duration:3000,
+//             easing: 'swing',
+//             step: function (now) {
+//                 $(this).text(Math.ceil(now));
+//             }
+//         });
+//     });
+// });
 
-        
-
+// $(window).on('DOMContentLoaded load resize scroll', handler);
