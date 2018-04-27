@@ -6,29 +6,12 @@ lang = "fr"
 slug = "un-panorama-sur-la-situation-des-livreurs"
 type = "context"
 +++
-<!-- amCharts javascript sources -->
-<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
-<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-<script src="/amcharts/responsive.min.js" type="text/javascript"></script>
-<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
-<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js"></script>
-<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+
 <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
-<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
-
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-<!-- amCharts javascript code -->
-<script type="text/javascript", src="/charts.js"></script>
-<script type="text/javascript", src="/maps.js"></script>
-<script type="text/javascript", src="/additional_widget.js"></script>
 
 <div class="triangle-border rightcontext red" align="right">
 <div class='context-title'> Mais, au fait, <br> quelle est la situation actuelle des livreurs de la foodtech ?</div>
 </div>
-
 
 # Un mécontentement qui gagne du terrain
 
