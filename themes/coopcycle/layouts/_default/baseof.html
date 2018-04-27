@@ -146,6 +146,9 @@
       <script src="/{{ index $.Site.Data.manifest "index.js" }}" type="application/javascript"></script>
     {{ end }}
 
+    {{ block "scripts" . }}
+    {{ end }}
+
     {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
     <!-- FIXME How to do if not equals in Hugo -->
     {{ else }}
