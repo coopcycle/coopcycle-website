@@ -1,0 +1,233 @@
+/**
+ * Graph
+ */
+.graph-container {
+  display: flex;
+  margin: -30px 10px 20px;
+}
+
+.graph-container-wage {
+  display: flex;
+  margin: 0px 10px 0px 10px;
+}
+
+.graph-column {
+  flex: 1;
+  margin: 20px -30px;
+  padding: 20px -20px;
+}
+
+.column-one {
+  order: 1;
+}
+.column-two {
+  order: 2;
+}
+.column-three {
+  order: 3;
+}
+
+.text-column {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: -10px -50px;
+  padding: 0px 150px ;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.graph-container-market {
+  flex: 1;
+  margin: 20px 20px;
+  padding: 20px 50px ;
+
+}
+
+.card-trials {
+  background-color:#cb9c01;
+  border-radius: 10px;
+  width: 800px;
+  border: 25px;
+  padding: 20px;
+  margin: 50px 180px 80px 180px;
+  box-shadow: 5px 7px #888888;
+}
+.card-trials-header {
+  color: #FFFFFF;
+  text-align: justify;
+  font-size: 1.3em;
+}
+
+.card-trials-text {
+  font-size: 1.1em;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.card-trials-text-emphasize {
+  font-size: 1.15em;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+ /**
+ * Graph LCA
+ **/
+
+.graphLCA-column1 {
+  flex: 1;
+  margin: -20px -10px -30px -10px;
+  padding: 0px 0px ;
+
+}
+.graphLCA-column2 {
+  flex: 1;
+  margin: -20px -20px -20px 0px;
+  padding: 0px 0px ;
+
+}
+.graphLCA-title{
+  flex: 1;
+  margin: 34px 148px -27px 362px;
+  padding: 0px 0px ;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+}
+.graphLCA-text-column {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: -10px 40px;
+  padding: 0px 0px ;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.graphLCA-text-column1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: -10px 40px 0px 140px;
+  padding: 0px 0px ;
+  text-align: justify;
+  text-justify: inter-word;
+}
+ /**
+ * Speech bubble
+ **/
+ .triangle-border {
+  position:relative;
+  padding:20px;
+  margin:50px -20px 3em 0;
+  border:5px solid #26c4ed;
+  color:#333;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+.triangle-border.right {
+  margin-right:30px;
+  margin-left: 350px;
+}
+
+.triangle-border:before {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:40px; /* controls horizontal position */
+  border-width:20px 20px 0;
+  border-style:solid;
+  border-color:#5a8f00 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the smaller  triangle */
+.triangle-border:after {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width:13px 13px 0;
+  border-style:solid;
+  border-color:#fff transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* creates the larger triangle */
+.triangle-border.right:before {
+  top:10px; /* controls vertical position */
+  bottom:auto;
+  left:auto;
+  right:-30px; /* value = - border-left-width - border-right-width */
+  border-width:15px 0 15px 30px;
+  border-color:transparent #26c4ed;
+}
+
+/* creates the smaller  triangle */
+.triangle-border.right:after {
+  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+  bottom:auto;
+  left:auto;
+  right:-21px; /* value = - border-left-width - border-right-width */
+  border-width:9px 0 9px 21px;
+  border-color:transparent #fff;
+}
+
+/**
+* Counter
+**/
+
+.count-cotis{
+  color:white;
+  font-size:25px;
+  font-weight: bold;
+}
+
+/**
+* Banner - Context page
+***/
+
+.context-title {
+  width: 100%;
+  flex: 1;
+  padding: 0px 10px ;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  color:rgb(228,03,46);
+
+}
+.triangle-border.rightcontext {
+  margin-right:30px;
+  margin-left: 100px;
+
+}
+
+.triangle-border.red{
+   border:5px solid rgb(228,03,46);
+
+}
+
+.triangle-border.rightcontext:before {
+  top:10px; /* controls vertical position */
+  bottom:auto;
+  left:auto;
+  right:-30px; /* value = - border-left-width - border-right-width */
+  border-width:15px 0 15px 30px;
+  border-color:transparent transparent;
+}
+.triangle-border.rightcontext:after {
+  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+  bottom:auto;
+  left:auto;
+  right:-21px; /* value = - border-left-width - border-right-width */
+  border-width:9px 0 9px 21px;
+  border-color:transparent transparent;
+}
