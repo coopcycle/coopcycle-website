@@ -7,8 +7,6 @@ slug = "un-panorama-sur-la-situation-des-livreurs"
 type = "context"
 +++
 
-<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
-
 <div class="triangle-border rightcontext red" align="right">
 <div class='context-title'> Mais, au fait, <br> quelle est la situation actuelle des livreurs de la foodtech ?</div>
 </div>
