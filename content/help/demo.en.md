@@ -13,7 +13,7 @@ A demo instance of the platform is available here [demo.coopcycle.org](https://d
 
 ### User roles
 
-Several roles are availale, allowing or restricting access to features.
+Several roles are available, allowing or restricting access to the diverse features.
 
 **Administrator** : can access all the features of the platform.
 **Restaurant** : can manage one or more restaurants.
