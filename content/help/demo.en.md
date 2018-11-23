@@ -43,18 +43,18 @@ You can [log in](https://demo.coopcycle.org/login) right away by using the ident
     </tr>
     <tr>
       <td><strong>Restaurant</strong></td>
-      <td>resto-[1_100]</td>
-      <td>resto-[1-100]</td>
+      <td>resto_[1_100]</td>
+      <td>resto_[1-100]</td>
     </tr>
     <tr>
       <td><strong>Courier</strong></td>
-      <td>bot-[1_50]</td>
-      <td>bot-[1-50]</td>
+      <td>bot_[1_50]</td>
+      <td>bot_[1-50]</td>
     </tr>
     <tr>
       <td><strong>User</strong></td>
-      <td>user-[1_50]</td>
-      <td>user-[1-50]</td>
+      <td>user_[1_50]</td>
+      <td>user_[1-50]</td>
     </tr>
   </tbody>
 </table>
