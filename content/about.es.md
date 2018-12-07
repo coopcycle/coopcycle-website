@@ -1,9 +1,8 @@
 +++
-draft = false
+draft = true
 title = "Saber más"
 description = "Entender el proyecto."
 lang = "es"
-menu = "main"
 weight = 1
 slug = "a-proposito"
 +++

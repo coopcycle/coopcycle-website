@@ -1,0 +1,137 @@
++++
+draft = false
+title = "Le réseau européen"
+description = "Le réseau européen."
+lang = "fr"
+menu = "main"
+weight = 1
+slug = "réseau"
+type = "network"
++++
+
+<div class="row justify-content-center banner">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <h3 class="h3">Pour qui ?</h3>
+        <p>Le réseau CoopCycle est ouvert aux acteurs et actrices de la livraison à vélo qui ont un projet coopératif souhaitant travailler avec des entreprises sociales et écologiques.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 text-center">
+        <img class="join-icon" src="/images/courier.png">
+        <h4 class="h4">Livreur.se</h4>
+        <p>Livreur.se isolé.e, nous vous accompagnons pour rejoindre ou créer une coopérative du réseau dans votre localité.</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <img class="join-icon" src="/images/courier.png">
+        <h4 class="h4">Coopérative/Associations</h4>
+        <p>Rejoignez un réseau d'acteurs de l'économie sociale et solidaire travaillant autours des métiers de la livraison à vélo.</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <img class="join-icon" src="/images/courier.png">
+        <h4 class="h4">Restaurateur.rice/Commerçant.e</h4>
+        <p>Renforcez votre offre commerciale par un service de livraison écologique et socialement responsable.</p>
+    </div>
+</div>
+
+<div class="text-center margin-bottom-md margin-top-md">
+  <a href="mailto:contact@coopcycle.org" class="btn">Nous contacter</a>
+</div>
+
+<div class="row justify-content-center banner">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <h3 class="h3">Que mutualisons nous ?</h3>
+        <p>
+            Découvrez les services que nous mutualisons au sein du réseau européen.<br>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 text-center">
+        <img class="join-icon" src="/images/courier.png">
+        <h4 class="h4">Le logiciel de plateforme</h4>
+        <p>Notre logiciel permet aux membres du réseau européen de gérer leurs livraisons et d'offrir un espace e-commerce à leurs clients.</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <img class="join-icon" src="/images/courier.png">
+        <h4 class="h4">L’application smartphone</h4>
+        <p>Une application pour livrer en toute sérénité. Une autre application client pour effectuer des commandes.</p>
+    </div>
+    <div class="col-md-4 text-center">
+        <img class="join-icon" src="/images/courier.png">
+        <h4 class="h4">Commercial</h4>
+        <p>Nous vous aidons à développer votre offre commerciale. Nous proposons aussi une offre commune, à destination des clients grands comptes.</p>
+    </div>
+</div>
+
+<p>
+    <a id="show-more-services" href="#show-more-services">+ Voir plus de services</a>
+</p>
+
+<div id="more-services" style="display:none;opacity: 0;">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img class="join-icon" src="/images/courier.png">
+            <h4 class="h4">Visibilité</h4>
+            <p>Une image de marque reconnue à l'échelle européenne.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img class="join-icon" src="/images/courier.png">
+            <h4 class="h4">Administratif et juridique</h4>
+            <p>Fini la paperasse, un service s’occupe des factures, des contrats ou encore des statuts juridiques de votre structure !</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img class="join-icon" src="/images/courier.png">
+            <h4 class="h4">Fond de garantie des paiements</h4>
+            <p>Donner l’assurance d’un paiement comptant et aider à garantir la stabilité financière des coopératives..</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img class="join-icon" src="/images/courier.png">
+            <h4 class="h4">Subventions et appels à projet</h4>
+            <p>Obtention de subventions locales et européennes pour les membres, réponse collective à des appels à projets.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img class="join-icon" src="/images/courier.png">
+            <h4 class="h4">Assurances</h4>
+            <p>Nous négocions des offres d’assurance de haute qualité pour faire face aux risques du métier.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img class="join-icon" src="/images/courier.png">
+            <h4 class="h4">Et d'autres...</h4>
+            <p>Caisse de solidarité,  vous pouvez <a target="_blank" href="https://coopcycle.org/docs/CoopCycle_vers_une_structure_européenne.pdf">télécharger notre synthèse collective</a> pour en savoir plus.</p>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center banner">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <h3 class="h3">Comment ça marche ?</h3>
+        <p>
+            Une stratégie mutualiste, solidaire et autonome inspirée du modèle de la sécurité sociale : à chacun.e selon ses moyens à chacun.e selon ses besoins !
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h4 class="h4">Financement : face à la rente nous cotisons</h4>
+            <p>Les services fournis à l'échelle européenne sont entièrement financés par la cotisation des membres du réseau. En décidant démocratiquement du niveau des cotisations et de l'utilisation de cette valeur mutualisée, les livreurs.euses se réapproprient les outils de production ainsi que la valeur de leur travail.</p>
+            <h4 class="h4">Une gouvernance démocratique</h4>
+            <p>Les livreur.euse.s décident de :
+                <ul>
+                    <li>Du niveau de cotisation de chacun des membres selon le type d'entité (coopérative, association, institutionnel, ..)</li>
+                    <li>De l’allocation de cette valeur mutualisée aux services prioritaires</li>
+                    <li>De la politique de salarisation pour fournir ces services</li>
+                    <li>Des partenaires économiques futurs</li>
+                </ul>
+            </p>
+            <p>
+                Le choix de la mutualisation réservée à des coopératives s'inscrit également dans cette volonté de promouvoir une gestion démocratique de la valeur produite collectivement par les travailleur.euse.s.
+            </p>
+        </div>
+        <div class="col-md-8">
+            INSERER ICI UN SCHEMA QUI VA BIEN
+        </div>
+    </div>
+</div>

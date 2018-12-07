@@ -42,7 +42,7 @@
 
 - id: headline
   translation: >
-    Socialisons les plateformes !
+    Nous socialisons la livraison à vélo
 
 - id: headlinesub
   translation: >
@@ -100,3 +100,26 @@
     </p>
     <p class="text-center"><a href="https://demo.coopcycle.org" target="_blank"><button class="btn btn-primary">Tester la démo</button></a>
 
+- id: network.title
+  translation: Le réseau européen
+
+- id: network.subtitle
+  translation: >
+    Pour créer une solidarité entre coopératives, pour réduire leurs coûts grâce
+    à la mutualisation de services et pour créer une force collective de négociation pour défendre les droits des livreur.se.s. Tout cela gouverné démocratiquement par les coopératives elles-mêmes.
+
+# Countries
+- id: France
+  translation: France
+
+- id: Spain
+  translation: Espagne
+
+- id: Belgium
+  translation: Belgique
+
+- id: United-Kingdom
+  translation: Royaume-Uni
+
+- id: Germany
+  translation: Allemagne

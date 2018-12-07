@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-md-4">
+        <ul class="coops-list">
+        {{ range $country, $coops := $.Site.Data.coops }}
+            <li class="coops-country">{{ i18n $country }}</li>
+            <ul>
+            {{ range sort $coops "city" }}
+                {{ if .name }}
+                    <li class="coop-city">{{ .name }} ({{ .city }})</li>
+                {{ else }}
+                    <li class="coop-city">{{ .city }}</li>
+                {{ end }}
+            {{ end }}
+            </ul>
+        {{ end }}
+        </ul>
+    </div>
+    <div class="col-md-8" id="coops-map" style="height:600px;">
+    </div>
+</div>
+
+<script>
+    window.AppData = window.AppData || {}
+    window.AppData.coops = [
+        {{ range $country, $coops := $.Site.Data.coops }}
+            {{ range $coops }}
+                {
+                    "name": {{ .name }},
+                    "latitude": {{ .latitude }},
+                    "longitude": {{ .longitude }},
+                    "country": {{ $country }},
+                    "url": {{ .url }},
+                    "city": {{ .city }},
+                    "coopcycleUrl": {{ .coopcycle_url }},
+                },
+            {{ end }}
+        {{ end }}
+    ]
+</script>
+

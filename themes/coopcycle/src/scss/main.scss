@@ -19,6 +19,23 @@ h2 {
   margin-bottom: 10px;
 }
 
+.h2 {
+  margin: 20px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $red;
+}
+
+.h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 .navbar {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
@@ -55,6 +72,18 @@ h2 {
   @include media-breakpoint-up(sm) {
     display: none!important
   }
+}
+
+.banner {
+    margin: 40px;
+}
+
+.margin-top-md {
+  margin-top: 20px;
+}
+
+.margin-bottom-md {
+  margin-bottom: 20px;
 }
 
 /*
@@ -339,4 +368,60 @@ article img {
 .press-separator {
   text-align: center;
   padding: 20px 0;
+}
+
+/*
+ Network page
+*/
+
+.coops-container {
+
+  .leaflet-popup-content-wrapper {
+    border-radius: 0;
+  }
+
+  .leaflet-popup-content {
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+
+    .btn-buy {
+      padding: 10px 5px;
+      background-color: $red;
+      color: $white;
+      cursor: pointer;
+      display: block;
+      margin: 5px;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.coops-list {
+  padding-left: 0;
+}
+
+.coops-country {
+  color: $red;
+  font-weight: 700;
+  list-style: none;
+}
+
+.coops-list ul {
+  margin-left: 15px;
+  padding-left: 10px;
+}
+
+.join-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+#show-more-services {
+  text-decoration: underline;
+  color: $dark;
 }

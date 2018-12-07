@@ -1,0 +1,142 @@
+{
+    "France" : [
+        {
+            "name": "Traboulotte",
+            "coopcycle_url": "https://traboulotte.coopcycle.org",
+            "url": "https://traboulotte.fr/",
+            "latitude": 45.7580539,
+            "longitude": 4.7650807,
+            "city": "Lyon"
+        },
+        {
+            "name": "Les Coursiers Nantais",
+            "url": "",
+            "latitude": 47.2383172,
+            "longitude": -1.6300963,
+            "city": "Nantes"
+        },
+        {
+            "name": "Les Coursiers Bordelais",
+            "url": "http://coursiersbordelais.fr",
+            "latitude": 44.8638282,
+            "longitude": -0.6561812,
+            "city": "Bordeaux"
+        },
+        {
+            "name": "La Poit'à vélo",
+            "url": "http://www.lapoitavelo.fr/",
+            "latitude": 46.5847306,
+            "longitude": 0.3014293,
+            "city": "Poitiers"
+        },
+        {
+            "name": "Olvo",
+            "url": "http://olvo.fr/",
+            "latitude": 48.8589507,
+            "longitude": 2.2770198,
+            "city": "Paris"
+        },
+        {
+            "name": "Lille.bike",
+            "url": "http://lille.bike",
+            "latitude": 50.6311554,
+            "longitude": 2.9771204,
+            "city": "Lille"
+        },
+        {
+            "name": "Feel à Vélo",
+            "url": "http://www.feelavelo.fr/",
+            "latitude": 47.7493774,
+            "longitude": -3.4153339,
+            "city": "Lorient"
+        },
+        {
+            "name": "Régie de quartier de Stains",
+            "url": "https://www.facebook.com/rqstains/",
+            "latitude": 48.9578188,
+            "longitude": 2.369321,
+            "city": "Stains"
+        },
+        {
+            "name": "Sacavélo",
+            "url": "https://www.facebook.com/rqstains/",
+            "latitude": 45.1842207,
+            "longitude": 5.6805229,
+            "city": "Grenoble/Voreppe"
+        }
+    ],
+    "Spain" : [
+        {
+            "name": "La Pajara",
+            "coopcycle_url": "https://madrid.coopcycle.org",
+            "url": "https://lapajaraenbici.com/",
+            "latitude": 40.4381311,
+            "longitude": -3.8196226,
+            "city": "Madrid"
+        }
+    ],
+    "Belgium" : [
+        {
+            "name": "Dioxyde de Gambettes",
+            "url": "http://dioxyde-de-gambettes.com/",
+            "latitude": 50.8206889,
+            "longitude": 4.3403405,
+            "city": "Ixelles"
+        },
+        {
+            "name": "Molenbike",
+            "url": "http://molenbike.be",
+            "latitude": 50.8576808,
+            "longitude": 4.2982454,
+            "city": "Molenbeek"
+        },
+        {
+            "name": "Mission locale Saint-Gilles",
+            "latitude": 50.8303757,
+            "longitude": 4.3247454,
+            "city": "Saint-Gilles"
+        },
+        {
+            "name": "Rayon9",
+            "latitude": 50.624728,
+            "longitude": 5.5290501,
+            "city": "Liège",
+            "url": "https://rayon9.be"
+        },
+        {
+            "name": "Coursiers wallons",
+            "latitude": 50.3606479,
+            "longitude": 4.2769075,
+            "city": "Mons/Namur",
+            "url": "https://www.coursierwallon.be"
+        }
+    ],
+    "United-Kingdom" : [
+        {
+            "latitude": 53.9586771,
+            "longitude": -1.1506315,
+            "city": "York"
+        },
+        {
+            "latitude": 51.2785924,
+            "longitude": 1.0488314,
+            "city": "Canterbury"
+        }
+    ],
+    "Germany" : [
+        {
+            "latitude": 52.5069312,
+            "longitude": 13.1445476,
+            "city": "Berlin",
+            "url": "https://cccc.de",
+            "name": "CCCC"
+        },
+        {
+            "latitude": 53.5586526,
+            "longitude": 9.6476381,
+            "city": "Hambourg",
+            "name": "Tricargo",
+            "url": "https://tricargo.de/"
+        }
+    ]
+}

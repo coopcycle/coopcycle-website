@@ -4,7 +4,6 @@ title = "FAQ"
 description = "Questions fréquentes"
 lang = "fr"
 slug = "faq"
-menu = "main"
 weight = 3
 +++
 
