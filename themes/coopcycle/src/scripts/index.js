@@ -51,6 +51,7 @@ document.getElementById('show-more-services').addEventListener('click', function
   event.preventDefault(e)
   document.getElementById('more-services').style.display = ''
   fadeIn(document.getElementById('more-services'))
+  document.querySelectorAll("[href='#show-more-services']")[0].style.display = 'none'
 })
 
 

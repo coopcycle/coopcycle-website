@@ -46,9 +46,7 @@
 
 - id: headlinesub
   translation: >
-      CoopCycle est une plateforme de livraison utilisable par les <strong>coopératives</strong> de livreurs à vélo.
-      <br>
-      Organisez-vous, nous fournissons la technologie !
+    CoopCycle est la fédération européenne des coopératives de livraison à vélo. En réponse à l'ubérisation, nous promouvons une livraison à vélo respectueuse des livreur.se.s et de l'environnement.
 
 - id: whatis
   translation: Qu'est-ce que CoopCycle ?
@@ -61,30 +59,30 @@
 
 - id: digital_common.content
   translation: >
-    <p>Nous développons un logiciel de mise en relation entre clients, commerçants et livreurs à vélo. Sur smartphone ou via votre navigateur vous pouvez passer commande et vous faire livrer. Les mêmes fonctionnalités que sur les plateformes propriétaires, mais dans un esprit diamétralement opposé !</p>
-    <p>CoopCycle est <strong>un bien commun numérique</strong>. Il appartient à tout ceux qui y contribuent (développeurs) et qui l’utilisent (coursiers, restaurateurs). Notre logiciel est placé sous <a href="http://wiki.p2pfoundation.net/Peer_Production_License">une licence à réciprocité de la Peer-to-peer Foundation</a>. Celle-ci limite son utilisation commerciale aux coopératives de travailleurs. Son utilisation est pour l’instant gratuite, nous souhaitons le faire financer par <strong>cotisation</strong>.</p>
-    <p>Vous pouvez le tester <a href="https://demo.coopcycle.org">ici</a>. Le code source du logiciel <a href="https://github.com/coopcycle/coopcycle-web">est accessible en ligne</a> et est développé activement par notre communauté - nous accueillons les nouveaux contributeurs avec plaisir!</p>
+    Outil de cyclo-logistique complet au code ouvert, il permet aux coopératives de gérer leurs courses et aux commerçant.e.s, aux restaurateur.rice.s et aux client.e.s d'accéder au service. Le logiciel est protégé par une licence à réciprocité, qui réserve son utilisation aux coopératives.
 
 - id: ecosystem.title
-  translation: Le réseau européen
+  translation: La fédération européenne
 
 - id: ecosystem.content
   translation: >
-    <p>
-    Autour du logiciel, CoopCycle élabore un projet <strong>économique et politique</strong>. Nous proposons une fédération de coopératives, regroupant les travailleurs du secteur. De nombreuses coopératives de coursiers se créent en France et en Belgique. Nous portons le projet d’une coopérative de livraison à Paris.
-    </p>
-    <p>
-    Le modèle coopératif permet aux travailleurs de reprendre le pouvoir. La valeur créé par l’activité est répartie équitablement entre les travailleurs, et est réinjectée dans l’économie locale. Revenir au salariat, c’est bénéficier de tous <strong>ses avantages sociaux</strong> : congés, assurance maladie, retraite.
-    </p>
-    <p>
-    Un développement local avec une union internationale, pour concurrencer des plateformes globales. Pour lutter, il faut s’unir. <strong>Mutualiser</strong> les moyens à notre disposition, dont le logiciel en tant qu’outil de production, pour bénéficier d’économies d’échelle. Mais aussi nos voix, afin de peser dans le débat public - <strong>montrons qu’il existe une alternative !</strong>
-    </p>
+    Gouvernée démocratiquement par les coopératives, elle repose sur la solidarité entre coopératives et leur permet de réduire leurs coûts grâce à la mutualisation de services. Elle créé une force collective de négociation pour défendre les droits des livreur.se.s.
+
+- id: association.title
+  translation: L'association
+
+- id: association.content
+  translation: >
+    L’association CoopCycle a vocation à soutenir bénévolement les livreur.euse.es de tous pays dans la construction de leur activité.
 
 - id: contribute
   translation: Contribuer
 
 - id: donate
   translation: Faire un don
+
+- id: discover
+  translation: Découvrez notre réseau
 
 - id: organization
   translation: Organisation

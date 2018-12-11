@@ -62,18 +62,18 @@
 - id: ecosystem.content
   translation: >
     <p>We want to build a whole <strong>political and economical ecosystem</strong> around the software,
-     fundamentally against the one developed by “gig economy” platforms. 
-     We are creating a <strong>federation of worker-owned cooperatives</strong>, 
-     which will together use, own and manage the CoopCycle software and pool their strength together to achieve greater impact. 
-     Many delivery cooperatives sharing our values are already operating in France, in Belgium, in Spain and in Germany. 
+     fundamentally against the one developed by “gig economy” platforms.
+     We are creating a <strong>federation of worker-owned cooperatives</strong>,
+     which will together use, own and manage the CoopCycle software and pool their strength together to achieve greater impact.
+     Many delivery cooperatives sharing our values are already operating in France, in Belgium, in Spain and in Germany.
      We are ourselves also working on a <strong>delivery cooperative in Paris</strong>.</p>
     <p>We think that the <strong>cooperative</strong> model is the best one
-    to meet our goals: give back the power to the workers, 
-    by democratic decision processes and fair profit sharing. 
+    to meet our goals: give back the power to the workers,
+    by democratic decision processes and fair profit sharing.
     Get back <strong>social benefits</strong>: social insurance, pensions,paid vacation.</p>
-    <p>Our vision: cooperatives that are <strong>run locally, united internationally</strong>, 
-    in order to compete with global platforms. Pool all our resources, 
-    including the software being the crucial mean of production, to get economies of scale. 
+    <p>Our vision: cooperatives that are <strong>run locally, united internationally</strong>,
+    in order to compete with global platforms. Pool all our resources,
+    including the software being the crucial mean of production, to get economies of scale.
     But also our voices, to show the world that exist indeed alternatives!</p>
 
 - id: digital_common.title
@@ -81,18 +81,18 @@
 
 - id: digital_common.content
   translation: >
-        <p>We are providing a software that enables customers to order and 
-        be delivered by bicycle. Ordering is done thanks to our Android and iPhone apps on our website. 
+        <p>We are providing a software that enables customers to order and
+        be delivered by bicycle. Ordering is done thanks to our Android and iPhone apps on our website.
         Same features as the gig economy platforms, but in a diametrically opposed spirit!</p>
-        <p>CoopCycle aims to become a <strong>digital common</strong>. 
-        It belongs to its users (couriers, shop owners) and to its contributors (developers), so that they rule 
-        it on a democratic fashion. Our software is written under a license of the Peer-to-peer Foundation. 
-        This restricts the commercial use to <strong>worker-owned coops</strong>. 
-        For now, we are providing the software for free, in order to give the impulse to coops creation. 
+        <p>CoopCycle aims to become a <strong>digital common</strong>.
+        It belongs to its users (couriers, shop owners) and to its contributors (developers), so that they rule
+        it on a democratic fashion. Our software is written under a license of the Peer-to-peer Foundation.
+        This restricts the commercial use to <strong>worker-owned coops</strong>.
+        For now, we are providing the software for free, in order to give the impulse to coops creation.
         But our end goal is to fund it by a <strong>contribution</strong> system,
          where members are allowed to use the software and to rule it against a financial participation.</p>
-        <p>You can test it <a href="https://demo.coopcycle.org">here</a>. 
-        The source code <a href="https://github.com/coopcycle/coopcycle-web">is available online</a> - 
+        <p>You can test it <a href="https://demo.coopcycle.org">here</a>.
+        The source code <a href="https://github.com/coopcycle/coopcycle-web">is available online</a> -
         we happily welcome new contributors!</p>
 
 - id: contribute
@@ -100,6 +100,9 @@
 
 - id: donate
   translation: Donate
+
+- id: discover
+  translation: Discover our network
 
 - id: organization
   translation: Organization
@@ -121,3 +124,19 @@
      or send a feature request</a>.
     <br>
     If you are a developer, send us a pull request!
+
+# Countries
+- id: France
+  translation: France
+
+- id: Spain
+  translation: Spain
+
+- id: Belgium
+  translation: Belgium
+
+- id: United-Kingdom
+  translation: United-Kingdom
+
+- id: Germany
+  translation: Germany

@@ -5,44 +5,47 @@
   <img class="homepage-banner no-desktop" src="{{ .Site.BaseURL }}/images/homepage-banner-mobile.jpg">
   <div class="homepage-banner--headline text-center">
       <h2 class="h2">{{ i18n "headline" | safeHTML }}</h2>
-      {{ i18n "headlinesub" | safeHTML }}
-  </div>
-  <div class="row">
-    <div class="col-md-6 text-center">
-      <img class="homepage-banner--btn-picture no-desktop" src="{{ .Site.BaseURL }}/images/megaphone.png">
-      <a href="#about" class="homepage-banner--btn-left btn">{{ i18n "whatis" | safeHTML }}</a>
-    </div>
-    <div class="col-md-6 text-center">
-      <img class="homepage-banner--btn-picture no-desktop" src="{{ .Site.BaseURL }}/images/courier.png">
-      <a target="_blank" href="https://demo.coopcycle.org" class="homepage-banner--btn-right btn">{{ i18n "test_demo" | safeHTML }}</a>
-    </div>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          {{ i18n "headlinesub" | safeHTML }}
+        </div>
   </div>
 </section>
 
 <section id="about">
   <div class="container">
     <div class="row homepage-card-container">
-      <div class="col-md-6 homepage-card">
-        <h2 class="text-center">{{ i18n "digital_common.title" }}</h2>
-        <p>
-          {{ i18n "digital_common.content" | safeHTML }}
-        </p>
-        <div class="text-center">
-          <a href="mailto:dev@coopcycle.org" class="btn">{{ i18n "contribute" | safeHTML }}</a>
+      <div class="col-md-6">
+        <h4 class="text-center h4">{{ i18n "ecosystem.title" }}</h4>
+        <img class="img" alt="network" src="/images/network.png">
+        <img class="img-retina" alt="network" src="/images/2x/network.png">
+        <div class="homepage-card">
+          <p>
+            {{ i18n "ecosystem.content" | safeHTML }}
+          </p>
+          <div class="text-center">
+            <a target="_blank" href="{{ ref . (printf "%s%s%s" "network." .Lang ".md") }}" class="btn">{{ i18n "discover" | safeHTML }}</a>
+          </div>
         </div>
       </div>
-      <div class="col-md-6 homepage-card">
-        <h2 class="text-center">{{ i18n "ecosystem.title" }}</h2>
-        <p>
-          {{ i18n "ecosystem.content" | safeHTML }}
-        </p>
-        <div class="text-center">
-          <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" class="btn">{{ i18n "donate" | safeHTML }}</a>
+      <div class="col-md-6">
+        <h4 class="text-center h4">{{ i18n "digital_common.title" }}</h4>
+        <img class="img" alt="network" src="/images/network.png">
+        <img class="img-retina" alt="network" src="/images/2x/network.png">
+        <div class="homepage-card">
+          <p>
+            {{ i18n "digital_common.content" | safeHTML }}
+          </p>
+          <div class="text-center">
+            <a href="mailto:dev@coopcycle.org" class="btn">{{ i18n "contribute" | safeHTML }}</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" class="btn">{{ i18n "donate" | safeHTML }}</a> -->
 
 <section id="subscribe">
   <div class="homepage-subscribe-wrapper">

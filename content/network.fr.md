@@ -18,17 +18,17 @@ type = "network"
 
 <div class="row">
     <div class="col-md-4 text-center">
-        <img class="join-icon" src="/images/courier.png">
+        <i class="join-icon icon-courier"></i>
         <h4 class="h4">Livreur.se</h4>
         <p>Livreur.se isolé.e, nous vous accompagnons pour rejoindre ou créer une coopérative du réseau dans votre localité.</p>
     </div>
     <div class="col-md-4 text-center">
-        <img class="join-icon" src="/images/courier.png">
+        <i class="join-icon icon-coop"></i>
         <h4 class="h4">Coopérative/Associations</h4>
         <p>Rejoignez un réseau d'acteurs de l'économie sociale et solidaire travaillant autours des métiers de la livraison à vélo.</p>
     </div>
     <div class="col-md-4 text-center">
-        <img class="join-icon" src="/images/courier.png">
+        <i class="join-icon icon-restaurant"></i>
         <h4 class="h4">Restaurateur.rice/Commerçant.e</h4>
         <p>Renforcez votre offre commerciale par un service de livraison écologique et socialement responsable.</p>
     </div>
@@ -49,17 +49,17 @@ type = "network"
 
 <div class="row">
     <div class="col-md-4 text-center">
-        <img class="join-icon" src="/images/courier.png">
+        <i class="join-icon icon-platform"></i>
         <h4 class="h4">Le logiciel de plateforme</h4>
         <p>Notre logiciel permet aux membres du réseau européen de gérer leurs livraisons et d'offrir un espace e-commerce à leurs clients.</p>
     </div>
     <div class="col-md-4 text-center">
-        <img class="join-icon" src="/images/courier.png">
+        <i class="join-icon icon-smartphone"></i>
         <h4 class="h4">L’application smartphone</h4>
         <p>Une application pour livrer en toute sérénité. Une autre application client pour effectuer des commandes.</p>
     </div>
     <div class="col-md-4 text-center">
-        <img class="join-icon" src="/images/courier.png">
+        <i class="join-icon icon-business"></i>
         <h4 class="h4">Commercial</h4>
         <p>Nous vous aidons à développer votre offre commerciale. Nous proposons aussi une offre commune, à destination des clients grands comptes.</p>
     </div>
@@ -72,34 +72,34 @@ type = "network"
 <div id="more-services" style="display:none;opacity: 0;">
     <div class="row">
         <div class="col-md-4 text-center">
-            <img class="join-icon" src="/images/courier.png">
+            <i class="join-icon icon-eye"></i>
             <h4 class="h4">Visibilité</h4>
             <p>Une image de marque reconnue à l'échelle européenne.</p>
         </div>
         <div class="col-md-4 text-center">
-            <img class="join-icon" src="/images/courier.png">
+            <i class="join-icon icon-judiciary"></i>
             <h4 class="h4">Administratif et juridique</h4>
             <p>Fini la paperasse, un service s’occupe des factures, des contrats ou encore des statuts juridiques de votre structure !</p>
         </div>
         <div class="col-md-4 text-center">
-            <img class="join-icon" src="/images/courier.png">
+            <i class="join-icon icon-vault"></i>
             <h4 class="h4">Fond de garantie des paiements</h4>
-            <p>Donner l’assurance d’un paiement comptant et aider à garantir la stabilité financière des coopératives..</p>
+            <p>Donner l’assurance d’un paiement comptant et aider à garantir la stabilité financière des coopératives.</p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-4 text-center">
-            <img class="join-icon" src="/images/courier.png">
+            <i class="join-icon icon-money"></i>
             <h4 class="h4">Subventions et appels à projet</h4>
             <p>Obtention de subventions locales et européennes pour les membres, réponse collective à des appels à projets.</p>
         </div>
         <div class="col-md-4 text-center">
-            <img class="join-icon" src="/images/courier.png">
+            <i class="join-icon icon-insurance"></i>
             <h4 class="h4">Assurances</h4>
             <p>Nous négocions des offres d’assurance de haute qualité pour faire face aux risques du métier.</p>
         </div>
         <div class="col-md-4 text-center">
-            <img class="join-icon" src="/images/courier.png">
+            <i class="join-icon icon-plus"></i>
             <h4 class="h4">Et d'autres...</h4>
             <p>Caisse de solidarité,  vous pouvez <a target="_blank" href="https://coopcycle.org/docs/CoopCycle_vers_une_structure_européenne.pdf">télécharger notre synthèse collective</a> pour en savoir plus.</p>
         </div>
@@ -118,7 +118,7 @@ type = "network"
             <h4 class="h4">Financement : face à la rente nous cotisons</h4>
             <p>Les services fournis à l'échelle européenne sont entièrement financés par la cotisation des membres du réseau. En décidant démocratiquement du niveau des cotisations et de l'utilisation de cette valeur mutualisée, les livreurs.euses se réapproprient les outils de production ainsi que la valeur de leur travail.</p>
             <h4 class="h4">Une gouvernance démocratique</h4>
-            <p>Les livreur.euse.s décident de :
+            <p>Les livreur.euse.s décident collectivement :
                 <ul>
                     <li>Du niveau de cotisation de chacun des membres selon le type d'entité (coopérative, association, institutionnel, ..)</li>
                     <li>De l’allocation de cette valeur mutualisée aux services prioritaires</li>

@@ -32,7 +32,7 @@ h2 {
 }
 
 .h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -61,6 +61,22 @@ h2 {
 /*
  * Utils
  */
+
+.img {
+  display: block;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      display: none;
+  }
+}
+
+.img-retina {
+  display: none;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      display: block;
+  }
+}
 
 .no-mobile {
   @include media-breakpoint-down(xs) {
@@ -314,6 +330,11 @@ article img {
 
 .homepage-card-container {
   margin: 40px 0;
+
+  .img, .img-retina {
+    width: 100%;
+    margin: 20px auto;
+  }
 }
 
 .homepage-card {
@@ -424,4 +445,135 @@ article img {
 #show-more-services {
   text-decoration: underline;
   color: $dark;
+}
+
+.join-icon {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &.icon-restaurant {
+    background-image: url('/images/european-network/icon-restaurant.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-restaurant {
+      background-image: url('/images/european-network/2x/icon-restaurant.png');
+    }
+  }
+
+  &.icon-coop {
+    background-image: url('/images/european-network/icon-coop.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-coop {
+      background-image: url('/images/european-network/2x/icon-coop.png');
+    }
+  }
+
+  &.icon-courier {
+    background-image: url('/images/european-network/icon-courier.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-courier {
+      background-image: url('/images/european-network/2x/icon-courier.png');
+    }
+  }
+
+  &.icon-platform {
+    background-image: url('/images/european-network/icon-platform.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-platform {
+      background-image: url('/images/european-network/2x/icon-platform.png');
+    }
+  }
+
+  &.icon-smartphone {
+    background-image: url('/images/european-network/icon-smartphone.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-smartphone {
+      background-image: url('/images/european-network/2x/icon-smartphone.png');
+    }
+  }
+
+  &.icon-eye {
+    background-image: url('/images/european-network/icon-eye.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-eye {
+      background-image: url('/images/european-network/2x/icon-eye.png');
+    }
+  }
+
+  &.icon-business {
+    background-image: url('/images/european-network/icon-business.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-business {
+      background-image: url('/images/european-network/2x/icon-business.png');
+    }
+  }
+
+  &.icon-vault {
+    background-image: url('/images/european-network/icon-vault.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-vault {
+      background-image: url('/images/european-network/2x/icon-vault.png');
+    }
+  }
+
+  &.icon-judiciary {
+    background-image: url('/images/european-network/icon-judiciary.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-judiciary {
+      background-image: url('/images/european-network/2x/icon-judiciary.png');
+    }
+  }
+
+  &.icon-money {
+    background-image: url('/images/european-network/icon-money.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-money {
+      background-image: url('/images/european-network/2x/icon-money.png');
+    }
+  }
+
+  &.icon-insurance {
+    background-image: url('/images/european-network/icon-insurance.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-insurance {
+      background-image: url('/images/european-network/2x/icon-insurance.png');
+    }
+  }
+
+  &.icon-plus {
+    background-image: url('/images/european-network/icon-plus.png');
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    &.icon-plus {
+      background-image: url('/images/european-network/2x/icon-plus.png');
+    }
+  }
+
 }
