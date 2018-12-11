@@ -49,10 +49,6 @@ h2 {
   color: $red;
 }
 
-.dropdown {
-  border-left: 1px solid $grey;
-}
-
 .dropdown a {
   color: inherit;
   cursor: pointer;
@@ -110,6 +106,18 @@ h2 {
   margin-bottom: 40px;
   background-color: $white;
   border-bottom: 1px solid $dark;
+
+  .gift {
+    border-radius: 34px;
+    color: white;
+    background-color: $red;
+    line-height: 34px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin: 10px;
+    display: block;
+  }
 
   .navbar {
     padding: 0.5rem 1.5rem;
