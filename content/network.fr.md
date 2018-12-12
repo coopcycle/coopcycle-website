@@ -11,35 +11,6 @@ type = "network"
 
 <div class="row justify-content-center banner">
     <div class="col-md-8 col-md-offset-2 text-center">
-        <h3 class="h3">Pour qui ?</h3>
-        <p>Le réseau CoopCycle est ouvert aux acteurs et actrices de la livraison à vélo qui ont un projet coopératif souhaitant travailler avec des entreprises sociales et écologiques.</p>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-4 text-center">
-        <i class="join-icon icon-courier"></i>
-        <h4 class="h4">Livreur.se</h4>
-        <p>Livreur.se isolé.e, nous vous accompagnons pour rejoindre ou créer une coopérative du réseau dans votre localité.</p>
-    </div>
-    <div class="col-md-4 text-center">
-        <i class="join-icon icon-coop"></i>
-        <h4 class="h4">Coopérative/Associations</h4>
-        <p>Rejoignez un réseau d'acteurs de l'économie sociale et solidaire travaillant autours des métiers de la livraison à vélo.</p>
-    </div>
-    <div class="col-md-4 text-center">
-        <i class="join-icon icon-restaurant"></i>
-        <h4 class="h4">Restaurateur.rice/Commerçant.e</h4>
-        <p>Renforcez votre offre commerciale par un service de livraison écologique et socialement responsable.</p>
-    </div>
-</div>
-
-<div class="text-center margin-bottom-md margin-top-md">
-  <a href="mailto:contact@coopcycle.org" class="btn">Nous contacter</a>
-</div>
-
-<div class="row justify-content-center banner">
-    <div class="col-md-8 col-md-offset-2 text-center">
         <h3 class="h3">Que mutualisons nous ?</h3>
         <p>
             Découvrez les services que nous mutualisons au sein du réseau européen.<br>

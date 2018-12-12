@@ -45,6 +45,29 @@
   </div>
 </section>
 
+{{ partial "join-network.html" . }}
+
+<section id="about">
+  <h3 class="h3 text-center">{{ i18n "association.title" }}</h3>
+  <div class="container">
+    <div class="row align-items-center homepage-card-container">
+      <div class="col-md-6">
+        <p>
+          {{ i18n "association.content" | safeHTML }}
+        </p>
+        <div class="text-center">
+          <a target="_blank" href="mailto:contact@coopcycle.org" class="btn margin-bottom-md ">{{ i18n "association.join" | safeHTML }}</a>
+        </div>
+        <p>
+          {{ i18n "association.donate" | safeHTML }}
+        </p>
+      </div>
+      <div class="col-md-6" id="photo-asso">
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="subscribe">
   <div class="homepage-subscribe-wrapper">
     <iframe

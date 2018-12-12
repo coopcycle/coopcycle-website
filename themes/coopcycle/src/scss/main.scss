@@ -27,6 +27,7 @@ h2 {
 }
 
 .h3 {
+  font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -96,6 +97,10 @@ h2 {
 
 .margin-bottom-md {
   margin-bottom: 20px;
+}
+
+.margin-bottom-l {
+  margin-bottom: 40px;
 }
 
 /*
@@ -190,10 +195,11 @@ h2 {
 .btn {
   cursor: pointer;
   background-color: $red;
-  padding: 6px 20px;
+  padding: 10px 20px;
   border-radius: 0;
   min-width: 200px;
   color: $white!important;
+  font-size: 20px;
 }
 
 .btn:hover {
@@ -274,9 +280,11 @@ article img {
  * Homepage
  */
 
-#video {
-  text-align: center;
-  margin: 25px 0 15px;
+#photo-asso {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/images/asso-group-coll.jpg');
+  height: 400px;
 }
 
 
@@ -413,6 +421,7 @@ article img {
     margin: 10px;
     font-size: 16px;
     text-align: center;
+    width: 260px!important;
 
     .btn-buy {
       padding: 10px 5px;

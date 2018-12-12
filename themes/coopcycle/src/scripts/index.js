@@ -34,8 +34,8 @@ if (document.getElementById('coops-map')) {
             marker.bindPopup(
               `
                 ${item.name ? item.name : item.city}<br>
-                ${item.coopcycleUrl ? `<a class="btn-buy" href="${item.coopcycleUrl}" target="_blank">Commander dès maintenant !</a><br>` : ''}
-                ${item.url ? `<a href="${item.url}" target="_blank">Visiter le site</a>` : ''}
+                ${item.coopcycleUrl ? `<a class="btn-buy" href="${item.coopcycleUrl}" target="_blank">Commander dès maintenant !</a>` : ''}
+                ${item.url ? `<a href="${item.url}" target="_blank">Visiter le site de la coopérative</a>` : ''}
               `
             )
             markers.push(marker)

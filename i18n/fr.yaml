@@ -69,11 +69,28 @@
     Gouvernée démocratiquement par les coopératives, elle repose sur la solidarité entre coopératives et leur permet de réduire leurs coûts grâce à la mutualisation de services. Elle créé une force collective de négociation pour défendre les droits des livreur.se.s.
 
 - id: association.title
-  translation: L'association
+  translation: L'association CoopCycle
 
 - id: association.content
   translation: >
-    L’association CoopCycle a vocation à soutenir bénévolement les livreur.euse.es de tous pays dans la construction de leur activité.
+    L’association CoopCycle a vocation à soutenir bénévolement les livreur.euse.es de tous pays dans la construction de leur activité. Depuis septembre 2017, nous travaillons sur des thématiques variées comme (entre autres) :
+    <ul>
+      <li>la création d'un modèle économique alternatif, basée sur le principe du Commun</li>
+      <li>le développement du logiciel de plateforme CoopCycle (software & UI/UX)</li>
+      <li>le lobbying politique, les outils juridiques, la coordination d'équipe, nécessaires au projet</li>
+      <li>et plein d'autres choses encore !</li>
+    </ul>
+
+
+- id: association.join
+  translation: >
+    Rejoindre l'association
+
+- id: association.donate
+  translation: >
+    <strong>Vous pouvez aussi <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">faire un don</a>.</strong>
+    <br>
+    L'argent est principalement utilisé pour le financement des serveurs et des évènements (rassemblements, journées de travail).
 
 - id: contribute
   translation: Contribuer
