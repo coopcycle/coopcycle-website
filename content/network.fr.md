@@ -27,7 +27,7 @@ type = "network"
     <div class="col-md-4 text-center">
         <i class="join-icon icon-smartphone"></i>
         <h4 class="h4">L’application smartphone</h4>
-        <p>Une application pour livrer en toute sérénité. Une autre application client pour effectuer des commandes.</p>
+        <p>Une application pour livrer en toute sérénité. Une application client pour effectuer des commandes.</p>
     </div>
     <div class="col-md-4 text-center">
         <i class="join-icon icon-business"></i>
@@ -71,8 +71,8 @@ type = "network"
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-plus"></i>
-            <h4 class="h4">Et d'autres...</h4>
-            <p>Caisse de solidarité,  vous pouvez <a target="_blank" href="https://coopcycle.org/docs/CoopCycle_vers_une_structure_européenne.pdf">télécharger notre synthèse collective</a> pour en savoir plus.</p>
+            <h4 class="h4">Et encore...</h4>
+            <p>Caisse de solidarité, formations, achats de matériel, ...  Vous pouvez <a target="_blank" href="https://coopcycle.org/docs/CoopCycle_vers_une_structure_européenne.pdf">télécharger notre synthèse collective</a> pour en savoir plus.﻿</p>
         </div>
     </div>
 </div>

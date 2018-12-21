@@ -48,12 +48,6 @@
   translation: >
     CoopCycle est la fédération européenne des coopératives de livraison à vélo. En réponse à l'ubérisation, nous promouvons une livraison à vélo respectueuse des livreur.se.s et de l'environnement.
 
-- id: whatis
-  translation: Qu'est-ce que CoopCycle ?
-
-- id: test_demo
-  translation: Tester la demo
-
 - id: digital_common.title
   translation: Le logiciel
 
@@ -90,7 +84,7 @@
   translation: >
     <strong>Vous pouvez aussi <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">faire un don</a>.</strong>
     <br>
-    L'argent est principalement utilisé pour le financement des serveurs et des évènements (rassemblements, journées de travail).
+    L'argent est utilisé pour le financement des serveurs et des évènements (rassemblements, journées de travail).
 
 - id: contribute
   translation: Contribuer
