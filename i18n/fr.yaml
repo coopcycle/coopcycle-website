@@ -48,6 +48,9 @@
   translation: >
     CoopCycle est la fédération européenne des coopératives de livraison à vélo. En réponse à l'ubérisation, nous promouvons une livraison à vélo respectueuse des livreur.se.s et de l'environnement.
 
+- id: contactus
+  translation: Nous contacter
+
 - id: digital_common.title
   translation: Le logiciel
 
@@ -69,12 +72,11 @@
   translation: >
     L’association CoopCycle a vocation à soutenir bénévolement les livreur.euse.es de tous pays dans la construction de leur activité. Depuis septembre 2017, nous travaillons sur des thématiques variées comme (entre autres) :
     <ul>
-      <li>la création d'un modèle économique alternatif, basée sur le principe du Commun</li>
+      <li>la création d'un modèle économique anticapitaliste, basée sur le principe du Commun</li>
       <li>le développement du logiciel de plateforme CoopCycle (software & UI/UX)</li>
       <li>le lobbying politique, les outils juridiques, la coordination d'équipe, nécessaires au projet</li>
       <li>et plein d'autres choses encore !</li>
     </ul>
-
 
 - id: association.join
   translation: >
@@ -89,25 +91,11 @@
 - id: contribute
   translation: Contribuer
 
-- id: donate
-  translation: Faire un don
-
 - id: discover
   translation: Découvrez notre réseau
 
 - id: organization
   translation: Organisation
-
-- id: about_bots
-  translation: >
-    <p class="text-center">
-    En attendant d'employer des humains, nous faisons travaillers les robots :)
-    <br>
-    Ci-dessous, une commande aléatoire est passée toutes les 10 minutes.
-    <br>
-    Des bots utilisent la plateforme CoopCycle pour se répartir les commandes.
-    </p>
-    <p class="text-center"><a href="https://demo.coopcycle.org" target="_blank"><button class="btn btn-primary">Tester la démo</button></a>
 
 - id: network.title
   translation: Le réseau européen
@@ -116,6 +104,30 @@
   translation: >
     Pour créer une solidarité entre coopératives, pour réduire leurs coûts grâce
     à la mutualisation de services et pour créer une force collective de négociation pour défendre les droits des livreur.se.s. Tout cela gouverné démocratiquement par les coopératives elles-mêmes.
+
+- id: network.join.title
+  translation: Pour qui ?
+
+- id: network.join.description
+  translation: Le réseau CoopCycle est ouvert aux acteurs et actrices de la livraison à vélo qui ont un projet coopératif souhaitant travailler avec des entreprises sociales et écologiques.
+
+- id: network.join.courier
+  translation: Livreur.se
+
+- id: network.join.courier.description
+  translation: Livreur.se isolé.e, nous vous accompagnons pour rejoindre ou créer une coopérative du réseau dans votre localité.
+
+- id: network.join.coop
+  translation: Coopérative/Assocation
+
+- id: network.join.coop.description
+  translation: Rejoignez un réseau d'acteurs de l'économie sociale et solidaire travaillant autour des métiers de la livraison à vélo.
+
+- id: network.join.shop
+  translation: Restaurateur.rice/Commerçant.e
+
+- id: network.join.shop.description
+  translation: Renforcez votre offre commerciale par un service de livraison écologique et socialement responsable.
 
 # Countries
 - id: France

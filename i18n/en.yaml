@@ -42,64 +42,31 @@
 
 - id: headline
   translation: >
-    We socialize platforms
+    We socialize bike delivery
 
 - id: headlinesub
   translation: >
-      CoopCycle is a delivery platform for <strong>worker-owned coops</strong>
-      <br>
-      Organize, we provide the technology!
+      CoopCycle is the european federation of bike delivery cooperatives. Against the gig economy, we promote a respectful model, for the bikers and the environment.
 
-- id: whatis
-  translation: What is CoopCycle?
-
-- id: test_demo
-  translation: Test the demo
+- id: contactus
+  translation: Contact us
 
 - id: ecosystem.title
-  translation: The european network
+  translation: The european federation
 
 - id: ecosystem.content
   translation: >
-    <p>We want to build a whole <strong>political and economical ecosystem</strong> around the software,
-     fundamentally against the one developed by “gig economy” platforms.
-     We are creating a <strong>federation of worker-owned cooperatives</strong>,
-     which will together use, own and manage the CoopCycle software and pool their strength together to achieve greater impact.
-     Many delivery cooperatives sharing our values are already operating in France, in Belgium, in Spain and in Germany.
-     We are ourselves also working on a <strong>delivery cooperative in Paris</strong>.</p>
-    <p>We think that the <strong>cooperative</strong> model is the best one
-    to meet our goals: give back the power to the workers,
-    by democratic decision processes and fair profit sharing.
-    Get back <strong>social benefits</strong>: social insurance, pensions,paid vacation.</p>
-    <p>Our vision: cooperatives that are <strong>run locally, united internationally</strong>,
-    in order to compete with global platforms. Pool all our resources,
-    including the software being the crucial mean of production, to get economies of scale.
-    But also our voices, to show the world that exist indeed alternatives!</p>
+    Governed democratically by coops, it enables coops to stand united and to reduce their costs thanks to resource pooling. It creates a strong bargain force to protect the bikers rights.
 
 - id: digital_common.title
   translation: The software
 
 - id: digital_common.content
   translation: >
-        <p>We are providing a software that enables customers to order and
-        be delivered by bicycle. Ordering is done thanks to our Android and iPhone apps on our website.
-        Same features as the gig economy platforms, but in a diametrically opposed spirit!</p>
-        <p>CoopCycle aims to become a <strong>digital common</strong>.
-        It belongs to its users (couriers, shop owners) and to its contributors (developers), so that they rule
-        it on a democratic fashion. Our software is written under a license of the Peer-to-peer Foundation.
-        This restricts the commercial use to <strong>worker-owned coops</strong>.
-        For now, we are providing the software for free, in order to give the impulse to coops creation.
-        But our end goal is to fund it by a <strong>contribution</strong> system,
-         where members are allowed to use the software and to rule it against a financial participation.</p>
-        <p>You can test it <a href="https://demo.coopcycle.org">here</a>.
-        The source code <a href="https://github.com/coopcycle/coopcycle-web">is available online</a> -
-        we happily welcome new contributors!</p>
+        Full-fledged bike delivery software, it enables coops to manage their deliveries, shop and restaurant owners to create their own. The software is protected by a reciprocity license, which enforce its use by coops only.
 
 - id: contribute
   translation: Contribute
-
-- id: donate
-  translation: Donate
 
 - id: discover
   translation: Discover our network
@@ -107,23 +74,60 @@
 - id: organization
   translation: Organization
 
-- id: about_bots
-  translation: >
-    <p class="text-center">
-    Until we use employed humans, we have put the robots at work :)
-    <br>
-    Below, a random order is created every 10 minutes.
-    <br>
-    Bots use the CoopCycle platform to dispatch orders.
-    </p>
-    <p class="text-center"><a href="https://demo.coopcycle.org" target="_blank"><button class="btn btn-primary">Try the demo</button></a>
+- id: association.title
+  translation: The CoopCycle association
 
-- id: contributing
+- id: association.content
   translation: >
-    Feel free to <a href="https://github.com/coopcycle/coopcycle-web/issues" target="_blank">report  issues
-     or send a feature request</a>.
+    The CoopCycle association is a group of benevolent activists that help bikers to gather and organize. Since September 2017, we work on several topics, including :
+    <ul>
+    <li>creation of an anti-capitalist economic model, based on the Common</li>
+    <li>development of the CoopCycle software (UI/UX, dev, trainings, docs, aso.)</li>
+    <li>political lobbying, juridical toolbox, global coordination</li>
+    <li>and many more things !</li>
+    </ul>
+
+
+- id: association.join
+  translation: >
+    Join the association
+
+- id: association.donate
+  translation: >
+    <strong>You can <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">support the association with a gift.</a></strong>
     <br>
-    If you are a developer, send us a pull request!
+    The money is used for webhosting and events organization (workshops, gatherings, conferences).
+
+- id: network.title
+  translation: The European network
+
+- id: network.subtitle
+  translation: >
+    To foster solidarity between cooperatives, to reduce their costs thanks to the sharing of services and to create a common force to advocate courier's rights.
+
+- id: network.join.title
+  translation: Who is concerned ?
+
+- id: network.join.description
+  translation: The CoopCycle network is open to bike delivery actors respecting the values of the social and solidarity economy.
+
+- id: network.join.courier
+  translation: Courier
+
+- id: network.join.courier.description
+  translation: Isolated courier, you want to join a cooperative or create one ? We will help you out!
+
+- id: network.join.coop
+  translation: Cooperative/Assocation
+
+- id: network.join.coop.description
+  translation: Join a network of cooperatives specialised in bike delivery.
+
+- id: network.join.shop
+  translation: Shop/Restaurant owner
+
+- id: network.join.shop.description
+  translation: Take advantage of a responsible delivery service to improve your commercial offering.
 
 # Countries
 - id: France

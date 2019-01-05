@@ -42,16 +42,14 @@
 
 - id: headline
   translation: >
-    Socializamos las plataformas!
+    Socializamos la entrega por bicicleta !
 
 - id: headlinesub
   translation: >
-      CoopCycle es una plataforma de entrega que puede ser utilizada por <strong>cooperativas</strong> de ciclistas repartidores.
-      <br>
-      Organízate, proporcionamos la tecnología!
+      CoopCycle es la federación europea de cooperativas de entrega por bicicleta. En respuesta a la uberización, promovemos una entrega por bicicleta respetuosa de lxs repartidorxs y del medio ambiente.
 
-- id: whatis
-  translation: ¿Qué es CoopCycle?
+- id: contactus
+  translation: Contact us
 
 - id: test_demo
   translation: Probar la demostración
@@ -61,42 +59,90 @@
 
 - id: digital_common.content
   translation: >
-    <p>Desarrollamos un software para conectar a clientes, comerciantes y ciclistas repartidores. ¡En su smartphone o a través de su navegador puede realizar un pedido y recibirlo! Las mismas características que en las plataformas propietarias, pero con un espíritu diametralmente opuesto.</p>
-    <p>CoopCycle es <strong>un bien común digital</strong>. Pertenece a todos los que contribuyen (desarrolladores) y quienes lo utilizan (repartidores, restauradores). Nuestro software esta puesto bajo <a href="http://wiki.p2pfoundation.net/Peer_Production_License">una licencia de recíprocidad de la Peer-to-peer Foundation</a>. Esto limita su uso comercial a las cooperativas de trabajadores. Su uso es por el momento gratuito, deseamos que se financie mediante <strong>cotizacion</strong>.</p>
-    <p>Puedes probarlo <a href="https://demo.coopcycle.org">aquí</a>. El código fuente del software <a href="https://github.com/coopcycle/coopcycle-web">está disponible en línea</a> y nuestra comunidad lo desarrolla activamente.</p>
+    Una herramienta completa de ciclo-logística, de código abierto, CoopCycle permite a las cooperativas administrar sus entregas y a lxs comerciantes, restauradorxs y clientxs que puedan acceder al servicio. El software está protegido por una licencia de recíprocad, que reserva su uso a las cooperativas.
 
 - id: ecosystem.title
-  translation: La red europea
+  translation: La federación europea
 
 - id: ecosystem.content
   translation: >
-    <p>
-    Alrededor del software, CoopCycle desarrolla un proyecto <strong>económico y político</strong>. Proponemos una federación de cooperativas, agrupando a los trabajadores del sector. Muchas cooperativas de entrega se crean en Francia y Bélgica. Llevamos el proyecto de una cooperativa de entrega en París.
-    </p>
-    <p>
-    El modelo cooperativo permite que los trabajadores recuperen el poder. El valor creado por la actividad se distribuye equitativamente entre los trabajadores y se reinyecta en la economía local. Volver al sistema salarial significa beneficiarse de todas las <strong>ventajas sociales</strong>: vacaciones, seguro de salud, jubilación.
-    </p>
-    <p>
-    Un desarrollo local con una unión internacional, para competir con plataformas globales. Para luchar, debemos unirnos. <strong>Mutualizar</strong> los medios a nuestra disposición, incluido el software como herramienta de producción, para beneficiarse de las economías de escala. ¡Pero también nuestras voces, para pesar en el debate público, <strong>mostramos que existe una alternativa!</strong>
-    </p>
+    Gobernada democráticamente por las cooperativas, su fundamento es la solidaridad entre ellas, lo cual les permite reducir sus costos mediante la mutualización de los servicios. Crea una fuerza colectiva para negociar, y para defender los derechos de lxs repartidorxs.
 
 - id: contribute
   translation: Contribuir
 
-- id: donate
-  translation: Hacer una donación
+- id: discover
+  translation: Discover our network
 
 - id: organization
   translation: Organización
 
-- id: about_bots
-  translation: >
-    <p class="text-center">
-    De momento, no tenemos repartidores humanos, asi que hacemos trabajar a robots :)
-    <br>
-    Por debajo, un pedido aleatorio se cree cada diez minutos.
-    <br>
-    Entonces, bots usan la plataforma CoopCycle para repartirse los pedidos.
-    </p>
-    <p class="text-center"><a href="https://demo.coopcycle.org" target="_blank"><button class="btn btn-primary">Probar la demo</button></a>
+- id: association.title
+  translation: The CoopCycle association
 
+- id: association.content
+  translation: >
+    The CoopCycle association is a group of benevolent activists that help bikers to gather and organize. Since September 2017, we work on several topics, including :
+    <ul>
+    <li>creation of an anti-capitalist economic model, based on the Common</li>
+    <li>development of the CoopCycle software (UI/UX, dev, trainings, docs, aso.)</li>
+    <li>political lobbying, juridical toolbox, global coordination</li>
+    <li>and many more things !</li>
+    </ul>
+
+- id: association.join
+  translation: >
+    Join the association
+
+- id: association.donate
+  translation: >
+    <strong>You can <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">support the association with a gift</a>.</strong>
+    <br>
+    The money is used for webhosting and events organization (workshops, gatherings, conferences).
+
+- id: network.title
+  translation: The European network
+
+- id: network.subtitle
+  translation: >
+    To foster solidarity between cooperatives, to reduce their costs thanks to the sharing of services and to create a common force to advocate courier's rights.
+
+- id: network.join.title
+  translation: Who is concerned ?
+
+- id: network.join.description
+  translation: The CoopCycle network is open to bike delivery actors respecting the values of the social and solidarity economy.
+
+- id: network.join.courier
+  translation: Courier
+
+- id: network.join.courier.description
+  translation: Isolated courier, you want to join a cooperative or create one ? We will help you out!
+
+- id: network.join.coop
+  translation: Cooperative/Assocation
+
+- id: network.join.coop.description
+  translation: Join a network of cooperatives specialised in bike delivery.
+
+- id: network.join.shop
+  translation: Shop/Restaurant owner
+
+- id: network.join.shop.description
+  translation: Take advantage of a responsible delivery service to improve your commercial offering.
+
+# Countries
+- id: France
+  translation: France
+
+- id: Spain
+  translation: Spain
+
+- id: Belgium
+  translation: Belgium
+
+- id: United-Kingdom
+  translation: United-Kingdom
+
+- id: Germany
+  translation: Germany

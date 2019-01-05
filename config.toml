@@ -15,7 +15,7 @@ extensions = ["hardLineBreak"]
 
 [Languages.en]
 title = "CoopCycle"
-description = "CoopCycle is the european network of bike delivery cooperatives."
+description = "CoopCycle is the European network of bike delivery cooperatives."
 
 ### French
 
