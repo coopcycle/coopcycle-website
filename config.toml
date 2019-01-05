@@ -14,14 +14,20 @@ extensions = ["hardLineBreak"]
 ### English
 
 [Languages.en]
-title = "CoopCycle - Open source logistics platform software. Only for worker-owned business."
-description = "CoopCycle is an open source software for running a logistics platform."
+title = "CoopCycle"
+description = "CoopCycle is the european network of bike delivery cooperatives."
 
 ### French
 
 [Languages.fr]
-title = "CoopCycle - Logiciel de plateforme logistique open source. Seulement pour les coopératives."
-description = "CoopCycle est un logiciel open source permettant de gérer une plateforme logistique."
+title = "CoopCycle"
+description = "CoopCycle est la fédération européenne des coopératives de livraison à vélo."
+
+### Spanish
+
+[Languages.es]
+title = "CoopCycle"
+description = "CoopCycle es un software para administrar una plataforma logística."
 
 [[Languages.fr.menu.main]]
 name = "Blog"
@@ -29,8 +35,3 @@ weight = 4
 identifier = "blog"
 url = "https://blogs.mediapart.fr/coopcycle"
 
-### Spanish
-
-[Languages.es]
-title = "CoopCycle - Software open source de plataforma logística. Solo para cooperativas."
-description = "CoopCycle es un software open source para administrar una plataforma logística."
