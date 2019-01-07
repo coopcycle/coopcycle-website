@@ -89,9 +89,9 @@ type = "network"
 <div class="row">
     <div class="col-md-6">
         <h4 class="h4">Financement : face à la rente nous cotisons</h4>
-        <p>Les services fournis à l'échelle européenne sont entièrement financés par la cotisation des membres du réseau. En décidant démocratiquement du niveau des cotisations et de l'utilisation de cette valeur mutualisée, les livreurs.euses se réapproprient les outils de production ainsi que la valeur de leur travail.</p>
+        <p>Les services fournis à l'échelle européenne sont entièrement financés par la cotisation des membres du réseau. En décidant démocratiquement du niveau des cotisations et de l'utilisation de cette valeur mutualisée, les livreur.se.s se réapproprient les outils de production ainsi que la valeur de leur travail.</p>
         <h4 class="h4">Une gouvernance démocratique</h4>
-        <p>Les livreur.euse.s décident collectivement :
+        <p>Les livreur.se.s décident collectivement :
             <ul>
                 <li>Du niveau de cotisation de chacun des membres selon le type d'entité (coopérative, association, institutionnel, ..)</li>
                 <li>De l’allocation de cette valeur mutualisée aux services prioritaires</li>
