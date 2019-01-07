@@ -2,7 +2,7 @@
   "name": "hugo-theme-coopcycle",
   "version": "0.0.1",
   "scripts": {
-    "build": "NODE_ENV=production node_modules/.bin/webpack build",
+    "build": "NODE_ENV=production node_modules/.bin/webpack",
     "watch": "node_modules/.bin/webpack -d -w"
   },
   "keywords": "hugo",
