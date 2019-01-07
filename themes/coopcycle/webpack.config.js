@@ -1,12 +1,12 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const WebpackAssetsManifest = require('webpack-assets-manifest')
 const path = require('path')
-const Uglify = require("uglifyjs-webpack-plugin")
 
 const cssFilename = process.env.NODE_ENV === 'production' ? 'css/[name].[contenthash].css' : 'css/[name].css'
 const jsFilename = process.env.NODE_ENV === 'production' ? 'js/[name].[chunkhash].js' : 'js/[name].js'
 
 let webpackConfig = {
+  mode: process.env.NODE_ENV || 'development',
   entry: {
     style: './src/scss/style.scss',
     index: './src/scripts/index.js'
@@ -17,27 +17,19 @@ let webpackConfig = {
     filename: jsFilename,
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         include: __dirname + '/js',
         loader: "babel-loader"
       },
       {
-        test: /\.scss$/,
-        loader: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader']
-        }),
-        exclude: /node_modules/,
-      },
-      {
-        test: /\.css$/,
-        loader: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: 'css-loader'
-        }),
-        exclude: /node_modules/,
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader',
+        ],
       },
       {
           test: /\.(eot|ttf|woff|woff2)$/,
@@ -54,8 +46,7 @@ let webpackConfig = {
     ]
   },
   plugins: [
-    new Uglify(),
-    new ExtractTextPlugin(cssFilename),
+    new MiniCssExtractPlugin(cssFilename),
   ]
 };
 
