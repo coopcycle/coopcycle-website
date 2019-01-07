@@ -129,6 +129,12 @@
 - id: network.join.shop.description
   translation: Renforcez votre offre commerciale par un service de livraison écologique et socialement responsable.
 
+- id: network.orderNow
+  translation: Commander
+
+- id: network.visit
+  translation: Se faire livrer
+
 # Countries
 - id: France
   translation: France

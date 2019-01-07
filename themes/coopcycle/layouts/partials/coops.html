@@ -6,7 +6,18 @@
             <ul>
             {{ range sort $coops "city" }}
                 {{ if .name }}
-                    <li class="coop-city">{{ .name }} ({{ .city }})</li>
+                    <li class="coop-city">
+                        {{ .name }} ({{ .city }})
+                        {{ if .coopcycle_url }}
+                            <a class="coops-to-site" href="{{ .coopcycle_url }}" target="_blank">
+                                <i class="fa fa-external-link"></i>
+                            </a>
+                        {{ else if .url }}
+                            <a class="coops-to-site" href="{{ .url }}" target="_blank">
+                                <i class="fa fa-external-link"></i>
+                            </a>
+                        {{ end }}
+                    </li>
                 {{ else }}
                     <li class="coop-city">{{ .city }}</li>
                 {{ end }}
@@ -21,6 +32,9 @@
 
 <script>
     window.AppData = window.AppData || {}
+    window.AppData.i18n = window.AppData.i18n || {}
+    window.AppData.i18n.orderNow = '{{ i18n "network.orderNow" }}'
+    window.AppData.i18n.visit = '{{ i18n "network.visit" }}'
     window.AppData.coops = [
         {{ range $country, $coops := $.Site.Data.coops }}
             {{ range $coops }}

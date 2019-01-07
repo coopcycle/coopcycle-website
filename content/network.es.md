@@ -77,31 +77,32 @@ type = "network"
     </div>
 </div>
 
-<div class="row justify-content-center banner">
-    <div class="col-md-8 col-md-offset-2 text-center">
+<div class="row justify-content-center">
+    <div class="col-md-8 col-md-offset-2 text-center banner">
         <h3 class="h3">How does it work ?</h3>
         <p>
             We follow the french social security moto: "to each according to their means, to each according to their needs" !
         </p>
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h4 class="h4">Funding : against the capitalist rentier effect, we contribute !</h4>
-            <p>The pooled services are funded by cotisation. The cotisation rate and the funds gathered are democratically managed by the members. Thus, the couriers get back the control over their professional activity and working tools.</p>
-            <h4 class="h4">A democratic governance</h4>
-            <p>Couriers decide together about:
-                <ul>
-                    <li>The contribution's level of everyone according to its juridical status  (cooperative, association, institutionnal entity)</li>
-                    <li>The funds allocation</li>
-                    <li>The pay scheme to provide services</li>
-                </ul>
-            </p>
-            <p>
-                The cooperative statuses for CoopCycle members enforce as well a democratic governance at the local level.
-            </p>
-        </div>
-        <div class="col-md-8">
-            INSERER ICI UN SCHEMA QUI VA BIEN
-        </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h4 class="h4">Funding : against the capitalist rentier effect, we contribute !</h4>
+        <p>The pooled services are funded by cotisation. The cotisation rate and the funds gathered are democratically managed by the members. Thus, the couriers get back the control over their professional activity and working tools.</p>
+        <h4 class="h4">A democratic governance</h4>
+        <p>Couriers decide together about:
+            <ul>
+                <li>The contribution's level of everyone according to its juridical status  (cooperative, association, institutionnal entity)</li>
+                <li>The funds allocation</li>
+                <li>The pay scheme to provide services</li>
+            </ul>
+        </p>
+        <p>
+            The cooperative statuses for CoopCycle members enforce as well a democratic governance at the local level.
+        </p>
+    </div>
+    <div class="col-md-6" id="european-governance">
+        <img src="/images/european-network/governance.png">
     </div>
 </div>

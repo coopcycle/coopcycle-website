@@ -77,32 +77,33 @@ type = "network"
     </div>
 </div>
 
-<div class="row justify-content-center banner">
-    <div class="col-md-8 col-md-offset-2 text-center">
+<div class="row justify-content-center">
+    <div class="col-md-8 col-md-offset-2 text-center banner">
         <h3 class="h3">Comment ça marche ?</h3>
         <p>
             Une stratégie mutualiste, solidaire et autonome inspirée du modèle de la sécurité sociale : à chacun.e selon ses moyens à chacun.e selon ses besoins !
         </p>
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h4 class="h4">Financement : face à la rente nous cotisons</h4>
-            <p>Les services fournis à l'échelle européenne sont entièrement financés par la cotisation des membres du réseau. En décidant démocratiquement du niveau des cotisations et de l'utilisation de cette valeur mutualisée, les livreurs.euses se réapproprient les outils de production ainsi que la valeur de leur travail.</p>
-            <h4 class="h4">Une gouvernance démocratique</h4>
-            <p>Les livreur.euse.s décident collectivement :
-                <ul>
-                    <li>Du niveau de cotisation de chacun des membres selon le type d'entité (coopérative, association, institutionnel, ..)</li>
-                    <li>De l’allocation de cette valeur mutualisée aux services prioritaires</li>
-                    <li>De la politique de salarisation pour fournir ces services</li>
-                    <li>Des partenaires économiques futurs</li>
-                </ul>
-            </p>
-            <p>
-                Le choix de la mutualisation réservée à des coopératives s'inscrit également dans cette volonté de promouvoir une gestion démocratique de la valeur produite collectivement par les travailleur.euse.s.
-            </p>
-        </div>
-        <div class="col-md-8">
-            INSERER ICI UN SCHEMA QUI VA BIEN
-        </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h4 class="h4">Financement : face à la rente nous cotisons</h4>
+        <p>Les services fournis à l'échelle européenne sont entièrement financés par la cotisation des membres du réseau. En décidant démocratiquement du niveau des cotisations et de l'utilisation de cette valeur mutualisée, les livreurs.euses se réapproprient les outils de production ainsi que la valeur de leur travail.</p>
+        <h4 class="h4">Une gouvernance démocratique</h4>
+        <p>Les livreur.euse.s décident collectivement :
+            <ul>
+                <li>Du niveau de cotisation de chacun des membres selon le type d'entité (coopérative, association, institutionnel, ..)</li>
+                <li>De l’allocation de cette valeur mutualisée aux services prioritaires</li>
+                <li>De la politique de salarisation pour fournir ces services</li>
+                <li>Des partenaires économiques futurs</li>
+            </ul>
+        </p>
+        <p>
+            Le choix de la mutualisation réservée à des coopératives s'inscrit également dans cette volonté de promouvoir une gestion démocratique de la valeur produite collectivement par les travailleur.euse.s.
+        </p>
+    </div>
+    <div class="col-md-6" id="european-governance">
+        <img src="/images/european-network/governance.png">
     </div>
 </div>

@@ -230,7 +230,7 @@ h2 {
 article img {
   max-width: 100%;
   height: auto;
-  margin: 13px auto;
+  margin: 20px auto;
 }
 
 /*
@@ -242,6 +242,7 @@ article img {
   color: $white;
   text-align: center;
   background-color: $red;
+  margin-top: 20px;
 
   .nav {
     display: block;
@@ -453,6 +454,11 @@ article img {
   padding-left: 10px;
 }
 
+.coops-to-site {
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
 .join-icon {
     width: 80px;
     height: 80px;
@@ -593,4 +599,10 @@ article img {
     }
   }
 
+}
+
+#european-governance {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

@@ -105,7 +105,7 @@
 
 - id: network.subtitle
   translation: >
-    To foster solidarity between cooperatives, to reduce their costs thanks to the sharing of services and to create a common force to advocate courier's rights.
+    To foster solidarity between cooperatives, to reduce their costs thanks to services pooling and to create a common force to advocate courier's rights.
 
 - id: network.join.title
   translation: Who is concerned ?
@@ -130,6 +130,12 @@
 
 - id: network.join.shop.description
   translation: Take advantage of a responsible delivery service to improve your commercial offering.
+
+- id: network.orderNow
+  translation: Order now
+
+- id: network.visit
+  translation: Visit website
 
 # Countries
 - id: France
