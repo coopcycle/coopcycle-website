@@ -22,7 +22,7 @@ type = "network"
     <div class="col-md-4 text-center">
         <i class="join-icon icon-platform"></i>
         <h4 class="h4">The platform software</h4>
-        <p>Our software to enable our members to manage their deliveries and offer an e-commerce solution to their clients.</p>
+        <p>Our software enables our members to manage their deliveries and offer an e-commerce solution to their clients.</p>
     </div>
     <div class="col-md-4 text-center">
         <i class="join-icon icon-smartphone"></i>
