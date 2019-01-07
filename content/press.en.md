@@ -11,6 +11,6 @@ type = "press"
 
 📢 📢 📢
 
-This year, some articles (in french) have been published in blogs and in the press about our project
+This year, some articles (in French) have been published in blogs and in the press about our project
 
 📢 📢 📢

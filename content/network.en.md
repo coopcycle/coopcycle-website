@@ -81,7 +81,7 @@ type = "network"
     <div class="col-md-8 col-md-offset-2 text-center banner">
         <h3 class="h3">How does it work ?</h3>
         <p>
-            We follow the french social security moto: "to each according to their means, to each according to their needs" !
+            We follow the French social security moto: "To each according to their means, to each according to their needs"!
         </p>
     </div>
 </div>
@@ -89,7 +89,7 @@ type = "network"
 <div class="row">
     <div class="col-md-6">
         <h4 class="h4">Funding : against the capitalist rentier effect, we contribute !</h4>
-        <p>The pooled services are funded by cotisation. The cotisation rate and the funds gathered are democratically managed by the members. Thus, the couriers get back the control over their professional activity and working tools.</p>
+        <p>The pooled services are funded by cotisation. The cotisation rate and the funds gathered are democratically managed by members. Thus, the couriers get back the control over their professional activity and working tools.</p>
         <h4 class="h4">A democratic governance</h4>
         <p>Couriers decide together about:
             <ul>
@@ -99,7 +99,7 @@ type = "network"
             </ul>
         </p>
         <p>
-            The cooperative statuses for CoopCycle members enforce as well a democratic governance at the local level.
+            The cooperative status for CoopCycle members enforces as well a democratic governance at the local level.
         </p>
     </div>
     <div class="col-md-6" id="european-governance">
