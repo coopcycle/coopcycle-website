@@ -46,7 +46,7 @@
 
 - id: headlinesub
   translation: >
-      CoopCycle is the European federation of bike delivery cooperatives. Against the gig economy, we promote a socially and environmentally friendly model.
+      CoopCycle is the European federation of bike delivery coops. Against the gig economy, we promote a social and environmental friendly model.
 
 - id: contactus
   translation: Contact us
@@ -56,14 +56,14 @@
 
 - id: ecosystem.content
   translation: >
-    Governed democratically by coops, it enables coops to stand united and to reduce their costs thanks to resource pooling. It creates a strong bargaining power to protect the bikers rights.
+    Governed democratically by coops, it enables them to stand united and to reduce their costs thanks to resources pooling. It creates a strong bargaining power to protect the bikers rights.
 
 - id: digital_common.title
   translation: The software
 
 - id: digital_common.content
   translation: >
-        Full-fledged bike delivery software, it enables coops to manage their deliveries, shop and restaurant owners to create their own. The software is protected by a reciprocity license, which enforce its use by coops only.
+        Full-fledged bike delivery software, it enables them to manage their deliveries, shops and restaurants owners to create their own. The software is protected by a reciprocity license, which enforces its use by coops only.
 
 - id: contribute
   translation: Contribute
@@ -79,14 +79,12 @@
 
 - id: association.content
   translation: >
-    The CoopCycle association is a group of benevolent activists that help bikers to gather and organize. Since September 2017, we work on several topics, including :
+    The CoopCycle association is a group of volonteers that help bikers to gather and organize. Since September 2017, we work on several topics, including :
     <ul>
-    <li>creation of an anti-capitalist economic model, based on the Common</li>
-    <li>development of the CoopCycle software (UI/UX, dev, trainings, docs, aso.)</li>
+    <li>the creation of an anti-capitalist economic model, based on the Commons</li>
+    <li>the development of the CoopCycle software (UI/UX, dev, trainings, docs, aso.)</li>
     <li>political lobbying, juridical toolbox, global coordination</li>
-    <li>and many more things !</li>
     </ul>
-
 
 - id: association.join
   translation: >
@@ -94,7 +92,7 @@
 
 - id: association.donate
   translation: >
-    <strong>You can <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">support the association with a gift.</a></strong>
+    <strong>You can <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">support the association with a donation.</a></strong>
     <br>
     The money is used for webhosting and events organization (workshops, gatherings, conferences).
 
@@ -103,31 +101,31 @@
 
 - id: network.subtitle
   translation: >
-    To foster solidarity between cooperatives, to reduce their costs thanks to services pooling and to create a common force to advocate courier's rights.
+    To foster solidarity between coops, to reduce their costs thanks to services pooling and to create a common force to advocate courier's rights.
 
 - id: network.join.title
   translation: Who is concerned ?
 
 - id: network.join.description
-  translation: The CoopCycle network is open to bike delivery actors respecting the values of the social and solidarity economy.
+  translation: The CoopCycle network is open to bike delivery actors respecting the values of social and fair economy.
 
 - id: network.join.courier
   translation: Courier
 
 - id: network.join.courier.description
-  translation: Isolated courier, you want to join a cooperative or create one ? We will help you out!
+  translation: Isolated courier, you want to join a cooperative or create one? We will help you out!
 
 - id: network.join.coop
-  translation: Cooperative/Assocation
+  translation: Cooperative/Association
 
 - id: network.join.coop.description
-  translation: Join a network of cooperatives specialised in bike delivery.
+  translation: Join our network to mutualize services and enforce your activity.
 
 - id: network.join.shop
   translation: Shop/Restaurant owner
 
 - id: network.join.shop.description
-  translation: Take advantage of a responsible delivery service to improve your commercial offering.
+  translation: Benefit from a responsible delivery service to improve your commercial offering.
 
 - id: network.orderNow
   translation: Order now

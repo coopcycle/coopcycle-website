@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "They speak about us"
+title = "They talk about us"
 description = "In the press & blogs."
 lang = "en"
 menu = "main"
@@ -11,6 +11,6 @@ type = "press"
 
 📢 📢 📢
 
-This year, some articles (in French) have been published in blogs and in the press about our project
+Some articles (in French) have been published in blogs and in the press about CoopCycle.
 
 📢 📢 📢

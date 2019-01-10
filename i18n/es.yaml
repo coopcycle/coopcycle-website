@@ -105,7 +105,7 @@
 
 - id: network.subtitle
   translation: >
-    To foster solidarity between cooperatives, to reduce their costs thanks to services pooling and to create a common force to advocate courier's rights.
+    To foster solidarity between coops, to reduce their costs thanks to services pooling and to create a common force to advocate courier's rights.
 
 - id: network.join.title
   translation: Who is concerned ?
@@ -123,7 +123,7 @@
   translation: Cooperative/Assocation
 
 - id: network.join.coop.description
-  translation: Join a network of cooperatives specialised in bike delivery.
+  translation: Join a network of coops specialised in bike delivery.
 
 - id: network.join.shop
   translation: Shop/Restaurant owner

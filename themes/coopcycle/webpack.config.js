@@ -46,7 +46,7 @@ let webpackConfig = {
     ]
   },
   plugins: [
-    new MiniCssExtractPlugin(cssFilename),
+    new MiniCssExtractPlugin({ filename: cssFilename}),
   ]
 };
 

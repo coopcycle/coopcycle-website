@@ -11,6 +11,6 @@ type = "press"
 
 📢 📢 📢
 
-Cette année, quelques articles sont sortis dans les blogs et dans la presse à propos de notre projet :)
+Cette année, quelques articles sont sortis dans les blogs et dans la presse à propos de CoopCycle :)
 
 📢 📢 📢
