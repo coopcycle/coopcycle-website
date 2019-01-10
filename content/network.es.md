@@ -1,7 +1,7 @@
 +++
 draft = false
-title = "The European network"
-description = "The European network"
+title = "La red europea"
+description = "La red europea"
 lang = "es"
 menu = "main"
 weight = 1
@@ -11,7 +11,7 @@ type = "network"
 
 <div class="row justify-content-center banner">
     <div class="col-md-8 col-md-offset-2 text-center">
-        <h3 class="h3">What is pooled ?</h3>
+        <h3 class="h3">Para quien ?</h3>
         <p>
             Discover the services we are pooling.
         </p>
@@ -21,85 +21,85 @@ type = "network"
 <div class="row">
     <div class="col-md-4 text-center">
         <i class="join-icon icon-platform"></i>
-        <h4 class="h4">The platform software</h4>
-        <p>Our software enables our members to manage their deliveries and offer an e-commerce solution to their clients.</p>
+        <h4 class="h4">El software de plataforma</h4>
+        <p>Nuestro software permite a los miembros de la red europea administrar sus entregas y ofrecer un espacio de comercio electrónico a sus clientes.</p>
     </div>
     <div class="col-md-4 text-center">
         <i class="join-icon icon-smartphone"></i>
-        <h4 class="h4">The smartphone application</h4>
-        <p>An application for easy bike delivery. Another application enables customer to order.</p>
+        <h4 class="h4">La aplicación para smartphone</h4>
+        <p>Una aplicación para entregar con confianza. Otra aplicación cliente para realizar pedidos.</p>
     </div>
     <div class="col-md-4 text-center">
         <i class="join-icon icon-business"></i>
-        <h4 class="h4">Commercial offering</h4>
-        <p>Help in developping a commercial offering. We propose also a common offering for key accounts spread accross several cities.</p>
+        <h4 class="h4">Oferta comercial</h4>
+        <p>Te ayudamos a desarrollar tu oferta comercial. También ofrecemos una oferta común, para clientes de cuentas clave.</p>
     </div>
 </div>
 
 <p>
-    <a id="show-more-services" href="#show-more-services">+ See all services</a>
+    <a id="show-more-services" href="#show-more-services">+ Ver todos los servicios</a>
 </p>
 
 <div id="more-services" style="display:none;opacity: 0;">
     <div class="row">
         <div class="col-md-4 text-center">
             <i class="join-icon icon-eye"></i>
-            <h4 class="h4">Visibility & brand</h4>
-            <p>A well-known european brand equity.</p>
+            <h4 class="h4">Visibilidad y marca</h4>
+            <p>Una marca reconocida a escala europea.</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-judiciary"></i>
-            <h4 class="h4">Administrative and legal</h4>
-            <p>Say goodbye to red tape, an administrative service deals with your receipts, your contracts or your legal status !</p>
+            <h4 class="h4">Administrativo y legal</h4>
+            <p>¡No más papeleo, un servicio se ocupa de facturas, contratos, o del estado legal de su estructura!</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-vault"></i>
-            <h4 class="h4">Payments warranty</h4>
-            <p>Warrant instant payments, thus helping financial stability for coops.</p>
+            <h4 class="h4">Fondo de garantia de pago</h4>
+            <p>Asegurar el pago en efectivo y ayudar a garantizar la estabilidad financiera de las cooperativas.</p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-4 text-center">
             <i class="join-icon icon-money"></i>
-            <h4 class="h4">Fundings & calls for proposal</h4>
-            <p>Getting local and european subsidies for members, common response to call for proposals.</p>
+            <h4 class="h4">Ayudas y convocatorias de proyectos</h4>
+            <p>Obtención de subvenciones locales y europeas para socios, respuesta colectiva a convocatorias de proyectos.</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-insurance"></i>
-            <h4 class="h4">Insurances</h4>
-            <p>Negociate high-quality insurance contracts to face the bike delivery risks.</p>
+            <h4 class="h4">Seguros</h4>
+            <p>Negociar ofertas de seguros de alta calidad para enfrentarse a los riesgos del negocio.</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-plus"></i>
-            <h4 class="h4">And more...</h4>
-            <p>Solidarity funds, trainings, pooled buys...</p>
+            <h4 class="h4">Y más...</h4>
+            <p>Fondo de solidaridad, formación, compra de equipos, ...</p>
         </div>
     </div>
 </div>
 
 <div class="row justify-content-center">
     <div class="col-md-8 col-md-offset-2 text-center banner">
-        <h3 class="h3">How does it work ?</h3>
+        <h3 class="h3">Como funciona ?</h3>
         <p>
-            We follow the French social security moto: "To each according to their means, to each according to their needs"!
+            Una estrategia mutualista, solidaria y autónoma inspirada en el modelo de seguridad social : ¡a cada unx según sus medios, a cada unx según sus necesidades !
         </p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-6">
-        <h4 class="h4">Funding : against the capitalist rentier effect, we contribute !</h4>
-        <p>The pooled services are funded by cotisation. The cotisation rate and the funds gathered are democratically managed by members. Thus, the couriers get back the control over their professional activity and working tools.</p>
-        <h4 class="h4">A democratic governance</h4>
-        <p>Couriers decide together about:
+        <h4 class="h4">Financiación : ¡contra el efecto rentista capitalista, contribuimos !</h4>
+        <p>Los servicios prestados a escala europea están totalmente financiados por la contribución de los miembros de la red. Al decidir democráticamente el nivel de las contribuciones y el uso de este valor mutualizado, lxs repartidorxs se están reapropiando sus herramientas de producción y el valor de su trabajo.</p>
+        <h4 class="h4">Gobernanza democratica</h4>
+        <p>Lxs repartidorxs deciden juntxs :
             <ul>
-                <li>The contribution's level of everyone according to its juridical status  (cooperative, association, institutionnal entity)</li>
-                <li>The funds allocation</li>
-                <li>The pay scheme to provide services</li>
+                <li>El nivel de contribución de cada miembrx según el tipo de entidad (cooperativa, asociación, institucional)</li>
+                <li>De la asignación de este valor compartido a los servicios prioritarios.</li>
+                <li>De la política salarial para prestar estos servicios.</li>
             </ul>
         </p>
         <p>
-            The cooperative statuses for CoopCycle member enforces as well a democratic governance at the local level.
+            La elección de una mutualización reservada para cooperativas también forma parte de este deseo de promover una gestión democrática del valor producido colectivamente por lxs trabajadorxs.
         </p>
     </div>
     <div class="col-md-6" id="european-governance">

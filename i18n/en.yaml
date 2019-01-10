@@ -79,7 +79,7 @@
 
 - id: association.content
   translation: >
-    The CoopCycle association is a group of volonteers that help bikers to gather and organize. Since September 2017, we work on several topics, including :
+    The CoopCycle association is a group of volonteers that help bikers to gather and organize. Since September 2017, we work on several topics, including:
     <ul>
     <li>the creation of an anti-capitalist economic model, based on the Commons</li>
     <li>the development of the CoopCycle software (UI/UX, dev, trainings, docs, aso.)</li>
@@ -104,7 +104,7 @@
     To foster solidarity between coops, to reduce their costs thanks to services pooling and to create a common force to advocate courier's rights.
 
 - id: network.join.title
-  translation: Who is concerned ?
+  translation: Who is concerned?
 
 - id: network.join.description
   translation: The CoopCycle network is open to bike delivery actors respecting the values of social and fair economy.

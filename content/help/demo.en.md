@@ -9,16 +9,16 @@ slug = "how-to-use-the-demo"
 A demo instance of the platform is available here [demo.coopcycle.org](https://demo.coopcycle.org)
 
 
-⚠️ **Warning** : the demo instance is initialized every night.
+⚠️ **Warning**: the demo instance is initialized every night.
 
 ### User roles
 
 Several roles are available, allowing or restricting access to the diverse features.
 
-**Administrator** : can access all the features of the platform.
-**Restaurant** : can manage one or more restaurants.
-**Courier** : can view his statistics and access the app.
-**Customer** : can place orders.
+**Administrator**: can access all the features of the platform.
+**Restaurant**: can manage one or more restaurants.
+**Courier**: can view his statistics and access the app.
+**Customer**: can place orders.
 
 ### Demo accounts
 

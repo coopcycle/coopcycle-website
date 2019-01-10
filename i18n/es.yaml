@@ -49,7 +49,7 @@
       CoopCycle es la federación europea de cooperativas de entrega por bicicleta. En respuesta a la uberización, promovemos una entrega por bicicleta respetuosa de lxs repartidorxs y del medio ambiente.
 
 - id: contactus
-  translation: Contact us
+  translation: Contáctenos
 
 - id: test_demo
   translation: Probar la demostración
@@ -62,7 +62,7 @@
     Una herramienta completa de ciclo-logística, de código abierto, CoopCycle permite a las cooperativas administrar sus entregas y a lxs comerciantes, restauradorxs y clientxs que puedan acceder al servicio. El software está protegido por una licencia de recíprocad, que reserva su uso a las cooperativas.
 
 - id: ecosystem.title
-  translation: La federación europea
+  translation: La red europea
 
 - id: ecosystem.content
   translation: >
@@ -72,74 +72,73 @@
   translation: Contribuir
 
 - id: discover
-  translation: Discover our network
+  translation: Descubre nuestra federación
 
 - id: organization
   translation: Organización
 
 - id: association.title
-  translation: The CoopCycle association
+  translation: La asociación CoopCycle
 
 - id: association.content
   translation: >
-    The CoopCycle association is a group of benevolent activists that help bikers to gather and organize. Since September 2017, we work on several topics, including :
+    La asociación CoopCycle tiene como meta respaldar voluntariamente lxs repartidorxs de todos los países en la construcción de su actividad. Desde septiembre del 2017, hemos estado trabajando en varios temas como :
     <ul>
-    <li>creation of an anti-capitalist economic model, based on the Common</li>
-    <li>development of the CoopCycle software (UI/UX, dev, trainings, docs, aso.)</li>
-    <li>political lobbying, juridical toolbox, global coordination</li>
-    <li>and many more things !</li>
+      <li>la creación de un modelo económico alternativo, basado en el principio del Común</li>
+      <li>el desarrollo del software de plataforma CoopCycle (software y UI / UX)</li>
+      <li>cabildeo político, desarollo de herramientas legales, coordinación de equipos, necesarios para el proyecto</li>
     </ul>
 
 - id: association.join
   translation: >
-    Join the association
+    Únete a la asociación
 
 - id: association.donate
   translation: >
-    <strong>You can <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">support the association with a gift</a>.</strong>
+    <strong><a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">Puedes apoyar a la asociación.</a></strong>
     <br>
-    The money is used for webhosting and events organization (workshops, gatherings, conferences).
+    El dinero se utiliza para alojamiento web y organización de eventos (talleres, reuniones, conferencias).
 
 - id: network.title
-  translation: The European network
+  translation: La red europea
 
 - id: network.subtitle
   translation: >
-    To foster solidarity between coops, to reduce their costs thanks to services pooling and to create a common force to advocate courier's rights.
+    La red CoopCycle está abierta a empresas de reparto por bicicleta que tienen un proyecto cooperativo y desean trabajar con empresas sociales y ecológicas.
 
 - id: network.join.title
-  translation: Who is concerned ?
+  translation: Para quien ?
 
 - id: network.join.description
-  translation: The CoopCycle network is open to bike delivery actors respecting the values of the social and solidarity economy.
+  translation: La red CoopCycle está abierta a empresas de reparto por bicicleta que tienen un proyecto cooperativo y desean trabajar con empresas sociales y ecológicas.
 
 - id: network.join.courier
-  translation: Courier
+  translation: Repartidorxs
 
 - id: network.join.courier.description
-  translation: Isolated courier, you want to join a cooperative or create one ? We will help you out!
+  translation: Repartidorxs aisladxs, quieres unirte a una cooperativa or crear una ? ¡Te podemos ayudar!
 
 - id: network.join.coop
-  translation: Cooperative/Assocation
+  translation: Cooperativa/Asociación
 
 - id: network.join.coop.description
-  translation: Join a network of coops specialised in bike delivery.
+  translation: Únete a una red de cooperativas especializadas en el reparto por bicicleta.
 
 - id: network.join.shop
-  translation: Shop/Restaurant owner
+  translation: Propietarixs de restaurantes/tiendas
 
 - id: network.join.shop.description
-  translation: Take advantage of a responsible delivery service to improve your commercial offering.
+  translation: Tomar ventaja de un servicio de entrega responsable para mejorar su oferta comercial.
 
 - id: network.orderNow
-  translation: Order now
+  translation: ¡Pasa tu pedido ahora!
 
 - id: network.visit
-  translation: Visit website
+  translation: Visita el sitio
 
 # Countries
 - id: France
-  translation: France
+  translation: Francia
 
 - id: Spain
   translation: Spain

@@ -11,7 +11,7 @@ type = "network"
 
 <div class="row justify-content-center banner">
     <div class="col-md-8 col-md-offset-2 text-center">
-        <h3 class="h3">What is pooled ?</h3>
+        <h3 class="h3">What is pooled?</h3>
         <p>
             Discover the services we are pooling.
         </p>
@@ -50,7 +50,7 @@ type = "network"
         <div class="col-md-4 text-center">
             <i class="join-icon icon-judiciary"></i>
             <h4 class="h4">Administrative and legal</h4>
-            <p>Say goodbye to red tape, an administrative service deals with your receipts, your contracts or your legal status !</p>
+            <p>Say goodbye to red tape, an administrative service deals with your receipts, your contracts or your legal status!</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-vault"></i>
@@ -79,7 +79,7 @@ type = "network"
 
 <div class="row justify-content-center">
     <div class="col-md-8 col-md-offset-2 text-center banner">
-        <h3 class="h3">How does it work ?</h3>
+        <h3 class="h3">How does it work?</h3>
         <p>
             We follow the French social security moto: "To each according to their means, to each according to their needs"!
         </p>
@@ -88,7 +88,7 @@ type = "network"
 
 <div class="row">
     <div class="col-md-6">
-        <h4 class="h4">Funding : against the capitalist rentier effect, we contribute !</h4>
+        <h4 class="h4">Funding: against the capitalist rentier effect, we contribute!</h4>
         <p>The pooled services are funded by cotisation. The cotisation rate and the funds gathered are democratically managed by members. Thus, the couriers get back the control over their professional activity and working tools.</p>
         <h4 class="h4">A democratic governance</h4>
         <p>Couriers decide together about:
