@@ -62,7 +62,7 @@
     Una herramienta completa de ciclo-logística, de código abierto, CoopCycle permite a las cooperativas administrar sus entregas y a lxs comerciantes, restauradorxs y clientxs que puedan acceder al servicio. El software está protegido por una licencia de recíprocad, que reserva su uso a las cooperativas.
 
 - id: ecosystem.title
-  translation: La red europea
+  translation: La federación europea
 
 - id: ecosystem.content
   translation: >
@@ -100,17 +100,17 @@
     El dinero se utiliza para alojamiento web y organización de eventos (talleres, reuniones, conferencias).
 
 - id: network.title
-  translation: La red europea
+  translation: La federación europea
 
 - id: network.subtitle
   translation: >
-    La red CoopCycle está abierta a empresas de reparto por bicicleta que tienen un proyecto cooperativo y desean trabajar con empresas sociales y ecológicas.
+    La federación CoopCycle está abierta a empresas de reparto por bicicleta que tienen un proyecto cooperativo y desean trabajar con empresas sociales y ecológicas.
 
 - id: network.join.title
   translation: Para quien ?
 
 - id: network.join.description
-  translation: La red CoopCycle está abierta a empresas de reparto por bicicleta que tienen un proyecto cooperativo y desean trabajar con empresas sociales y ecológicas.
+  translation: La federación CoopCycle está abierta a empresas de reparto por bicicleta que tienen un proyecto cooperativo y desean trabajar con empresas sociales y ecológicas.
 
 - id: network.join.courier
   translation: Repartidorxs
@@ -122,7 +122,7 @@
   translation: Cooperativa/Asociación
 
 - id: network.join.coop.description
-  translation: Únete a una red de cooperativas especializadas en el reparto por bicicleta.
+  translation: Únete a una federación de cooperativas especializadas en el reparto por bicicleta.
 
 - id: network.join.shop
   translation: Propietarixs de restaurantes/tiendas
@@ -141,13 +141,13 @@
   translation: Francia
 
 - id: Spain
-  translation: Spain
+  translation: España
 
 - id: Belgium
-  translation: Belgium
+  translation: Bélgica
 
 - id: United-Kingdom
-  translation: United-Kingdom
+  translation: Reino Unido
 
 - id: Germany
-  translation: Germany
+  translation: Alemania

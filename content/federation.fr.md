@@ -1,19 +1,19 @@
 +++
 draft = false
-title = "Le réseau européen"
-description = "Le réseau européen."
+title = "La fédération européen"
+description = "La fédération européen."
 lang = "fr"
 menu = "main"
 weight = 1
-slug = "réseau"
-type = "network"
+slug = "federation"
+type = "federation"
 +++
 
 <div class="row justify-content-center banner">
     <div class="col-md-8 col-md-offset-2 text-center">
         <h3 class="h3">Que mutualisons nous ?</h3>
         <p>
-            Découvrez les services que nous mutualisons au sein du réseau européen.<br>
+            Découvrez les services que nous mutualisons au sein de la fédération européenne.<br>
         </p>
     </div>
 </div>
@@ -22,7 +22,7 @@ type = "network"
     <div class="col-md-4 text-center">
         <i class="join-icon icon-platform"></i>
         <h4 class="h4">Le logiciel de plateforme</h4>
-        <p>Notre logiciel permet aux membres du réseau européen de gérer leurs livraisons et d'offrir un espace e-commerce à leurs client.e.s.</p>
+        <p>Notre logiciel permet aux membres de la fédération européenne de gérer leurs livraisons et d'offrir un espace e-commerce à leurs client.e.s.</p>
     </div>
     <div class="col-md-4 text-center">
         <i class="join-icon icon-smartphone"></i>
@@ -89,7 +89,7 @@ type = "network"
 <div class="row">
     <div class="col-md-6">
         <h4 class="h4">Financement : face à la rente, nous cotisons</h4>
-        <p>Les services fournis à l'échelle européenne sont entièrement financés par la cotisation des membres du réseau. En décidant démocratiquement du niveau des cotisations et de l'utilisation de cette valeur mutualisée, les livreur.se.s se réapproprient les outils de production ainsi que la valeur de leur travail.</p>
+        <p>Les services fournis à l'échelle européenne sont entièrement financés par la cotisation des membres de la fédération. En décidant démocratiquement du niveau des cotisations et de l'utilisation de cette valeur mutualisée, les livreur.se.s se réapproprient les outils de production ainsi que la valeur de leur travail.</p>
         <h4 class="h4">Une gouvernance démocratique</h4>
         <p>Les livreur.se.s décident collectivement :
             <ul>

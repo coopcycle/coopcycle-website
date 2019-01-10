@@ -91,13 +91,13 @@
   translation: Contribuer
 
 - id: discover
-  translation: Découvrez notre réseau
+  translation: Découvrez notre fédération
 
 - id: organization
   translation: Organisation
 
 - id: network.title
-  translation: Le réseau européen
+  translation: La fédération européenne
 
 - id: network.subtitle
   translation: >
@@ -108,19 +108,19 @@
   translation: Pour qui ?
 
 - id: network.join.description
-  translation: Le réseau CoopCycle est ouvert aux acteurs et actrices de la livraison à vélo qui ont un projet coopératif.
+  translation: La fédération CoopCycle est ouvert aux acteurs et actrices de la livraison à vélo qui ont un projet coopératif.
 
 - id: network.join.courier
   translation: Livreur.se
 
 - id: network.join.courier.description
-  translation: Livreur.se isolé.e, nous vous accompagnons pour rejoindre ou créer une coopérative du réseau dans votre localité.
+  translation: Livreur.se isolé.e, nous vous accompagnons pour rejoindre ou créer une coopérative dans votre localité.
 
 - id: network.join.coop
   translation: Coopérative/Association
 
 - id: network.join.coop.description
-  translation: Rejoignez le réseau pour mutualiser les services nécessaires à votre activité.
+  translation: Rejoignez la fédération pour mutualiser les services nécessaires à votre activité.
 
 - id: network.join.shop
   translation: Restaurateur.rice/Commerçant.e

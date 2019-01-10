@@ -69,7 +69,7 @@
   translation: Contribute
 
 - id: discover
-  translation: Discover our network
+  translation: Discover our federation
 
 - id: organization
   translation: Organization
@@ -97,7 +97,7 @@
     The money is used for webhosting and events organization (workshops, gatherings, conferences).
 
 - id: network.title
-  translation: The European network
+  translation: The European federation
 
 - id: network.subtitle
   translation: >
@@ -107,7 +107,7 @@
   translation: Who is concerned?
 
 - id: network.join.description
-  translation: The CoopCycle network is open to bike delivery actors respecting the values of social and fair economy.
+  translation: The CoopCycle federation is open to bike delivery actors respecting the values of social and fair economy.
 
 - id: network.join.courier
   translation: Courier
@@ -119,7 +119,7 @@
   translation: Cooperative/Association
 
 - id: network.join.coop.description
-  translation: Join our network to mutualize services and enforce your activity.
+  translation: Join our federation to mutualize services and enforce your activity.
 
 - id: network.join.shop
   translation: Shop/Restaurant owner

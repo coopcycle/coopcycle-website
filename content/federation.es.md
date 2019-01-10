@@ -1,12 +1,12 @@
 +++
 draft = false
-title = "La red europea"
-description = "La red europea"
+title = "La federación europea"
+description = "La federación europea"
 lang = "es"
 menu = "main"
 weight = 1
-slug = "network"
-type = "network"
+slug = "federacion"
+type = "federation"
 +++
 
 <div class="row justify-content-center banner">
@@ -22,7 +22,7 @@ type = "network"
     <div class="col-md-4 text-center">
         <i class="join-icon icon-platform"></i>
         <h4 class="h4">El software de plataforma</h4>
-        <p>Nuestro software permite a los miembros de la red europea administrar sus entregas y ofrecer un espacio de comercio electrónico a sus clientes.</p>
+        <p>Nuestro software permite a los miembros de la federación europea administrar sus entregas y ofrecer un espacio de comercio electrónico a sus clientes.</p>
     </div>
     <div class="col-md-4 text-center">
         <i class="join-icon icon-smartphone"></i>
@@ -89,7 +89,7 @@ type = "network"
 <div class="row">
     <div class="col-md-6">
         <h4 class="h4">Financiación : ¡contra el efecto rentista capitalista, contribuimos !</h4>
-        <p>Los servicios prestados a escala europea están totalmente financiados por la contribución de los miembros de la red. Al decidir democráticamente el nivel de las contribuciones y el uso de este valor mutualizado, lxs repartidorxs se están reapropiando sus herramientas de producción y el valor de su trabajo.</p>
+        <p>Los servicios prestados a escala europea están totalmente financiados por la contribución de los miembros de la federación. Al decidir democráticamente el nivel de las contribuciones y el uso de este valor mutualizado, lxs repartidorxs se están reapropiando sus herramientas de producción y el valor de su trabajo.</p>
         <h4 class="h4">Gobernanza democratica</h4>
         <p>Lxs repartidorxs deciden juntxs :
             <ul>

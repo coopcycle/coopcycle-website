@@ -1,12 +1,12 @@
 +++
 draft = false
-title = "The European network"
-description = "The European network"
+title = "The European federation"
+description = "The European federation"
 lang = "en"
 menu = "main"
 weight = 1
-slug = "network"
-type = "network"
+slug = "federation"
+type = "federation"
 +++
 
 <div class="row justify-content-center banner">
