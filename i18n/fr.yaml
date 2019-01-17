@@ -135,17 +135,17 @@
   translation: Se faire livrer
 
 # Countries
-- id: France
+- id: fr
   translation: France
 
-- id: Spain
+- id: es
   translation: Espagne
 
-- id: Belgium
+- id: be
   translation: Belgique
 
-- id: United-Kingdom
+- id: gb
   translation: Royaume-Uni
 
-- id: Germany
+- id: de
   translation: Allemagne

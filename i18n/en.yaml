@@ -134,17 +134,17 @@
   translation: Visit website
 
 # Countries
-- id: France
+- id: fr
   translation: France
 
-- id: Spain
+- id: es
   translation: Spain
 
-- id: Belgium
+- id: be
   translation: Belgium
 
-- id: United-Kingdom
+- id: gb
   translation: United-Kingdom
 
-- id: Germany
+- id: de
   translation: Germany

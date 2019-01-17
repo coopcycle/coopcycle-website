@@ -137,17 +137,17 @@
   translation: Visita el sitio
 
 # Countries
-- id: France
+- id: fr
   translation: Francia
 
-- id: Spain
+- id: es
   translation: España
 
-- id: Belgium
+- id: be
   translation: Bélgica
 
-- id: United-Kingdom
+- id: gb
   translation: Reino Unido
 
-- id: Germany
+- id: de
   translation: Alemania

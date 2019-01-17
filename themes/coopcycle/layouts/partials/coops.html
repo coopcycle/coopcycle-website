@@ -1,10 +1,14 @@
 <div class="row">
     <div class="col-md-4">
         <ul class="coops-list">
-        {{ range $country, $coops := $.Site.Data.coops }}
-            <li class="coops-country">{{ i18n $country }}</li>
+        {{ $countries := slice }}
+        {{ range $.Site.Data.coops }}
+            {{ $countries = $countries | append .country }}
+        {{ end }}
+        {{ range uniq $countries }}
+            <li class="coops-country">{{ i18n . }}</li>
+            {{ range sort (where $.Site.Data.coops "country" .) "city" "asc" }}
             <ul>
-            {{ range sort $coops "city" }}
                 {{ if .name }}
                     <li class="coop-city">
                         {{ .name }} ({{ .city }})
@@ -21,8 +25,8 @@
                 {{ else }}
                     <li class="coop-city">{{ .city }}</li>
                 {{ end }}
-            {{ end }}
             </ul>
+            {{ end }}
         {{ end }}
         </ul>
     </div>
@@ -35,20 +39,6 @@
     window.AppData.i18n = window.AppData.i18n || {}
     window.AppData.i18n.orderNow = '{{ i18n "network.orderNow" }}'
     window.AppData.i18n.visit = '{{ i18n "network.visit" }}'
-    window.AppData.coops = [
-        {{ range $country, $coops := $.Site.Data.coops }}
-            {{ range $coops }}
-                {
-                    "name": {{ .name }},
-                    "latitude": {{ .latitude }},
-                    "longitude": {{ .longitude }},
-                    "country": {{ $country }},
-                    "url": {{ .url }},
-                    "city": {{ .city }},
-                    "coopcycleUrl": {{ .coopcycle_url }},
-                },
-            {{ end }}
-        {{ end }}
-    ]
+    window.AppData.coops = {{ $.Site.Data.coops | jsonify | safeJS }};
 </script>
 
