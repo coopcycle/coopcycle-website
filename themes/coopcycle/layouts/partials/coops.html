@@ -11,15 +11,16 @@
             <ul>
                 {{ if .name }}
                     <li class="coop-city">
-                        {{ .name }} ({{ .city }})
                         {{ if .coopcycle_url }}
                             <a class="coops-to-site" href="{{ .coopcycle_url }}" target="_blank">
-                                <i class="fa fa-external-link"></i>
+                              {{ .name }} ({{ .city }}) <i class="fa fa-external-link"></i>
                             </a>
                         {{ else if .url }}
                             <a class="coops-to-site" href="{{ .url }}" target="_blank">
-                                <i class="fa fa-external-link"></i>
+                                {{ .name }} ({{ .city }}) <i class="fa fa-external-link"></i>
                             </a>
+                        {{ else }}
+                            {{ .name }} ({{ .city }})
                         {{ end }}
                     </li>
                 {{ else }}
