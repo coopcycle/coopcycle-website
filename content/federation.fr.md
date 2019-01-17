@@ -1,7 +1,7 @@
 +++
 draft = false
-title = "La fédération européen"
-description = "La fédération européen."
+title = "La fédération européenne"
+description = "La fédération européenne."
 lang = "fr"
 menu = "main"
 weight = 1
