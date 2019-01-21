@@ -70,9 +70,9 @@
 
 - id: association.content
   translation: >
-    L’association CoopCycle a vocation à soutenir bénévolement les livreur.euse.es de tous pays européens dans la construction de leur activité. Depuis septembre 2017, nous travaillons sur des thématiques variées comme :
+    L’association CoopCycle a vocation à soutenir bénévolement les livreur.se.es de tous pays européens dans la construction de leur activité. Depuis septembre 2017, nous travaillons sur des thématiques variées comme :
     <ul>
-      <li>la création d'un modèle économique anticapitaliste, basée sur le principe du Commun</li>
+      <li>la création d'un modèle économique anticapitaliste, basé sur le principe du Commun</li>
       <li>le développement du logiciel de plateforme CoopCycle (software & UI/UX)</li>
       <li>le lobbying politique, les outils juridiques, la coordination d'équipe</li>
     </ul>
@@ -84,7 +84,6 @@
 - id: association.donate
   translation: >
     <strong>Vous pouvez aussi <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">faire un don</a>.</strong>
-    <br>
     L'argent est utilisé pour le financement des serveurs et des évènements (rassemblements, journées de travail).
 
 - id: contribute
