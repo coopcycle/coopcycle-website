@@ -86,6 +86,10 @@
     <strong>Vous pouvez aussi <a href="https://www.helloasso.com/associations/coopcycle/formulaires/1/widget" target="_blank">faire un don</a>.</strong>
     L'argent est utilisé pour le financement des serveurs et des évènements (rassemblements, journées de travail).
 
+- id: association.win
+  translation: >
+    Vainqueur 2018 des Trophées de l'Économie sociale et solidaire de la ville de Paris.
+
 - id: contribute
   translation: Contribuer
 
