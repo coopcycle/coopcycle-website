@@ -14,7 +14,8 @@
         "latitude": 47.2383172,
         "longitude": -1.6300963,
         "city": "Nantes",
-        "country": "fr"
+        "country": "fr",
+        "url": "http://lescoursiersnantais.fr/"
     },
     {
         "name": "Les Coursiers Bordelais",
@@ -66,7 +67,7 @@
     },
     {
         "name": "Sacavélo",
-        "url": "https://www.facebook.com/rqstains/",
+        "url": "http://www.livreurs-sacavelo.sitew.fr/#ACCUEIL.K",
         "latitude": 45.1842207,
         "longitude": 5.6805229,
         "city": "Grenoble/Voreppe",
