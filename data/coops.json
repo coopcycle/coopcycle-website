@@ -26,8 +26,9 @@
         "country": "fr"
     },
     {
-        "name": "La Poit'à vélo",
+        "name": "La Poit’ à vélo",
         "url": "http://www.lapoitavelo.fr/",
+        "coopcycle_url": "https://lapoitavelo.coopcycle.org",
         "latitude": 46.5847306,
         "longitude": 0.3014293,
         "city": "Poitiers",
