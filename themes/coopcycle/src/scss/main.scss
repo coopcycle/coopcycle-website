@@ -477,7 +477,7 @@ article img {
   margin: auto;
   margin-bottom: 10px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
   &.icon-restaurant {
     background-image: url('/images/european-network/icon-restaurant.png');
