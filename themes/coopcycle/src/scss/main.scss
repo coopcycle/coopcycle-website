@@ -606,3 +606,24 @@ article img {
   align-items: center;
   justify-content: center;
 }
+
+.list-features {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.list-features--el {
+  font-size: 0.8rem;
+}
+
+.feature-group {
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.feature-group.active {
+  background-color: $red;
+  color: $white;
+}
