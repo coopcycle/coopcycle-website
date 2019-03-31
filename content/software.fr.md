@@ -78,7 +78,7 @@ type = "software"
     <div class="col-md-8 col-md-offset-2">
         <div class="row">
             <p>
-                  <span>L'objectif de CoopCycle est de rendre le pouvoir aux livreur.se.s, et plus largement aux travailleur.se.s. Nous voulions que le code de la plateforme soit transparent et accessible librement, mais exploitable seulement par des acteurs de l'Économie Sociale et Solidaire. Partant des travaux de Dimitry Kleiner au sein de la p2p fundation, notre équipe de juriste s'est mise au travail. Le résultat final ? Une nouvelle licence : <strong>la Coopyleft</strong>. Elle impose aux structures utilisant le logciel CoopCycle de répondre aux critères suivants :</span>
+                  <span>L'objectif de CoopCycle est de rendre le pouvoir aux livreur.se.s, et plus largement aux travailleur.se.s. Nous voulions que le code de la plateforme soit transparent et accessible librement, mais exploitable seulement par des acteurs de l'Économie Sociale et Solidaire. Partant des travaux de Dimitry Kleiner au sein de la p2p fundation, notre équipe de juristes s'est mise au travail. Le résultat ? Une nouvelle licence : <strong>la Coopyleft</strong>. Elle impose aux structures utilisant le logciel CoopCycle de répondre aux critères suivants :</span>
                 <ul>
                     <li>
                         Salarier leurs livreurs, via un contrat classique ou une société de portage salarial.
