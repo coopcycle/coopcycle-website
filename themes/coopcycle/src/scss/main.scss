@@ -11,6 +11,11 @@ a {
   color: $link-color;
 }
 
+a.know-more {
+  text-decoration: underline;
+  color: $dark;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
@@ -101,6 +106,14 @@ h2 {
 
 .margin-bottom-l {
   margin-bottom: 40px;
+}
+
+.text-small {
+  font-size: 0.8rem
+}
+
+.text-big {
+  font-size: 1.4rem
 }
 
 /*
@@ -465,11 +478,6 @@ article img {
     margin-bottom: 20px;
 }
 
-#show-more-services {
-  text-decoration: underline;
-  color: $dark;
-}
-
 .join-icon {
   width: 80px;
   height: 80px;
@@ -615,15 +623,16 @@ article img {
 
 .list-features--el {
   font-size: 0.8rem;
+  margin-bottom: 2px;
 }
 
 .feature-group {
   border-radius: 4px;
-  padding: 10px;
+  padding: 6px;
   cursor: pointer;
 }
 
-.feature-group.active {
+.active > .feature-group {
   background-color: $red;
   color: $white;
 }

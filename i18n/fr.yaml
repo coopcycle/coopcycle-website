@@ -96,6 +96,9 @@
 - id: discover
   translation: Découvrez notre fédération
 
+- id: discover.software
+  translation: Le logiciel
+
 - id: organization
   translation: Organisation
 

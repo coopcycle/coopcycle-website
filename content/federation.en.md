@@ -37,7 +37,7 @@ type = "federation"
 </div>
 
 <p>
-    <a id="show-more-services" href="#show-more-services">+ See all services</a>
+    <a id="show-more-services" class="know-more" href="#show-more-services">+ See all services</a>
 </p>
 
 <div id="more-services" style="display:none;opacity: 0;">

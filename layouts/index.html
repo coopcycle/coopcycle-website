@@ -17,8 +17,6 @@
     <div class="row">
       <div class="col-md-6">
         <h4 class="text-center h4">{{ i18n "ecosystem.title" }}</h4>
-<!--         <img class="img" alt="network" src="/images/network.png">
-        <img class="img-retina" alt="network" src="/images/2x/network.png"> -->
         <div class="homepage-card">
           <p>
             {{ i18n "ecosystem.content" | safeHTML }}
@@ -27,8 +25,6 @@
       </div>
       <div class="col-md-6">
         <h4 class="text-center h4">{{ i18n "digital_common.title" }}</h4>
-<!--         <img class="img" alt="network" src="/images/network.png">
-        <img class="img-retina" alt="network" src="/images/2x/network.png"> -->
         <div class="homepage-card">
           <p>
             {{ i18n "digital_common.content" | safeHTML }}
@@ -41,7 +37,7 @@
         <a href="{{ ref . (printf "%s%s%s" "federation." .Lang ".md") }}" class="btn">{{ i18n "discover" | safeHTML }}</a>
       </div>
       <div class="col-md-6 text-center">
-        <a href="mailto:contact@coopcycle.org" class="btn">{{ i18n "contribute" | safeHTML }}</a>
+        <a href="{{ ref . (printf "%s%s%s" "software." .Lang ".md") }}" class="btn">{{ i18n "discover.software" | safeHTML }}</a>
       </div>
     </div>
   </div>

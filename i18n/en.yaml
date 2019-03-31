@@ -71,6 +71,9 @@
 - id: discover
   translation: Discover our federation
 
+- id: discover.software
+  translation: The software
+
 - id: organization
   translation: Organization
 
