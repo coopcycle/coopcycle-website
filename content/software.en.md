@@ -81,10 +81,10 @@ type = "software"
                 CoopCycle's main goal is to empower couriers and, more generally workers. We, at the same time, wanted our code to be freely accessible, but not only used by companies with strong ethic. Based on previous works by Dimytri Kleiner and the p2p foundation, our legal team put themselves to work. The final result ? A new license : <strong>the Coopyleft</strong>. It ensures that the companies using the CoopCycle's software comply with the following rules:
                 <ul>
                     <li>
-                        Employing their workers
+                        Using a cooperative model in which workers are employees;
                     </li>
                     <li>
-                        Fitting with the definition of social economy actors as defined by the European Union
+                        Fitting with the definition of social economy actors as defined by the European Union.
                     </li>
                 </ul>
             </p>

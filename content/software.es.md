@@ -78,18 +78,18 @@ type = "software"
     <div class="col-md-8 col-md-offset-2">
         <div class="row">
             <p>
-            <span>El objetivo principal del CoopCycle es capacitar a lxs repartidorxs y, en general, a lxs trabajadorxs. Nosotrxs queríamos que nuestro código fuera, al mismo tiempo, de libre acceso, pero solo utilizado por compañías con una ética sólida. Basandose en trabajos previos de Dimytri Kleiner y la p2p foundation, nuestro equipo legal se puso a trabajar. El resultado final ? Una nueva licencia : la <strong>Coopyleft</strong>. Asegura que las compañías que utilizan el software de CoopCycle cumplen con las siguientes reglas :</span>
-    <ul>
-        <li>
-            Empleando a sus trabajadores
-        </li>
-        <li>
-            Ajustándose a la definición de actores de la economía social tal como la establece la Unión Europea
-        </li>
-    </ul>
-                </p>
-                <p>
-        <span> Entonces, el software CoopCycle no es de código abierto: su código está disponible en Github, ¡pero nadie puede ejecutarlo con fines comerciales! Uno de nuestros objetivos es difundir el uso de la licencia Coopyleft. ¿Interesadx en unirse o usar la licencia? <a href="mailto:contact@coopcycle.org">Envíenos un correo</a>.</span>
+                <span>El objetivo principal del CoopCycle es capacitar a lxs repartidorxs y, en general, a lxs trabajadorxs. Nosotrxs queríamos que nuestro código fuera, al mismo tiempo, de libre acceso, pero solo utilizado por compañías con una ética sólida. Basandose en trabajos previos de Dimytri Kleiner y la p2p foundation, nuestro equipo legal se puso a trabajar. El resultado final ? Una nueva licencia : la <strong>Coopyleft</strong>. Asegura que las compañías que utilizan el software de CoopCycle cumplen con las siguientes reglas :</span>
+                <ul>
+                    <li>
+                        Adoptar un modelo cooperativo y empleando a sus trabajadores ;
+                    </li>
+                    <li>
+                        Ajustándose a la definición de actores de la economía social tal como la establece la Unión Europea.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <span> Entonces, el software CoopCycle no es de código abierto: su código está disponible en Github, ¡pero nadie puede ejecutarlo con fines comerciales! Uno de nuestros objetivos es difundir el uso de la licencia Coopyleft. ¿Interesadx en unirse o usar la licencia? <a href="mailto:contact@coopcycle.org">Envíenos un correo</a>.</span>
                 <ul>
                     <li>
                         <a target="_blank" href="https://blogs.mediapart.fr/coopcycle/blog/170418/comment-proteger-le-logiciel-ouvert-coopcycle-de-la-predation-capitaliste" class="know-more">[FR] Lee más sobre la licencia de CoopCycle</a>
