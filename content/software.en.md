@@ -97,6 +97,9 @@ type = "software"
                     <li>
                         <a href="https://wiki.coopcycle.org/fr:licenseen" class="know-more">Get the full license text</a><br>
                     </li>
+                    <li>
+                        <a target="_blank" href="https://plateformes.coopdescommuns.org/" class="know-more">CoopCycle contribute to Plateformes en commun, the platform coops community</a><br>
+                    </li>
                 </ul>
             </p>
         </div>
