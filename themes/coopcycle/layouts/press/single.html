@@ -10,25 +10,26 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-6 ml-md-auto mr-md-auto">
-      <div class="text-center">{{ .Content }}</div>
+    <div class="col-md-8">
+      <div>{{ .Content }}</div>
     </div>
   </div>
 </div>
-<div class="press-container container">
-  {{ range sort $.Site.Data.press "date" "desc" }}
-  <div class="press-item row justify-content-start">
-    <div class="press-item-image col-2">
-      <img src="{{ .img }}">
-    </div>
-    <div class="press-item-text col-10">
-        <a href="{{ .link }}" target="_blank">
-          {{ .title }}
-          <br>
-          <small>{{ dateFormat "02/01/2006" .date }}</small>
-        </a>
-    </div>
-  </div>
+<div class="margin-top-md margin-bottom-md container">
+  {{ range sort (where $.Site.Data.press "lang" "in" (slice "fr" .Lang)) "date" "desc" }}
+    {{ if ne .Lang "fr" }}
+      <div class="press-item row justify-content-start">
+        <div class="press-item-image col-2" style="background-image: url({{ .img }})">
+        </div>
+        <div class="press-item-text col-10">
+            <a href="{{ .link }}" target="_blank">
+              {{ .title }}
+              <br>
+              <small>{{ dateFormat "02/01/2006" .date }}</small>
+            </a>
+        </div>
+      </div>
+    {{ end }}
   {{ end }}
 </div>
 

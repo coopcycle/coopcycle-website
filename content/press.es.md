@@ -9,9 +9,5 @@ slug = "prensa"
 type = "press"
 +++
 
-📢 📢 📢
-
-Este año, algunos artículos han sido publicados en blogs y en la prensa sobre nuestro proyecto :)
-Solo en francés de momento, lo sentimos
-
-📢 📢 📢
+Una selección no exhaustiva de los artículos publicados sobre el proyecto CoopCycle y las cooperativas de nuestra red.
+Quiere escribir un artículo ? Mandenos un correo a <a href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>, estaremos felices de responder a sus preguntas.

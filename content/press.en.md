@@ -9,8 +9,5 @@ slug = "press"
 type = "press"
 +++
 
-📢 📢 📢
-
-Some articles (in French) have been published in blogs and in the press about CoopCycle.
-
-📢 📢 📢
+A selection of press articles (mostly in french) about CoopCycle and our coops network.
+You're writing an article about us ? Reach us at <a href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>, we'll be glad to answer your questions.

@@ -393,25 +393,17 @@ article img {
  * Press
  */
 
-.press-container {
-  margin-top: 3rem;
-  .press-item {
-    margin-bottom: 20px;
-      .press-item-image  {
-      text-align: right;
-      img {
-        min-width: 80px;
-        max-width: 80px;
-        @include media-breakpoint-down(sm) {
-          min-width: 50%;
-          max-width: 50%;
-        }
-      }
-    }
-    .press-item-text {
-      a {
-        color: $link-color;
-      }
+.press-item {
+  margin-bottom: 20px;
+    .press-item-image  {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 60px;
+  }
+  .press-item-text {
+    a {
+      color: $link-color;
     }
   }
 }

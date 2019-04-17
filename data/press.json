@@ -1,128 +1,51 @@
 [
     {
-        "img": "/images/press/lundi.am.jpeg",
-        "link": "https://lundi.am/Le-CLAP-les-livreurs-a-velo-parisiens-contre-attaquent",
-        "title": "Le CLAP : les livreurs à vélo parisiens contre-attaquent",
-        "date": "2017-05-23"
-    },
-    {
-        "img": "/images/press/aupresdemaselle.jpg",
-        "link": "https://aupresdemaselle.fr/2017/06/06/uberisation-dans-les-metiers-du-cycle-les-alternatives-pour-les-entrepreneurs/",
-        "title": "Uberisation dans les métiers du cycle : les alternatives pour les entrepreneurs",
-        "date": "2017-06-06"
-    },
-    {
-        "img": "/images/press/usbeketrica.png",
-        "link": "https://crowd.kisskissbankbank.com/coopcycle-le-b%C3%A9ru-uber-de-la-livraison-food-fc6356a8b987",
-        "title": "Coopcycle, le Béru (Uber) de la livraison food",
-        "date": "2017-06-07"
-    },
-    {
         "img": "/images/press/gazettedebout.png",
         "link": "https://gazettedebout.fr/2017/06/14/livreurs-a-velo-tentent-dechapper-a-lemprise-de-deliveroo/",
         "title": "Comment les livreurs à vélo tentent d'échapper à l'emprise de Deliveroo",
-        "date": "2017-06-13"
+        "date": "2017-06-13",
+        "lang": "fr"
     },
     {
         "img": "/images/press/bastamag.jpg",
-        "link": "https://www.bastamag.net/Uberisation-l-immense-peloton-des-livreurs-a-velo-se-lance-dans-la-course-pour",
-        "title": "L’immense peloton des livreurs à vélo se lance dans la course pour le respect de leurs droits",
-        "date": "2017-07-11"
+        "link": "https://www.bastamag.net/Nous-sommes-une-start-up-multinationale-anarcho-communiste-Coopcycle-auto",
+        "title": "Coopcycle auto-organise les coursiers à vélo",
+        "date": "2019-01-16",
+        "lang": "fr"
     },
     {
         "img": "/images/press/France_Culture_logo_2005.svg",
         "link": "https://www.franceculture.fr/emissions/itineraire-bis/ces-livreurs-velo-qui-veulent-saffranchir-des-plateformes",
         "title": "Ces livreurs à vélo qui veulent s'affranchir des plateformes",
-        "date": "2017-07-24"
-    },
-    {
-        "img": "/images/press/rue89bordeaux.png",
-        "link": "http://rue89bordeaux.com/2017/07/coursiers-de-deliveroo-devront-pedaler-plus-gagner-plus/",
-        "title": "Les coursiers de Deliveroo devront pédaler plus pour gagner plus",
-        "date": "2017-07-28"
-    },
-    {
-        "img": "/images/press/partagesc.jpg",
-        "link": "https://www.facebook.com/partagesc/videos/1430002130460717/",
-        "title": "Coopcycle, une plateforme de livraison de repas anti-ubérisation",
-        "date": "2017-08-08"
-    },
-    {
-        "img": "/images/press/ouestfrance.jpg",
-        "link": "http://www.ouest-france.fr/economie/coopcycle-la-plateforme-cooperative-qui-veut-concurrencer-deliveroo-5183592",
-        "title": "Coopcycle, la plateforme coopérative qui veut concurrencer Deliveroo",
-        "date": "2017-08-14"
+        "date": "2017-07-24",
+        "lang": "fr"
     },
     {
         "img": "/images/press/lhumanite.png",
-        "link": "https://www.humanite.fr/economie-sociale-et-solidaire-des-alternatives-en-germe-contre-luberisation-du-travail-640563",
-        "title": "Des alternatives en germe contre l’ubérisation du travail",
-        "date": "2017-08-18"
+        "link": "https://www.humanite.fr/platform-coop-un-vecteur-mondial-pour-transformer-les-plateformes-664024",
+        "title": "Platform.coop, un vecteur mondial pour transformer les plateformes",
+        "date": "2018-11-22",
+        "lang": "fr"
     },
     {
-        "img": "/images/press/alternatives-economiques.svg",
-        "link": "https://www.alternatives-economiques.fr/fronde-livreurs-a-velo/00080011",
-        "title": "La fronde des livreurs à vélo",
-        "date": "2017-08-18"
+        "img": "/images/press/le-monde.png",
+        "link": "https://www.lemonde.fr/economie/article/2018/11/11/coopcycle-veut-concurrencer-foodora-et-deliveroo-avec-une-licence-libre_5382053_3234.html",
+        "title": "CoopCycle veut concurrencer Foodora et Deliveroo",
+        "date": "2018-11-11",
+        "lang": "fr"
     },
     {
-        "img": "/images/press/telerama.png",
-        "link": "http://www.telerama.fr/sortir/deliveroo-vs-les-coursiers-le-velo-nest-pas-adapte-a-la-livraison-de-nourriture,n5152856.php",
-        "title": "Deliveroo vs les coursiers : “Le vélo n'est pas adapté à la livraison de nourriture”",
-        "date": "2017-08-22"
-    },
-    {
-        "img": "/images/press/20minutes.svg",
-        "link": "http://www.20minutes.fr/magazine/economie-collaborative/perspectives/coopcycle-future-alternative-au-modele-deliveroo-420182/",
-        "title": "Coopcycle, future alternative au modèle Deliveroo ?",
-        "date": "2017-08-25"
-    },
-    {
-        "img": "/images/press/inrocks.png",
-        "link": "http://www.lesinrocks.com/2017/08/26/actualite/portrait-dalexandre-segura-lhomme-qui-combat-deliveroo-et-son-monde-11975509/",
-        "title": "Portrait d'Alexandre Segura, l'homme qui combat Deliveroo et son monde",
-        "date": "2017-08-26"
-    },
-    {
-        "img": "/images/press/mediacites.jpg",
-        "link": "https://www.mediacites.fr/toulouse/enquete-toulouse/2017/08/28/lalternative-a-deliveroo-sera-lancee-en-septembre-a-toulouse/",
-        "title": "L’alternative à Deliveroo sera lancée en septembre à Toulouse",
-        "date": "2017-08-28"
-    },
-    {
-        "img": "/images/press/society.png",
-        "link": "http://www.society-magazine.fr/magazines/society-64/",
-        "title": "L'un de nos cofondateurs parmi 50 personnalités qui vont faire l'année 2018",
-        "date": "2017-08-31"
-    },
-    {
-        "img": "/images/press/letudiant.jpg",
-        "link": "http://www.letudiant.fr/jobsstages/livraison-a-domicile-comment-choisir-sa-plates-formes-de-jobs.html",
-        "title": "Coursier à vélo : comment choisir sa plate-forme ?",
-        "date": "2017-09-11"
-    },
-    {
-    	"img": "/images/press/reporterre.png",
-    	"link": "https://reporterre.net/Des-coursiers-a-velo-veulent-depasser-l-uberisation-par-la-cooperation",
-    	"title": "Des coursiers à vélo veulent dépasser l’ubérisation par la coopération",
-    	"date": "2017-09-22"
-    },
-    {
-        "img": "/images/press/lemonde.svg",
-        "link": "http://www.lemonde.fr/emploi/article/2017/09/27/les-syndicats-francais-commencent-a-s-interesser-aux-travailleurs-non-salaries_5192182_1698637.html",
-        "title": "Les syndicats français commencent à s’intéresser aux travailleurs non salariés",
-        "date": "2017-09-27"
-    },
-    {
-        "img": "/images/press/mediapart.svg",
+        "img": "/images/press/mediapart.png",
         "link": "https://www.mediapart.fr/journal/economie/290917/coopcycle-concurrent-reve-de-deliveroo",
         "title": "CoopCycle, concurrent rêvé de Deliveroo",
-        "date": "2017-09-29"
+        "date": "2017-09-29",
+        "lang": "fr"
     },
     {
-        "img": "/images/press/framasoft.png",
-        "link": "https://framablog.org/2017/10/28/coopcycle-le-projet-cooperatif-qui-roule-social/",
-        "title": "CoopCycle, le projet coopératif qui roule social",
-        "date": "2017-10-28"
+        "img": "/images/press/elespanol.png",
+        "link": "https://www.elespanol.com/economia/empresas/20180629/pajara-ciclomensajeria/318738132_2.html",
+        "title": "La Pájara Ciclomensajería - #lacircular",
+        "date": "2018-06-27",
+        "lang": "es"
     }
 ]
