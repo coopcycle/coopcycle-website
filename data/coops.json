@@ -67,11 +67,12 @@
         "country": "fr"
     },
     {
-        "name": "Sacavélo",
-        "url": "http://www.livreurs-sacavelo.sitew.fr/#ACCUEIL.K",
-        "latitude": 45.1842207,
-        "longitude": 5.6805229,
-        "city": "Grenoble/Voreppe",
+        "name": "Les Coursiers Montpelliérains",
+        "url": "https://coursiersmontpellier.coopcycle.org",
+        "coopcycle_url": "https://coursiersmontpellier.coopcycle.org",
+        "latitude": 43.6100006,
+        "longitude": 3.8041213,
+        "city": "Montpellier",
         "country": "fr"
     },
     {
@@ -149,5 +150,20 @@
         "name": "Tricargo",
         "url": "https://tricargo.de/",
         "country": "de"
+    },
+    {
+        "latitude": 51.341699,
+        "longitude": 12.2535513,
+        "city": "Leipzig",
+        "name": "Fulmo",
+        "country": "de"
+    },
+    {
+        "name": "Tout En Vélo Grenoble",
+        "url": "http://www.toutenvelo.fr/toutenvelo-grenoble",
+        "latitude": 45.1842207,
+        "longitude": 5.6805229,
+        "city": "Grenoble",
+        "country": "fr"
     }
 ]
