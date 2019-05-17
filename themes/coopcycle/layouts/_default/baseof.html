@@ -101,6 +101,20 @@
       </nav>
     </div>
 
+    {{ if .IsHome }}
+    <section class="announcement">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center">
+            <a href="https://lafabriqueaviva.fr/fr/project/3299/show" target="_blank">
+            <i class="fa fa-bullhorn" aria-hidden="true"></i>  <strong>Votez</strong> pour CoopCycle au concours <strong>La Fabrique Aviva</strong>!  <i class="fa fa-bullhorn fa-flip-horizontal" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
     <div class="blog-main">
 
       {{ block "main" . }}

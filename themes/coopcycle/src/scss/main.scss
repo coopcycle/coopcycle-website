@@ -627,3 +627,19 @@ article img {
   background-color: $red;
   color: $white;
 }
+
+.announcement {
+  background-color: #1dd1a1;
+  &:hover {
+    background-color: lighten(#1dd1a1, 2%);
+  }
+  a {
+    color: #fff;
+    display: block;
+    padding: 15px 0;
+  }
+  a:hover {
+    color: darken(#fff, 5%);
+    text-decoration: none;
+  }
+}
