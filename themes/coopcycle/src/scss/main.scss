@@ -628,12 +628,33 @@ article img {
   color: $white;
 }
 
+@keyframes scalechange {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .announcement {
   background-color: #1dd1a1;
   &:hover {
     background-color: lighten(#1dd1a1, 2%);
   }
   a {
+    animation: scalechange 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     color: #fff;
     display: block;
     padding: 15px 0;
