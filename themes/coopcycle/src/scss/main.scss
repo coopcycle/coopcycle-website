@@ -2,8 +2,8 @@
  * From the Bootstrap v4 alpha blog example
  * See: http://v4-alpha.getbootstrap.com/examples/blog/blog.css
  */
-
-body, p {
+body,
+p {
   color: $dark;
 }
 
@@ -14,9 +14,15 @@ a {
 a.know-more {
   text-decoration: underline;
   color: $dark;
+  font-size: 0.9em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
@@ -40,13 +46,14 @@ h2 {
 .h4 {
   font-size: 1.2rem;
   font-weight: 700;
+  margin: 10px 0;
 }
 
 .navbar {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
-// TO-DO : check why this is not included in bootstrap
+// TO-DO:check why this is not included in bootstrap
 .show > .dropdown-menu {
   display: block;
 }
@@ -63,37 +70,40 @@ h2 {
 /*
  * Utils
  */
-
 .img {
   display: block;
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      display: none;
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    display: none;
   }
+
 }
 
 .img-retina {
   display: none;
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      display: block;
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    display: block;
   }
+
 }
 
 .no-mobile {
   @include media-breakpoint-down(xs) {
-    display: none!important
+    display: none !important
   }
+
 }
 
 .no-desktop {
   @include media-breakpoint-up(sm) {
-    display: none!important
+    display: none !important
   }
+
 }
 
 .banner {
-    margin: 40px;
+  margin: 40px;
 }
 
 .margin-top-md {
@@ -119,7 +129,6 @@ h2 {
 /*
  * Masthead for nav
  */
-
 .blog-masthead {
   margin-bottom: 40px;
   background-color: $white;
@@ -144,7 +153,6 @@ h2 {
   .navbar-light .navbar-nav .nav-link {
     color: $dark;
     transition: color 0.2s;
-
   }
 
   .navbar-nav__pages {
@@ -162,20 +170,20 @@ h2 {
       bottom: 0;
       left: 0;
       right: 0;
-
       background-color: $red;
       display: block;
       height: 4px;
-
       transform: scale(0, 1);
-      transition: all 400ms cubic-bezier(.45,1,.32,1);
+      transition: all 400ms cubic-bezier(.45, 1, .32, 1);
     }
 
     .nav-item > .nav-link:hover {
       &::after {
         transform: scale(1, 1);
       }
+
     }
+
   }
 
   .brand-name {
@@ -198,20 +206,21 @@ h2 {
     .navbar-brand {
       margin: auto;
     }
+
   }
+
 }
 
 /*
  * Buttons
  */
-
 .btn {
   cursor: pointer;
   background-color: $red;
   padding: 10px 20px;
   border-radius: 0;
   min-width: 200px;
-  color: $white!important;
+  color: $white !important;
   font-size: 1.1rem;
 }
 
@@ -228,18 +237,20 @@ h2 {
 /*
  * Blog posts
  */
-
 .blog-post {
   margin-bottom: 4rem;
 }
+
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.5rem;
 }
+
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #999;
 }
+
 article img {
   max-width: 100%;
   height: auto;
@@ -249,7 +260,6 @@ article img {
 /*
  * Footer
  */
-
 .blog-footer {
   padding: 10px 0;
   color: $white;
@@ -273,6 +283,7 @@ article img {
   .nav-link .fa {
     font-size: 22px;
   }
+
 }
 
 #footer-mediapart {
@@ -293,14 +304,12 @@ article img {
 /**
  * Homepage
  */
-
 #photo-asso {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('/images/asso-group-coll.jpg');
   height: 400px;
 }
-
 
 #tracking-demo {
   background-color: #111;
@@ -330,20 +339,24 @@ article img {
   float: right;
   margin-right: 40px;
   margin-top: 20px;
-  @media (max-width: 767px) {
+
+  @media (max-width:767px) {
     float: none;
     margin: 20px auto 0;
   }
+
 }
 
 .homepage-banner--btn-right {
   float: left;
   margin-left: 40px;
   margin-top: 20px;
-  @media (max-width: 767px) {
+
+  @media (max-width:767px) {
     float: none;
     margin: 20px auto 0;
   }
+
 }
 
 .homepage-description {
@@ -361,10 +374,12 @@ article img {
 .homepage-card-container {
   margin: 40px auto;
 
-  .img, .img-retina {
+  .img,
+  .img-retina {
     width: 100%;
     margin: 20px auto;
   }
+
 }
 
 .homepage-card {
@@ -383,6 +398,7 @@ article img {
     width: 100%;
     height: 400px;
   }
+
 }
 
 #organization {
@@ -392,20 +408,23 @@ article img {
 /**
  * Press
  */
-
 .press-item {
   margin-bottom: 20px;
-    .press-item-image  {
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 60px;
+
+  .press-item-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60px;
   }
+
   .press-item-text {
     a {
       color: $link-color;
     }
+
   }
+
 }
 
 .press-separator {
@@ -416,9 +435,7 @@ article img {
 /*
  Network page
 */
-
 .coops-container {
-
   .leaflet-popup-content-wrapper {
     border-radius: 0;
   }
@@ -427,7 +444,7 @@ article img {
     margin: 10px;
     font-size: 16px;
     text-align: center;
-    width: 260px!important;
+    width: 260px !important;
 
     .btn-buy {
       padding: 10px 5px;
@@ -440,12 +457,16 @@ article img {
       &:hover {
         text-decoration: none;
       }
+
     }
+
   }
+
 }
 
 .coops-list {
   padding-left: 0;
+  list-style: none;
 }
 
 .coops-country {
@@ -459,14 +480,10 @@ article img {
   padding-left: 10px;
 }
 
-.coops-to-site {
-  vertical-align: middle;
-}
-
 .join-icon {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
 }
 
 .join-icon {
@@ -482,120 +499,132 @@ article img {
     background-image: url('/images/european-network/icon-restaurant.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-restaurant {
       background-image: url('/images/european-network/2x/icon-restaurant.png');
     }
+
   }
 
   &.icon-coop {
     background-image: url('/images/european-network/icon-coop.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-coop {
       background-image: url('/images/european-network/2x/icon-coop.png');
     }
+
   }
 
   &.icon-courier {
     background-image: url('/images/european-network/icon-courier.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-courier {
       background-image: url('/images/european-network/2x/icon-courier.png');
     }
+
   }
 
   &.icon-platform {
     background-image: url('/images/european-network/icon-platform.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-platform {
       background-image: url('/images/european-network/2x/icon-platform.png');
     }
+
   }
 
   &.icon-smartphone {
     background-image: url('/images/european-network/icon-smartphone.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-smartphone {
       background-image: url('/images/european-network/2x/icon-smartphone.png');
     }
+
   }
 
   &.icon-eye {
     background-image: url('/images/european-network/icon-eye.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-eye {
       background-image: url('/images/european-network/2x/icon-eye.png');
     }
+
   }
 
   &.icon-business {
     background-image: url('/images/european-network/icon-business.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-business {
       background-image: url('/images/european-network/2x/icon-business.png');
     }
+
   }
 
   &.icon-vault {
     background-image: url('/images/european-network/icon-vault.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-vault {
       background-image: url('/images/european-network/2x/icon-vault.png');
     }
+
   }
 
   &.icon-judiciary {
     background-image: url('/images/european-network/icon-judiciary.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-judiciary {
       background-image: url('/images/european-network/2x/icon-judiciary.png');
     }
+
   }
 
   &.icon-money {
     background-image: url('/images/european-network/icon-money.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-money {
       background-image: url('/images/european-network/2x/icon-money.png');
     }
+
   }
 
   &.icon-insurance {
     background-image: url('/images/european-network/icon-insurance.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-insurance {
       background-image: url('/images/european-network/2x/icon-insurance.png');
     }
+
   }
 
   &.icon-plus {
     background-image: url('/images/european-network/icon-plus.png');
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
     &.icon-plus {
       background-image: url('/images/european-network/2x/icon-plus.png');
     }
+
   }
 
 }
@@ -628,39 +657,104 @@ article img {
   color: $white;
 }
 
-@keyframes scalechange {
-  0% {
-    transform: scale(1);
-  }
-  25% {
-    transform: scale(1.1);
-  }
-  50% {
-    transform: scale(1);
-  }
-  75% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+.map-wrapper {
+  position: relative;
+  opacity: 1;
 }
 
-.announcement {
-  background-color: #1dd1a1;
-  &:hover {
-    background-color: lighten(#1dd1a1, 2%);
-  }
+.modal-content {
+  padding: 20px;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+
+.modal-sidebar {
+  flex-basis: 240px;
+  flex-grow: 1;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  list-style: none;
+  background-color: $light-grey;
+}
+
+.modal-not-sidebar {
+  flex-grow: 999;
+  flex-basis: 0;
+}
+
+.modal-sidebar-item {
+  padding-left: 0;
+  margin-bottom: 10px;
+  white-space: nowrap;
+
   a {
-    animation: scalechange 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    color: #fff;
-    display: block;
-    padding: 15px 0;
+    color: $red !important;
   }
-  a:hover {
-    color: darken(#fff, 5%);
-    text-decoration: none;
+
+  .fa {
+    width: 20px;
+    margin-right: 5px;
   }
+
+  .fa-envelop {
+    font-size: 14px;
+  }
+
+  .fa-twitter,
+  .fa-facebook {
+    font-size: 18px;
+  }
+
+}
+
+.modal-dialog {
+  max-width: 900px;
+}
+
+#coop-modal {
+  .coop-panel--city {
+    font-style: italic;
+    margin: 0;
+  }
+
+}
+
+.card {
+  border-radius: none;
+  border: none;
+  // 1.25rem comes from card-header
+  padding: 10px 1.25rem;
+}
+
+.card--title {
+  margin-bottom: 0;
+}
+
+.card--subtitle {
+  color: $grey-dark;
+  margin-bottom: 0;
+}
+
+.card--icons {
+  float: right;
+}
+
+.card--icons a {
+  color: $red;
+  margin-left: 20px;
+  font-size: 1.2em;
+
+  // hack to align vertically different font-awesome icons
+  // see https://stackoverflow.com/questions/25272716/make-a-row-of-font-awesome-icons-height-identical?answertab=votes#tab-top
+
+  .fa-envelope {
+    top: -1px;
+    position: relative;
+  }
+
 }
