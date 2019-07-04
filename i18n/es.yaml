@@ -44,10 +44,6 @@
   translation: >
     Socializamos la entrega por bicicleta !
 
-- id: headlinesub
-  translation: >
-      CoopCycle es la federación europea de cooperativas de entrega por bicicleta. En respuesta a la uberización, promovemos una entrega por bicicleta respetuosa de lxs repartidorxs y del medio ambiente.
-
 - id: contactus
   translation: Contáctenos
 
@@ -66,7 +62,7 @@
 
 - id: ecosystem.content
   translation: >
-    Gobernada democráticamente por las cooperativas, su fundamento es la solidaridad entre ellas, lo cual les permite reducir sus costos mediante la mutualización de los servicios. Crea una fuerza colectiva para negociar, y para defender los derechos de lxs repartidorxs.
+    CoopCycle es la federación europea de cooperativas de entrega por bicicleta. Gobernada democráticamente por las cooperativas, su fundamento es la solidaridad entre ellas, lo cual les permite reducir sus costos mediante la mutualización de los servicios. Crea una fuerza colectiva para negociar, y para defender los derechos de lxs repartidorxs.
 
 - id: contribute
   translation: Contribuir

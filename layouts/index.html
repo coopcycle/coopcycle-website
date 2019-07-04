@@ -6,35 +6,27 @@
   <div class="homepage-banner--headline text-center">
       <h2 class="h2">{{ i18n "headline" | safeHTML }}</h2>
       <div class="row">
-        <div class="col-md-6 offset-md-3">
-          {{ i18n "headlinesub" | safeHTML }}
+        <div class="col-md-8 offset-md-2">
+          <p>
+            {{ i18n "ecosystem.content" | safeHTML }}
+          </p>
+          <div class="text-center">
+            <a href="{{ ref . (printf "%s%s%s" "federation." .Lang ".md") }}" class="btn">{{ i18n "discover" | safeHTML }}</a>
+          </div>
         </div>
   </div>
 </section>
 
-<section id="about">
+{{ partial "join-network.html" . }}
+
+<section id="software">
+  <h4 class="h4 text-center">{{ i18n "digital_common.title" }}</h4>
   <div class="container homepage-card-container">
-    <div class="row">
-      <div class="col-md-6">
-        <h4 class="text-center h4">{{ i18n "ecosystem.title" }}</h4>
-        <div class="homepage-card">
-          <p>
-            {{ i18n "ecosystem.content" | safeHTML }}
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h4 class="text-center h4">{{ i18n "digital_common.title" }}</h4>
-        <div class="homepage-card">
-          <p>
-            {{ i18n "digital_common.content" | safeHTML }}
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 text-center">
-        <a href="{{ ref . (printf "%s%s%s" "federation." .Lang ".md") }}" class="btn">{{ i18n "discover" | safeHTML }}</a>
+    <div class="row align-items-center">
+      <div class="col-md-6 text-stack">
+        <p>
+          {{ i18n "digital_common.content" | safeHTML }}
+        </p>
       </div>
       <div class="col-md-6 text-center">
         <a href="{{ ref . (printf "%s%s%s" "software." .Lang ".md") }}" class="btn">{{ i18n "discover.software" | safeHTML }}</a>
@@ -43,10 +35,8 @@
   </div>
 </section>
 
-{{ partial "join-network.html" . }}
-
 <section id="about">
-  <h3 class="h3 text-center">{{ i18n "association.title" }}</h3>
+  <h4 class="h4 text-center">{{ i18n "association.title" }}</h4>
   <div class="container homepage-card-container">
     <div class="row align-items-center">
       <div class="col-md-6">

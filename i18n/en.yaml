@@ -44,10 +44,6 @@
   translation: >
     We socialize bike delivery
 
-- id: headlinesub
-  translation: >
-      CoopCycle is the European federation of bike delivery coops. Against the gig economy, we promote a social and environmental friendly model.
-
 - id: contactus
   translation: Contact us
 
@@ -56,7 +52,7 @@
 
 - id: ecosystem.content
   translation: >
-    Governed democratically by coops, it enables them to stand united and to reduce their costs thanks to resources pooling. It creates a strong bargaining power to protect the bikers rights.
+    CoopCycle is the European federation of bike delivery coops. Governed democratically by coops, it enables them to stand united and to reduce their costs thanks to resources pooling. It creates a strong bargaining power to protect the bikers rights.
 
 - id: digital_common.title
   translation: The software

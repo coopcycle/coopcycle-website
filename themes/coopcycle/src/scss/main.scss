@@ -30,6 +30,16 @@ h2 {
   margin-bottom: 10px;
 }
 
+// way of having margin-bottom only on the last `p` element
+// see:https://every-layout.dev/layouts/stack/
+.text-stack * {
+  margin-bottom: 0;
+}
+
+.text-stack > * + * {
+  margin-top: 1rem;
+}
+
 .h2 {
   margin: 20px 0;
   font-weight: 700;
@@ -218,7 +228,7 @@ h2 {
   cursor: pointer;
   background-color: $red;
   padding: 10px 20px;
-  border-radius: 0;
+  border-radius: 5px;
   min-width: 200px;
   color: $white !important;
   font-size: 1.1rem;

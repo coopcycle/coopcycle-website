@@ -44,10 +44,6 @@
   translation: >
     Nous socialisons la livraison à vélo
 
-- id: headlinesub
-  translation: >
-    CoopCycle est une fédération européenne des coopératives de livraison à vélo. En réponse à l'ubérisation, nous promouvons une livraison à vélo respectueuse des livreur.se.s et de l'environnement.
-
 - id: contactus
   translation: Nous contacter
 
@@ -63,7 +59,7 @@
 
 - id: ecosystem.content
   translation: >
-    Gouvernée démocratiquement par les coopératives, elle repose sur la solidarité entre elles et leur permet de réduire leurs coûts grâce à la mutualisation de services. Elle créé une force collective de négociation pour défendre les droits des livreur.se.s.
+    CoopCycle est la fédération européenne des coopératives de livraison à vélo. Gouvernée démocratiquement par les coopératives, elle repose sur la solidarité entre elles et leur permet de réduire leurs coûts grâce à la mutualisation de services. Elle créé une force collective de négociation pour défendre les droits des livreur.se.s.
 
 - id: association.title
   translation: L'association CoopCycle
