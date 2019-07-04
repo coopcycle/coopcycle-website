@@ -45,7 +45,7 @@ if (document.getElementById('coops-map')) {
             </div>
             <div class="modal-body">
               <ul class="modal-sidebar">
-                  <li class="modal-sidebar-item"><a target="_blank" href="${item.url}"><i class="fa fa-link"></i>${item.url}</a></li>
+                  ${ item.url ? `<li class="modal-sidebar-item"><a target="_blank" href="${item.url}"><i class="fa fa-link"></i>${item.url}</a></li>` : '' }
                   <li class="modal-sidebar-item"><a target="_blank" href="mailto:${item.mail}"><i class="fa fa-envelope"></i>${item.mail}</a></li>
                   ${ item.facebook_url ? `<li class="modal-sidebar-item"><a target="_blank" href="${item.facebook_url}"><i class="fa fa-facebook"></i>${item.facebook_name ? item.facebook_name : item.name}</li></a>`: ""}
                   ${ item.twitter_url ? `<li class="modal-sidebar-item"><a target="_blank" href="${item.twitter_url}"><i class="fa fa-twitter"></i>${item.twitter_handle}</li></a>` : ""}
