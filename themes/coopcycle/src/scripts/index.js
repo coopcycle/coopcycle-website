@@ -20,6 +20,9 @@ new SmoothScroll('a[href*="#"]', {
 })
 
 if (document.getElementById('coops-map')) {
+
+  $('.map-wrapper').fadeIn()
+
   let L = require('leaflet'),
     markers = [],
     marker
@@ -64,11 +67,6 @@ if (document.getElementById('coops-map')) {
   // center map
   let group = new L.featureGroup(markers)
   map.fitBounds(group.getBounds().pad(0.10))
-
-  // side panels related code
-  $('.side-panel-example-close').on('click', function() {
-    $('.side-panel-example-close').closest('#side-panel-example').removeClass("show")
-  })
 
 }
 
