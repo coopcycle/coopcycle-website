@@ -161,12 +161,16 @@
         "coopcycle_url": "https://lapajara.coopcycle.org",
         "url": "https://lapajaraenbici.com/",
         "facebook_url": "https://www.facebook.com/lapajaraenbici/",
-        "twitter_url": "@ridersxdmad",
+        "twitter_url": "https://twitter.com/ridersxdmad",
+        "twitter_handle": "@ridersxdmad",
         "mail": "info@lapajaraenbici.com",
         "latitude": 40.4381311,
         "longitude": -3.8196226,
         "city": "Madrid",
-        "country": "es"
+        "country": "es",
+        "text": {
+            "en": "<p>At the beginning of 2018, after the movement and protests against Deliveroo, we started planning our project with Coopcycle. Finally, in October 2018 we started working with our first collaboration projects and customers. Now, two people are working full time and two other people part time. We believe in a small scale economy. We work hand by hand with other social and solidarity companies and cooperatives and we share our knowledge with different initiatives at a local, national and international level.</p><p>We operate exclusively by bicycle and cargo bikes. We have four main different working fields:<ul><li>Food delivery thanks to Coopcycle platform.</li><li>Last mile delivery with the Koiki project, a logistic partner that works with people with disabilities.</li><li>Messenger service with all type of product could be imagined to transport by bike: documents, food catering, eco-market purchase, small removals...</li><li>Technical advise on cycle-logistic through courses and events.</li></ul>Moreover we follow fight against the mainstreaming platform model inside national and international networks and associations. We are proud to be the Madrid Delivery Birds (La Pájara): the Heron, the Eagle, the Flamingo and the Owl, giving everything to this beautiful job and to urban cycling.</p>"
+        }
     },
     {
         "name": "Dioxyde de Gambettes",

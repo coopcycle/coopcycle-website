@@ -1,8 +1,8 @@
 <div class="no-mobile row map-wrapper" style="position:relative;">
-    <div class="col-md-12" id="coops-map" style="height:600px;">
+    <div class="col-md-12" id="coops-map">
     </div>
-    <div style="text-align:center; width:100%;">
-        <a  href="#coops-map" class="know-more">Cliquez sur les marqueurs pour en savoir plus !</a>
+    <div class="know-more-wrapper">
+        <a  href="#coops-map" class="know-more">{{ i18n "marker.click" }}</a>
     </div>
 </div>
 
@@ -15,7 +15,7 @@
 
 <div class="no-desktop">
     <h4 class="h4">
-        Les membres
+        {{ i18n "network.ourmembers" }}
     </h4>
     <ul class="coops-list">
         {{ $countries := slice }}

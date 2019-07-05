@@ -101,6 +101,12 @@
 - id: network.title
   translation: La fédération européenne
 
+- id: marker.click
+  translation: Cliquez sur les marqueurs pour en savoir plus !
+
+- id: network.ourmembers
+  translation: Toutes les coopératives membres
+
 - id: network.subtitle
   translation: >
     Pour créer une solidarité entre coopératives, pour réduire leurs coûts grâce

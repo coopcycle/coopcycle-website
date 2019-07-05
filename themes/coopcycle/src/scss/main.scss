@@ -14,7 +14,12 @@ a {
 a.know-more {
   text-decoration: underline;
   color: $dark;
-  font-size: 0.9em;
+}
+
+.know-more-wrapper {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
 }
 
 h1,
@@ -445,6 +450,10 @@ article img {
 /*
  Network page
 */
+#coops-map {
+  height: 600px;
+}
+
 .coops-container {
   .leaflet-popup-content-wrapper {
     border-radius: 0;

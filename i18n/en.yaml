@@ -98,6 +98,12 @@
 - id: network.title
   translation: The European federation
 
+- id: marker.click
+  translation: Click on the markers to know more!
+
+- id: network.ourmembers
+  translation: All of our mighty members
+
 - id: network.subtitle
   translation: >
     To foster solidarity between coops, to reduce their costs thanks to services pooling and to create a common force to advocate courier's rights.

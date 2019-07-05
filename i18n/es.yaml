@@ -105,6 +105,12 @@
   translation: >
     La federación CoopCycle está abierta a empresas de reparto por bicicleta que tienen un proyecto cooperativo y desean trabajar con empresas sociales y ecológicas.
 
+- id: marker.click
+  translation: Haga clic en los marcadores para obtener más información!
+
+- id: network.ourmembers
+  translation: Todas las cooperativas miembros
+
 - id: network.join.title
   translation: Para quien ?
 

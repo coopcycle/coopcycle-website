@@ -33,6 +33,7 @@ if (document.getElementById('coops-map')) {
   window.AppData.coops.forEach(
     function(item) {
       marker = L.marker([item.latitude, item.longitude]).addTo(map).on('click', function() {
+        // NB : the content will be indexed thanks to the 'no-desktop' div which contains the links to the external pages
         // fill in modal with coop data
         let text = item.text ? (item.text[window.AppData.lang] || item.text['en']) : ''
         $('#coop-modal .modal-content').html(`
