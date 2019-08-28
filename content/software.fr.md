@@ -13,7 +13,7 @@ type = "software"
     <div class="col-md-10 col-md-offset-1 text-center">
         <h2 class="h2">Le logiciel CoopCycle</h2>
         <h4 class="h4">La plateforme et les applications pour gérer votre activité de livraison. Élaborés en collaboration avec nos membres qui l'utilisent quotidiennement.</h4>
-        <a class="text-small know-more" href="#digital-common">Notre logiciel est exploitable seulement par les acteurs de l'Économie Sociale et Solidaire - voir pourquoi et comment.</a>
+        <a class="text-small know-more" href="#digital-common">Notre logiciel est exploitable seulement par les acteur.rice.s de l'Économie Sociale et Solidaire - voir pourquoi et comment.</a>
     </div>
 </div>
 
@@ -26,7 +26,7 @@ type = "software"
                 <ul class="list-features">
                     <li class="list-features--el">Gérez vos tâches depuis le web et l'application smartphone</li>
                     <li class="list-features--el">Suivi en temps réel de la position et du statut des tâches</li>
-                    <li class="list-features--el">Créez des tâches depuis un fichier et exportez les</li>
+                    <li class="list-features--el">Créez des tâches depuis un fichier et exportez-les</li>
                 </ul>
             </div>
         </li>
@@ -35,7 +35,7 @@ type = "software"
                 <h4 class="h4">Foodtech</h4>
                 <ul class="list-features">
                     <li class="list-features--el">Gérez les restaurants et les menus</li>
-                    <li class="list-features--el">Applications smartphone pour les restaurateur.ice.s et les client.e.s</li>
+                    <li class="list-features--el">Applications smartphone pour les restaurateur.rice.s et les client.e.s</li>
                     <li class="list-features--el">Paiements en ligne sécurisés par Stripe</li>
                 </ul>
             </div>
@@ -81,7 +81,7 @@ type = "software"
                   <span>L'objectif de CoopCycle est de rendre le pouvoir aux livreur.se.s, et plus largement aux travailleur.se.s. Nous voulions que le code de la plateforme soit transparent et accessible librement, mais exploitable seulement par des acteurs de l'Économie Sociale et Solidaire. Partant des travaux de Dimitry Kleiner au sein de la p2p fundation, notre équipe de juristes s'est mise au travail. Le résultat ? Une nouvelle licence : <strong>la Coopyleft</strong>. Elle impose aux structures utilisant le logciel CoopCycle de répondre aux critères suivants :</span>
                 <ul>
                     <li>
-                        Adopter un modèle coopératif et salarier leurs livreurs, via un contrat classique ou une société de portage salarial ;
+                        Adopter un modèle coopératif et salarier leurs livreur.se.s, via un contrat classique ou une société de portage salarial ;
                     </li>
                     <li>
                         Répondre à la définition de l'ESS telle que stipulée par la loi européenne.
@@ -89,7 +89,7 @@ type = "software"
                 </ul>
             </p>
             <p>
-            <span>Le logiciel CoopCycle n'est donc pas opensource : son code source est disponible sur GitHub mais son utilisation commerciale est réservée aux entreprises coopératives ! Nous visons à faire essaimer l'usage de la licence à des platformes opérant dans d'autres secteurs d'activité. Intéressés pour en savoir plus sur la licence ? <a href="mailto:contact@coopcycle.org">Contactez nous</a>.</span>
+            <span>Le logiciel CoopCycle n'est donc pas opensource : son code source est disponible sur GitHub mais son utilisation commerciale est réservée aux entreprises coopératives ! Nous visons à faire essaimer l'usage de la licence à des plateformes opérant dans d'autres secteurs d'activité. Intéressé.e.s pour en savoir plus sur la licence ? <a href="mailto:contact@coopcycle.org">Contactez nous</a>.</span>
                 <ul>
                     <li>
                         <a target="_blank" href="https://blogs.mediapart.fr/coopcycle/blog/170418/comment-proteger-le-logiciel-ouvert-coopcycle-de-la-predation-capitaliste" class="know-more">En savoir plus sur la licence CoopCycle</a>
