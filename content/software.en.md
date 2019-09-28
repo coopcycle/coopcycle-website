@@ -17,6 +17,9 @@ type = "software"
     </div>
 </div>
 
+<div class="text-center">
+    <a target="_blank" href="https://demo.coopcycle.org/en/" class="btn btn-big text-big">Try the software</a>
+</div>
 
 <div class="row justify-content-center banner">
     <ul class="nav">
