@@ -483,22 +483,6 @@ article img {
 
 }
 
-.coops-list {
-  padding-left: 0;
-  list-style: none;
-}
-
-.coops-country {
-  color: $red;
-  font-weight: 700;
-  list-style: none;
-}
-
-.coops-list ul {
-  margin-left: 15px;
-  padding-left: 10px;
-}
-
 .join-icon {
   width: 80px;
   height: 80px;
@@ -741,26 +725,6 @@ article img {
     margin: 0;
   }
 
-}
-
-.card {
-  border-radius: none;
-  border: none;
-  // 1.25rem comes from card-header
-  padding: 10px 1.25rem;
-}
-
-.card--title {
-  margin-bottom: 0;
-}
-
-.card--subtitle {
-  color: $grey-dark;
-  margin-bottom: 0;
-}
-
-.card--icons {
-  float: right;
 }
 
 .card--icons a {

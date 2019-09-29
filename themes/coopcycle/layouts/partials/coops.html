@@ -13,63 +13,27 @@
     </div>
 </div>
 
-<noscript>
-    <h4 class="h4">
-        {{ i18n "network.ourmembers" }}
-    </h4>
-    <ul class="coops-list">
-        {{ $countries := slice }}
-        {{ range $.Site.Data.coops }}
-            {{ $countries = $countries | append .country }}
-        {{ end }}
-        {{ range uniq $countries }}
-        <li class="card-header">{{ i18n . }}</li>
-        {{ range sort (where $.Site.Data.coops "country" .) "city" "asc" }}
-            <li class="card">
-                <h5 class="card--title">{{ .name }}</h5>
-                <p>
-                    <span class="card--subtitle">
-                        {{ .city }}
-                    </span>
-                    <span class="card--icons">
-                        {{ if .url }}
-                            <a href="{{ .url }}"><i class="fa fa-link"></i></a>
-                        {{ end }}
-                        {{ if .mail }}
-                            <a href="mailto:{{ .mail }}" target="_blank"><i class="fa fa-envelope"></i></a>
-                        {{ end }}
-                        {{ if .facebook_url }}
-                            <a href="{{ .facebook_url }}"><i class="fa fa-facebook"></i></a>
-                        {{ end }}
-                        {{ if .twitter_url }}
-                            <a href="{{ .facebook_url }}"><i class="fa fa-twitter"></i></a>
-                        {{ end }}
-                    </span>
-                </p>
-            </li>
-        {{ end }}
-    {{ end }}
-    </ul>
-</noscript>
-
 <div class="no-desktop">
     <h4 class="h4">
         {{ i18n "network.ourmembers" }}
     </h4>
-    <ul class="coops-list">
-        {{ $countries := slice }}
-        {{ range $.Site.Data.coops }}
-            {{ $countries = $countries | append .country }}
-        {{ end }}
-        {{ range uniq $countries }}
-        <li class="card-header">{{ i18n . }}</li>
+    {{ $countries := slice }}
+    {{ range $.Site.Data.coops }}
+        {{ $countries = $countries | append .country }}
+    {{ end }}
+    {{ range uniq $countries }}
+    <div class="card mb-2">
+        <div class="card-header">{{ i18n . }}</div>
+        <ul class="list-group list-group-flush">
         {{ range sort (where $.Site.Data.coops "country" .) "city" "asc" }}
-            <li class="card">
-                <h5 class="card--title">{{ .name }}</h5>
-                <p>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <h5>{{ .name }}</h5>
                     <span class="card--subtitle">
                         {{ .city }}
                     </span>
+                </div>
+                <div>
                     <span class="card--icons">
                         {{ if .url }}
                             <a href="{{ .url }}"><i class="fa fa-link"></i></a>
@@ -84,11 +48,12 @@
                             <a href="{{ .facebook_url }}"><i class="fa fa-twitter"></i></a>
                         {{ end }}
                     </span>
-                </p>
+                </div>
             </li>
         {{ end }}
+        </ul>
+    </div>
     {{ end }}
-    </ul>
 </div>
 
 <script>
