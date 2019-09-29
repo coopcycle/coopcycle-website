@@ -141,6 +141,12 @@
 - id: network.visit
   translation: Visita el sitio
 
+- id: search.title
+  translation: ¿Tiene hambre?
+
+- id: search.subtitle
+  translation: Restaurantes de {{ .Cities }} entregados por las cooperativas de la red
+
 # Countries
 - id: fr
   translation: Francia

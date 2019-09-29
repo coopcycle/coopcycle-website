@@ -138,6 +138,12 @@
 - id: network.visit
   translation: Visit website
 
+- id: search.title
+  translation: You hungry?
+
+- id: search.subtitle
+  translation: Restaurants in {{ .Cities }} delivered to you by the co-ops in the network
+
 # Countries
 - id: fr
   translation: France

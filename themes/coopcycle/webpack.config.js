@@ -9,7 +9,8 @@ let webpackConfig = {
   mode: process.env.NODE_ENV || 'development',
   entry: {
     style: './src/scss/style.scss',
-    index: './src/scripts/index.js'
+    index: './src/scripts/index.js',
+    homepage: './src/scripts/homepage.js'
   },
   output: {
     publicPath: '/',
