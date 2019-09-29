@@ -1,19 +1,5 @@
 [
     {
-        "name": "Traboulotte",
-        "coopcycle_url": "https://traboulotte.coopcycle.org",
-        "url": "https://traboulotte.fr/",
-        "facebook_url": "https://www.facebook.com/Traboulotte/posts/",
-        "facebook_name": "Traboulotte",
-        "twitter_url": "https://twitter.com/Traboulotte",
-        "twitter_handle": "@Traboulotte",
-        "mail": "contact@traboulotte.fr",
-        "latitude": 45.7580539,
-        "longitude": 4.7650807,
-        "city": "Lyon",
-        "country": "fr"
-    },
-    {
         "name": "CourCyclette",
         "url": "https://www.courcyclette.org/",
         "facebook_url":"https://www.facebook.com/LaCourCycletteAlfortville/",
