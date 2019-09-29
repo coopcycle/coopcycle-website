@@ -26,7 +26,7 @@
     "style-loader": "^1.0.0",
     "url-loader": "^2.1.0",
     "webpack": "^4.41.0",
-    "webpack-assets-manifest": "^1.0.0",
+    "webpack-assets-manifest": "^3.0",
     "webpack-dev-server": "^3.8.1"
   },
   "dependencies": {
