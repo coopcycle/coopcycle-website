@@ -103,6 +103,6 @@ type = "federation"
         </p>
     </div>
     <div class="col-md-6" id="european-governance">
-        <img src="/images/european-network/governance.png">
+        <img class="img-fluid" src="/images/european-network/governance.png">
     </div>
 </div>
