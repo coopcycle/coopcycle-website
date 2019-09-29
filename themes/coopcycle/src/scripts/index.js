@@ -27,7 +27,7 @@ if (document.getElementById('coops-map')) {
     markers = [],
     marker
 
-  var map = L.map('coops-map')
+  var map = L.map('coops-map', { scrollWheelZoom: false })
 
   L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>'
