@@ -21,7 +21,7 @@ let webpackConfig = {
     rules: [
       {
         test: /\.js$/,
-        include: __dirname + '/js',
+        include: __dirname + '/src/scripts',
         loader: "babel-loader"
       },
       {

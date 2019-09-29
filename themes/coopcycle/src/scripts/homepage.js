@@ -1,3 +1,5 @@
+import 'core-js'
+
 import _ from 'lodash'
 import axios from 'axios'
 import ngeohash from 'ngeohash'

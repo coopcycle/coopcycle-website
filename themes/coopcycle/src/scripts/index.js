@@ -1,3 +1,5 @@
+import 'core-js'
+
 function fadeIn(el) {
   el.style.opacity = 0;
 
