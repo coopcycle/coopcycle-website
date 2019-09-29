@@ -147,6 +147,9 @@
 - id: search.subtitle
   translation: Restaurantes de {{ .Cities }} entregados por las cooperativas de la red
 
+- id: search.noResults
+  translation: Lo sentimos, no encontramos resultados
+
 # Countries
 - id: fr
   translation: Francia

@@ -9,6 +9,8 @@ window.initMap = function() {
   window._paq = window._paq || []
 
   const resultsContainer = document.getElementById('search-results')
+  const spinnerEl = document.getElementById('spinner')
+  const noResultsEl = document.getElementById('no-results')
 
   axios.get('/coopcycle.json')
     .then(response => {
@@ -42,7 +44,8 @@ window.initMap = function() {
 
         const countryInstances = _.filter(foodtechInstances, instance => instance.country === countryCode)
 
-        document.getElementById('spinner').classList.remove('d-none')
+        spinnerEl.classList.remove('d-none')
+        noResultsEl.classList.add('d-none')
 
         const geohash = ngeohash.encode(place.geometry.location.lat(), place.geometry.location.lng(), 11)
 
@@ -53,39 +56,42 @@ window.initMap = function() {
         Promise.allSettled(promises)
           .then(results => {
 
-            document.getElementById('spinner').classList.add('d-none')
+            spinnerEl.classList.add('d-none')
 
-            results.forEach(result => {
-              if (result.status === 'fulfilled') {
-                const response = result.value
-                if (response.data['hydra:member'].length > 0) {
+            const successfulResults = _.map(_.filter(results, result => {
+              return result.status === 'fulfilled' && result.value.data['hydra:member'].length > 0
+            }), result => result.value)
 
-                  let tmp = document.createElement('a')
-                  tmp.href = response.config.url
+            if (successfulResults.length > 0) {
+              successfulResults.forEach(response => {
 
-                  const instanceHostname = tmp.protocol + '//' + tmp.hostname
+                let tmp = document.createElement('a')
+                tmp.href = response.config.url
 
-                  const matchedInstance = _.find(countryInstances, instance => instance.coopcycle_url === instanceHostname)
+                const instanceHostname = tmp.protocol + '//' + tmp.hostname
 
-                  // <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                const matchedInstance = _.find(countryInstances, instance => instance.coopcycle_url === instanceHostname)
 
-                  const aElement = document.createElement('a')
-                  aElement.classList.add(
-                    'list-group-item',
-                    'list-group-item-action',
-                    'd-flex',
-                    'justify-content-between',
-                    'align-items-center',
-                    'font-weight-bold'
-                  )
-                  aElement.href = `${matchedInstance.coopcycle_url}/fr/restaurants?geohash=${geohash}`
-                  aElement.innerHTML = `${matchedInstance.name} <i class="fa fa-external-link"></i>`
-                  aElement.target = '_blank'
+                // <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
 
-                  resultsContainer.appendChild(aElement)
-                }
-              }
-            })
+                const aElement = document.createElement('a')
+                aElement.classList.add(
+                  'list-group-item',
+                  'list-group-item-action',
+                  'd-flex',
+                  'justify-content-between',
+                  'align-items-center',
+                  'font-weight-bold'
+                )
+                aElement.href = `${matchedInstance.coopcycle_url}/fr/restaurants?geohash=${geohash}`
+                aElement.innerHTML = `${matchedInstance.name} <i class="fa fa-external-link"></i>`
+                aElement.target = '_blank'
+
+                resultsContainer.appendChild(aElement)
+              })
+            } else {
+              noResultsEl.classList.remove('d-none')
+            }
           })
       })
     })
