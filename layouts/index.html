@@ -106,5 +106,5 @@
 {{ else }}
   <script src="/{{ index $.Site.Data.manifest "homepage.js" }}" type="application/javascript"></script>
 {{ end }}
-<script src="https://maps.googleapis.com/maps/api/js?key={{ getenv "GOOGLE_API_KEY" }}&libraries=places&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ getenv "GOOGLE_API_KEY" }}&libraries=places&language={{ .Lang }}&callback=initMap" async defer></script>
 {{ end }}
