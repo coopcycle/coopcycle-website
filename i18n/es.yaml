@@ -150,6 +150,9 @@
 - id: search.noResults
   translation: Lo sentimos, no encontramos resultados
 
+- id: search.selectCity
+  translation: Seleccione una ciudad
+
 # Countries
 - id: fr
   translation: Francia

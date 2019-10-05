@@ -147,6 +147,9 @@
 - id: search.noResults
   translation: Sorry, we didn't find results
 
+- id: search.selectCity
+  translation: Select a city
+
 # Countries
 - id: fr
   translation: France

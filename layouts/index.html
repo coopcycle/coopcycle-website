@@ -18,8 +18,12 @@
 </section>
 
 {{ $cities := slice }}
+{{ $coopsWithFoodDelivery := slice }}
 {{ range $.Site.Data.coops }}
-  {{ if isset . "coopcycle_url" }}{{ $cities = $cities | append .city }}{{ end }}
+  {{ if isset . "coopcycle_url" }}
+    {{ $coopsWithFoodDelivery = $coopsWithFoodDelivery | append . }}
+    {{ $cities = $cities | append .city }}
+  {{ end }}
 {{ end }}
 
 {{ $cities = $cities | sort }}
@@ -31,16 +35,12 @@
       <div class="card-body">
         <h4 class="h4 text-center text-info"><i class="fa fa-cutlery"></i>  {{ i18n "search.title" }}</h4>
         <p class="card-text text-center">{{ i18n "search.subtitle" (dict "Cities" $citiesAsString) }}</p>
-        <div class="d-flex justify-content-between align-items-center">
-          <input id="search" class="form-control">
-          <div id="spinner" class="spinner-border ml-2 d-none" role="status" aria-hidden="true"></div>
-        </div>
-      </div>
-      <p class="text-info text-center d-none" id="no-results">{{ i18n "search.noResults" }}</p>
-      <div class="list-group list-group-flush" id="search-results">
-        <!--
-        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-        -->
+        <select class="form-control" id="city-dropdown">
+          <option value="">{{ i18n "search.selectCity" }}</option>
+          {{ range $coopsWithFoodDelivery }}
+            <option value="{{ .coopcycle_url }}">{{ .name }}</option>
+          {{ end }}
+        </select>
       </div>
     </div>
   </div>
@@ -107,5 +107,4 @@
 {{ else }}
   <script src="/{{ index $.Site.Data.manifest "homepage.js" }}" type="application/javascript"></script>
 {{ end }}
-<script src="https://maps.googleapis.com/maps/api/js?key={{ getenv "GOOGLE_API_KEY" }}&libraries=places&language={{ .Lang }}&callback=initMap" async defer></script>
 {{ end }}
