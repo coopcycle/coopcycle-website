@@ -10,7 +10,7 @@ slug = "hacktoberfest-2019"
 
 #### Bouh ! 🎃
 
-[Hacktoberfest](https://hacktoberfest.digitalocean.com) est une évènement d'un mois autour des logiciels libres organisé par [DigitalOcean](https://www.digitalocean.com/) et [DEV](https://dev.to/).
+[Hacktoberfest](https://hacktoberfest.digitalocean.com) est un évènement d'un mois autour des logiciels libres organisé par [DigitalOcean](https://www.digitalocean.com/) et [DEV](https://dev.to/).
 
 À cette occasion, nous aimerions accueillir de nouvelles contributeur·ices en leur offrant un **bonus supplémentaire** : la première contributeur·ice qui ouvre **au moins 3 pull requests** sur [les dépôts GitHub de CoopCycle](https://github.com/coopcycle) d'ici le 31 octobre remporte un jersey [Les Coursiers Bordelais](https://coursiersbordelais.fr/) avec un magnifique logo CoopCycle 😍
 
