@@ -17,7 +17,7 @@ La présente clause a pour objet de définir les différents termes essentiels d
 
 ## 3. Acces à notre Site ou à nos Services
 
-L'accès à notre Site et à notre Service est autorisé de manière temporaire et nous nous réservons le droit de supprimer ou de modifier sans préavis l'accès à notre Site ou à notre Service. Nous ne sommes pas responsables si, pour quelque motif que ce soit, notre Site ou notre Service n'est pas disponible à un moment donné ou pendant une période donnée. Le cas échéant, nous pouvons limiter l'accès à certaines parties de notre Site ou de notre Service ou l’accès à l'ensemble de notre Site ou Service aux Camarades coopté.es. Vous êtes responsable de la préservation de la confidentialité de vos informations de connexion et des activités de votre compte. Si vous avez des inquiétudes au sujet de vos informations de connexion ou si vous craignez  qu'elles ont été piratées, prenez immédiatement contact avec [contact@coopcycle.org](contact@coopcycle.org) pour nous en informer. Nous pouvons désactiver votre compte à tout moment.
+L'accès à notre Site et à notre Service est autorisé de manière temporaire et nous nous réservons le droit de supprimer ou de modifier sans préavis l'accès à notre Site ou à notre Service. Nous ne sommes pas responsables si, pour quelque motif que ce soit, notre Site ou notre Service n'est pas disponible à un moment donné ou pendant une période donnée. Le cas échéant, nous pouvons limiter l'accès à certaines parties de notre Site ou de notre Service ou l’accès à l'ensemble de notre Site ou Service aux Camarades coopté.es. Vous êtes responsable de la préservation de la confidentialité de vos informations de connexion et des activités de votre compte. Si vous avez des inquiétudes au sujet de vos informations de connexion ou si vous craignez  qu'elles ont été piratées, prenez immédiatement contact avec [contact@coopcycle.org](mailto:contact@coopcycle.org) pour nous en informer. Nous pouvons désactiver votre compte à tout moment.
 
 ## 4. Utilisation acceptable
 
@@ -79,4 +79,4 @@ Nous pouvons modifier les présentes conditions d'utilisation à tout moment en 
 
 ## 14. Vos préoccupations
 
-Si vous avez des préoccupations au sujet de données qui figurent dans notre Service, veuillez prendre contact avec [contact@coopcycle.org](contact@coopcycle.org)
+Si vous avez des préoccupations au sujet de données qui figurent dans notre Service, veuillez prendre contact avec [contact@coopcycle.org](mailto:contact@coopcycle.org)
