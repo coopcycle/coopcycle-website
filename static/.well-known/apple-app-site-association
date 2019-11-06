@@ -10,5 +10,10 @@
         ]
       }
     ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "66HUGQ2V5L.org.coopcycle.CoopCycle"
+    ]
   }
 }
