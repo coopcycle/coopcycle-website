@@ -1,4 +1,5 @@
 import 'core-js'
+import _ from 'lodash'
 
 window._paq = window._paq || []
 

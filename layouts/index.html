@@ -38,7 +38,7 @@
         <select class="form-control" id="city-dropdown">
           <option value="">{{ i18n "search.selectCity" }}</option>
           {{ range $coopsWithFoodDelivery }}
-            <option value="{{ .coopcycle_url }}">{{ .name }}</option>
+            <option value="{{ .coopcycle_url }}">{{ .city }} ({{ .name }})</option>
           {{ end }}
         </select>
       </div>
