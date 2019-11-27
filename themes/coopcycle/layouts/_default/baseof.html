@@ -101,6 +101,20 @@
       </nav>
     </div>
 
+    {{ if $.Site.Data.banner.enabled }}
+    <section class="announcement">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center">
+            <a href="{{ $.Site.Data.banner.link }}" target="_blank">
+            <i class="fa fa-bullhorn" aria-hidden="true"></i>  {{ (index $.Site.Data.banner.text .Lang) | safeHTML }}  <i class="fa fa-bullhorn fa-flip-horizontal" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
     <div class="blog-main">
 
       {{ block "main" . }}
