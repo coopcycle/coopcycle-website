@@ -7,6 +7,55 @@
         "lang": "fr"
     },
     {
+        "img": "/images/press/ouestfrance.jpg",
+        "link": "https://www.ouest-france.fr/economie/coopcycle-la-plateforme-cooperative-qui-veut-concurrencer-deliveroo-5183592",
+        "title": "Coopcycle, la plateforme coopérative qui veut concurrencer Deliveroo",
+        "date": "2017-08-11",
+        "lang": "fr"
+    },
+    {
+        "img": "/images/press/framablog.png",
+        "link": "https://framablog.org/2017/10/28/coopcycle-le-projet-cooperatif-qui-roule-social/",
+        "title": "CoopCycle, le projet coopératif qui roule social",
+        "date": "2018-11-29",
+        "lang": "fr"
+    },
+    {
+        "img": "/images/press/tribune.png",
+        "link": "https://www.latribune.fr/technos-medias/coopcycle-un-logiciel-libre-comme-alternative-a-deliveroo-et-ubereats-799005.html",
+        "title": "CoopCycle : un logiciel libre comme alternative à Deliveroo et UberEats",
+        "date": "2018-11-29",
+        "lang": "fr"
+    },
+    {
+        "img": "/images/press/streetpress.png",
+        "link": "https://www.streetpress.com/sujet/1537949750-coopcycle-application-coursiers-velo",
+        "title": "Avec cette application, les coursiers à vélo ne se font plus exploiter",
+        "date": "2018-09-26",
+        "lang": "fr"
+    },
+    {
+        "img": "/images/press/rfi.jpg",
+        "link": "http://www.rfi.fr/fr/emission/20190323-livreurs-velos-inventent-alternatives-plateformes-uberisation",
+        "title": "Les livreurs à vélos inventent des alternatives aux plateformes d’ubérisation",
+        "date": "2019-03-23",
+        "lang": "fr"
+    },
+    {
+        "img": "/images/press/socialter.jpg",
+        "link": "http://www.socialter.fr/fr/module/99999672/632/coopcycle_la_plateforme_de_livraison_qanti_ubrisationq_se_lance__bruxelles",
+        "title": "Coopcycle, la plateforme de livraison 'anti-ubérisation' se lance à Bruxelles",
+        "date": "2018-04-06",
+        "lang": "fr"
+    },
+    {
+        "img": "/images/press/autogestion.png",
+        "link": "https://autogestion.asso.fr/coopcycle-construire-la-qualification-du-metier-contre-le-dumping-social/",
+        "title": "Coopcycle : construire la qualification du métier contre le dumping social",
+        "date": "2019-01-07",
+        "lang": "fr"
+    },
+    {
         "img": "/images/press/bastamag.jpg",
         "link": "https://www.bastamag.net/Nous-sommes-une-start-up-multinationale-anarcho-communiste-Coopcycle-auto",
         "title": "Coopcycle auto-organise les coursiers à vélo",
@@ -47,5 +96,40 @@
         "title": "La Pájara Ciclomensajería - #lacircular",
         "date": "2018-06-27",
         "lang": "es"
+    },
+    {
+        "img": "/images/press/equaltimes.png",
+        "link": "https://www.equaltimes.org/in-europe-food-delivery-coops-are?lang=en",
+        "title": "In Europe, food delivery coops are fighting back against the gig economy",
+        "date": "2018-10-17",
+        "lang": "en"
+    },
+    {
+        "img": "/images/press/boingboing.png",
+        "link": "https://boingboing.net/2019/11/19/peoples-republic-of-uber.html",
+        "title": "Beyond the gig economy: 'platform co-ops' that run their own apps",
+        "date": "2019-11-19",
+        "lang": "en"
+    },
+    {
+        "img": "/images/press/vice.jpg",
+        "link": "https://www.vice.com/en_us/article/pa75a8/worker-owned-apps-are-trying-to-fix-the-gig-economys-exploitation",
+        "title": "Worker-Owned Apps Are Trying to Fix the Gig Economy's Exploitation",
+        "date": "2019-11-19",
+        "lang": "en"
+    },
+    {
+        "img": "/images/press/netzpolitik.png",
+        "link": "https://netzpolitik.org/2019/coopcycle-ein-open-source-buendnis-vernetzt-lieferkollektive-in-ganz-europa/",
+        "title": "CoopCycle: Ein Open-Source-Bündnis vernetzt Lieferkollektive in ganz Europa",
+        "date": "2019-09-06",
+        "lang": "de"
+    },
+    {
+        "img": "/images/press/opendemo.png",
+        "link": "https://neweconomics.opendemocracy.net/resisting-gig-economy-emergence-cooperative-food-delivery-platforms/",
+        "title": "Resisting the gig economy: the emergence of cooperative food delivery platforms",
+        "date": "2018-03-22",
+        "lang": "en"
     }
 ]
