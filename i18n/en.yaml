@@ -150,6 +150,12 @@
 - id: search.selectCity
   translation: Select a city
 
+- id: app.googlePlay
+  translation: Get it on Google Play
+
+- id: app.appStore
+  translation: Download on the App Store
+
 # Countries
 - id: fr
   translation: France

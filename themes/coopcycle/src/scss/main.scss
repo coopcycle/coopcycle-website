@@ -774,3 +774,15 @@ article img {
     text-decoration: none;
   }
 }
+
+.btn-google-play {
+  display: inline-block;
+  > img {
+    width: 150px;
+  }
+}
+
+.btn-app-store {
+  display: inline-block;
+  padding: 10px;
+}

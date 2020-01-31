@@ -153,6 +153,12 @@
 - id: search.selectCity
   translation: Seleccione una ciudad
 
+- id: app.googlePlay
+  translation: Disponible en Google Play
+
+- id: app.appStore
+  translation: Consíguelo en el App Store
+
 # Countries
 - id: fr
   translation: Francia
