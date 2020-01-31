@@ -54,7 +54,7 @@
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav navbar-nav__pages ml-auto">
-            {{- $currentURL := .URL | absLangURL -}}
+            {{- $currentURL := .RelPermalink | absLangURL -}}
             {{ range .Site.Menus.main }}
             {{ $menuURL := .URL | absLangURL }}
             <li class="nav-item {{ if eq $menuURL $currentURL }}active{{ end }}">
