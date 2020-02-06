@@ -154,6 +154,12 @@
 - id: search.selectCity
   translation: Sélectionnez une ville
 
+- id: app.googlePlay
+  translation: Disponible sur Google Play
+
+- id: app.appStore
+  translation: Télécharger dans l'App Store
+
 # Countries
 - id: fr
   translation: France

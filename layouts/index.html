@@ -41,6 +41,20 @@
             <option value="{{ .coopcycle_url }}">{{ .city }} ({{ .name }})</option>
           {{ end }}
         </select>
+        <div class="p-2 text-center">
+          <a class="btn-google-play" href="https://play.google.com/store/apps/details?id=fr.coopcycle">
+            <img alt="{{ i18n "app.googlePlay" }}"
+              src="https://play.google.com/intl/en_us/badges/images/generic/{{ .Lang }}_badge_web_generic.png" />
+          </a>
+          <a class="btn-app-store" href="https://apps.apple.com/us/app/coopcycle/id1324884530?l=fr&ls=1">
+            {{ $appStoreBadge := index $.Site.Data.app_store_badges "en" }}
+            {{ if isset $.Site.Data.app_store_badges .Lang }}
+              {{ $appStoreBadge = index $.Site.Data.app_store_badges .Lang }}
+            {{ end }}
+            <img alt="{{ i18n "app.appStore" }}"
+              src="{{ .Site.BaseURL }}/{{ $appStoreBadge }}" />
+          </a>
+        </div>
       </div>
     </div>
   </div>

@@ -35,3 +35,8 @@ weight = 4
 identifier = "blog"
 url = "https://blogs.mediapart.fr/coopcycle"
 
+# https://gohugo.io/news/0.60.0-relnotes/
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
