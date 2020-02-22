@@ -112,8 +112,9 @@
         "name": "Feel à Vélo",
         "mail": "contact@feelavelo.fr",
         "url": "http://www.feelavelo.fr/",
-        "latitude": 47.7493774,
-        "longitude": -3.4153339,
+        "coopcycle_url": "https://feelavelo.coopcycle.org",
+        "latitude": 47.748252,
+        "longitude": -3.370245,
         "city": "Lorient",
         "country": "fr"
     },
