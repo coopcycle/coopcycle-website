@@ -32,7 +32,7 @@ type = "federation"
     <div class="col-md-4 text-center">
         <i class="join-icon icon-business"></i>
         <h4 class="h4">Commercial offering</h4>
-        <p>Help in developping a commercial offering. We propose also a common offering for key accounts spread accross several cities.</p>
+        <p>Help in developing a commercial offering. We propose also a common offering for key accounts spread across several cities.</p>
     </div>
 </div>
 
@@ -45,7 +45,7 @@ type = "federation"
         <div class="col-md-4 text-center">
             <i class="join-icon icon-eye"></i>
             <h4 class="h4">Visibility & brand</h4>
-            <p>A well-known european brand equity.</p>
+            <p>A well-known European brand equity.</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-judiciary"></i>
@@ -62,12 +62,12 @@ type = "federation"
         <div class="col-md-4 text-center">
             <i class="join-icon icon-money"></i>
             <h4 class="h4">Fundings & calls for proposal</h4>
-            <p>Getting local and european subsidies for members, common response to call for proposals.</p>
+            <p>Getting local and European subsidies for members, common response to call for proposals.</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-insurance"></i>
             <h4 class="h4">Insurances</h4>
-            <p>Negociate high-quality insurance contracts to face the bike delivery risks.</p>
+            <p>Negotiate high-quality insurance contracts to face the bike delivery risks.</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="join-icon icon-plus"></i>
@@ -81,7 +81,7 @@ type = "federation"
     <div class="col-md-8 col-md-offset-2 text-center banner">
         <h3 class="h3">How does it work?</h3>
         <p>
-            We follow the French social security moto: "To each according to their means, to each according to their needs"!
+            We follow the French social security motto: "To each according to their means, to each according to their needs"!
         </p>
     </div>
 </div>
@@ -93,7 +93,7 @@ type = "federation"
         <h4 class="h4">A democratic governance</h4>
         <p>Couriers decide together about:
             <ul>
-                <li>The contribution's level of everyone according to its juridical status  (cooperative, association, institutionnal entity)</li>
+                <li>The contribution's level of everyone according to its juridical status  (cooperative, association, institutional entity)</li>
                 <li>The funds allocation</li>
                 <li>The pay scheme to provide services</li>
             </ul>
