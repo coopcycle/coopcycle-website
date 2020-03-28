@@ -27,7 +27,7 @@ type = "software"
             <div class="feature-group">
                 <h4 class="h4">Fleet management</h4>
                 <ul class="list-features">
-                    <li class="list-features--el">Manage tasks from the web or from the smarphone app</li>
+                    <li class="list-features--el">Manage tasks from the web or from the smartphone app</li>
                     <li class="list-features--el">Track in real-time couriers & tasks statuses</li>
                     <li class="list-features--el">Import tasks from a file and export them to report</li>
                 </ul>
@@ -48,7 +48,7 @@ type = "software"
                 <h4 class="h4">API and external integrations</h4>
                 <ul class="list-features">
                     <li class="list-features--el">Create and retrieve tasks thanks to the API</li>
-                    <li class="list-features--el">Connect to external e-commerce softwares, as Wordpress Woocommerce</li>
+                    <li class="list-features--el">Connect to external e-commerce softwares, as WordPress Woocommerce</li>
                     <li class="list-features--el">Connect from every language or framework</li>
                 </ul>
             </div>
@@ -92,7 +92,7 @@ type = "software"
                 </ul>
             </p>
             <p>
-                So the CoopCycle software is indeed not opensource : its code is available on Github, but not anyone can run it for commercial purposes ! One of our  goal is to spread the use of the Coopyleft license. Interested to join or to use the license? <a href="mailto:contact@coopcycle.org">Mail us</a>.
+                So the CoopCycle software is indeed not open source : its code is available on Github, but not anyone can run it for commercial purposes ! One of our  goal is to spread the use of the Copyleft license. Interested to join or to use the license? <a href="mailto:contact@coopcycle.org">Mail us</a>.
                 <ul>
                     <li>
                         <a href="https://blogs.mediapart.fr/coopcycle/blog/170418/comment-proteger-le-logiciel-ouvert-coopcycle-de-la-predation-capitaliste" class="know-more">[FR] Read more about the CoopCycle's license whereabouts</a>
