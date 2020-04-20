@@ -326,5 +326,20 @@
       "fr": "Kolyma2 veut être le futur des plateformes de livraison de repas : axée sur le sens et la qualité, équitable, participative, responsable et transparente, économiquement et écologiquement durable. Réussie, controversée, cool. C'est le plan. Et le rêve.",
       "en": "Kolyma2 aims to be the future food delivery platform: purpose-driven and quality-oriented; fair, participative, steward-owned and transparent; both economically and ecologically sustainable. Successful, controversial, cool. This is the plan. And the dream."
     }
+  },
+  {
+    "name": "Zentrale",
+    "mail": "centrala@zentrale.pl",
+    "url": "https://zentrale.pl",
+    "facebook_url": "https://www.facebook.com/zentralepl",
+    "coopcycle_url": "https://zentrale.coopcycle.org",
+    "latitude": 52.229675,
+    "longitude": 21.012230,
+    "city": "Warsaw",
+    "country": "pl",
+    "text": {
+      "en": "Cooperative of couriers: delivery to your home or office faster than in 30 minutes. We serve bars, restaurants, bistros, and online stores. Fair rules, free from exploitation.",
+      "pl": "Spółdzielnia kurierów: dostawa do Twojego domu lub biura szybciej niż w 30 minut. Obsługujemy bary, restauracje, bistra, sklepy internetowe. Uczciwe zasady, wolni od wyzysku."
+    }
   }
 ]
