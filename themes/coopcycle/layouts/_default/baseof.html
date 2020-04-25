@@ -155,9 +155,11 @@
         </li>
       </ul>
 
+      {{ $legal := .Site.GetPage "legal" }}
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link" href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>
+          <a class="nav-link" href="{{ $legal.Permalink }}">{{ $legal.Title }}</a>
         </li>
       </ul>
 
