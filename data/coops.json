@@ -217,15 +217,15 @@
     "country": "be"
   },
   {
-    "latitude": 52.5069312,
-    "longitude": 13.1445476,
+    "name": "CROW Collective",
+    "latitude": 52.474070,
+    "longitude": 13.426630,
     "city": "Berlin",
-    "url": "https://cccc.berlin",
-    "mail": "collective@cccc.berlin",
-    "name": "CCCC",
+    "url": "https://www.crowberlin.de",
+    "mail": "info@crowberlin.de",
     "country": "de",
     "text": {
-      "en": "<p>Crow (Cycle Courier Collective) emerged from a group of independent bike couriers and bike geeks. Looking at the current messenger situation in Berlin and the connected (self-)exploitation, we decided to go our own way instead of joining another company. We started with a few very simple principles:<ul><li>Only work with customers who take a minimum responsibility for what they do</li><li>Try to work as emission-free and sustainable as possible (paper-free, engine-free and (very important!) also only pedal-powered, no e-bikes! (the “green” lie!)</li><li>Organize ourselves, work as a collective, be friends and support each other with different projects</li><li>Create a community around the bicycle, not only for courier services but for all ideas surrounding the bike and its environment</li><li>Get politically and socially involved</li></p>"
+      "en": "<p>CROW (Cycle Courier Collective) emerged from a group of independent bike couriers and bike geeks. Looking at the current messenger situation in Berlin and the connected (self-)exploitation, we decided to go our own way instead of joining another company, trying to avoid price dumping and aiming for fair pay for the hard and important work we provide. We started with a few very simple principles:<ul><li>Only work with customers who take a minimum responsibility for what they do</li><li>To work as emission-free and sustainable as possible: car-free and pedal-powered</li><li>Organize ourselves, work as a collective, be friends and support each other with different projects</li><li>Create a community around the bicycle, not only for courier services but for all ideas surrounding the bike and its environment</li><li>Get politically and socially involved</li></ul>Today, CROW is an almost pure cargobike based logistics company, capable of transporting goods up to 150kg in weight, providing stocking solutions and decentralised distribution, all powered by CoopCycle. </p>"
     }
   },
   {
