@@ -1,7 +1,7 @@
 +++
 draft = false
-title = "The European federation"
-description = "The European federation"
+title = "The federation"
+description = "The co-ops of the CoopCycle network"
 lang = "en"
 menu = "main"
 weight = 1

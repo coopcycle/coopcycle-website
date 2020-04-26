@@ -1,7 +1,7 @@
 +++
 draft = false
-title = "La federación europea"
-description = "La federación europea"
+title = "La federación"
+description = "Las cooperativas de la red CoopCycle"
 lang = "es"
 menu = "main"
 weight = 1

@@ -48,11 +48,11 @@
   translation: Contact us
 
 - id: ecosystem.title
-  translation: The European federation
+  translation: The federation
 
 - id: ecosystem.content
   translation: >
-    CoopCycle is the European federation of bike delivery coops. Governed democratically by coops, it enables them to stand united and to reduce their costs thanks to resources pooling. It creates a strong bargaining power to protect the bikers rights.
+    CoopCycle is a federation of bike delivery co-ops. Governed democratically by coops, it enables them to stand united and to reduce their costs thanks to resources pooling. It creates a strong bargaining power to protect the bikers rights.
 
 - id: digital_common.title
   translation: The software
@@ -96,7 +96,7 @@
     The money is used for webhosting and events organization (workshops, gatherings, conferences).
 
 - id: network.title
-  translation: The European federation
+  translation: The federation
 
 - id: marker.click
   translation: Click on the markers to know more!

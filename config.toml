@@ -15,19 +15,19 @@ extensions = ["hardLineBreak"]
 
 [Languages.en]
 title = "CoopCycle"
-description = "CoopCycle is the European network of bike delivery coops."
+description = "CoopCycle is a network of bike delivery co-ops."
 
 ### French
 
 [Languages.fr]
 title = "CoopCycle"
-description = "CoopCycle est la fédération européenne des coopératives de livraison à vélo."
+description = "CoopCycle est une fédération de coopératives de livraison à vélo."
 
 ### Spanish
 
 [Languages.es]
 title = "CoopCycle"
-description = "CoopCycle es un software para administrar una plataforma logística."
+description = "CoopCycle es una federación de cooperativas de entrega por bicicleta."
 
 [[Languages.fr.menu.main]]
 name = "Blog"

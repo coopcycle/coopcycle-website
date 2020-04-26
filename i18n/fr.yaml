@@ -55,11 +55,11 @@
     Outil de cyclo-logistique complet au code ouvert, il permet aux coopératives de gérer leurs courses et aux commerçant.e.s, aux restaurateur.rice.s et aux client.e.s d'accéder au service. Le logiciel est protégé par une licence à réciprocité, qui réserve son utilisation aux coopératives.
 
 - id: ecosystem.title
-  translation: La fédération européenne
+  translation: La fédération
 
 - id: ecosystem.content
   translation: >
-    CoopCycle est la fédération européenne des coopératives de livraison à vélo. Gouvernée démocratiquement par les coopératives, elle repose sur la solidarité entre elles et leur permet de réduire leurs coûts grâce à la mutualisation de services. Elle créée une force collective de négociation pour défendre les droits des livreur.se.s.
+    CoopCycle est une fédération de coopératives de livraison à vélo. Gouvernée démocratiquement par les coopératives, elle repose sur la solidarité entre elles et leur permet de réduire leurs coûts grâce à la mutualisation de services. Elle créée une force collective de négociation pour défendre les droits des livreur.se.s.
 
 - id: association.title
   translation: L'association CoopCycle
@@ -99,7 +99,7 @@
   translation: Organisation
 
 - id: network.title
-  translation: La fédération européenne
+  translation: La fédération
 
 - id: marker.click
   translation: Cliquez sur les marqueurs pour en savoir plus !

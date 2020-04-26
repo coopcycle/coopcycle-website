@@ -354,5 +354,21 @@
     "text": {
       "fr": "Toutenvélo Marseille est une société coopérative (SCOP) détenue par ses salariés et spécialisée dans la logistique du dernier kilomètre à vélo. Armés de vélos à assistance électrique, de caissons et de plateaux de transport, la coopérative assure le transport de colis, de marchandises et propose un service de déménagement dans le centre et le nord de Marseille. Notre matériel nous permet de transporter jusqu'à 300kg de charge et est adapté aux contraintes de circulation et de stationnement de la ville. Courses à la demande, tournées planifiées, transport de grosses charges, n'hésitez pas à nous contacter pour un service sans contrainte de circulation et d'émissions de particules fines !"
     }
+  },
+  {
+    "name": "La roue libre",
+    "mail": "info@larouelibre.org",
+    "url": "https://www.larouelibre.org",
+    "facebook_url": "https://www.facebook.com/La-roue-libre-198894610933757/",
+    "twitter_url": "https://twitter.com/larouelibremtl",
+    "twitter_handle": "@larouelibremtl",
+    "instagram_url": "https://www.instagram.com/larouelibremtl/",
+    "latitude": 45.509060,
+    "longitude": -73.553360,
+    "city": "Montréal",
+    "country": "ca",
+    "text": {
+      "fr": "La roue libre propose un service de logistique urbaine des derniers kilomètres à Montréal, à vélo et quatre saisons. Grâce à ses vélos à assistance électrique et ses remorques équipées de caissons étanches et sécurisés, La roue libre assure le transport des plus petits envois jusqu’au lot de colis de plus de 350 livres."
+    }
   }
 ]
