@@ -7,6 +7,9 @@
 // selectively import components we need from bootstrap
 @import "src/scss/bootstrap";
 
+@import "~leaflet.markercluster/dist/MarkerCluster.css";
+@import "~leaflet.markercluster/dist/MarkerCluster.Default.css";
+
 // local style overrides
 @import 'src/scss/main';
 @import 'src/scss/dataviz';

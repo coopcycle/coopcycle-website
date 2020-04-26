@@ -1,5 +1,6 @@
 import 'core-js'
 import L from 'leaflet'
+import 'leaflet.markercluster'
 
 function fadeIn(el) {
   el.style.opacity = 0;
@@ -57,7 +58,11 @@ if (document.getElementById('coops-map')) {
 
   })
 
-  markers.forEach(marker => marker.addTo(map))
+  const clusters = L.markerClusterGroup({
+    showCoverageOnHover: false,
+  })
+  markers.forEach(marker => clusters.addLayer(marker))
+  map.addLayer(clusters)
 
   // center map
   let group = new L.featureGroup(markers)
