@@ -255,7 +255,7 @@
     }
   },
   {
-    "name": "Tout En Vélo Grenoble",
+    "name": "Toutenvélo Grenoble",
     "url": "http://www.toutenvelo.fr/toutenvelo-grenoble",
     "mail": "grenoble@toutenvelo.fr",
     "latitude": 45.1951843,
@@ -340,6 +340,19 @@
     "text": {
       "en": "Cooperative of couriers: delivery to your home or office faster than in 30 minutes. We serve bars, restaurants, bistros, and online stores. Fair rules, free from exploitation.",
       "pl": "Spółdzielnia kurierów: dostawa do Twojego domu lub biura szybciej niż w 30 minut. Obsługujemy bary, restauracje, bistra, sklepy internetowe. Uczciwe zasady, wolni od wyzysku."
+    }
+  },
+  {
+    "name": "Toutenvélo Marseille",
+    "mail": "marseille@toutenvelo.fr",
+    "url": "http://www.toutenvelo.fr/toutenvelo-marseille",
+    "facebook_url": "https://www.facebook.com/Toutenv%C3%A9lo-Marseille-336736433711774/",
+    "latitude": 43.296482,
+    "longitude": 5.369780,
+    "city": "Marseille",
+    "country": "fr",
+    "text": {
+      "fr": "Toutenvélo Marseille est une société coopérative (SCOP) détenue par ses salariés et spécialisée dans la logistique du dernier kilomètre à vélo. Armés de vélos à assistance électrique, de caissons et de plateaux de transport, la coopérative assure le transport de colis, de marchandises et propose un service de déménagement dans le centre et le nord de Marseille. Notre matériel nous permet de transporter jusqu'à 300kg de charge et est adapté aux contraintes de circulation et de stationnement de la ville. Courses à la demande, tournées planifiées, transport de grosses charges, n'hésitez pas à nous contacter pour un service sans contrainte de circulation et d'émissions de particules fines !"
     }
   }
 ]
