@@ -35,6 +35,11 @@ function propText(prop, item) {
     return '@' + item[prop].substring(item[prop].lastIndexOf('/') + 1)
   }
 
+  if (prop === 'instagram_url') {
+    const withoutTrailingSlash = item[prop].replace(/\/$/, '')
+    return '@' + withoutTrailingSlash.substring(withoutTrailingSlash.lastIndexOf('/') + 1)
+  }
+
   if (prop === 'facebook_url') {
     return item.name
   }
