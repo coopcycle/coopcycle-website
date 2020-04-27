@@ -18,6 +18,30 @@ function fadeIn(el) {
   tick();
 }
 
+function propLink(prop, value) {
+  if (prop === 'mail') {
+    return `mailto:${value}`
+  }
+
+  return value
+}
+
+function propText(prop, item) {
+  if (prop === 'mail' || prop === 'url') {
+    return item[prop]
+  }
+
+  if (prop === 'twitter_url') {
+    return '@' + item[prop].substring(item[prop].lastIndexOf('/') + 1)
+  }
+
+  if (prop === 'facebook_url') {
+    return item.name
+  }
+
+  return item[prop]
+}
+
 if (document.getElementById('coops-map')) {
 
   $('.map-wrapper').fadeIn()
@@ -31,28 +55,37 @@ if (document.getElementById('coops-map')) {
   const markers = window.AppData.coops.map(item => {
 
     return L.marker([item.latitude, item.longitude]).on('click', function() {
-      // NB : the content will be indexed thanks to the 'no-desktop' div which contains the links to the external pages
-      // fill in modal with coop data
-      let text = item.text ? (item.text[window.AppData.lang] || item.text['en']) : ''
-      $('#coop-modal .modal-content').html(`
-          <div class="modal-header">
-              <div>
-                  <h3>${item.name}</h3>
-                  <p class="coop-panel--city">${item.city}, ${window.AppData.countries[item.country]}</p>
-              </div>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          </div>
-          <div class="modal-body">
-            <ul class="modal-sidebar">
-                ${ item.url ? `<li class="modal-sidebar-item"><a target="_blank" href="${item.url}"><i class="fa fa-link"></i>${item.url}</a></li>` : '' }
-                <li class="modal-sidebar-item"><a target="_blank" href="mailto:${item.mail}"><i class="fa fa-envelope"></i>${item.mail}</a></li>
-                ${ item.facebook_url ? `<li class="modal-sidebar-item"><a target="_blank" href="${item.facebook_url}"><i class="fa fa-facebook"></i>${item.facebook_name ? item.facebook_name : item.name}</li></a>`: ""}
-                ${ item.twitter_url ? `<li class="modal-sidebar-item"><a target="_blank" href="${item.twitter_url}"><i class="fa fa-twitter"></i>${item.twitter_handle}</li></a>` : ""}
-            </ul>
-            ${ text ? `<div class="modal-not-sidebar">${text}</div>` : ""}
-          </div>
-        </div>
-      `)
+
+      const text = item.text ? (item.text[window.AppData.lang] || item.text['en']) : ''
+
+      $('#coop-modal').find('.modal-title').text(item.name)
+      $('#coop-modal').find('.coop-panel--city')
+        .text(`${item.city}, ${window.AppData.countries[item.country]}`)
+
+      $('#coop-modal').find('.modal-sidebar [data-prop]').each(function () {
+
+        const prop = $(this).data('prop')
+
+        if (item[prop]) {
+
+          $(this)
+            .find('a')
+            .attr('href', propLink(prop, item[prop]))
+            .find('span')
+            .text(propText(prop, item))
+
+          $(this).removeClass('d-none')
+        } else {
+          $(this).addClass('d-none')
+        }
+      })
+
+      if (text) {
+        $('#coop-modal').find('.modal-not-sidebar').html(text)
+      } else {
+        $('#coop-modal').find('.modal-not-sidebar').addClass('d-none')
+      }
+
       $('#coop-modal').modal()
     })
 
