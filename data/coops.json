@@ -363,5 +363,18 @@
     "text": {
       "fr": "La roue libre propose un service de logistique urbaine des derniers kilomètres à Montréal, à vélo et quatre saisons. Grâce à ses vélos à assistance électrique et ses remorques équipées de caissons étanches et sécurisés, La roue libre assure le transport des plus petits envois jusqu’au lot de colis de plus de 350 livres."
     }
+  },
+{
+    "name": "Shift Delivery Co-op",
+    "url": "https://www.shift.coop/#home",
+    "facebook_url": "https://www.facebook.com/ShiftDelivery/",
+    "mail": "info@shiftdelivery.ca",
+    "city": "Vancouver",
+    "country": "ca",
+    "latitude": -122.6614861,
+    "longitude": 45.6387281,
+    "text": {
+      "en": "Shift Delivery is a worker owned co-op located in East Vancouver that specializes in last mile delivery. Do you need help with logistics? Want to reduce your carbon footprint? Write or give us a call. 
+  }
   }
 ]
