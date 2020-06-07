@@ -1,19 +1,5 @@
 [
   {
-    "name": "CourCyclette",
-    "url": "https://www.courcyclette.org/",
-    "facebook_url": "https://www.facebook.com/LaCourCycletteAlfortville/",
-    "mail": "contact@courcyclette.org",
-    "city": "Alfortville",
-    "country": "fr",
-    "latitude": 48.7967092,
-    "longitude": 2.3859845,
-    "text": {
-      "fr": "<p>Nous sommes un tiers-lieu dans le Val-de-Marne, aux portes de Paris. Nous travaillons à un projet citoyen d’installation effective de la transition écologique à la confluence de la Marne et de la Seine. Nous déployons des activités dans le domaine des transports (à vélo) et dans l’alimentation (en circuits courts et zéro déchet)  proposant une véritable alternative sociale et écologique, en misant sur la création collective, le lien social avec pour objectif la lutte contre le gaspillage sous toutes ses formes.</p><p>Nous déployons le projet <strong>Coopératives pour des Initiatives logistiques à faible émission sur le Val de Marne (CILFÉ)</strong>. C’est un réseau de transports à vélo, constitué de plusieurs antennes logistiques distantes de 3-5 kms chacune, interconnectées grâce à notre chère application numérique Coopcycle. Transports alimentaires (restauration collective, marchés), économie circulaire, logistique culturelle, transports de vélos, agriculture urbaine... Nous nous spécialisons sur la livraison à forte valeur ajoutée : utilité sociale des produits livrés, quantités et volumes importants.</p>",
-      "en": "<p>We are a third place located in the Val-de-Marne, at the crossing of the Marne and the Seine, near Paris. We are working to develop a citizen-backed project which aims for a real ecological transition. We are focusing on two activities : bike delivery and sustainable alimentation (short channels and zero waste). We are betting on collective creation and social bounds.</p><p>In addition to our membership in CoopCycle, we are part of the project <strong>Coops for zero-emission logistics in Val-de-Marne (CILFÉ)</strong>. It is a network of several bike delivery actors, spread across the department (3-5 kms distance) and linked thanks to the CoopCycle software. Food logistics, circular economy, cultural goods, urban agriculture... We are specialized on strong value-added and socially responsible deliveries.</p>"
-    }
-  },
-  {
     "name": "ColisCyclette",
     "url": "http://coliscyclette.fr",
     "facebook_url": "https://fr-fr.facebook.com/coliscyclette/",
@@ -192,7 +178,6 @@
     "country": "be",
     "facebook_url": "https://www.facebook.com/rayon9coop",
     "mail": "info@rayon9.be",
-    "country": "be",
     "text": {
       "fr": "<p>RAYON9 a été fondée en 2016 à Liège (Belgique) par un petit groupe de citoyennes et de citoyens concerné.e.s par les problèmes de mobilité et d’emploi dans leur ville. Constituée sous la forme d’une société coopérative à finalité sociale, elle est aujourd’hui propulsée par plus de 100 coopérateurs et coopératrices. Leur objectif : rendre la ville plus verte et promouvoir l’emploi des jeunes !</p><p>RAYON9 transporte essentiellement des produits alimentaires (fruits, légumes, pain, ...) pour des magasins ou des restaurants mais aussi du courrier, de la presse, de l'électroménager ou même des sapins ! Les client.e.s principaux.ales sont celles et ceux qui nous confient le dernier kilomètre pour des livraisons en entreprise (corbeilles de fruits) ou à domicile (produits de la ferme).</p>"
     }
@@ -210,8 +195,8 @@
   },
   {
     "name": "CROW Collective",
-    "latitude": 52.474070,
-    "longitude": 13.426630,
+    "latitude": 52.47407,
+    "longitude": 13.42663,
     "city": "Berlin",
     "url": "https://www.crowberlin.de",
     "facebook_url": "https://www.facebook.com/crowcyclecouriercollective",
@@ -220,7 +205,7 @@
     "country": "de",
     "text": {
       "en": "<p>CROW (Cycle Courier Collective) is a group of independent (cargo)bike couriers and bike geeks. Displeased with the current conditions for couriers in Berlin, namely the (self)exploitation of couriers' labour, we decided to forge our own path instead of joining another company. CROW is based on a few very simple principles:<ul><li>We want fair pay for the hard and important work that we provide - making fair and sustainable services financially accessible, without exploiting ourselves and dumping our prices.</li><li>We want to work with people who take sustainable business practices and fair working conditions into their own work and act responsibly - solidarity is key!.</li><li>To work as emission-free and sustainable as possible; this is why we are completely car-free and pedal-powered.</li><li>Organize, share a collective mindset, go as DIY as possible, be friends and support each other with different projects</li><li>Create a community; we hope to foster a loving and supportive community around the bicycle, not only for couriers but for all those who are passionate about bikes</li><li>Get politically and socially involved, propelling a bike supported revolution</li><li>All Couriers Are Beautiful and All Crows Are Birds</li><li>No Gods, No Masters, No Border, No Nation</ul>Today, CROW is entirely comprised of cargo bikes, and we are always eager to take on any logistics challenge, regardless of weight or size. We are capable of transporting goods up to 150kg in weight, providing stocking solutions and decentralised distribution, all powered by CoopCycle.</p>",
-       "fr": "Collectif de Coursier.e.s Cargo CROW s'est fondé d'un groupe de coursier.e.s independant.e.s et des malades du vélo. Voyant la situation d'(auto-)exploitation des coursier.e.s à Berlin, nous avons decidé.e.s à suivre notre propre chemin à la place de joindre une autre entreprise. En collectif on se bat contre les prix bas, visant un paiement adéquat aux risques et importance de notre travail. On transporte l'esprit DIY et un approche anti-autoritaire avec notre travail en collectif. Nous sommes forcément politisé.e.s et nous poursuivons la révolution par le vélo. "
+      "fr": "Collectif de Coursier.e.s Cargo CROW s'est fondé d'un groupe de coursier.e.s independant.e.s et des malades du vélo. Voyant la situation d'(auto-)exploitation des coursier.e.s à Berlin, nous avons decidé.e.s à suivre notre propre chemin à la place de joindre une autre entreprise. En collectif on se bat contre les prix bas, visant un paiement adéquat aux risques et importance de notre travail. On transporte l'esprit DIY et un approche anti-autoritaire avec notre travail en collectif. Nous sommes forcément politisé.e.s et nous poursuivons la révolution par le vélo. "
     }
   },
   {
@@ -342,7 +327,7 @@
     "url": "http://www.toutenvelo.fr/toutenvelo-marseille",
     "facebook_url": "https://www.facebook.com/Toutenv%C3%A9lo-Marseille-336736433711774/",
     "latitude": 43.296482,
-    "longitude": 5.369780,
+    "longitude": 5.36978,
     "city": "Marseille",
     "country": "fr",
     "text": {
@@ -356,15 +341,15 @@
     "facebook_url": "https://www.facebook.com/La-roue-libre-198894610933757/",
     "twitter_url": "https://twitter.com/larouelibremtl",
     "instagram_url": "https://www.instagram.com/larouelibremtl/",
-    "latitude": 45.509060,
-    "longitude": -73.553360,
+    "latitude": 45.50906,
+    "longitude": -73.55336,
     "city": "Montréal",
     "country": "ca",
     "text": {
       "fr": "La roue libre propose un service de logistique urbaine des derniers kilomètres à Montréal, à vélo et quatre saisons. Grâce à ses vélos à assistance électrique et ses remorques équipées de caissons étanches et sécurisés, La roue libre assure le transport des plus petits envois jusqu’au lot de colis de plus de 350 livres."
     }
   },
-{
+  {
     "name": "Shift Delivery Co-op",
     "url": "https://shift.coop/",
     "facebook_url": "https://www.facebook.com/ShiftDelivery/",
@@ -374,7 +359,7 @@
     "latitude": -122.6614861,
     "longitude": 45.6387281,
     "text": {
-      "en": "Shift Delivery is a worker owned co-op located in East Vancouver that specializes in last mile delivery. Do you need help with logistics? Want to reduce your carbon footprint? Write or give us a call." 
-  }
+      "en": "Shift Delivery is a worker owned co-op located in East Vancouver that specializes in last mile delivery. Do you need help with logistics? Want to reduce your carbon footprint? Write or give us a call."
+    }
   }
 ]
