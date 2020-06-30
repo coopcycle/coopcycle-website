@@ -272,6 +272,21 @@
     }
   },
   {
+    "name": "Eraman Repartos Gasteiz",
+    "coopcycle_url": "https://eramangasteiz.coopcycle.org",
+    "url": "http://www.eraman.coop/",
+    "instagram_handle": "@eraman.koop",
+    "mail": "repartos@eraman.coop",
+    "latitude": 42.846859,
+    "longitude": -2.671590,
+    "city": "Vitoria-Gasteiz",
+    "country": "es",
+    "text": {
+      "en": "<p>Es el momento! Nos gusta nuestra ciudad, nos gusta la gente, nos gusta el cooperativismo y nos gustan las bicicletas. ERAMAN nace para juntar todo esto de manera sostenible y ética, con carácter y piñones.</p>",
+      "eu": "<p>Iritsi da garaia! Gure hiria maite dugu, gure bizilagunak, kooperatibismoa eta bizikletak ere bai. Hori guztia era jasangarri eta etikoan bateratzeko, nortasun eta piñoiekin, ERAMAN jaio da!</p>"
+    }
+  },
+  {
     "name": "Les Coursiers Stéphanois",
     "mail": "contact@coursiers-stephanois.fr",
     "url": "https://www.coursiers-stephanois.fr/",
