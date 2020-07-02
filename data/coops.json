@@ -377,22 +377,23 @@
     "text": {
       "en": "Shift Delivery is a worker owned co-op located in East Vancouver that specializes in last mile delivery. Do you need help with logistics? Want to reduce your carbon footprint? Write or give us a call."
     }
-  }
-{
-"name": "Coop Cycle Birminbham",
+  },
+  {
+    "name": "Coop Cycle Birminbham",
     "mail": "coopcycle@cooperationbirmingham.org.uk",
-    "url": "https://www.facebook.com/CoopCycleBrum",
+    "url": "https://cooperationbirmingham.org.uk/",
+    "facebook_url": "https://www.facebook.com/CoopCycleBrum",
     "twitter_url": "https://twitter.com/cycle_op",
     "coopcycle_url": "https://birmingham.coopcycle.org",
     "instagram_url": "https://www.instagram.com/coopcyclebrum/",
     "instagram_handle": "@coopcyclebrum",
     "latitude": 52.489471,
-    "longitude": 	-1.898575,
+    "longitude": -1.898575,
     "city": "Birmingham",
     "country": "gb",
     "text": {
-      "en": "Coop Cycle Birmingham are worker owned co-operative focussed on logisitcs and last mile delivery in Brum. We're building an alternative to the exploitive gig economy that empowers both the and the workers, clients and customer. We do things differently. We're building a faierer and mor sustainable world. Won't you join us?
+      "en": "Coop Cycle Birmingham are worker owned co-operative focussed on logisitcs and last mile delivery in Brum. We're building an alternative to the exploitive gig economy that empowers both the and the workers, clients and customer. We do things differently. We're building a faierer and mor sustainable world. Won't you join us?"
     }
-}
+  }
 ]
 
