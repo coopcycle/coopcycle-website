@@ -17,6 +17,7 @@ npm run watch
 
 ### Launch server
 
+From the root of the repo, run:
 ```
 hugo server -D
 ```

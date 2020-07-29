@@ -272,6 +272,21 @@
     }
   },
   {
+    "name": "Eraman Repartos Gasteiz",
+    "coopcycle_url": "https://eramangasteiz.coopcycle.org",
+    "url": "http://www.eraman.coop/",
+    "instagram_handle": "@eraman.koop",
+    "mail": "repartos@eraman.coop",
+    "latitude": 42.846859,
+    "longitude": -2.671590,
+    "city": "Vitoria-Gasteiz",
+    "country": "es",
+    "text": {
+      "en": "<p>Es el momento! Nos gusta nuestra ciudad, nos gusta la gente, nos gusta el cooperativismo y nos gustan las bicicletas. ERAMAN nace para juntar todo esto de manera sostenible y ética, con carácter y piñones.</p>",
+      "eu": "<p>Iritsi da garaia! Gure hiria maite dugu, gure bizilagunak, kooperatibismoa eta bizikletak ere bai. Hori guztia era jasangarri eta etikoan bateratzeko, nortasun eta piñoiekin, ERAMAN jaio da!</p>"
+    }
+  },
+  {
     "name": "Les Coursiers Stéphanois",
     "mail": "contact@coursiers-stephanois.fr",
     "url": "https://www.coursiers-stephanois.fr/",
@@ -361,6 +376,23 @@
     "longitude": -123.120735,
     "text": {
       "en": "Shift Delivery is a worker owned co-op located in East Vancouver that specializes in last mile delivery. Do you need help with logistics? Want to reduce your carbon footprint? Write or give us a call."
+    }
+  },
+  {
+    "name": "Cooperation Birmingham",
+    "mail": "coopcycle@cooperationbirmingham.org.uk",
+    "url": "https://cooperationbirmingham.org.uk/",
+    "facebook_url": "https://www.facebook.com/CoopCycleBrum",
+    "twitter_url": "https://twitter.com/cycle_op",
+    "coopcycle_url": "https://birmingham.coopcycle.org",
+    "instagram_url": "https://www.instagram.com/coopcyclebrum/",
+    "instagram_handle": "@coopcyclebrum",
+    "latitude": 52.489471,
+    "longitude": -1.898575,
+    "city": "Birmingham",
+    "country": "gb",
+    "text": {
+      "en": "Cooperation Birmingham is a worker-owned co-operative focused on logistics and last-mile delivery in Brum. We're building an alternative to the exploitative gig economy that empowers both the workers, clients and customers. We do things differently. We're building a fairer and more sustainable world. Won't you join us?"
     }
   }
 ]
