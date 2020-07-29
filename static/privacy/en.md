@@ -1,5 +1,4 @@
-Data Collector : CoopCycle
-----------------------------------
+## Data Collector : CoopCycle
 
 ### Contact Information
 
@@ -11,7 +10,7 @@ Data Collector : CoopCycle
 
 **Email** : contact [AT] coopcycle.org
 
-**Chair, Publishing Manager** : Lison Noël
+**Chair, Publishing Manager**: Lison Noël
 
 ### Type of data collected
 
@@ -21,15 +20,13 @@ We collect data in the following events:
 - Traffic Analysis - We collect this data when pages are loaded into a browser or other javascript / http compatible program.
 - User Account Information - We collect this data when creating a user account on the site.
 
-
 ### Data storage duration
 
-We store different types of data differently: 
+We store different types of data differently:
 
 - IP Addresses - This information is stored online for 30 days before being deleted. Some of this information is used with network and diagnostic software, and this information may be stored for longer periods of time.
 - Traffic Analysis - We store this data indefinitely.
 - User account information - We store this data indefinitely or until the user requests deletion.
-
 
 ### Data Hosting
 
@@ -42,7 +39,6 @@ For the purposes of technical storage of your personal data, your data may be ce
 - Scaleway
 - Digital Ocean
 
-
 ### Data Use
 
 We primarily use user account information to give you access to the services you have requested.
@@ -51,7 +47,6 @@ We need the address and telephone number to make home deliveries, the telephone 
 We also need your contact information to resolve any problems with your orders.
 
 We may analyze your activity on our sites to correct problems, improve service, or for statistical purposes.
-
 
 ### Your rights to your data
 
