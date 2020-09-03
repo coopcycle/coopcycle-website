@@ -394,5 +394,21 @@
     "text": {
       "en": "Cooperation Birmingham is a worker-owned co-operative focused on logistics and last-mile delivery in Brum. We're building an alternative to the exploitative gig economy that empowers both the workers, clients and customers. We do things differently. We're building a fairer and more sustainable world. Won't you join us?"
     }
+  },
+  {
+    "name": "Zampate",
+    "mail": "zampate.zaragoza@gmail.com",
+    "url": "https://zampatezaragoza.com",
+    "coopcycle_url": "https://zampate.coopcycle.org",
+    "instagram_url": "https://www.instagram.com/zampate.zgz/",
+    "instagram_handle": "@zampate.zgz",
+    "latitude": 41.650998,
+    "longitude": -0.888742,
+    "city": "Zaragoza",
+    "country": "es",
+    "text": {
+      "es": "Zámpate Zaragoza es una nueva iniciativa de reparto de comida a domicilio en nuestra ciudad. Una iniciativa sostenible y ética de reparto urbano en bicicleta. Empezaremos colaborando con varios establecimientos hosteleros y tiendas de alimentación que os iremos presentado. ",
+      "en": "Zámpate Zaragoza is a new initiative for food delivery in our city. A sustainable and ethical initiative of urban delivery by bicycle. We will start collaborating with several hotel establishments and food stores that we will present to you. "
+    }
   }
 ]
