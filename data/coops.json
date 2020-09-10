@@ -14,6 +14,24 @@
     }
   },
   {
+    "name": "Naofood",
+    "url": "https://naofood.fr/",
+    "facebook_url": "https://www.facebook.com/nao.food",
+    "latitude": 47.206472,
+    "longitude": -1.564297,
+    "city": "Nantes - Naofood",
+    "country": "fr"
+  },
+   {
+    "name": "Tours N Messengers",
+    "url": "https://www.toursnmessengers.fr/",
+    "facebook_url": "https://www.facebook.com/toursnmessengers",
+    "latitude": 47.383333,
+    "longitude": 0.683333,
+    "city": "Tours",
+    "country": "fr"
+  },
+  {
     "name": "CoinCide",
     "url": "https://about.me/co1cide",
     "facebook_url": "https://www.facebook.com/co1cide/",
@@ -31,7 +49,7 @@
     "mail": "contact@lescoursiersnantais.fr",
     "latitude": 47.2383172,
     "longitude": -1.6300963,
-    "city": "Nantes",
+    "city": "Nantes - Les Coursiers Nantais",
     "country": "fr",
     "url": "http://lescoursiersnantais.fr/",
     "coopcycle_url": "https://lescoursiersnantais.coopcycle.org"
