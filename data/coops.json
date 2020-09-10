@@ -17,12 +17,16 @@
     "name": "Naofood",
     "url": "https://naofood.fr/",
     "facebook_url": "https://www.facebook.com/nao.food",
+    "twitter_url": "https://twitter.com/nao_food",
+    "instagram_url": "https://www.instagram.com/nao.food/",
+    "instagram_handle": "@nao.food",
+    "coopcycle_url": "https://naofood.coopcycle.org",
     "latitude": 47.206472,
     "longitude": -1.564297,
     "city": "Nantes - Naofood",
     "country": "fr"
   },
-   {
+  {
     "name": "Tours N Messengers",
     "url": "https://www.toursnmessengers.fr/",
     "facebook_url": "https://www.facebook.com/toursnmessengers",
