@@ -145,7 +145,7 @@
   translation: ¿Tiene hambre?
 
 - id: search.subtitle
-  translation: Restaurantes de {{ .Cities }} entregados por las cooperativas de la red
+  translation: Los restaurantes de tu ciudad, entregados por las cooperativas de la red
 
 - id: search.noResults
   translation: Lo sentimos, no encontramos resultados

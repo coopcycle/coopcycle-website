@@ -142,7 +142,7 @@
   translation: You hungry?
 
 - id: search.subtitle
-  translation: Restaurants in {{ .Cities }} delivered to you by the co-ops in the network
+  translation: Restaurants in your city, delivered to you by the co-ops in the network
 
 - id: search.noResults
   translation: Sorry, we didn't find results

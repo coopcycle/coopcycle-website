@@ -146,7 +146,7 @@
   translation: Une petite faim ?
 
 - id: search.subtitle
-  translation: Les restaurants de {{ .Cities }} livrés chez vous par les coopératives du réseau
+  translation: Les restaurants de votre ville, livrés chez vous par les coopératives du réseau
 
 - id: search.noResults
   translation: Désolé, nous n'avons pas trouvé de résultat

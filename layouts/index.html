@@ -27,14 +27,13 @@
 {{ end }}
 
 {{ $cities = $cities | sort }}
-{{ $citiesAsString := delimit $cities ", " }}
 
 <div class="my-4">
   <div class="container">
     <div class="card bg-light">
       <div class="card-body">
         <h4 class="h4 text-center text-info"><i class="fa fa-cutlery"></i>  {{ i18n "search.title" }}</h4>
-        <p class="card-text text-center">{{ i18n "search.subtitle" (dict "Cities" $citiesAsString) }}</p>
+        <p class="card-text text-center">{{ i18n "search.subtitle" }}</p>
         <select class="form-control" id="city-dropdown">
           <option value="">{{ i18n "search.selectCity" }}</option>
           {{ range $coopsWithFoodDelivery }}
