@@ -49,6 +49,12 @@ function propText(prop, item) {
 
 if (document.getElementById('coops-map')) {
 
+  let jsonFile = location.protocol + '//' + location.hostname
+  if (location.port) {
+    jsonFile += `:${location.port}`
+  }
+  jsonFile += '/coopcycle.json'
+
   $('.map-wrapper').fadeIn()
 
   var map = L.map('coops-map', { scrollWheelZoom: false })
@@ -57,55 +63,58 @@ if (document.getElementById('coops-map')) {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>'
   }).addTo(map)
 
-  const markers = window.AppData.coops.map(item => {
+  $.getJSON(jsonFile).then(data => {
 
-    return L.marker([item.latitude, item.longitude]).on('click', function() {
+    const markers = data.map(item => {
 
-      const text = item.text ? (item.text[window.AppData.lang] || item.text['en']) : ''
+      return L.marker([item.latitude, item.longitude]).on('click', function() {
 
-      $('#coop-modal').find('.modal-title').text(item.name)
-      $('#coop-modal').find('.coop-panel--city')
-        .text(`${item.city}, ${window.AppData.countries[item.country]}`)
+        const text = item.text ? (item.text[window.AppData.lang] || item.text['en']) : ''
 
-      $('#coop-modal').find('.modal-sidebar [data-prop]').each(function () {
+        $('#coop-modal').find('.modal-title').text(item.name)
+        $('#coop-modal').find('.coop-panel--city')
+          .text(`${item.city}, ${window.AppData.countries[item.country]}`)
 
-        const prop = $(this).data('prop')
+        $('#coop-modal').find('.modal-sidebar [data-prop]').each(function () {
 
-        if (item[prop]) {
+          const prop = $(this).data('prop')
 
-          $(this)
-            .find('a')
-            .attr('href', propLink(prop, item[prop]))
-            .find('span')
-            .text(propText(prop, item))
+          if (item[prop]) {
 
-          $(this).removeClass('d-none')
+            $(this)
+              .find('a')
+              .attr('href', propLink(prop, item[prop]))
+              .find('span')
+              .text(propText(prop, item))
+
+            $(this).removeClass('d-none')
+          } else {
+            $(this).addClass('d-none')
+          }
+        })
+
+        if (text) {
+          $('#coop-modal').find('.modal-not-sidebar').html(text)
         } else {
-          $(this).addClass('d-none')
+          $('#coop-modal').find('.modal-not-sidebar').addClass('d-none')
         }
+
+        $('#coop-modal').modal()
       })
 
-      if (text) {
-        $('#coop-modal').find('.modal-not-sidebar').html(text)
-      } else {
-        $('#coop-modal').find('.modal-not-sidebar').addClass('d-none')
-      }
-
-      $('#coop-modal').modal()
     })
 
+    const clusters = L.markerClusterGroup({
+      showCoverageOnHover: false,
+    })
+    markers.forEach(marker => clusters.addLayer(marker))
+    map.addLayer(clusters)
+
+    // center map
+    let group = new L.featureGroup(markers)
+    map.fitBounds(group.getBounds().pad(0.10))
+
   })
-
-  const clusters = L.markerClusterGroup({
-    showCoverageOnHover: false,
-  })
-  markers.forEach(marker => clusters.addLayer(marker))
-  map.addLayer(clusters)
-
-  // center map
-  let group = new L.featureGroup(markers)
-  map.fitBounds(group.getBounds().pad(0.10))
-
 }
 
 if (document.getElementById('show-more-services')) {
