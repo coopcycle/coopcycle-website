@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/yaml": "^5.1",
+        "cocur/slugify": "^4.0"
+    }
+}
