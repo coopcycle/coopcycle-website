@@ -82,32 +82,12 @@
     "country": "sw"
   },
   {
-    "name": "Coopbrum",
-    "latitude": 52.4803015,
-    "longitude": -1.8995919,
-    "mail": "coopcycle@cooperationbirmingham.org.uk",
-    "city": "Birmingham",
-    "country": "uk",
-    "url": "cooperationbirmingham.org.uk"
-  },
-  {
     "name": "Chorlton Bike Deliveries",
     "latitude": 53.4447788,
     "longitude": -2.2790018,
     "mail": "rosahibbert@outlook.com",
     "city": "Manchester",
-    "country": "uk"
-  },
-  {
-    "name": "Eraman Koop",
-    "latitude": 42.8493168,
-    "longitude": -2.6736422,
-    "mail": "eraman.cargo@gmail.com",
-    "city": "Vitoria-Gasteiz",
-    "country": "es",
-    "text": {
-      "en": "<p>We started in Vitoria-Gasteiz on the 2nd of May 2020, in the middle of Covid-19 pandemic. It all started when the owner of the neighborhood bike shop put in contact two of us since he knew we had the same idea of starting a messenger cooperative.<br />Our city is very cycling-friendly, and known for pioneering towards nice policies on mobility and so on… but it has failed in terms of controlling the delivery platforms, so we saw the opportunity to provide the cooperative approach, and also use it to strengthen the local cycling scene.<br />Every beginning is tough, but we are so much looking forward to establishing an ongoing operation that can provide not only an ethic alternative for restaurants, consumers, etc. but also a nice working environment with the conditions we crave for on what to us is one of the nicest jobs we could dream of.</p>"
-    }
+    "country": "gb"
   },
   {
     "name": "Tout en vélo Caen",
