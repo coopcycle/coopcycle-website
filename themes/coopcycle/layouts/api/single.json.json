@@ -1,1 +1,1 @@
-{{ $.Site.Data.coops | jsonify }}
+{{ $toArray := slice }}{{ range $.Site.Data.coops }}{{ $toArray = $toArray | append . }}{{ end }}{{ $toArray | jsonify }}
