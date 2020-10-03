@@ -55,15 +55,71 @@
     "country": "fr"
   },
   {
+    "name": "Velo",
+    "latitude": 37.3900992,
+    "longitude": -5.9862637,
+    "mail": "antoniolf05@hotmail.com",
+    "city": "Sevilla",
+    "country": "es"
+  },
+  {
+    "name": "Coop de pedal",
+    "latitude": 41.5428108,
+    "longitude": 2.4261435,
+    "mail": "coopdepedal@gmail.com",
+    "city": "Matarò",
+    "country": "es"
+  },
+  {
+    "name": "Alternativa Kurieren",
+    "latitude": 55.6066973,
+    "longitude": 12.9900216,
+    "mail": "info@alternativakuriren.se",
+    "instagram_handle": "@alt_kuriren",
+    "instagram_url": "https://www.instagram.com/alt_kuriren/",
+    "url": "http://alternativakuriren.se/",
+    "city": "Malmo",
+    "country": "sw"
+  },
+  {
+    "name": "Coopbrum",
+    "latitude": 52.4803015,
+    "longitude": -1.8995919,
+    "mail": "coopcycle@cooperationbirmingham.org.uk",
+    "city": "Birmingham",
+    "country": "uk",
+    "url": "cooperationbirmingham.org.uk"
+  },
+  {
+    "name": "Chorlton Bike Deliveries",
+    "latitude": 53.4447788,
+    "longitude": -2.2790018,
+    "mail": "rosahibbert@outlook.com",
+    "city": "Manchester",
+    "country": "uk"
+  },
+  {
+    "name": "Eraman Koop",
+    "latitude": 42.8493168,
+    "longitude": -2.6736422,
+    "mail": "eraman.cargo@gmail.com",
+    "city": "Vitoria-Gasteiz",
+    "country": "es",
+    "text": {
+      "en": "<p>We started in Vitoria-Gasteiz on the 2nd of May 2020, in the middle of Covid-19 pandemic. It all started when the owner of the neighborhood bike shop put in contact two of us since he knew we had the same idea of starting a messenger cooperative.<br />Our city is very cycling-friendly, and known for pioneering towards nice policies on mobility and so on… but it has failed in terms of controlling the delivery platforms, so we saw the opportunity to provide the cooperative approach, and also use it to strengthen the local cycling scene.<br />Every beginning is tough, but we are so much looking forward to establishing an ongoing operation that can provide not only an ethic alternative for restaurants, consumers, etc. but also a nice working environment with the conditions we crave for on what to us is one of the nicest jobs we could dream of.</p>"
+    }
+  },
+  {
     "name": "Tout en vélo Caen",
     "url": "http://www.toutenvelo.fr/toutenvelo-caen",
     "facebook_url": "https://www.facebook.com/ToutenveloCaen",
+    "mail": "caen@toutenvelo.fr",
     "latitude": 49.1811,
     "longitude": -0.3712,
     "city": "Caen",
     "country": "fr",
     "text": {
-      "fr" : "<p> TOUTENVELO CAEN : Une solution pour une logistique urbaine performante au servicedes acteurs économiques et du développement durable à Caen la mer. Afin de limiter les externalités négatives des activités de transport et de logistiqueurbaine (25% des émissions de CO2, 30% des émissions de particules fines,  plus de 20%de l’occupation de la voirie, ...)  et de contribuer à la revitalisation des  centres urbains del’agglomération de Caen La Mer, notre SCOP propose  aux acteurs économiques duterritoire   (transporteurs,   collectivités,   entreprises,   commerçants,   associations,consommateurs, citoyens, ...) des solutions efficaces et responsables de livraison, detransport et déménagement réalisés avec   des vélos équipés de remorques, devélos cargo ou simplement à vélo . Depuis novembre 2017, nous avons ainsi développé dans le centre-ville de Caen: -la livraison de colis en vélo remorque pour des transporteurs qui était effectuée pardes véhicules utilitaires thermiques (prés 1500 colis livrés par mois).-la livraison de fruits et légumes  à partir du marché de gros pour l’approvisionnementdes restaurateurs (près de 15 tonnes livrées par mois).-Depuis mars 2019, la collecte et le compostage de bio-déchets dans le cadre d’unprojet porté par l’Agglomération et soutenu par la Région et l’ADEME (Plus d’uneTonne de bio-déchets collectée par mois)  -La réalisation de prestations de déménagement (professionnel et particulier)-La livraison de courses aux particuliers en partenariat avec la Biocoop passageDémogé    Considérant que l’ESS, la RSE et le Développement Durable sont facteurs de progrès,notre   SCOP   porte   une   attention   toute   particulière   à   travailler   avec   les   acteurs   del’économie circulaire, des circuits courts et de la consommation responsable pour mettreen place des solutions logistiques efficaces, cohérentes et pertinentes. Nos projets encoursvont en ce sens et au nombre desquels on peut citer :-L’ouverture depuis septembre 2020 d’un Espace de Logistique Urbaine début sur lapresqu’île de Caen pour faciliter le développement d’une logistique«verte»   dudernier (ou du premier) kilomètre, offrant aux producteurs engagés une gestion deleur logistique efficace et en phase avec leurs valeurs.-Le développement de prestations de livraison pour les commerçants du territoire,pour permettre aux professionnels de développer leurs activités et aux habitants(notamment vulnérables) de bénéficier d’un service de livraison respectueux desvaleurs humaines et éco-responsable-Le développement de partenariats pour la collecte et la revalorisation de certains«déchets»(collecte pour la redistribution et la lutte contre le gaspillage alimentaire,compostage, les encombrants, ...) Notre équipe de deux associés en novembre 2017 compte en septembre 2019 huitsalariés dont deux nouveaux associés. Des profils et des expériences de vie variées quipartagent des valeurs communes et qui contribuent à l’enrichissement du collectif detravail et à la pérennisation de la Structure. Dynamique à laquelle nous sommes attentifspour l’intégration de nouvelles recrues et pour la gouvernance de la SCOP.</p>"
+      "fr": "<p> TOUTENVELO CAEN : Une solution pour une logistique urbaine performante au servicedes acteurs économiques et du développement durable à Caen la mer. Afin de limiter les externalités négatives des activités de transport et de logistiqueurbaine (25% des émissions de CO2, 30% des émissions de particules fines,  plus de 20%de l’occupation de la voirie, ...)  et de contribuer à la revitalisation des  centres urbains del’agglomération de Caen La Mer, notre SCOP propose  aux acteurs économiques duterritoire   (transporteurs,   collectivités,   entreprises,   commerçants,   associations,consommateurs, citoyens, ...) des solutions efficaces et responsables de livraison, detransport et déménagement réalisés avec   des vélos équipés de remorques, devélos cargo ou simplement à vélo . Depuis novembre 2017, nous avons ainsi développé dans le centre-ville de Caen: -la livraison de colis en vélo remorque pour des transporteurs qui était effectuée pardes véhicules utilitaires thermiques (prés 1500 colis livrés par mois).-la livraison de fruits et légumes  à partir du marché de gros pour l’approvisionnementdes restaurateurs (près de 15 tonnes livrées par mois).-Depuis mars 2019, la collecte et le compostage de bio-déchets dans le cadre d’unprojet porté par l’Agglomération et soutenu par la Région et l’ADEME (Plus d’uneTonne de bio-déchets collectée par mois)  -La réalisation de prestations de déménagement (professionnel et particulier)-La livraison de courses aux particuliers en partenariat avec la Biocoop passageDémogé    Considérant que l’ESS, la RSE et le Développement Durable sont facteurs de progrès,notre   SCOP   porte   une   attention   toute   particulière   à   travailler   avec   les   acteurs   del’économie circulaire, des circuits courts et de la consommation responsable pour mettreen place des solutions logistiques efficaces, cohérentes et pertinentes. Nos projets encoursvont en ce sens et au nombre desquels on peut citer :-L’ouverture depuis septembre 2020 d’un Espace de Logistique Urbaine début sur lapresqu’île de Caen pour faciliter le développement d’une logistique«verte»   dudernier (ou du premier) kilomètre, offrant aux producteurs engagés une gestion deleur logistique efficace et en phase avec leurs valeurs.-Le développement de prestations de livraison pour les commerçants du territoire,pour permettre aux professionnels de développer leurs activités et aux habitants(notamment vulnérables) de bénéficier d’un service de livraison respectueux desvaleurs humaines et éco-responsable-Le développement de partenariats pour la collecte et la revalorisation de certains«déchets»(collecte pour la redistribution et la lutte contre le gaspillage alimentaire,compostage, les encombrants, ...) Notre équipe de deux associés en novembre 2017 compte en septembre 2019 huitsalariés dont deux nouveaux associés. Des profils et des expériences de vie variées quipartagent des valeurs communes et qui contribuent à l’enrichissement du collectif detravail et à la pérennisation de la Structure. Dynamique à laquelle nous sommes attentifspour l’intégration de nouvelles recrues et pour la gouvernance de la SCOP.</p>"
     }
   },
   {
@@ -71,7 +127,7 @@
     "url": "https://about.me/co1cide",
     "facebook_url": "https://www.facebook.com/co1cide/",
     "twitter_url": "https://twitter.com/co1cide",
-    "mail": "coincide.board@gmail.com",
+    "mail": "contact@riders-socialclub.com",
     "city": "Saint-Denis",
     "country": "fr",
     "latitude": 48.9267902,
@@ -237,17 +293,6 @@
     }
   },
   {
-    "name": "Coursiers wallons",
-    "latitude": 50.3606479,
-    "longitude": 4.2769075,
-    "city": "Mons/Namur",
-    "url": "https://www.coursierwallon.be",
-    "facebook_url": "https://www.facebook.com/coursierwallon/",
-    "twitter_url": "https://twitter.com/CoursierWallon",
-    "mail": "info@coursierwallon.be",
-    "country": "be"
-  },
-  {
     "name": "CROW Collective",
     "latitude": 52.47407,
     "longitude": 13.42663,
@@ -331,7 +376,7 @@
     "instagram_handle": "@eraman.koop",
     "mail": "repartos@eraman.coop",
     "latitude": 42.846859,
-    "longitude": -2.671590,
+    "longitude": -2.67159,
     "city": "Vitoria-Gasteiz",
     "country": "es",
     "text": {
@@ -425,7 +470,7 @@
     "mail": "info@shiftdelivery.ca",
     "city": "Vancouver",
     "country": "ca",
-    "latitude": 49.282730,
+    "latitude": 49.28273,
     "longitude": -123.120735,
     "text": {
       "en": "Shift Delivery is a worker owned co-op located in East Vancouver that specializes in last mile delivery. Do you need help with logistics? Want to reduce your carbon footprint? Write or give us a call."
@@ -461,7 +506,7 @@
     "country": "es",
     "text": {
       "es": "Zámpate Zaragoza es una nueva iniciativa de reparto de comida a domicilio en nuestra ciudad. Una iniciativa sostenible y ética de reparto urbano en bicicleta. Empezaremos colaborando con varios establecimientos hosteleros y tiendas de alimentación que os iremos presentado. ",
-      "en": "Zámpate Zaragoza is a new initiative for food delivery in our city. A sustainable and ethical initiative of urban delivery by bicycle. We will start collaborating with several hotel establishments and food stores that we will present to you. "
+      "en": "Zámpate Zaragoza is a new initiative for food delivery in our city. A sustainable and ethical initiative of urban delivery by bicycle. We will start collaborating with several hotel establishments and food stores that we will present to you."
     }
   },
   {
