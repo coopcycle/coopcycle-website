@@ -1,0 +1,14 @@
+name: Resto.Paris
+mail: contact@resto.paris
+url: 'https://resto.paris'
+coopcycle_url: 'https://resto.paris'
+instagram_url: 'https://www.instagram.com/restopointparis/'
+instagram_handle: '@restopointparis'
+twitter_url: 'https://twitter.com/RestoPointParis'
+latitude: 48.856613
+longitude: 2.352222
+city: Paris
+country: fr
+text:
+  fr: 'Repas responsables, livraisons éthiques. Plateforme de commandes alternative & équitable, créée par Écotable, Olvo et CoopCycle. '
+  en: 'Responsible food, ethical deliveries. Alternative & fair food ordering platform, created by Écotable, Olvo and CoopCycle. '
