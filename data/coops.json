@@ -172,10 +172,11 @@
     "name": "Lille.bike",
     "url": "http://lille.bike",
     "facebook_url": "https://www.facebook.com/lillepointbike/",
+    "coopcycle_url": "https://lille.coopcycle.org",
     "mail": "contact@lille.bike",
     "latitude": 50.6311554,
     "longitude": 2.9771204,
-    "city": "Lille",
+    "city": "Lille / Roubaix",
     "country": "fr"
   },
   {
