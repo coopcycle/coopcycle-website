@@ -177,3 +177,6 @@
 
 - id: sw
   translation: Sweden
+
+- id: ca
+  translation: Canada
