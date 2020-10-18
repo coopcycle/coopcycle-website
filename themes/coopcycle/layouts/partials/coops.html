@@ -50,11 +50,15 @@
     {{ range $.Site.Data.coops }}
         {{ $countries = $countries | append .country }}
     {{ end }}
+    {{ $toArray := slice }}
+    {{ range $.Site.Data.coops }}
+        {{ $toArray = $toArray | append . }}
+    {{ end }}
     {{ range uniq $countries }}
     <div class="card mb-2">
         <div class="card-header">{{ i18n . }}</div>
         <ul class="list-group list-group-flush">
-        {{ range sort (where $.Site.Data.coops "country" .) "city" "asc" }}
+        {{ range sort (where $toArray "country" .) "city" "asc" }}
             <li class="list-group-item d-flex justify-content-between align-items-center">
                 <div>
                     <h5>{{ .name }}</h5>
