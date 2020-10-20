@@ -1,0 +1,13 @@
+name: 'Mensakas'
+coopcycle_url: 'https://mensakas.coopcycle.org'
+url: 'https://www.mensakas.com/'
+facebook_url: 'https://www.facebook.com/Mensakas/'
+twitter_url: 'https://twitter.com/MensakasApp'
+mail: info@mensakas.com
+latitude: 41.385063
+longitude: 2.173404
+city: Barcelona
+country: es
+text:
+  en: 'Mensakas was born out of the RidersxDerechos union struggle of the FAA-IAC, led by former couriers from other platforms. The co-operative is addressing the antipodes of its competitors by considering the workforce as people rather than numbers in an algorithm, thus prioritizing their interests and rights over capital.'
+  es: 'Mensakas nace de la lucha sindical de RidersxDerechos de la FAA-IAC, liderada por ex couriers de otras plataformas. La cooperativa se dirige a las antípodas de sus competidores considerando a la plantilla personas y no números de un algoritmo, priorizando así sus intereses y derechos por encima del capital.'
