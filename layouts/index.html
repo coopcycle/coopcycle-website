@@ -36,7 +36,7 @@
         <p class="card-text text-center">{{ i18n "search.subtitle" }}</p>
         <select class="form-control" id="city-dropdown">
           <option value="">{{ i18n "search.selectCity" }}</option>
-          {{ range $coopsWithFoodDelivery }}
+          {{ range sort $coopsWithFoodDelivery "city" "asc" }}
             <option value="{{ .coopcycle_url }}">{{ .city }} ({{ .name }})</option>
           {{ end }}
         </select>
