@@ -11,7 +11,8 @@ let webpackConfig = {
     style: './src/scss/style.scss',
     index: './src/scripts/index.js',
     homepage: './src/scripts/homepage.js',
-    federation: './src/scripts/federation.js'
+    federation: './src/scripts/federation.js',
+    order: './src/scripts/order.js'
   },
   output: {
     publicPath: '/',
