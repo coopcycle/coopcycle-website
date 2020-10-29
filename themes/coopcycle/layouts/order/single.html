@@ -13,10 +13,10 @@
     {{ $countries = $countries | uniq }}
 
     <div class="container">
-        <p>
+        <p class="text-center">
         {{ i18n "search.subtitle" }}
         </p>
-        <ul class="nav nav-pills mb-2" id="countries">
+        <ul class="nav nav-pills justify-content-center mb-4" id="countries">
         {{ range $countries }}
             <li class="nav-item">
                 <a class="nav-link {{ if eq . "fr" }}active{{ end }}" href="#" data-country="{{ . }}">{{ i18n . }}</a>
