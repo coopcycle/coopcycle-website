@@ -1,6 +1,6 @@
 # Condiciones de uso de CoopCycle para el sitio web y la aplicación
 
-Esta página (y cualquier documento al que se haga referencia en ella) establece las condiciones de uso de nuestro sitio web [coopcycle.org](https://coopcycle.org) (nuestro "Sitio") o la aplicación que ponemos a disposición a través de una tienda de aplicaciones o de otro modo (nuestro "Servicio"), ya sea como anfitrión o como usuario registrado de .rice. Lea atentamente estas condiciones de uso antes de comenzar a utilizar nuestro Sitio o Servicio. Al acceder a nuestro Sitio o utilizar nuestro Servicio, usted indica que acepta estas condiciones de uso y que está de acuerdo en cumplirlas. Si no está de acuerdo con estos términos de uso, no acceda a nuestro Sitio o utilice nuestro Servicio.
+Esta página (y cualquier documento al que se haga referencia en ella) establece las condiciones de uso de nuestro sitio web [coopcycle.org](https://coopcycle.org) (nuestro "Sitio") o la aplicación que ponemos a disposición a través de una tienda de aplicaciones o de otro modo (nuestro "Servicio"), ya sea como anfitrión o como usuario registrado. Lea atentamente estas condiciones de uso antes de comenzar a utilizar nuestro Sitio o Servicio. Al acceder a nuestro Sitio o utilizar nuestro Servicio, usted indica que acepta estas condiciones de uso y que está de acuerdo en cumplirlas. Si no está de acuerdo con estos términos de uso, no acceda a nuestro Sitio o utilice nuestro Servicio.
 
 ## 1. Sobre nosotros
 
