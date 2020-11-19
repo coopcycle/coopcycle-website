@@ -1,14 +1,14 @@
-## Éditeur
+## Publisher
 
-The site [coopcycle.org](https://coopcycle.org) is published by CoopCycle, an association under the law of 1901 declared to the Paris Prefecture on 7 October 2017.
+The website [coopcycle.org](https://coopcycle.org) is published by CoopCycle, an association under the law of 1901 declared to the Paris Prefecture on 7 October 2017.
 
-**Registered Office** : 23, avenue Claude Vellefaux, 75010 Paris, France
+**Registered Office**: 23, avenue Claude Vellefaux, 75010 Paris, France
 
-**SIRET Number** : 83361956200014
+**SIRET Number**: 83361956200014
 
-**RNA Number** : W751241474
+**RNA Number**: W751241474
 
-**Email** : contact [AT] coopcycle.org
+**Email**: contact [AT] coopcycle.org
 
 **Chair, Publishing Manager**: Lison Noël
 
