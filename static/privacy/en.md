@@ -1,14 +1,14 @@
-## Data Collector : CoopCycle
+## Data Collector: CoopCycle
 
 ### Contact Information
 
-**Registered office** : 23, avenue Claude Vellefaux, 75010 Paris, France
+**Registered office**: 23, avenue Claude Vellefaux, 75010 Paris, France
 
-**SIRET Number** : 83361956200014
+**SIRET Number**: 83361956200014
 
-**RNA Number** : W751241474
+**RNA Number**: W751241474
 
-**Email** : contact [AT] coopcycle.org
+**Email**: contact [AT] coopcycle.org
 
 **Chair, Publishing Manager**: Lison Noël
 
