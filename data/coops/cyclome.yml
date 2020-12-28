@@ -1,1 +1,12 @@
-
+name: CYCLOME
+mail: contact@cyclome.fr
+url: 'https://cyclome.fr/'
+coopcycle_url: 'https://cyclome.coopcycle.org'
+facebook_url: 'https://www.facebook.com/cyclome.coop'
+latitude: 45.777210
+longitude: 3.082520
+city: Clermont-Ferrand
+country: fr
+text:
+  fr: 'Votre service de livraison éthique et écologique à Clermont-Ferrand.'
+  en: 'Your ecological and ethical delivery service in Clermont-Ferrand.'
