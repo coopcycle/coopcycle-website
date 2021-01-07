@@ -1,9 +1,11 @@
 name: 'Les Coursiers Stéphanois'
 mail: contact@coursiers-stephanois.fr
 url: 'https://www.coursiers-stephanois.fr/'
+facebook_url: 'https://www.facebook.com/coursiersstephanois'
 latitude: 45.4368055
 longitude: 4.3866217
 city: Saint-Étienne
 country: fr
 text:
   fr: '<p>Fondé par un trio de coursiers expérimentés, nous avons pour vocation de créer et développer une structure permettant d''assurer des contrats et des conditions de travail socialement et éthiquement acceptable pour les coursier.ère.s uberisé.es de Saint-Étienne. Tous nos efforts sont voués à fournir une solution logistique rapide, écologique, économique et locale aux acteur.ices économiques et administratifs stéphanois.es.</p>'
+coopcycle_url: 'https://coursiers-stephanois.coopcycle.org'
