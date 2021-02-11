@@ -2,6 +2,7 @@ name: 'Chorlton Bike Deliveries'
 latitude: 53.4447788
 longitude: -2.2790018
 mail: chorltonbikedeliveries@gmail.com
+faceboook_url: 'https://www.facebook.com/chorltonbikedeliveries/'
 city: Manchester
 country: gb
 coopcycle_url: 'https://chorlton-bike-deliveries.coopcycle.org'
