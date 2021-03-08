@@ -1,0 +1,9 @@
+name: CoopVeliv
+url: "http://coop-veliv.fr/"
+mail: contact@coop-veliv.fr
+latitude: 45.7619177
+longitude: 4.8362647
+city: Lyon
+country: fr
+text:
+  fr: "<p>Véliv est une coopérative ayant pour objectif de proposer un service de livraison éthique et éco-responsable aux entreprises. Par le biais de notre flotte à vélo, nous livrons les clients de nos partenaires dans les meilleurs délais.<br>Nous sommes actuellement actifs sur Lyon et Villeurbanne, mais bien décidés à s’étendre sur l’ensemble de l’agglomération lyonnaise.</p>"
