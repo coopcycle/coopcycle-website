@@ -180,3 +180,6 @@
 
 - id: ca
   translation: Canada
+
+- id: au
+  translation: Australia
