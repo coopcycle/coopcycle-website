@@ -2,5 +2,9 @@ name: Samo
 mail: samo.contact.sm@gmail.com
 latitude: 48.803678
 longitude: 2.4853294
-city: Saint-Maur-des-fossés
+city: Saint-Maur-des-Fossés
 country: fr
+coopcycle_url: https://samo.coopcycle.org
+text:
+  en: 'Your ethical and ecological delivery service in Saint-Maur.'
+  fr: 'Votre service de livraison éthique et écologique à Saint-Maur.'
