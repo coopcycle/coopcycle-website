@@ -1,10 +1,10 @@
-name: 'Régie de quartier de Stains'
-url: 'https://www.facebook.com/rqstains/'
-facebook_url: 'https://www.facebook.com/rqstains/'
-mail: regie.stains@gmail.com
-latitude: 48.9578188
-longitude: 2.369321
-city: Stains
+name: 'Les Cyclopes'
+url: 'https://www.lescyclopes.fr/'
+facebook_url: 'https://www.facebook.com/LesCyclopes93'
+mail: contact@lescyclopes.fr
+latitude: 48.950001 
+longitude: 2.30833
+city: Epinay
 country: fr
 text:
   fr: '<p>Nous sommes une structure d’insertion au nord de la Seine-Saint-Denis, intervenant actuellement dans plusieurs domaines (nettoyage, voirie-espaces verts, bâtiments, vélo). Parallèlement à ces activités marchandes, la régie de quartier renforce le lien social, la participation des habitant.e.s et la dynamique associative au travers d’activités sociales et innovantes, tout en répondant aux problématiques environnementales.</p><p>Notre principale activité de livraison est le transport de marchandises d’une coopérative d’importation à une coopérative de vente au détail.</p>'
