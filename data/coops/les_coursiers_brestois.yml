@@ -1,0 +1,12 @@
+name: 'Les Coursiers Brestois'
+url: 'http://lescoursiersbrestois.bzh/'
+facebook_url: 'https://www.facebook.com/lescoursiersbrestois/'
+coopcycle_url: 'https://lescoursiersbrestois.coopcycle.org'
+mail: lescoursiersbrestois@gmail.com
+latitude: 48.390392
+longitude: -4.486076
+city: Brest
+country: fr
+text:
+  fr: 'Les Coursiers Brestois visent à développer un service de livraisons collectif et coopératif de proximité sur la métropole de Brest, utilisant exclusivement le vélo comme moyen de livraison et comme outil de travail. Notre projet a vocation à créer une coopérative de livreurs à vélo, fondée et co-gérée par les livreurs eux-mêmes.'
+  en: 'Les Coursiers Brestois aims to develop a collective and cooperative delivery service in the Brest metropolis, using only bicycles as a means of delivery and as a working tool. Our project aims to create a cooperative of bike delivery drivers, founded and co-managed by the drivers themselves.'
