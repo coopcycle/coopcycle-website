@@ -63,7 +63,7 @@ if (document.getElementById('coops-map')) {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>'
   }).addTo(map)
 
-  $.getJSON(jsonFile).then(data => {
+  $.getJSON(jsonFile, { _: new Date().getTime() }).then(data => {
 
     const markers = data.map(item => {
 
