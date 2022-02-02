@@ -1,0 +1,86 @@
+{{ define "styles" }}
+ 
+{{ end }}
+
+{{ define "main" }}
+<section>
+    <img class="homepage-banner no-mobile" src="{{ .Site.BaseURL }}/images/homepage-banner.jpg">
+    <img class="homepage-banner no-desktop" src="{{ .Site.BaseURL }}/images/homepage-banner-mobile.jpg">
+    <div class="homepage-banner--headline text-center">
+        <h2 class="h2">{{ i18n "headline" | safeHTML }}</h2>
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <p>
+              {{ i18n "ecosystem.content" | safeHTML }}
+            </p>
+            <div class="text-center">
+              <a href="{{ ref . (printf "%s%s%s" "federation." .Lang ".md") }}" class="btn">{{ i18n "discover" | safeHTML }}</a>
+            </div>
+          </div>
+    </div>
+  </section>
+  
+  {{ partial "join-network-mx.html" . }}
+  
+  {{ $cities := slice }}
+  {{ $coopsWithFoodDelivery := slice }}
+  {{ range $.Site.Data.coops }}
+    {{ if and (isset . "coopcycle_url") (eq .country "mx") }}
+      {{ $coopsWithFoodDelivery = $coopsWithFoodDelivery | append . }}
+      {{ $cities = $cities | append .city }}
+    {{ end }}
+  {{ end }}
+  
+  {{ $cities = $cities | sort }}
+  
+  <div class="my-4">
+    <div class="container">
+      <div class="card bg-light">
+        <div class="card-body">
+          <h4 class="h4 text-center text-info"><i class="fa fa-cutlery"></i>  {{ i18n "search.title-mx" }}</h4>
+          <select class="form-control" id="city-dropdown">
+            <option value="">{{ i18n "search.selectCity" }}</option>
+            {{ range sort $coopsWithFoodDelivery "city" "asc" }}
+              <option value="{{ .coopcycle_url }}">{{ .city }} ({{ .name }})</option>
+            {{ end }}
+          </select>
+          <div class="p-2 text-center">
+            <a class="btn-google-play" href="https://play.google.com/store/apps/details?id=fr.coopcycle">
+              <img alt="{{ i18n "app.googlePlay" }}"
+                src="https://play.google.com/intl/en_us/badges/images/generic/{{ .Lang }}_badge_web_generic.png" />
+            </a>
+            <a class="btn-app-store" href="https://apps.apple.com/us/app/coopcycle/id1324884530?l=fr&ls=1">
+              {{ $appStoreBadge := index $.Site.Data.app_store_badges "en" }}
+              {{ if isset $.Site.Data.app_store_badges .Lang }}
+                {{ $appStoreBadge = index $.Site.Data.app_store_badges .Lang }}
+              {{ end }}
+              <img alt="{{ i18n "app.appStore" }}"
+                src="{{ .Site.BaseURL }}/{{ $appStoreBadge }}" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  {{ partial "faq-section.html" . }}
+  
+  <section id="subscribe">
+    <div class="homepage-subscribe-wrapper">
+      <iframe
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="{{ index $.Site.Data.newsletter .Lang }}"
+              width="100%"
+              height="100%"
+              margin="auto"
+      ></iframe>
+    </div>
+  </section>
+{{ end }}
+
+{{ define "scripts" }}
+
+{{ end }}
