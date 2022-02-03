@@ -26,13 +26,16 @@
   {{ $coopsWithFoodDelivery := slice }}
   {{ range $.Site.Data.coops }}
     {{ if eq .country "mx" }}
-      {{ $coopsWithFoodDelivery = $coopsWithFoodDelivery | append . }}
-      {{ $cities = $cities | append .city }}
+      {{ if in .city "Ciudad de México" }}
+        {{ $cities = $cities | append "Ciudad de México" }}
+      {{ else }}
+        {{ $cities = $cities | append .city }}
+      {{ end }}
     {{ end }}
   {{ end }}
   
-  {{ $cities = $cities | sort }}
-  
+  {{ $cities = $cities | uniq | sort }}
+
   <div class="my-4">
     <div class="container">
       <div class="card bg-light">
@@ -40,8 +43,8 @@
           <h4 class="h4 text-center text-info"><i class="fa fa-cutlery"></i> Encuentra a tu mensajería </h4>
           <select class="form-control" id="city-dropdown">
             <option value="">{{ i18n "search.selectCity" }}</option>
-            {{ range sort $coopsWithFoodDelivery "city" "asc" }}
-              <option value="{{ .coopcycle_url }}">{{ .city }} ({{ .name }})</option>
+            {{ range $cities }}
+              <option value="{{ . }}">{{ . }}</option>
             {{ end }}
           </select>
           <div class="p-2 text-center">
