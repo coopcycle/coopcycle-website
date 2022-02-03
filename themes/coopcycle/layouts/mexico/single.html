@@ -105,7 +105,7 @@
 
 {{ define "scripts" }}
 {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
-  <script src="{{ .Site.BaseURL }}js/landingpagemexico.js" type="application/javascript"></script>
+  <script src="{{ .Site.BaseURL }}js/landingpagemexico.js?t={{ now.Unix }}" type="application/javascript"></script>
 {{ else }}
   <script src="/{{ index $.Site.Data.manifest "landingpagemexico.js" }}" type="application/javascript"></script>
 {{ end }}
