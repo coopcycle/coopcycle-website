@@ -38,7 +38,7 @@
   {{ $cities = $cities | uniq | sort }}
 
   <div class="my-4">
-    <div class="container">
+    <div class="container-md">
       <div class="card bg-light">
         <div class="card-body">
           <h4 class="h4 text-center text-info"><i class="fa fa-cutlery"></i> Encuentra a tu mensajería </h4>
@@ -51,6 +51,9 @@
           <div class="row row-cols-1 row-cols-md-2" id="coop-cards">
             {{ range sort $mexican_coops "name" "asc" }}
             <div class="col mb-4 d-none" data-coop-name="{{ .name }}">
+              {{ if isset . "logo_src" }}
+              <img src="{{ .logo_src }}" class="card-img-top card-image">
+              {{ end }}
               <div class="card mb-4">
                 <div class="card-body">
                   <h5 class="text-center">{{ .name }}</h5>
