@@ -23,9 +23,10 @@
   {{ partial "join-network-mx.html" . }}
   
   {{ $cities := slice }}
-  {{ $coopsWithFoodDelivery := slice }}
+  {{ $mexican_coops := slice }}
   {{ range $.Site.Data.coops }}
     {{ if eq .country "mx" }}
+      {{ $mexican_coops = $mexican_coops | append . }}
       {{ if in .city "Ciudad de México" }}
         {{ $cities = $cities | append "Ciudad de México" }}
       {{ else }}
@@ -41,25 +42,22 @@
       <div class="card bg-light">
         <div class="card-body">
           <h4 class="h4 text-center text-info"><i class="fa fa-cutlery"></i> Encuentra a tu mensajería </h4>
-          <select class="form-control" id="city-dropdown">
+          <select class="form-control mb-4" id="city-dropdown" data-coops="{{ $mexican_coops | jsonify }}">
             <option value="">{{ i18n "search.selectCity" }}</option>
             {{ range $cities }}
               <option value="{{ . }}">{{ . }}</option>
             {{ end }}
           </select>
-          <div class="p-2 text-center">
-            <a class="btn-google-play" href="https://play.google.com/store/apps/details?id=fr.coopcycle">
-              <img alt="{{ i18n "app.googlePlay" }}"
-                src="https://play.google.com/intl/en_us/badges/images/generic/{{ .Lang }}_badge_web_generic.png" />
-            </a>
-            <a class="btn-app-store" href="https://apps.apple.com/us/app/coopcycle/id1324884530?l=fr&ls=1">
-              {{ $appStoreBadge := index $.Site.Data.app_store_badges "en" }}
-              {{ if isset $.Site.Data.app_store_badges .Lang }}
-                {{ $appStoreBadge = index $.Site.Data.app_store_badges .Lang }}
-              {{ end }}
-              <img alt="{{ i18n "app.appStore" }}"
-                src="{{ .Site.BaseURL }}/{{ $appStoreBadge }}" />
-            </a>
+          <div class="row row-cols-1 row-cols-md-2" id="coop-cards">
+            {{ range sort $mexican_coops "name" "asc" }}
+            <div class="col mb-4 d-none" data-coop-name="{{ .name }}">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h5 class="text-center">{{ .name }}</h5>
+                </div>
+              </div>
+            </div>
+            {{ end }}
           </div>
         </div>
       </div>
@@ -67,6 +65,21 @@
   </div>
   
   {{ partial "faq-section.html" . }}
+
+  <div class="p-2 text-center">
+    <a class="btn-google-play" href="https://play.google.com/store/apps/details?id=fr.coopcycle">
+      <img alt="{{ i18n "app.googlePlay" }}"
+        src="https://play.google.com/intl/en_us/badges/images/generic/{{ .Lang }}_badge_web_generic.png" />
+    </a>
+    <a class="btn-app-store" href="https://apps.apple.com/us/app/coopcycle/id1324884530?l=fr&ls=1">
+      {{ $appStoreBadge := index $.Site.Data.app_store_badges "en" }}
+      {{ if isset $.Site.Data.app_store_badges .Lang }}
+        {{ $appStoreBadge = index $.Site.Data.app_store_badges .Lang }}
+      {{ end }}
+      <img alt="{{ i18n "app.appStore" }}"
+        src="{{ .Site.BaseURL }}/{{ $appStoreBadge }}" />
+    </a>
+  </div>
   
   <section id="subscribe">
     <div class="homepage-subscribe-wrapper">

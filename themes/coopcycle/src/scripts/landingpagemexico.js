@@ -3,17 +3,18 @@ import _ from 'lodash'
 
 window._paq = window._paq || []
 
-const coops = data.coops.map(item => {item.country("mx")
-}
-
-console.log (coops)
-
-coops.forEach(coop=>card(coop))
-
+const coops = $('#city-dropdown').data('coops')
+const $coopCards = $('#coop-cards')
 
 $('#city-dropdown').on('change', function(e) {
-  if (!_.isEmpty($(this).val())) {
-    window._paq.push(['trackEvent', 'Homepage', 'selectCity', $(this).find('option:selected').text()])
-    window.location.href = $(this).val()
+
+  const value = $(this).val()
+
+  if (!_.isEmpty(value)) {
+    const coopsForCity = _.filter(coops, coop => coop.city.startsWith(value))
+    $coopCards.find('[data-coop-name]').addClass('d-none')
+    coopsForCity.forEach(coop => {
+      $coopCards.find(`[data-coop-name="${coop.name}"]`).removeClass('d-none')
+    })
   }
 })
