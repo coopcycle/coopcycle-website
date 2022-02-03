@@ -1,10 +1,10 @@
 +++
 draft = false
-title = "The federation"
+title = "Mexico"
 description = "The co-ops of the CoopCycle network"
 lang = "es"
 menu = "main"
-weight = 1
+weight = 3
 slug = "mexico"
 type = "mexico"
 +++
