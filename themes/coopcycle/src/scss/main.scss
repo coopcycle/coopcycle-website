@@ -532,7 +532,7 @@ article img {
   }
 
   @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
-    &.icon-courier {
+    &.icon-marketplace {
       background-image: url('/images/european-network/2x/icon-marketplace.png');
     }
 
@@ -542,11 +542,10 @@ article img {
     background-image: url('/images/european-network/icon-delivery.png');
   }
 
-    @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
-    &.icon-courier {
+  @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    &.icon-delivery {
       background-image: url('/images/european-network/2x/icon-delivery.png');
     }
-
   }
 
   &.icon-platform {
@@ -557,7 +556,6 @@ article img {
     &.icon-platform {
       background-image: url('/images/european-network/2x/icon-platform.png');
     }
-
   }
 
   &.icon-smartphone {
