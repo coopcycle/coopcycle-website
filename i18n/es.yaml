@@ -41,8 +41,7 @@
   translation: "Demo"
 
 - id: headline
-  translation: >
-    CoopCycle México
+  translation: Socializamos la entrega por bicicleta !
 
 - id: contactus
   translation: Contáctenos
@@ -54,54 +53,13 @@
   translation: El software
 
 - id: digital_common.content
-  translation: >
-    Una herramienta completa de ciclo-logística, de código abierto, CoopCycle permite a las cooperativas administrar sus entregas y a lxs comerciantes, restauradorxs y clientxs que puedan acceder al servicio. El software está protegido por una licencia de recíprocad, que reserva su uso a las cooperativas.
-
-- id: FAQ.title
-  translation: Preguntas frecuentes
-
-- id: FAQ.city
-  translation: >
-    ¿Por qué no encuentro mi ciudad?
-
-- id: FAQ.city_content
-  translation: >
-    Es porque aún no hay mensajerías dentro de CoopCycle México que ya operen en tu ciudad. Sigue a @CoopCycle en redes o suscríbete al newsletter para mantenerte actualizado.
-
-- id: FAQ.how_to
-  translation: >
-    ¿Cómo hago envíos desde CoopCycle y cuál es el costo del servicio?
-
-- id: FAQ.how_to_content
-  translation: >
-    Cada mensajería define los costos de sus servicios. Para envíos de una sola ocasión, puedes revisar el costo en el formulario de solicitud de envíos de cada mensajería.
-
-- id: FAQ.how_to_content2
-  translation: >
-    Si deseas cotizar un servicio de más entregas, te recomendamos ponerte en contacto directo con las mensajerías para negociar directamente el costo de sus servicios. Da click en cada nombre para contactarles directamente: Envici (Puebla), Libelubike (Xalapa), Tlok (CDMX), TIG (CDMX), TWC (CDMX), Bicientrega (CDMX) y SIRA APPS (CDMX).
-
-- id: FAQ.new_coop
-  translation: >
-    Me interesa registrar una bicimensajería en mi región, ¿qué debo hacer?
-
-- id: FAQ.new_coop_content
-  translation: >
-    Si eres persona trabajadora o socia de una mensajería que hace entregas en modos sustentables, contáctanos aquí para conocer más sobre la federación de cooperativas y cómo integrarla a CoopCycle.
-
-- id: FAQ.resto
-  translation: >
-    ¿Cómo inscribo mi restaurante o negocio para tener productos a la venta desde  la plataforma digital de CoopCycle?
-
-- id: FAQ.resto_content
-  translation: >
-    Cada mensajería cuenta con su propio espacio de venta de productos/alimentos, si quieres estar en uno o varios de ellos, puedes contactar directamente a las mensajería para empezar a vender y enviar tus productos a través de CoopCycle. . Da click en cada nombre para contactarles directamente: Envici (Puebla), Libelubike (Xalapa), Tlok (CDMX), TIG (CDMX), TWC (CDMX), Bicientrega (CDMX) y SIRA APPS (CDMX).
+  translation: Una herramienta completa de ciclo-logística, de código abierto, CoopCycle permite a las cooperativas administrar sus entregas y a lxs comerciantes, restauradorxs y clientxs que puedan acceder al servicio. El software está protegido por una licencia de recíprocad, que reserva su uso a las cooperativas.
 
 - id: ecosystem.title
   translation: La federación
 
 - id: ecosystem.content
-  translation: >
-    CoopCycle es una federación internacional de cooperativas de entrega en bicicleta que ahora llega a tres ciudades de Mexico: : Puebla, Xalapa y CDMX.
+  translation: CoopCycle es una federación de cooperativas de entrega por bicicleta. Gobernada democráticamente por las cooperativas, su fundamento es la solidaridad entre ellas, lo cual les permite reducir sus costos mediante la mutualización de los servicios. Crea una fuerza colectiva para negociar, y para defender los derechos de lxs repartidorxs.
 
 - id: contribute
   translation: Contribuir
@@ -180,39 +138,6 @@
 
 - id: network.visit
   translation: Visita el sitio
-
-- id: network.join-mx.title
-  translation: ¿Para quién?
-
-- id: network.join-mx.description
-  translation: La plataforma digital de CoopCycle puede ser utilizada por personas y comercios que necesiten realizar envíos y entregas a domicilio ya sea por única ocasión o de manera constante.
-
-- id: network.join-mx.courier
-  translation: Personas que quieran hacer envíos
-
-- id: network.join-mx.courier.description
-  translation: Solicita envíos locales en CDMX, Puebla o Xalapa desde la plataforma digital desde esta página. Da click aquí.
-
-- id: network.join-mx.coop
-  translation: Personas que quieran adquirir productos con entrega sustentable
-
-- id: network.join-mx.coop.description
-  translation: Beta
-
-- id: network.join-mx.shop
-  translation: Restaurantes o comercios que buscan una plataforma digital para ofrecer sus productos con entrega sustentable y tarifas justas
-
-- id: network.join-mx.shop.description
-  translation: Beta
-
-- id: network.join-mx.store
-  translation: Comercios, empresas y oficinas que necesitan servicios de mensajería
-
-- id: network.join-mx.store.description
-  translation: Si necesitas hacer varios envíos a la semana,  CoopCycle cuenta con una plataforma para llevar el control de tus envíos a un precio personalizado.
-
-- id: search.title-mx
-  translation: Encuentra a tu mensajería
 
 - id: search.title
   translation: ¿Tiene hambre?

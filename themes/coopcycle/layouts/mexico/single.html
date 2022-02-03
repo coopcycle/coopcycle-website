@@ -7,11 +7,11 @@
     <img class="homepage-banner no-mobile" src="{{ .Site.BaseURL }}/images/homepage-banner.jpg">
     <img class="homepage-banner no-desktop" src="{{ .Site.BaseURL }}/images/homepage-banner-mobile.jpg">
     <div class="homepage-banner--headline text-center">
-        <h2 class="h2">{{ i18n "headline" | safeHTML }}</h2>
+        <h2 class="h2"> CoopCycle México </h2>
         <div class="row">
           <div class="col-md-8 offset-md-2">
             <p>
-              {{ i18n "ecosystem.content" | safeHTML }}
+            CoopCycle es una federación internacional de cooperativas de entrega en bicicleta, que ahora llega a tres ciudades de México: Puebla, Xalapa y CDMX.
             </p>
             <div class="text-center">
               <a href="{{ ref . (printf "%s%s%s" "federation." .Lang ".md") }}" class="btn">{{ i18n "discover" | safeHTML }}</a>
@@ -25,7 +25,7 @@
   {{ $cities := slice }}
   {{ $coopsWithFoodDelivery := slice }}
   {{ range $.Site.Data.coops }}
-    {{ if and (isset . "coopcycle_url") (eq .country "mx") }}
+    {{ if eq .country "mx" }}
       {{ $coopsWithFoodDelivery = $coopsWithFoodDelivery | append . }}
       {{ $cities = $cities | append .city }}
     {{ end }}
@@ -37,7 +37,7 @@
     <div class="container">
       <div class="card bg-light">
         <div class="card-body">
-          <h4 class="h4 text-center text-info"><i class="fa fa-cutlery"></i>  {{ i18n "search.title-mx" }}</h4>
+          <h4 class="h4 text-center text-info"><i class="fa fa-cutlery"></i> Encuentra a tu mensajería </h4>
           <select class="form-control" id="city-dropdown">
             <option value="">{{ i18n "search.selectCity" }}</option>
             {{ range sort $coopsWithFoodDelivery "city" "asc" }}
@@ -82,5 +82,9 @@
 {{ end }}
 
 {{ define "scripts" }}
-
+{{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
+  <script src="{{ .Site.BaseURL }}js/landingpagemexico.js" type="application/javascript"></script>
+{{ else }}
+  <script src="/{{ index $.Site.Data.manifest "landingpagemexico.js" }}" type="application/javascript"></script>
+{{ end }}
 {{ end }}
