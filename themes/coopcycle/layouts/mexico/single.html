@@ -54,6 +54,12 @@
               <div class="card mb-4">
                 <div class="card-body">
                   <h5 class="text-center">{{ .name }}</h5>
+                  {{ if isset . "coopcycle_url" }}
+                    <a href="{{ .coopcycle_url }}" class="card-link" target="_blank">Pedir del marketplace</a>
+                  {{ end }}
+                  {{ if isset . "delivery_form_url" }}
+                    <a href="{{ .delivery_form_url }}" class="card-link" target="_blank">Solicitar un envío</a>
+                  {{ end }}
                 </div>
               </div>
             </div>
