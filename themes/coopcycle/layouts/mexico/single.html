@@ -51,11 +51,13 @@
           <div class="row row-cols-1 row-cols-md-2" id="coop-cards">
             {{ range sort $mexican_coops "name" "asc" }}
             <div class="col mb-4 d-none" data-coop-name="{{ .name }}">
-              {{ if isset . "logo_src" }}
-              <img src="{{ .logo_src }}" class="card-img-top card-image">
-              {{ end }}
               <div class="card mb-4">
                 <div class="card-body">
+                  {{ if isset . "logo_src" }}
+                  <div class="text-center mb-4">
+                    <img src="{{ .logo_src }}" height="120">
+                  </div>
+                  {{ end }}
                   <h5 class="text-center">{{ .name }}</h5>
                   {{ if isset . "coopcycle_url" }}
                     <a href="{{ .coopcycle_url }}" class="card-link" target="_blank">Pedir del marketplace</a>
