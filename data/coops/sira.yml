@@ -9,4 +9,5 @@ country: mx
 text:
   es: '<p>SIRApps Unión Mexicana de Bicimensajeros por Aplicación. Delivery Food. Viaje desde $30 pesos. Confianza y excelente servicio. ¡Haz tu pedido!</p>'
   en: '<p> SIRApps Mexican Union of Bike Couriers by App. Delivery Food. Ride from $30 mexican pesos. Reliability and excellent service. Order now! </p>'
-  
+delivery_form_url: 'https://sirapps-cdmx.coopcycle.org/es/forms/beNzw6a5pmo4'
+logo_src: '/images/coop-logos/logo-sira.png'

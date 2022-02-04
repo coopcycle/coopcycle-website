@@ -9,4 +9,6 @@ latitude: 19.432608
 longitude: -99.133209
 text:
   es: '<p>TIG Bicimensajería somos profesionales de la entrega en bicicleta desde el 2013 en la Ciudad de México. #TIGentrega lo que sea que necesites de forma rápida, eficiente y sustentable.</p>'
-  en: '<p>TIG Bicimensajería we are professionals in bicycle delivery since 2013 in Mexico City. #TIG deliver whatever you need quickly, efficiently and sustainably. </p>'
+  en: '<p>TIG Bicimensajeria we are professionals in bicycle delivery since 2013 in Mexico City. #TIG deliver whatever you need quickly, efficiently and sustainably. </p>'
+delivery_form_url: 'https://tig.coopcycle.org/es/forms/YXwQlJ7EA6VL'
+logo_src: '/images/coop-logos/logo-tig.png'

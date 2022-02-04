@@ -41,8 +41,7 @@
   translation: "Demo"
 
 - id: headline
-  translation: >
-    Socializamos la entrega por bicicleta !
+  translation: Socializamos la entrega por bicicleta !
 
 - id: contactus
   translation: Contáctenos
@@ -54,15 +53,13 @@
   translation: El software
 
 - id: digital_common.content
-  translation: >
-    Una herramienta completa de ciclo-logística, de código abierto, CoopCycle permite a las cooperativas administrar sus entregas y a lxs comerciantes, restauradorxs y clientxs que puedan acceder al servicio. El software está protegido por una licencia de recíprocad, que reserva su uso a las cooperativas.
+  translation: Una herramienta completa de ciclo-logística, de código abierto, CoopCycle permite a las cooperativas administrar sus entregas y a lxs comerciantes, restauradorxs y clientxs que puedan acceder al servicio. El software está protegido por una licencia de recíprocad, que reserva su uso a las cooperativas.
 
 - id: ecosystem.title
   translation: La federación
 
 - id: ecosystem.content
-  translation: >
-    CoopCycle es una federación de cooperativas de entrega por bicicleta. Gobernada democráticamente por las cooperativas, su fundamento es la solidaridad entre ellas, lo cual les permite reducir sus costos mediante la mutualización de los servicios. Crea una fuerza colectiva para negociar, y para defender los derechos de lxs repartidorxs.
+  translation: CoopCycle es una federación de cooperativas de entrega por bicicleta. Gobernada democráticamente por las cooperativas, su fundamento es la solidaridad entre ellas, lo cual les permite reducir sus costos mediante la mutualización de los servicios. Crea una fuerza colectiva para negociar, y para defender los derechos de lxs repartidorxs.
 
 - id: contribute
   translation: Contribuir
@@ -111,6 +108,7 @@
 - id: network.ourmembers
   translation: Todas las cooperativas miembros
 
+
 - id: network.join.title
   translation: Para quien ?
 
@@ -145,7 +143,7 @@
   translation: ¿Tiene hambre?
 
 - id: search.subtitle
-  translation: Los restaurantes de tu ciudad, entregados por las cooperativas de la red
+  translation: Los negocios de tu ciudad, entregados por las cooperativas de la red
 
 - id: search.noResults
   translation: Lo sentimos, no encontramos resultados
@@ -176,7 +174,7 @@
   translation: Alemania
 
 - id: pl
-  translation: Polonia
+  translation: Polonia 
 
 - id: se
   translation: Suecia

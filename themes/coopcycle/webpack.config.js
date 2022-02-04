@@ -12,7 +12,8 @@ let webpackConfig = {
     index: './src/scripts/index.js',
     homepage: './src/scripts/homepage.js',
     federation: './src/scripts/federation.js',
-    order: './src/scripts/order.js'
+    order: './src/scripts/order.js',
+    landingpagemexico: './src/scripts/landingpagemexico.js'
   },
   output: {
     publicPath: '/',
