@@ -1,0 +1,13 @@
+name: 'FACTTIC'
+coopcycle_url: 'https://demo.coopcycle.org'
+url: 'https://facttic.org.ar/'
+facebook_url: 'https://www.facebook.com/facttic/'
+twitter_url: 'https://twitter.com/facttic'
+instagram_url: https://www.instagram.com/facttic.ar/
+mail: plataformascooperativas@facttic.org.ar
+latitude: -34.603683
+longitude: -58.381557
+city: Buenos Aires
+country: ar
+text:
+  es: '<p>La Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento es un espacio para que las cooperativas de trabajo del sector intercambien y construyan en conjunto. El objetivo principal de la Federación es fortalecer a sus miembros y difundir esta forma de entender el trabajo y las tecnologías.</p>'

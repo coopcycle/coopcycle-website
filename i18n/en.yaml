@@ -186,3 +186,9 @@
 
 - id: mx
   translation: Mexico
+
+- id: cl
+  translation: Chile
+
+- id: ar
+  translation: Argentina
