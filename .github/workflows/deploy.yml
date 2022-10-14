@@ -18,3 +18,5 @@ jobs:
           bundler-cache: true
       - name: Install RubyGems
         run: bundle install
+      - name: Run Capistrano
+        run: bundle exec cap website deploy
