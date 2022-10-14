@@ -1,4 +1,4 @@
-set :stages_root, 'deploy'
+set :stages_root, 'config/deploy'
 
 set :format, :pretty
 set :log_level, :info
