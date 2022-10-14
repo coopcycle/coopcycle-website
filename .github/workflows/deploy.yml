@@ -12,6 +12,9 @@ jobs:
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
-      - name: Test
-        run: |
-          ssh coopcycle@web03.coopcycle.org
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Install RubyGems
+        run: bundle install
