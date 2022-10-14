@@ -1,4 +1,4 @@
-set :repo_url, 'git@github.com:coopcycle/coopcycle-website.git'
+set :repo_url, 'https://github.com/coopcycle/coopcycle-website.git'
 set :branch, 'master'
 
 set :application, 'website'
