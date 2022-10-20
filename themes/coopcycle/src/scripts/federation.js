@@ -73,7 +73,7 @@ if (document.getElementById('coops-map')) {
 
         $('#coop-modal').find('.modal-title').text(item.name)
         $('#coop-modal').find('.coop-panel--city')
-          .text(`${item.city}, ${window.AppData.countries[item.country]}`)
+          .text(`${item.city}, ${window.AppData.countries[item.country] || item.country}`)
 
         $('#coop-modal').find('.modal-sidebar [data-prop]').each(function () {
 
