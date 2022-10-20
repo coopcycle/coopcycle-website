@@ -21,9 +21,3 @@ From the root of the repo, run:
 ```
 hugo server -D
 ```
-
-To use homepage search, specify `GOOGLE_API_KEY` environment variable
-
-```
-GOOGLE_API_KEY=XXX hugo server -D
-```
