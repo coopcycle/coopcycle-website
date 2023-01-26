@@ -62,6 +62,6 @@ Retrospective). Profile:
 - Possibility to explore the idea of working on a potential 80% development work with 20% courier work on the side if you are curious about the job you will be developing for and eager to get out of the office to ride the bike!
 - Due to being a small team running food tech software, some limited on-call needs will likely exist, but they are something we share in a collaborative way as a team.
 
-Applications to be sent at work@coopcycle.org until Wednesday 8th of February 12pm.
+Applications to be sent at [work@coopcycle.org](mailto:work@coopcycle.org) until Wednesday 8th of February 12pm.
 
 Interviews will take place week starting Monday 20th of February.
