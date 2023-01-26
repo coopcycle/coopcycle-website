@@ -10,8 +10,9 @@ slug = "careers"
 
 ## Who we are and what we do
 
-CoopCycle is an international federation of courier cooperatives. Our aim is to promote good working conditions and cooperative governance in the field of bike delivery while supporting a low carbon emission delivery system in cities.
-One of the services we provide is the development and maintenance of a software that helps these cooperatives with their business. The technology includes:
+CoopCycle is an international federation of courier cooperatives. Our aim is to promote good working conditions and cooperative governance in the field of bike delivery while supporting a low carbon emission delivery system in cities. One of the services we provide is the development and maintenance of a software that helps these cooperatives with their business.
+
+The technology includes:
 - A front-end ecommerce layer for customers.
 - Multiple ways for businesses to provide the jobs info they ask of the cooperatives. (Accounts for BtoB clients with form, possibility to import, plug-ins, API connections)
 - A back-end Dispatch system to organize the work of riders.
@@ -31,26 +32,30 @@ After 5 years of existence, CoopCycle is now growing. We are now looking for a t
 - Resolving issues reported by users.
 - Giving insights on technical challenges to improve customer experience.
 - Knowledge of the functioning of Git and GitHub’s workflow (issues, projects, ...)
-Technologies
+
+### Technologies
+
 - The backend (web platform & API) is made with PHP & Symfony, using the API Platform framework. Experience with PHP & Symfony is a plus, or at least experience with a well-known web framework (Ruby On Rails, Laravel...).
 - The frontend is made in vanilla JavaScript (with Babel) & React, using Bootstrap 3 & Sass.
 - The mobile app is made with React Native. If you don’t have experience with React Native, you should at least have experience with React.
 - Our infrastructure is deployed on various cloud providers using Ansible, and a little bit of Docker. We are not using orchestration software such as Kubernetes, but experience with it is a great plus.
+
+Take a look at [our GitHub repositories](https://github.com/coopcycle).
 
 ### Examples of potential future managerial roles to fill
 
 - Internal communication with the team. You are the person responsible for the right information to land in the right people’s hands both on the tech and non-tech sides.
 - Communication with CoopCycle members (= software users) :
 - Collect the bug/features requests, ensure the follow-up of these
-- Communicate to CoopCycle members about roadmaps, software change,
-aso.
-- Implement and manage the Scrum process. (Daily, Sprint review and planning,
-Retrospective). Profile:
+- Communicate to CoopCycle members about roadmaps, software change, aso.
+- Implement and manage the Scrum process. (Daily, Sprint review and planning, Retrospective).
+
+### Profile
+
 - Full stack developer
 - Organizational ability
 - Good communication skills
 - Interest in the development of cooperatives and platform cooperativism.
-
 - Interest in the development of bike delivery and low carbon emission modes of transportation.
 
 ## Working conditions
