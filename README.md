@@ -1,4 +1,4 @@
-Install [Hugo](https://gohugo.io/overview/installing/)
+Install [Hugo](https://gohugo.io/installation/)
 
 ### Build the theme
 
