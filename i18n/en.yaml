@@ -156,6 +156,9 @@
 - id: app.appStore
   translation: Download on the App Store
 
+- id: footer.cofundedByEU
+  translation: Co-funded by the European Union
+
 # Countries
 - id: fr
   translation: France
