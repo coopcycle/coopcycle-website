@@ -125,20 +125,6 @@
 
     <footer class="blog-footer text-center">
 
-      {{ if eq .Lang "fr" }}
-        <ul class="nav">
-            <li>
-              <img width=150 src="{{ .Site.BaseURL }}/images/logo-mairie-paris.png">
-            </li>
-        </ul>
-
-        <ul class="nav margin-bottom-md">
-            <li>
-             {{ i18n "association.win" | safeHTML }}
-            </li>
-        </ul>
-      {{ end }}
-
       <ul class="nav" itemscope itemtype="http://schema.org/Organization">
         <link itemprop="url" href="https://coopcycle.org">
         <li class="nav-item">
