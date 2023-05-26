@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Falam sobre nós"
+title = "Imprensa"
 description = "Na imprensa e blogs."
 lang = "es"
 menu = "main"

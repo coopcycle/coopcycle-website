@@ -21,12 +21,12 @@ type = "federacao"
 <div class="row">
     <div class="col-md-4 text-center">
         <i class="join-icon icon-platform"></i>
-        <h4 class="h4">O software de plataforma</h4>
+        <h4 class="h4">Software de plataforma</h4>
         <p>Nosso software permite que os membros da federação europeia gerenciem suas entregas e ofereçam um espaço de comércio eletrônico para seus clientes.</p>
     </div>
     <div class="col-md-4 text-center">
         <i class="join-icon icon-smartphone"></i>
-        <h4 class="h4">O aplicativo para smartphone</h4>
+        <h4 class="h4">Aplicativo para smartphone</h4>
         <p>Um aplicativo para fazer entregas com confiança. Outro aplicativo para clientes fazerem pedidos.</p>
     </div>
     <div class="col-md-4 text-center">
