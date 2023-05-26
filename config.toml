@@ -29,6 +29,13 @@ description = "CoopCycle est une fédération de coopératives de livraison à v
 title = "CoopCycle"
 description = "CoopCycle es una federación de cooperativas de entrega por bicicleta."
 
+
+### Português
+
+[Languages.pt]
+title = "CoopCycle"
+description = "CoopCycle é uma federação de cooperativas de entrega por bicicleta."
+
 [[Languages.fr.menu.main]]
 name = "Blog"
 weight = 4

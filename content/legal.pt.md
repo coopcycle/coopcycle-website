@@ -2,7 +2,7 @@
 draft = false
 title = "Aviso legal"
 description = "Aviso legal para o site coopcycle.org"
-lang = "en"
+lang = "pt"
 slug = "aviso-legal"
 +++
 
