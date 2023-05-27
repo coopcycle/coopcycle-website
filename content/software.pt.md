@@ -18,7 +18,7 @@ type = "software"
 </div>
 
 <div class="text-center">
-    <a target="_blank" href="https://demo.coopcycle.org/pt/" class="btn btn-big text-big">Experimente o software</a>
+    <a target="_blank" href="https://demo.coopcycle.org/en/" class="btn btn-big text-big">Experimente o software</a>
 </div>
 
 
@@ -82,7 +82,7 @@ type = "software"
     <div class="col-md-8 col-md-offset-2">
         <div class="row">
             <p>
-                <span>O objetivo principal do CoopCycle é capacitar os entregadores e, em geral, os trabalhadores. Nós queríamos que nosso código fosse, ao mesmo tempo, de livre acesso, mas apenas utilizado por empresas com uma ética sólida. Com base no trabalho anterior de Dimytri Kleiner e da p2p foundation, nossa equipe jurídica se dedicou a trabalhar. O resultado final? Uma nova licença: a <strong>Coopyleft</strong>. Ela garante que as empresas que utilizam o software do CoopCycle cumpram as seguintes regras:</span>
+                <span>O objetivo principal do CoopCycle é capacitar os entregadores e, em geral, os trabalhadores. Nós queríamos que nosso código fosse, ao mesmo tempo, de livre acesso, mas apenas utilizado por empresas com uma ética sólida. Com base no trabalho anterior de Dimytri Kleiner e da P2P Foundation, nossa equipe jurídica se dedicou a trabalhar. O resultado final? Uma nova licença: a <strong>Coopyleft</strong>. Ela garante que as empresas que utilizam o software do CoopCycle cumpram as seguintes regras:</span>
                 <ul>
                     <li>
                         Adotar um modelo cooperativo e empregar seus trabalhadores;

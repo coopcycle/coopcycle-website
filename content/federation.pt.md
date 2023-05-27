@@ -88,8 +88,8 @@ type = "federacao"
 
 <div class="row">
     <div class="col-md-6">
-        <h4 class="h4">Financiamento: contra o efeito rentista capitalista, contribuímos!</h4>
-        <p>Os serviços prestados em escala europeia são totalmente financiados pela contribuição dos membros da federação. Ao decidir democraticamente o nível das contribuições e o uso desse valor mutualizado, os entregadores estão se apropriando de suas ferramentas de produção e do valor do seu trabalho.</p>
+        <h4 class="h4">Financiamento: contra o efeito rentista capitalista, nós colaboramos!</h4>
+        <p>Os serviços compartilhados são financiados por cotizações. A taxa de cotização e os fundos arrecadados são gerenciados democraticamente pelos membros. Assim, os entregadores retomam o controle sobre sua atividade profissional e ferramentas de trabalho.</p>
         <h4 class="h4">Governança democrática</h4>
         <p>Os entregadores decidem juntos:
             <ul>
