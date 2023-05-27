@@ -2,7 +2,7 @@
 draft = false
 title = "A federação"
 description = "As cooperativas da rede CoopCycle"
-lang = "es"
+lang = "pt"
 menu = "main"
 weight = 1
 slug = "federacao"

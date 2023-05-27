@@ -2,7 +2,7 @@
 draft = false
 title = "Imprensa"
 description = "Na imprensa e blogs."
-lang = "es"
+lang = "pt"
 menu = "main"
 weight = 2
 slug = "imprensa"
