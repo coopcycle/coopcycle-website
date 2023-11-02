@@ -14,7 +14,15 @@ slug = "maison-coursieres"
 
 <p style="margin-bottom: 120px;">En cas de question vous pouvez nous contacter par mail <a href="mailto:mdc@coopcycle.org">mdc@coopcycle.org</a> ou par téléphone au 07 65 20 09 60 ou 07 65 79 24 76.</p>
 
-<p>Suivez nos actions sur les réseaux sociaux : </p>
+<p style="margin-bottom: 120px;">Pour etre tenu au courant de toutes nos actualités, rejoignez la newsletter : </p>
+
+<iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://k5x7.mjt.lu/wgt/k5x7/8y6/form?c=ebb557cb" width="100%" style="height: 0;"></iframe>
+
+<script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
+
+
+
+<p>Et suivez nos actions sur les réseaux sociaux : </p>
 
 <ul class="nav" itemscope itemtype="http://schema.org/Organization">
         <li class="nav-item">
