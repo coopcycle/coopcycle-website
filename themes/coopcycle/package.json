@@ -28,7 +28,7 @@
     "url-loader": "^2.3.0",
     "webpack": "^4.44.2",
     "webpack-assets-manifest": "^3.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
     "core-js": "^3.6.5",
