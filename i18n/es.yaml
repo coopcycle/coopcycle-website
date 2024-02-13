@@ -108,7 +108,6 @@
 - id: network.ourmembers
   translation: Todas las cooperativas miembros
 
-
 - id: network.join.title
   translation: Para quien ?
 
@@ -160,6 +159,9 @@
 - id: footer.cofundedByEU
   translation: Cofinanciado por la Unión Europea
 
+- id: footer.crops4life
+  translation: CoopCycle is part of the Crops4Life project - financiado por la Unión Europea
+
 # Countries
 - id: fr
   translation: Francia
@@ -177,7 +179,7 @@
   translation: Alemania
 
 - id: pl
-  translation: Polonia 
+  translation: Polonia
 
 - id: se
   translation: Suecia

@@ -59,7 +59,7 @@
 
 - id: digital_common.content
   translation: >
-        Full-fledged bike delivery software, it enables them to manage their deliveries, shops and restaurants owners to create their own. The software is protected by a reciprocity license, which enforces its use by coops only.
+    Full-fledged bike delivery software, it enables them to manage their deliveries, shops and restaurants owners to create their own. The software is protected by a reciprocity license, which enforces its use by coops only.
 
 - id: contribute
   translation: Contribute
@@ -158,6 +158,9 @@
 
 - id: footer.cofundedByEU
   translation: Co-funded by the European Union
+
+- id: footer.crops4life
+  translation: CoopCycle is part of the Crops4Life project - funded by the European Union
 
 # Countries
 - id: fr

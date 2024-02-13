@@ -141,6 +141,19 @@
         </li>
       </ul>
 
+      <div class="d-flex align-items-center justify-content-center mt-2">
+        <img src="{{ .Site.BaseURL }}/images/european-flag-lowres.jpg" width="60" class="mr-2">
+        <div>
+          {{ $crops4lifeLangs := slice "en" "es"}}
+          {{ if in $crops4lifeLangs .Lang  }}
+            {{ $crops4life := .Site.GetPage "crops4life" }}
+            <a href="{{ $crops4life.Permalink }}">{{ i18n "footer.crops4life" | safeHTML }}</a>
+          {{ else }}
+            {{ i18n "footer.cofundedByEU" | safeHTML }}
+          {{ end }}
+        </div>
+      </div>
+
       {{ $legal := .Site.GetPage "legal" }}
       <ul class="nav">
         <li class="nav-item">
@@ -148,13 +161,6 @@
           <a class="nav-link" href="{{ $legal.Permalink }}">{{ $legal.Title }}</a>
         </li>
       </ul>
-
-      <div class="d-flex align-items-center justify-content-center mt-2">
-        <img src="{{ .Site.BaseURL }}/images/european-flag-lowres.jpg" width="60" class="mr-2">
-        <div>
-          {{ i18n "footer.cofundedByEU" | safeHTML }}
-        </div>
-      </div>
 
     </footer>
 
