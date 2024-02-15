@@ -27,6 +27,7 @@ jobs:
       - name: Install JS dependencies
         working-directory: ./themes/coopcycle
         run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
           npm ci
           npm run build
           npm prune
