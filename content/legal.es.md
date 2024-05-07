@@ -2,11 +2,11 @@
 draft = false
 title = "Aviso legal"
 description = "Aviso legal para el sitio web coopcycle.org"
-lang = "en"
+lang = "es"
 slug = "aviso-legal"
 +++
 
-Éditeur
+Editor
 -------
 
 El sitio web [coopcycle.org](https://coopcycle.org) es editado por CoopCycle, asociación sin ánimo de lucro creada el 7 de octubre de 2017.
