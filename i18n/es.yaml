@@ -157,10 +157,13 @@
   translation: Consíguelo en el App Store
 
 - id: footer.cofundedByEU
-  translation: Cofinanciado por la Unión Europea
+  translation: Cofinanciado por<br>la Unión Europea
 
 - id: footer.crops4life
-  translation: CoopCycle is part of the Crops4Life project - financiado por la Unión Europea
+  translation: CoopCycle es parte del proyecto Crops4Life
+
+- id: footer.ademe_france_relance
+  translation: Financiado por<br>ADEME y France Relance
 
 # Countries
 - id: fr

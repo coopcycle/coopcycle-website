@@ -161,7 +161,10 @@
   translation: Télécharger dans l'App Store
 
 - id: footer.cofundedByEU
-  translation: Cofinancé par l'Union européenne
+  translation: Cofinancé par<br>l'Union européenne
+
+- id: footer.ademe_france_relance
+  translation: Financé par<br>l'ADEME et France Relance
 
 # Countries
 - id: fr

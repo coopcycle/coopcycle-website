@@ -141,18 +141,30 @@
         </li>
       </ul>
 
-      <div class="d-flex align-items-center justify-content-center mt-2">
-        <img src="{{ .Site.BaseURL }}/images/european-flag-lowres.jpg" width="60" class="mr-2">
-        <div>
-          {{ $crops4lifeLangs := slice "en" "es"}}
-          {{ if in $crops4lifeLangs .Lang  }}
-            {{ $crops4life := .Site.GetPage "crops4life" }}
-            <a href="{{ $crops4life.Permalink }}">{{ i18n "footer.crops4life" | safeHTML }}</a>
-          {{ else }}
-            {{ i18n "footer.cofundedByEU" | safeHTML }}
-          {{ end }}
+      <div class="d-flex align-items-center justify-content-center my-2">
+        <img src="{{ .Site.BaseURL }}/images/european-flag-lowres.jpg" width="80" class="mr-2">
+        <div class="text-left">
+          <strong class="d-block">{{ i18n "footer.cofundedByEU" | safeHTML }}</strong>
+          <span>NextGenerationEU</span>
         </div>
       </div>
+
+      {{ $crops4life := .Site.GetPage "crops4life" }}
+      {{ if $crops4life }}
+      <section class="mb-2">
+        <a href="{{ $crops4life.Permalink }}" class="text-white">{{ i18n "footer.crops4life" | safeHTML }}</a>
+      </section>
+      {{ end }}
+
+      <section class="d-flex align-items-center justify-content-center my-2">
+        <div>
+          <img src="{{ .Site.BaseURL }}/svg/ademe.svg" width="60" class="mr-2">
+          <img src="{{ .Site.BaseURL }}/svg/france-relance.svg" width="60" class="mr-2">
+        </div>
+        <div class="text-left">
+          {{ i18n "footer.ademe_france_relance" | safeHTML }}
+        </div>
+      </section>
 
       {{ $legal := .Site.GetPage "legal" }}
       <ul class="nav">
