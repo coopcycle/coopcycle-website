@@ -1,3 +1,6 @@
+Editor
+------
+
 El sitio [coopcycle.org](https://coopcycle.org) es publicado por CoopCycle, una asociación conforme a la ley de 1901 declarada a la Prefectura de París el 7 de octubre de 2017.
 
 **Oficinal central** : 23, avenue Claude Vellefaux, 75010 Paris, France
@@ -10,13 +13,15 @@ El sitio [coopcycle.org](https://coopcycle.org) es publicado por CoopCycle, una 
 
 **Presidente** : Lison Noël
 
-## Alojamiento
+Alojamiento
+-----------
 
 ONLINE SAS
 
 BP 438 75366 PARIS CEDEX 08 FRANCE
 
-## Limitación de la responsabilidad
+Limitación de la responsabilidad
+--------------------------------
 
 CoopCycle no se hace responsable de ningún daño directo o indirecto causado al equipo del usuario al acceder al sitio, que resulte ya sea del uso de un equipo que no cumpla las especificaciones técnicas requeridas o de la aparición de un error o incompatibilidad.
 

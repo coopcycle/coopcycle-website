@@ -1,4 +1,5 @@
-## Publisher
+Publisher
+---------
 
 The website [coopcycle.org](https://coopcycle.org) is published by CoopCycle, an association under the law of 1901 declared to the Paris Prefecture on 7 October 2017.
 
@@ -12,13 +13,15 @@ The website [coopcycle.org](https://coopcycle.org) is published by CoopCycle, an
 
 **Chair, Publishing Manager**: Lison Noël
 
-## Hosting
+Hosting
+-------
 
 ONLINE SAS
 
 BP 438 75366 PARIS CEDEX 08 FRANCE
 
-## Limitation of liability
+Limitation of liability
+-----------------------
 
 CoopCycle cannot be held responsible for any direct or indirect damage caused to the user's equipment, when accessing the site, resulting either from the use of equipment that does not meet the required technical specifications, or from the appearance of a bug or incompatibility.
 
