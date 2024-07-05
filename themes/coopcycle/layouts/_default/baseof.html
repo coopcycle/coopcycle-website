@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400,700">
 
     {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
-      <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
+      <link href="{{ relURL "css/style.css" }}" rel="stylesheet">
     {{ else }}
       <link href="/{{ index $.Site.Data.manifest "style.css" }}" rel="stylesheet">
     {{ end }}
@@ -48,17 +48,17 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="{{ "/" | absLangURL }}">
-          <img src="{{ .Site.BaseURL }}/images/logo.svg" width="40" height="40" alt="{{ i18n "home" }}" class="d-inline-block align-top">
+        <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+          <img src="{{ relURL "images/logo.svg" }}" width="40" height="40" alt="{{ i18n "home" }}" class="d-inline-block align-top">
           <span class="no-mobile brand-name">CoopCycle</span>
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav navbar-nav__pages ml-auto">
-            {{- $currentURL := .RelPermalink | absLangURL -}}
+            {{- $currentURL := .RelPermalink | relLangURL -}}
             {{ range .Site.Menus.main }}
-            {{ $menuURL := .URL | absLangURL }}
+            {{ $menuURL := .URL | relLangURL }}
             <li class="nav-item {{ if eq $menuURL $currentURL }}active{{ end }}">
-              <a class="nav-link" href="{{ .URL | absURL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
+              <a class="nav-link" href="{{ .URL | relURL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
             </li>
             {{ end }}
           </ul>
@@ -70,7 +70,7 @@
             <ul class="navbar-nav mobile-trad no-desktop">
               {{ range .Translations }}
               <li class="nav-item">
-                <a class="nav-link" href="{{ .Permalink }}">{{ index $.Site.Data.languages .Lang }}</a>
+                <a class="nav-link" href="{{ .Permalink | relURL }}">{{ index $.Site.Data.languages .Lang }}</a>
               </li>
               {{ end }}
             </ul>
@@ -89,7 +89,7 @@
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     {{ range .Translations }}
                     <li class="dropdown-item">
-                      <a href="{{ .Permalink }}">{{ index $.Site.Data.languages .Lang }}</a>
+                      <a href="{{ .Permalink | relURL }}">{{ index $.Site.Data.languages .Lang }}</a>
                     </li>
                     {{ end }}
                   </ul>
@@ -142,7 +142,7 @@
       </ul>
 
       <div class="d-flex align-items-center justify-content-center my-2">
-        <img src="{{ .Site.BaseURL }}/images/european-flag-lowres.jpg" width="80" class="mr-2">
+        <img src="{{ relURL "images/european-flag-lowres.jpg" }}" width="80" class="mr-2">
         <div class="text-left">
           <strong class="d-block">{{ i18n "footer.cofundedByEU" | safeHTML }}</strong>
           <span>NextGenerationEU</span>
@@ -152,14 +152,14 @@
       {{ $crops4life := .Site.GetPage "crops4life" }}
       {{ if $crops4life }}
       <section class="mb-2">
-        <a href="{{ $crops4life.Permalink }}" class="text-white">{{ i18n "footer.crops4life" | safeHTML }}</a>
+        <a href="{{ $crops4life.Permalink | relURL }}" class="text-white">{{ i18n "footer.crops4life" | safeHTML }}</a>
       </section>
       {{ end }}
 
       <section class="d-flex align-items-center justify-content-center my-2">
         <div>
-          <img src="{{ .Site.BaseURL }}/svg/ademe.svg" width="60" class="mr-2">
-          <img src="{{ .Site.BaseURL }}/svg/france-relance.svg" width="60" class="mr-2">
+          <img src="{{ relURL "svg/ademe.svg" }}" width="60" class="mr-2">
+          <img src="{{ relURL "svg/france-relance.svg" }}" width="60" class="mr-2">
         </div>
         <div class="text-left">
           {{ i18n "footer.ademe_france_relance" | safeHTML }}
@@ -170,7 +170,7 @@
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link" href="mailto:contact@coopcycle.org">contact@coopcycle.org</a>
-          <a class="nav-link" href="{{ $legal.Permalink }}">{{ $legal.Title }}</a>
+          <a class="nav-link" href="{{ $legal.Permalink | relURL }}">{{ $legal.Title }}</a>
         </li>
       </ul>
 
@@ -188,7 +188,7 @@
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
-      <script src="{{ .Site.BaseURL }}js/index.js" type="application/javascript"></script>
+      <script src="{{ relURL "js/index.js" }}" type="application/javascript"></script>
     {{ else }}
       <script src="/{{ index $.Site.Data.manifest "index.js" }}" type="application/javascript"></script>
     {{ end }}

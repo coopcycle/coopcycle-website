@@ -4,8 +4,8 @@
 
 {{ define "main" }}
 <section>
-    <img class="homepage-banner no-mobile" src="{{ .Site.BaseURL }}/images/homepage-banner.jpg">
-    <img class="homepage-banner no-desktop" src="{{ .Site.BaseURL }}/images/homepage-banner-mobile.jpg">
+    <img class="homepage-banner no-mobile" src="{{ relURL "images/homepage-banner.jpg" }}">
+    <img class="homepage-banner no-desktop" src="{{ relURL "images/homepage-banner-mobile.jpg" }}">
     <div class="homepage-banner--headline text-center">
         <h2 class="h2"> CoopCycle México </h2>
         <div class="row">
@@ -88,7 +88,7 @@
         {{ $appStoreBadge = index $.Site.Data.app_store_badges .Lang }}
       {{ end }}
       <img alt="{{ i18n "app.appStore" }}"
-        src="{{ .Site.BaseURL }}/{{ $appStoreBadge }}" />
+        src="{{ relURL $appStoreBadge }}" />
     </a>
   </div>
   
@@ -110,7 +110,7 @@
 
 {{ define "scripts" }}
 {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
-  <script src="{{ .Site.BaseURL }}js/landingpagemexico.js?t={{ now.Unix }}" type="application/javascript"></script>
+  <script src="{{ relURL "js/landingpagemexico.js?t={{ now.Unix }}" }}" type="application/javascript"></script>
 {{ else }}
   <script src="/{{ index $.Site.Data.manifest "landingpagemexico.js" }}" type="application/javascript"></script>
 {{ end }}

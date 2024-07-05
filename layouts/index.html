@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <section>
-  <img class="homepage-banner no-mobile" src="{{ .Site.BaseURL }}/images/homepage-banner.jpg">
-  <img class="homepage-banner no-desktop" src="{{ .Site.BaseURL }}/images/homepage-banner-mobile.jpg">
+  <img class="homepage-banner no-mobile" src="{{ relURL "images/homepage-banner.jpg" }}">
+  <img class="homepage-banner no-desktop" src="{{ relURL "images/homepage-banner-mobile.jpg" }}">
   <div class="homepage-banner--headline text-center">
       <h2 class="h2">{{ i18n "headline" | safeHTML }}</h2>
       <div class="row">
@@ -11,7 +11,7 @@
             {{ i18n "ecosystem.content" | safeHTML }}
           </p>
           <div class="text-center">
-            <a href="{{ ref . (printf "%s%s%s" "federation." .Lang ".md") }}" class="btn">{{ i18n "discover" | safeHTML }}</a>
+            <a href="{{ ref . (printf "%s%s%s" "federation." .Lang ".md") | relURL }}" class="btn">{{ i18n "discover" | safeHTML }}</a>
           </div>
         </div>
   </div>
@@ -51,7 +51,7 @@
               {{ $appStoreBadge = index $.Site.Data.app_store_badges .Lang }}
             {{ end }}
             <img alt="{{ i18n "app.appStore" }}"
-              src="{{ .Site.BaseURL }}/{{ $appStoreBadge }}" />
+              src="{{ relURL $appStoreBadge }}" />
           </a>
         </div>
       </div>
@@ -71,7 +71,7 @@
         </p>
       </div>
       <div class="col-md-6 text-center">
-        <a href="{{ ref . (printf "%s%s%s" "software." .Lang ".md") }}" class="btn">{{ i18n "discover.software" | safeHTML }}</a>
+        <a href="{{ ref . (printf "%s%s%s" "software." .Lang ".md") | relURL }}" class="btn">{{ i18n "discover.software" | safeHTML }}</a>
       </div>
     </div>
   </div>
@@ -116,7 +116,7 @@
 
 {{ define "scripts" }}
 {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
-  <script src="{{ .Site.BaseURL }}js/homepage.js" type="application/javascript"></script>
+  <script src="{{ relURL "js/homepage.js" }}" type="application/javascript"></script>
 {{ else }}
   <script src="/{{ index $.Site.Data.manifest "homepage.js" }}" type="application/javascript"></script>
 {{ end }}

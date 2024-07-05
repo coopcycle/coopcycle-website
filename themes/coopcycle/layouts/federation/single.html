@@ -20,7 +20,7 @@
 
 {{ define "scripts" }}
 {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
-    <script src="{{ .Site.BaseURL }}js/federation.js" type="application/javascript"></script>
+    <script src="{{ relURL "js/federation.js" }}" type="application/javascript"></script>
 {{ else }}
     <script src="/{{ index $.Site.Data.manifest "federation.js" }}" type="application/javascript"></script>
 {{ end }}

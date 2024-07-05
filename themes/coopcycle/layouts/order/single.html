@@ -29,7 +29,7 @@
 
 {{ define "scripts" }}
 {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
-    <script type="application/javascript" src="{{ .Site.BaseURL }}js/order.js"></script>
+    <script type="application/javascript" src="{{ relURL "js/order.js" }}"></script>
 {{ else }}
     <script type="application/javascript" src="/{{ index $.Site.Data.manifest "order.js" }}"></script>
 {{ end }}
